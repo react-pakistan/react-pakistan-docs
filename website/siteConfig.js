@@ -38,9 +38,10 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'React Commons'},
-    {doc: 'doc4', label: 'React UI'},
-    {page: 'help', label: 'React Icon'},
+    {page: 'index', label: 'Home'},
+    {doc: 'react-commons-collection', label: 'React Commons'},
+    {doc: 'react-ui-collection', label: 'React UI'},
+    {doc: 'react-icon-collection', label: 'React Icon'},
     {blog: true, label: 'React Logo'},
   ],
 

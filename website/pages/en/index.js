@@ -152,13 +152,31 @@ class Index extends React.Component {
             content: 'This is the content of my feature',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'React Commons Collection',
           },
           {
             content: 'The content of my second feature',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'React UI Collection',
+          },
+          {
+            content: 'This is the content of my feature',
+            image: `${baseUrl}img/undraw_react.svg`,
+            imageAlign: 'top',
+            title: 'React Icon Collection',
+          },
+          {
+            content: 'The content of my second feature',
+            image: `${baseUrl}img/undraw_operating_system.svg`,
+            imageAlign: 'top',
+            title: 'React Logo Collection',
+          },
+          {
+            content: 'The content of my second feature',
+            image: `${baseUrl}img/undraw_operating_system.svg`,
+            imageAlign: 'top',
+            title: 'React Native Boilerplate',
           },
         ]}
       </Block>
