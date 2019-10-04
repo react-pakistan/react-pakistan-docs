@@ -1,6 +1,6 @@
 ---
-id: react-commons-collection
-title: React Commons Collection
+id: react-ui-collection
+title: React UI Collection
 sidebar_label: Example Page
 ---
 
@@ -10,20 +10,20 @@ sidebar_label: Example Page
 
 React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React software solutions for the global community.
 
-## React Commons Collection
+## React UI Collection
 
 <div>
-  <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1566265693/GitHub/react-commons-collection.jpg" width="70%"/>
+  <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1566265693/GitHub/react-ui-collection.jpg" width="70%"/>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-" width="20%" />
 </div>
 
-A generic, Commons library for React web apps & React Native apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
+A generic, UI library for React web apps & React Native apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
 
 ## Getting Started
 
-Install React Commons Collection to your project:
+Install React UI Collection to your project:
 
-`yarn add @react-pakistan/react-commons-collection` or `npm install @react-pakistan/react-commons-collection`
+`yarn add @react-pakistan/ui-commons-collection` or `npm install @react-pakistan/react-ui-collection`
 
 ## Orci
 
