@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "An Open Source Platform",
     "docs": {
       "doc1": {
         "title": "Latin-ish",
@@ -23,10 +23,10 @@
       }
     },
     "links": {
-      "Docs": "Docs",
-      "API": "API",
-      "Help": "Help",
-      "Blog": "Blog"
+      "React Commons": "React Commons",
+      "React UI": "React UI",
+      "React Icon": "React Icon",
+      "React Logo": "React Logo"
     },
     "categories": {
       "Docusaurus": "Docusaurus",
