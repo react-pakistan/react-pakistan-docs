@@ -40,8 +40,8 @@ const siteConfig = {
   headerLinks: [
     {page: 'index', label: 'Home'},
     {doc: 'react-commons-collection', label: 'React Commons'},
-    {doc: 'doc4', label: 'React UI'},
-    {page: 'help', label: 'React Icon'},
+    {doc: 'react-ui-collection', label: 'React UI'},
+    {doc: 'react-icon-collection', label: 'React Icon'},
     {blog: true, label: 'React Logo'},
   ],
 

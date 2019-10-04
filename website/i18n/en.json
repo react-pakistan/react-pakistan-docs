@@ -5,12 +5,6 @@
     "previous": "Previous",
     "tagline": "An Open Source Platform",
     "docs": {
-      "doc2": {
-        "title": "document number 2"
-      },
-      "doc3": {
-        "title": "This is document number 3"
-      },
       "doc4": {
         "title": "Other Document"
       },
@@ -19,6 +13,13 @@
       },
       "react-commons-collection": {
         "title": "React Commons Collection",
+        "sidebar_label": "Example Page"
+      },
+      "react-icon-collection": {
+        "title": "This is document number 3"
+      },
+      "react-ui-collection": {
+        "title": "React UI Collection",
         "sidebar_label": "Example Page"
       }
     },
