@@ -5,10 +5,6 @@
     "previous": "Previous",
     "tagline": "An Open Source Platform",
     "docs": {
-      "doc1": {
-        "title": "Latin-ish",
-        "sidebar_label": "Example Page"
-      },
       "doc2": {
         "title": "document number 2"
       },
@@ -20,9 +16,14 @@
       },
       "doc5": {
         "title": "Fifth Document"
+      },
+      "react-commons-collection": {
+        "title": "React Commons Collection",
+        "sidebar_label": "Example Page"
       }
     },
     "links": {
+      "Home": "Home",
       "React Commons": "React Commons",
       "React UI": "React UI",
       "React Icon": "React Icon",

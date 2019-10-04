@@ -1,14 +1,16 @@
 ---
-id: doc1
-title: Latin-ish
+id: react-commons-collection
+title: React Commons Collection
 sidebar_label: Example Page
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
-## Lorem
+## React Pakistan
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.
+<img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1565548545/GitHub/React_Pakistan_Storybook_Logo.jpg" />
+
+React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React software solutions for the global community.
 
 ## Mauris In Code
 
