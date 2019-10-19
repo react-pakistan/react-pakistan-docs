@@ -11,11 +11,11 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'User1',
+    caption: 'Taimoor Khan',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
-    infoLink: 'https://www.facebook.com',
+    image: 'https://avatars0.githubusercontent.com/u/27800340?s=400&v=4',
+    infoLink: 'https://github.com/taimoormk',
     pinned: true,
   },
 ];
@@ -30,8 +30,8 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'react-pakistan',
+  organizationName: 'React Pakistan',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -56,12 +56,11 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#2a937e',
+    primaryColor: '#006600',
     secondaryColor: '#1d6658',
   },
 
   /* Custom fonts for website */
-  /*
   fonts: {
     myFont: [
       "Times New Roman",
@@ -72,7 +71,6 @@ const siteConfig = {
       "system-ui"
     ]
   },
-  */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} React Pakistan`,
