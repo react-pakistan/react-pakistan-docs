@@ -42,6 +42,7 @@ const siteConfig = {
     {doc: 'react-commons-collection', label: 'React Commons'},
     {doc: 'react-ui-collection', label: 'React UI'},
     {doc: 'react-icon-collection', label: 'React Icon'},
+    {doc: 'react-logo-collection', label: 'React Logo'},
     {blog: true, label: 'React Logo'},
   ],
 

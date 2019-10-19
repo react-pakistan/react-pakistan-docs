@@ -2,9 +2,11 @@
   "docs": {
     "React Commons": ["react-commons-collection"],
     "React UI": ["react-ui-collection"],
-    "Second Category": ["doc3"]
+    "React Icon": ["react-icon-collection"],
+    "React Logo": ["react-logo-collection"]
+
   },
   "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "First Category": ["react-logo", "doc5"]
   }
 }

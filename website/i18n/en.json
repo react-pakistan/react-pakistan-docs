@@ -5,9 +5,6 @@
     "previous": "Previous",
     "tagline": "An Open Source Platform",
     "docs": {
-      "doc4": {
-        "title": "Other Document"
-      },
       "doc5": {
         "title": "Fifth Document"
       },
@@ -16,7 +13,12 @@
         "sidebar_label": "React Commons Collection"
       },
       "react-icon-collection": {
-        "title": "This is document number 3"
+        "title": "React Icon Collection",
+        "sidebar_label": "React Icon Collection"
+      },
+      "react-logo-collection": {
+        "title": "React Logo Collection",
+        "sidebar_label": "React Logo Collection"
       },
       "react-ui-collection": {
         "title": "React UI Collection",
@@ -33,7 +35,8 @@
     "categories": {
       "React Commons": "React Commons",
       "React UI": "React UI",
-      "Second Category": "Second Category",
+      "React Icon": "React Icon",
+      "React Logo": "React Logo",
       "First Category": "First Category"
     }
   },
