@@ -3,8 +3,8 @@
     "React Commons": ["react-commons-collection"],
     "React UI": ["react-ui-collection"],
     "React Icon": ["react-icon-collection"],
-    "React Logo": ["react-logo-collection"]
-
+    "React Logo": ["react-logo-collection"],
+    "React Native": ["react-native-boilerplate"]
   },
   "docs-other": {
     "First Category": ["react-logo", "doc5"]

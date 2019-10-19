@@ -43,6 +43,7 @@ const siteConfig = {
     {doc: 'react-ui-collection', label: 'React UI'},
     {doc: 'react-icon-collection', label: 'React Icon'},
     {doc: 'react-logo-collection', label: 'React Logo'},
+    {doc: 'react-native-boilerplate', label: 'React Native'},
     {blog: true, label: 'React Logo'},
   ],
 
