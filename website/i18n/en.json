@@ -13,14 +13,14 @@
       },
       "react-commons-collection": {
         "title": "React Commons Collection",
-        "sidebar_label": "Example Page"
+        "sidebar_label": "React Commons Collection"
       },
       "react-icon-collection": {
         "title": "This is document number 3"
       },
       "react-ui-collection": {
         "title": "React UI Collection",
-        "sidebar_label": "Example Page"
+        "sidebar_label": "React UI Collection"
       }
     },
     "links": {
@@ -31,9 +31,10 @@
       "React Logo": "React Logo"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "React Commons": "React Commons",
+      "React UI": "React UI",
+      "Second Category": "Second Category",
+      "First Category": "First Category"
     }
   },
   "pages-strings": {
