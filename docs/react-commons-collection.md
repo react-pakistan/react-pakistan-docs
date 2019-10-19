@@ -1,7 +1,7 @@
 ---
 id: react-commons-collection
 title: React Commons Collection
-sidebar_label: Example Page
+sidebar_label: React Commons Collection
 ---
 
 ## React Pakistan
@@ -44,6 +44,7 @@ import { A } from '@react-pakistan/react-commons-collection/commons/a';
   Go to Google
   </A>
 ```
+
 - ### Audio
 ```javascript
   import { Audio } from '@react-pakistan/react-commons-collection/commons/audio';
@@ -60,6 +61,7 @@ import { A } from '@react-pakistan/react-commons-collection/commons/a';
     remainingTimeColor="#F62F5E"
   />
 ```
+
 - ### Background Image
 ```javascript
 import { BackgroundImage } from '@react-pakistan/react-commons-collection/commons/background-image';
@@ -77,12 +79,14 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     imageBorderRadius="0"
   />
 ```
+
 - ### Checkbox
 ```javascript
   import { CheckBox } from '@react-pakistan/react-commons-collection/commons/check-box';`
 
   <CheckBox />
 ```
+
 - ### ChildGrid
 ```javascript
   import { ChildGrid } from '@react-pakistan/react-commons-collection/commons/child-grid';
@@ -98,6 +102,7 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     ChildGrid Component
   </ChildGrid>
 ```
+
 - ### ColumnContainer
 ```javascript
   import { ColumnContainer } from '@react-pakistan/react-commons-collection/commons/column-container';
@@ -109,6 +114,7 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     ColumnContainer Component
   </ColumnContainer>
 ```
+
 - ### Grid
 ```javascript
   import { Grid } from '@react-pakistan/react-commons-collection/commons/grid';
@@ -147,6 +153,7 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   </h2>
 </Grid>
 ```
+
 - ### H1
 ```javascript
   import { H1 } from '@react-pakistan/react-commons-collection/commons/h1';
@@ -164,6 +171,7 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     H1 Component
   </H1>
 ```
+
 - ### H2
 ```javascript
   import { H2 } from '@react-pakistan/react-commons-collection/commons/h2';
@@ -181,6 +189,7 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     H2 Component
   </H2>
 ```
+
 - ### H3
 ```javascript
   import { H3 } from '@react-pakistan/react-commons-collection/commons/h3';
@@ -198,6 +207,7 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     H3 Component
   </H3>
 ```
+
 - ### H4
 ```javascript
   import { H4 } from '@react-pakistan/react-commons-collection/commons/h4';
@@ -215,6 +225,7 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     H4 Component
   </H4>
 ```
+
 - ### H5
 ```javascript
   import { H5 } from '@react-pakistan/react-commons-collection/commons/h5';
@@ -232,12 +243,14 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     H5 Component
   </H5>
 ```
+
 - ### HR
 ```javascript
   import { HR } from '@react-pakistan/react-commons-collection/commons/hr';
 
   <HR width="100%" lineColor="#1E90FF" />
 ```
+
 - ### Image
 ```javascript
   import { Image } from '@react-pakistan/react-commons-collection/commons/image';
@@ -251,6 +264,7 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     height="auto"
   />
 ```
+
 - ### Input
 ```javascript
   import { Input } from '@react-pakistan/react-commons-collection/commons/input';
@@ -264,12 +278,14 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     backgroundColor="#ffffff"
   />
 ```
+
 - ### Li
 ```javascript
   import { Li } from '@react-pakistan/react-commons-collection/commons/li';
 
   <Li>Value</Li>
 ```
+
 - ### ProgressBar
 ```javascript
   import { ProgressBar } from '@react-pakistan/react-commons-collection/commons/progress-bar';
@@ -285,12 +301,14 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     transition="2.5s ease-out"
   />
 ```
+
 - ### RadioButton
 ```javascript
   import { RadioButton } from '@react-pakistan/react-commons-collection/commons/radio-button';
 
   <RadioButton checked />
 ```
+
 - ### RowContainer
 ```javascript
   import { RowContainer } from '@react-pakistan/react-commons-collection/commons/row-container';
@@ -302,6 +320,7 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     RowContainer Component
   </RowContainer>
 ```
+
 - ### Spacer
 ```javascript
   import { Spacer } from '@react-pakistan/react-commons-collection/commons/spacer';
@@ -311,6 +330,7 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     padding="0em 0em 0em 0em"
   />
 ```
+
 - ### TextArea
 ```javascript
    import { TextArea } from '@react-pakistan/react-commons-collection/commons/text-area';
@@ -334,6 +354,7 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     backgroundColor="#FFFFFF"
   />
 ```
+
 - ### Text
 ```javascript
   import { Text } from '@react-pakistan/react-commons-collection/commons/text';
@@ -352,6 +373,7 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     Text Component
   </Text>
 ```
+
 - ### Ul
 ```javascript
   import { Ul } from '@react-pakistan/react-commons-collection/commons/ul';
@@ -360,6 +382,7 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     <Li>Value</Li>
   <Ul>
 ```
+
 - ### Video
 ```javascript
   import { Video } from '@react-pakistan/react-commons-collection/commons/video';
@@ -375,6 +398,7 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
     width="100%"
   />
 ```
+
 - ### Wrapper
 ```javascript
   import { Wrapper } from '@react-pakistan/react-commons-collection/commons/wrapper';
