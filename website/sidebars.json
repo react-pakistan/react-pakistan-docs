@@ -1,10 +1,12 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "React Commons": ["react-commons-collection"],
+    "React UI": ["react-ui-collection"],
+    "React Icon": ["react-icon-collection"],
+    "React Logo": ["react-logo-collection"],
+    "React Native": ["react-native-boilerplate"]
   },
   "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "First Category": ["react-logo", "doc5"]
   }
 }

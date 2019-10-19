@@ -1,7 +1,7 @@
 ---
 id: react-ui-collection
 title: React UI Collection
-sidebar_label: Example Page
+sidebar_label: React UI Collection
 ---
 
 ## React Pakistan
