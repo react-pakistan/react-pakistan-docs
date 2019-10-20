@@ -25,7 +25,7 @@ Install React Commons Collection to your project:
 
 `yarn add @react-pakistan/react-commons-collection` or `npm install @react-pakistan/react-commons-collection`
 
-### Documentation of React Commons Components
+## Documentation of React Commons Components
 
 - ### A
 ```javascript
