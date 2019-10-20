@@ -131,15 +131,15 @@ class Index extends React.Component {
       </Block>
     );
 
-    const LearnHow = () => (
+    const ReactCommons = () => (
       <Block background="light">
         {[
           {
             content:
               'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+            image: `${baseUrl}img/react-commons.svg`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: 'React Commons Collection',
           },
         ]}
       </Block>
@@ -223,7 +223,7 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <FeatureCallout />
-          <LearnHow />
+          <ReactCommons />
           <TryOut />
           <Description />
           <Showcase />
