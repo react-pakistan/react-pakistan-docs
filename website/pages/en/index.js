@@ -101,22 +101,6 @@ class Index extends React.Component {
       </div>
     );
 
-    const TryOut = () => (
-      <Block id="try">
-        {[
-          {
-            content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
-            imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
-          },
-        ]}
-      </Block>
-    );
-
     const Description = () => (
       <Block background="dark">
         {[
@@ -140,6 +124,22 @@ class Index extends React.Component {
             image: `${baseUrl}img/react-commons.svg`,
             imageAlign: 'right',
             title: 'React Commons Collection',
+          },
+        ]}
+      </Block>
+    );
+
+    const ReactUI = () => (
+      <Block id="try">
+        {[
+          {
+            content:
+              'To make your landing page more attractive, use illustrations! Check out ' +
+              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
+              'The illustrations you see on this page are from unDraw.',
+            image: `${baseUrl}img/react-ui.svg`,
+            imageAlign: 'left',
+            title: 'React UI Collection',
           },
         ]}
       </Block>
@@ -224,7 +224,7 @@ class Index extends React.Component {
           <Features />
           <FeatureCallout />
           <ReactCommons />
-          <TryOut />
+          <ReactUI />
           <Description />
           <Showcase />
         </div>
