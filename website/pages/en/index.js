@@ -101,20 +101,6 @@ class Index extends React.Component {
       </div>
     );
 
-    const Description = () => (
-      <Block background="dark">
-        {[
-          {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
-            imageAlign: 'right',
-            title: 'Description',
-          },
-        ]}
-      </Block>
-    );
-
     const ReactCommons = () => (
       <Block background="light">
         {[
@@ -140,6 +126,20 @@ class Index extends React.Component {
             image: `${baseUrl}img/react-ui.svg`,
             imageAlign: 'left',
             title: 'React UI Collection',
+          },
+        ]}
+      </Block>
+    );
+
+    const ReactIcon = () => (
+      <Block background="dark">
+        {[
+          {
+            content:
+              'This is another description of how this project is useful',
+            image: `${baseUrl}img/react-icon.svg`,
+            imageAlign: 'right',
+            title: 'React Icon Collection',
           },
         ]}
       </Block>
@@ -225,7 +225,7 @@ class Index extends React.Component {
           <FeatureCallout />
           <ReactCommons />
           <ReactUI />
-          <Description />
+          <ReactIcon />
           <Showcase />
         </div>
       </div>
