@@ -60,14 +60,14 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        <Logo img_src={`${baseUrl}img/react-pakistan.svg`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
-          <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
-          </PromoSection>
+          {/* <PromoSection> */}
+            {/* <Button href="#try">Try It Out</Button> */}
+            {/* <Button href={docUrl('doc1.html')}>Example Link</Button> */}
+            {/* <Button href={docUrl('doc2.html')}>Example Link 2</Button> */}
+          {/* </PromoSection> */}
         </div>
       </SplashContainer>
     );
@@ -92,16 +92,30 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
+    // const FeatureCallout = () => (
+    //   <div
+    //     className="productShowcaseSection paddingBottom"
+    //     style={{textAlign: 'center'}}>
+    //     <h2>Feature Callout</h2>
+    //     <MarkdownBlock>These are features of this project</MarkdownBlock>
+    //   </div>
+    // );
+
+    const ReactCommons = () => (
+      <Block background="light">
+        {[
+          {
+            content:
+              'Each new Docusaurus project has **randomly-generated** theme colors.',
+            image: `${baseUrl}img/react-commons.svg`,
+            imageAlign: 'right',
+            title: 'React Commons Collection',
+          },
+        ]}
+      </Block>
     );
 
-    const TryOut = () => (
+    const ReactUI = () => (
       <Block id="try">
         {[
           {
@@ -109,73 +123,107 @@ class Index extends React.Component {
               'To make your landing page more attractive, use illustrations! Check out ' +
               '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
               'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
+            image: `${baseUrl}img/react-ui.svg`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: 'React UI Collection',
           },
         ]}
       </Block>
     );
 
-    const Description = () => (
+    const ReactIcon = () => (
       <Block background="dark">
         {[
           {
             content:
               'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
+            image: `${baseUrl}img/react-icon.svg`,
             imageAlign: 'right',
-            title: 'Description',
+            title: 'React Icon Collection',
           },
         ]}
       </Block>
     );
 
-    const LearnHow = () => (
+    const ReactLogo = () => (
       <Block background="light">
         {[
           {
             content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+              'This is another description of how this project is useful',
+            image: `${baseUrl}img/react-logo.svg`,
+            imageAlign: 'left',
+            title: 'React Logo Collection',
+          },
+        ]}
+      </Block>
+    );
+
+    const ReactDesign = () => (
+      <Block>
+        {[
+          {
+            content:
+              'This is another description of how this project is useful',
+            image: `${baseUrl}img/react-design.svg`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: 'React Design Collection',
+          },
+        ]}
+      </Block>
+    );
+
+    const ReactNative = () => (
+      <Block background="dark">
+        {[
+          {
+            content:
+              'This is another description of how this project is useful',
+            image: `${baseUrl}img/react-native.svg`,
+            imageAlign: 'left',
+            title: 'React Native',
           },
         ]}
       </Block>
     );
 
     const Features = () => (
-      <Block layout="fourColumn">
+      <Block layout="threeColumn">
         {[
           {
             content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
-            imageAlign: 'top',
+            image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1566355017/GitHub/react-commons-collection.jpg',
+            imageAlign: 'left',
             title: 'React Commons Collection',
           },
           {
             content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
-            imageAlign: 'top',
+            image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1566355010/GitHub/react-ui-collection.jpg',
+            imageAlign: 'left',
             title: 'React UI Collection',
           },
           {
             content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
-            imageAlign: 'top',
+            image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499955/GitHub/react-icons-collection.jpg',
+            imageAlign: 'left',
             title: 'React Icon Collection',
           },
           {
             content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
-            imageAlign: 'top',
+            image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499957/GitHub/react-logo-collection.jpg',
+            imageAlign: 'left',
             title: 'React Logo Collection',
           },
           {
             content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
-            imageAlign: 'top',
+            image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499950/GitHub/react-design-collection.jpg',
+            imageAlign: 'left',
+            title: 'React Design Collection',
+          },
+          {
+            content: 'The content of my second feature',
+            image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1548862588/react-native-boilerplate.jpg',
+            imageAlign: 'left',
             title: 'React Native Boilerplate',
           },
         ]}
@@ -216,10 +264,13 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
+          {/* <FeatureCallout /> */}
+          <ReactCommons />
+          <ReactUI />
+          <ReactIcon />
+          <ReactLogo />
+          <ReactDesign />
+          <ReactNative />
           <Showcase />
         </div>
       </div>
