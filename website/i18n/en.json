@@ -5,22 +5,26 @@
     "previous": "Previous",
     "tagline": "An Open Source Platform",
     "docs": {
-      "doc4": {
-        "title": "Other Document"
-      },
-      "doc5": {
-        "title": "Fifth Document"
-      },
       "react-commons-collection": {
         "title": "React Commons Collection",
-        "sidebar_label": "Example Page"
+        "sidebar_label": "React Commons Collection"
       },
       "react-icon-collection": {
         "title": "React Icon Collection"
+        "title": "React Icon Collection",
+        "sidebar_label": "React Icon Collection"
+      },
+      "react-logo-collection": {
+        "title": "React Logo Collection",
+        "sidebar_label": "React Logo Collection"
+      },
+      "react-native-boilerplate": {
+        "title": "React Native Boilerplate",
+        "sidebar_label": "React Native Boilerplate"
       },
       "react-ui-collection": {
         "title": "React UI Collection",
-        "sidebar_label": "Example Page"
+        "sidebar_label": "React UI Collection"
       }
     },
     "links": {
@@ -28,12 +32,16 @@
       "React Commons": "React Commons",
       "React UI": "React UI",
       "React Icon": "React Icon",
-      "React Logo": "React Logo"
+      "React Logo": "React Logo",
+      "React Native": "React Native"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "React Commons": "React Commons",
+      "React UI": "React UI",
+      "React Icon": "React Icon",
+      "React Logo": "React Logo",
+      "React Native": "React Native",
+      "First Category": "First Category"
     }
   },
   "pages-strings": {

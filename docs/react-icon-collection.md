@@ -1,6 +1,7 @@
 ---
 id: react-icon-collection
 title: React Icon Collection
+sidebar_label: React Icon Collection
 ---
 
 ## React Pakistan
