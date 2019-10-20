@@ -60,14 +60,14 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        <Logo img_src={`${baseUrl}img/react-pakistan.svg`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
-          <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
-          </PromoSection>
+          {/* <PromoSection> */}
+            {/* <Button href="#try">Try It Out</Button> */}
+            {/* <Button href={docUrl('doc1.html')}>Example Link</Button> */}
+            {/* <Button href={docUrl('doc2.html')}>Example Link 2</Button> */}
+          {/* </PromoSection> */}
         </div>
       </SplashContainer>
     );
@@ -92,14 +92,14 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
-    );
+    // const FeatureCallout = () => (
+    //   <div
+    //     className="productShowcaseSection paddingBottom"
+    //     style={{textAlign: 'center'}}>
+    //     <h2>Feature Callout</h2>
+    //     <MarkdownBlock>These are features of this project</MarkdownBlock>
+    //   </div>
+    // );
 
     const ReactCommons = () => (
       <Block background="light">
@@ -264,7 +264,7 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
+          {/* <FeatureCallout /> */}
           <ReactCommons />
           <ReactUI />
           <ReactIcon />
