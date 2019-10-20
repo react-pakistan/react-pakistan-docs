@@ -173,6 +173,20 @@ class Index extends React.Component {
       </Block>
     );
 
+    const ReactNative = () => (
+      <Block background="dark">
+        {[
+          {
+            content:
+              'This is another description of how this project is useful',
+            image: `${baseUrl}img/react-native.svg`,
+            imageAlign: 'left',
+            title: 'React Native',
+          },
+        ]}
+      </Block>
+    );
+
     const Features = () => (
       <Block layout="threeColumn">
         {[
@@ -256,6 +270,7 @@ class Index extends React.Component {
           <ReactIcon />
           <ReactLogo />
           <ReactDesign />
+          <ReactNative />
           <Showcase />
         </div>
       </div>
