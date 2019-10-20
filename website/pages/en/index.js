@@ -145,6 +145,20 @@ class Index extends React.Component {
       </Block>
     );
 
+    const ReactLogo = () => (
+      <Block background="light">
+        {[
+          {
+            content:
+              'This is another description of how this project is useful',
+            image: `${baseUrl}img/react-logo.svg`,
+            imageAlign: 'left',
+            title: 'React Logo Collection',
+          },
+        ]}
+      </Block>
+    );
+
     const Features = () => (
       <Block layout="threeColumn">
         {[
@@ -226,6 +240,7 @@ class Index extends React.Component {
           <ReactCommons />
           <ReactUI />
           <ReactIcon />
+          <ReactLogo />
           <Showcase />
         </div>
       </div>
