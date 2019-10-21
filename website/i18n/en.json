@@ -9,6 +9,10 @@
         "title": "React Commons Collection",
         "sidebar_label": "React Commons Collection"
       },
+      "react-commons-contributors": {
+        "title": "React Commons Contributors",
+        "sidebar_label": "React Commons Contributors"
+      },
       "react-icon-collection": {
         "title": "React Icon Collection",
         "sidebar_label": "React Icon Collection"

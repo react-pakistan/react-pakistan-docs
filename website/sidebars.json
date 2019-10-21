@@ -1,6 +1,6 @@
 {
   "docs": {
-    "React Commons": ["react-commons-collection"],
+    "React Commons": ["react-commons-collection", "react-commons-contributors"],
     "React UI": ["react-ui-collection"],
     "React Icon": ["react-icon-collection"],
     "React Logo": ["react-logo-collection"],
