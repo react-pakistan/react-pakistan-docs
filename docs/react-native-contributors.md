@@ -4,8 +4,6 @@ title: React Native Contributors
 sidebar_label: React Native Contributors
 ---
 
-## React Pakistan
-
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):

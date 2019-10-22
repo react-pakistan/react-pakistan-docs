@@ -106,7 +106,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
+              'React Commons collection library is the most generic form of components, these components can be extended into anything specific as per your design specs',
             image: `${baseUrl}img/react-commons.svg`,
             imageAlign: 'right',
             title: 'React Commons Collection',
@@ -120,9 +120,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
+              'React UI collection library is extended on React Commons collection library, creating semi-dynamic UI/UX implementation of various interfaces e.g. eCommerce app and more.',
             image: `${baseUrl}img/react-ui.svg`,
             imageAlign: 'left',
             title: 'React UI Collection',
@@ -136,7 +134,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'This is another description of how this project is useful',
+              'React Icon collection library is a categoried sets of Reactified versions of SVG icon components, designed to be friendly for developers, you can customise icons on the fly, e.g its colors, size etc.',
             image: `${baseUrl}img/react-icon.svg`,
             imageAlign: 'right',
             title: 'React Icon Collection',
@@ -150,7 +148,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'This is another description of how this project is useful',
+              'React Logo collection library is a categoried sets of Reactified versions of SVG logo components, designed to be friendly for developers, you can customise icons on the fly, e.g its colors, size etc.',
             image: `${baseUrl}img/react-logo.svg`,
             imageAlign: 'left',
             title: 'React Logo Collection',
@@ -164,7 +162,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'This is another description of how this project is useful',
+              'This project is still under development for its initial launch phase',
             image: `${baseUrl}img/react-design.svg`,
             imageAlign: 'right',
             title: 'React Design Collection',
@@ -178,7 +176,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'This is another description of how this project is useful',
+              'A well curated and high in-demand set of React Native boilerplate with various possiblities and combinations.',
             image: `${baseUrl}img/react-native.svg`,
             imageAlign: 'left',
             title: 'React Native',
@@ -191,37 +189,37 @@ class Index extends React.Component {
       <Block layout="threeColumn">
         {[
           {
-            content: 'This is the content of my feature',
+            // content: 'This is the content of my feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1566355017/GitHub/react-commons-collection.jpg',
             imageAlign: 'left',
             title: 'React Commons Collection',
           },
           {
-            content: 'The content of my second feature',
+            // content: 'The content of my second feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1566355010/GitHub/react-ui-collection.jpg',
             imageAlign: 'left',
             title: 'React UI Collection',
           },
           {
-            content: 'This is the content of my feature',
+            // content: 'This is the content of my feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499955/GitHub/react-icons-collection.jpg',
             imageAlign: 'left',
             title: 'React Icon Collection',
           },
           {
-            content: 'The content of my second feature',
+            // content: 'The content of my second feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499957/GitHub/react-logo-collection.jpg',
             imageAlign: 'left',
             title: 'React Logo Collection',
           },
           {
-            content: 'The content of my second feature',
+            // content: 'The content of my second feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499950/GitHub/react-design-collection.jpg',
             imageAlign: 'left',
             title: 'React Design Collection',
           },
           {
-            content: 'The content of my second feature',
+            // content: 'The content of my second feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1548862588/react-native-boilerplate.jpg',
             imageAlign: 'left',
             title: 'React Native Boilerplate',

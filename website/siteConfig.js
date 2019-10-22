@@ -23,7 +23,7 @@ const users = [
 const siteConfig = {
   title: 'React Pakistan', // Title for your website.
   tagline: 'An Open Source Platform',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  url: 'https://react-pakistan.github.io/react-pakistan-docs', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -44,7 +44,6 @@ const siteConfig = {
     {doc: 'react-icon-collection', label: 'React Icon'},
     {doc: 'react-logo-collection', label: 'React Logo'},
     {doc: 'react-native-boilerplate', label: 'React Native'},
-    {blog: true, label: 'React Logo'},
   ],
 
   // If you have users set above, you add it here:
