@@ -1,10 +1,11 @@
 {
   "docs": {
-    "React Commons": ["react-commons-collection"],
-    "React UI": ["react-ui-collection"],
-    "React Icon": ["react-icon-collection"],
-    "React Logo": ["react-logo-collection"],
-    "React Native": ["react-native-boilerplate"]
+    "React Commons": ["react-commons-collection", "react-commons-contributors"],
+    "React UI": ["react-ui-collection", "react-ui-contributors"],
+    "React Icon": ["react-icon-collection", "react-icon-contributors"],
+    "React Logo": ["react-logo-collection", "react-logo-contributors"],
+    "React Native": ["react-native-boilerplate", "react-native-contributors"],
+    "React Docs": ["react-docs-contributors"]
   },
   "docs-other": {
     "First Category": ["react-logo", "doc5"]
