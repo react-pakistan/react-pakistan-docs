@@ -23,15 +23,15 @@ const users = [
 const siteConfig = {
   title: 'React Pakistan', // Title for your website.
   tagline: 'An Open Source Platform',
-  url: 'https://react-pakistan.github.io/react-pakistan-docs', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  url: 'https://react-pakistan.github.io', // Your website URL
+  baseUrl: '/react-pakistan-docs', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'react-pakistan',
-  organizationName: 'React Pakistan',
+  projectName: 'react-pakistan-docs',
+  organizationName: 'react-pakistan',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
