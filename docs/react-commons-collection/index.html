@@ -1,0 +1,476 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>React Commons Collection · React Pakistan</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## React Pakistan"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="React Commons Collection · React Pakistan"/><meta property="og:type" content="website"/><meta property="og:url" content="https://react-pakistan.github.io/"/><meta property="og:description" content="## React Pakistan"/><meta property="og:image" content="https://react-pakistan.github.io/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://react-pakistan.github.io/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="React Pakistan"/><h2 class="headerTitleWithLogo">React Pakistan</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/index" target="_self">Home</a></li><li class="siteNavGroupActive siteNavItemActive"><a href="/docs/react-commons-collection" target="_self">React Commons</a></li><li class="siteNavGroupActive"><a href="/docs/react-ui-collection" target="_self">React UI</a></li><li class="siteNavGroupActive"><a href="/docs/react-icon-collection" target="_self">React Icon</a></li><li class="siteNavGroupActive"><a href="/docs/react-logo-collection" target="_self">React Logo</a></li><li class="siteNavGroupActive"><a href="/docs/react-native-boilerplate" target="_self">React Native</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>React Commons</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">React Commons</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/docs/react-commons-collection">React Commons Collection</a></li><li class="navListItem"><a class="navItem" href="/docs/react-commons-contributors">React Commons Contributors</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">React UI</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/react-ui-collection">React UI Collection</a></li><li class="navListItem"><a class="navItem" href="/docs/react-ui-contributors">React UI Contributors</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">React Icon</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/react-icon-collection">React Icon Collection</a></li><li class="navListItem"><a class="navItem" href="/docs/react-icon-contributors">React Icon Contributors</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">React Logo</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/react-logo-collection">React Logo Collection</a></li><li class="navListItem"><a class="navItem" href="/docs/react-logo-contributors">React Logo Contributors</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">React Native</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/react-native-boilerplate">React Native Boilerplate</a></li><li class="navListItem"><a class="navItem" href="/docs/react-native-contributors">React Native Contributors</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">React Docs</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/react-docs-contributors">React Docs Contributors</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">React Commons Collection</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="react-pakistan"></a><a href="#react-pakistan" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>React Pakistan</h2>
+<p><img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1565548545/GitHub/React_Pakistan_Storybook_Logo.jpg" width="100%" /></p>
+<p>React Pakistan is an OpenSource &amp; Free Software (FOSS) platform, creating React software solutions for the global community.</p>
+<h2><a class="anchor" aria-hidden="true" id="react-commons-collection"></a><a href="#react-commons-collection" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>React Commons Collection</h2>
+<div>
+  <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1566265693/GitHub/react-commons-collection.jpg" width="70%"/>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-" width="20%" />
+</div>
+<p>A generic, Commons library for React web apps &amp; React Native apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.</p>
+<h2><a class="anchor" aria-hidden="true" id="getting-started"></a><a href="#getting-started" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Getting Started</h2>
+<p>Install React Commons Collection to your project:</p>
+<p><code>yarn add @react-pakistan/react-commons-collection</code> or <code>npm install @react-pakistan/react-commons-collection</code></p>
+<h2><a class="anchor" aria-hidden="true" id="documentation-of-react-commons-components"></a><a href="#documentation-of-react-commons-components" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Documentation of React Commons Components</h2>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="a"></a><a href="#a" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>A</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { A } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/a'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">A</span>
+    <span class="hljs-attr">download</span>=<span class="hljs-string">""</span>
+    <span class="hljs-attr">href</span>=<span class="hljs-string">""</span>
+    <span class="hljs-attr">hreflang</span>=<span class="hljs-string">""</span>
+    <span class="hljs-attr">media</span>=<span class="hljs-string">""</span>
+    <span class="hljs-attr">referrerpolicy</span>=<span class="hljs-string">""</span>
+    <span class="hljs-attr">rel</span>=<span class="hljs-string">""</span>
+    <span class="hljs-attr">target</span>=<span class="hljs-string">"_blank"</span>
+    <span class="hljs-attr">type</span>=<span class="hljs-string">""</span>
+  &gt;</span>
+  Go to Google
+  <span class="hljs-tag">&lt;/<span class="hljs-name">A</span>&gt;</span></span>
+</code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="audio"></a><a href="#audio" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Audio</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { Audio } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/audio'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Audio</span>
+    <span class="hljs-attr">autoplay</span>
+    <span class="hljs-attr">controls</span>
+    <span class="hljs-attr">loop</span>=<span class="hljs-string">{false}</span>
+    <span class="hljs-attr">muted</span>=<span class="hljs-string">{false}</span>
+    <span class="hljs-attr">preload</span>=<span class="hljs-string">"auto"</span>
+    <span class="hljs-attr">src</span>=<span class="hljs-string">"https://notificationsounds.com/sound-effects/insig…"</span>
+    <span class="hljs-attr">controlPanelColor</span>=<span class="hljs-string">"#F7F7F7"</span>
+    <span class="hljs-attr">currentTimeColor</span>=<span class="hljs-string">"#00D3CA"</span>
+    <span class="hljs-attr">remainingTimeColor</span>=<span class="hljs-string">"#F62F5E"</span>
+  /&gt;</span>
+</span></code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="background-image"></a><a href="#background-image" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Background Image</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { BackgroundImage } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/background-image'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">BackgroundImage</span>
+    <span class="hljs-attr">imageBackgroundMargin</span>=<span class="hljs-string">"0"</span>
+    <span class="hljs-attr">imageBackgroundPadding</span>=<span class="hljs-string">"0"</span>
+    <span class="hljs-attr">imageBackgroundWidth</span>=<span class="hljs-string">"600px"</span>
+    <span class="hljs-attr">imageBackgroundHeight</span>=<span class="hljs-string">"400px"</span>
+    <span class="hljs-attr">imageBackgroundColor</span>=<span class="hljs-string">"#6C6C6C"</span>
+    <span class="hljs-attr">imageBackgroundUrl</span>=<span class="hljs-string">"https://cdn-images-1.medium.com/max/1200/1- ###y6C4nSv…"</span>
+    <span class="hljs-attr">imageBackgroundRepeat</span>=<span class="hljs-string">"no-repeat"</span>
+    <span class="hljs-attr">imageBackgroundPosition</span>=<span class="hljs-string">"center center"</span>
+    <span class="hljs-attr">imageBackgroundSize</span>=<span class="hljs-string">"cover"</span>
+    <span class="hljs-attr">imageBorderRadius</span>=<span class="hljs-string">"0"</span>
+  /&gt;</span>
+</span></code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="checkbox"></a><a href="#checkbox" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Checkbox</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { CheckBox } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/check-box'</span>;<span class="hljs-string">`
+
+  &lt;CheckBox /&gt;
+</span></code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="childgrid"></a><a href="#childgrid" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ChildGrid</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { ChildGrid } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/child-grid'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">ChildGrid</span>
+    <span class="hljs-attr">gridColumnStart</span>=<span class="hljs-string">{1}</span>
+    <span class="hljs-attr">gridColumnEnd</span>=<span class="hljs-string">{1}</span>
+    <span class="hljs-attr">gridRowStart</span>=<span class="hljs-string">{1}</span>
+    <span class="hljs-attr">gridRowEnd</span>=<span class="hljs-string">{1}</span>
+    <span class="hljs-attr">justifySelf</span>=<span class="hljs-string">"center"</span>
+    <span class="hljs-attr">alignSelf</span>=<span class="hljs-string">"center"</span>
+  &gt;</span>
+    ChildGrid Component
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ChildGrid</span>&gt;</span></span>
+</code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="columncontainer"></a><a href="#columncontainer" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ColumnContainer</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { ColumnContainer } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/column-container'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">ColumnContainer</span>
+    <span class="hljs-attr">justifyContent</span>=<span class="hljs-string">"center"</span>
+    <span class="hljs-attr">alignItems</span>=<span class="hljs-string">"center"</span>
+  &gt;</span>
+    ColumnContainer Component
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ColumnContainer</span>&gt;</span></span>
+</code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="grid"></a><a href="#grid" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Grid</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { Grid } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/grid'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Grid</span>
+    <span class="hljs-attr">gridColumn</span>=<span class="hljs-string">"1fr 1fr 1fr"</span>
+    <span class="hljs-attr">gridRow</span>=<span class="hljs-string">"1fr 1fr"</span>
+    <span class="hljs-attr">columnGap</span>=<span class="hljs-string">"1em"</span>
+    <span class="hljs-attr">rowGap</span>=<span class="hljs-string">"1em"</span>
+    <span class="hljs-attr">justifyItems</span>=<span class="hljs-string">"stretch"</span>
+    <span class="hljs-attr">alignItems</span>=<span class="hljs-string">"center"</span>
+  &gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span>
+      <span class="hljs-attr">alignItems:</span> '<span class="hljs-attr">center</span>',
+      <span class="hljs-attr">background:</span> '<span class="hljs-attr">lightblue</span>',
+      <span class="hljs-attr">border:</span> '<span class="hljs-attr">1px</span> <span class="hljs-attr">solid</span> <span class="hljs-attr">black</span>',
+    }}
+  &gt;</span>
+    Item
+  <span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span>
+      <span class="hljs-attr">alignItems:</span> '<span class="hljs-attr">center</span>',
+      <span class="hljs-attr">background:</span> '<span class="hljs-attr">lightblue</span>',
+      <span class="hljs-attr">border:</span> '<span class="hljs-attr">1px</span> <span class="hljs-attr">solid</span> <span class="hljs-attr">black</span>',
+    }}
+  &gt;</span>
+    Item
+  <span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span>
+      <span class="hljs-attr">alignItems:</span> '<span class="hljs-attr">center</span>',
+      <span class="hljs-attr">background:</span> '<span class="hljs-attr">lightblue</span>',
+      <span class="hljs-attr">border:</span> '<span class="hljs-attr">1px</span> <span class="hljs-attr">solid</span> <span class="hljs-attr">black</span>',
+    }}
+  &gt;</span>
+    Item
+  <span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">Grid</span>&gt;</span></span>
+</code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="h1"></a><a href="#h1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>H1</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { H1 } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/h1'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">H1</span>
+    <span class="hljs-attr">fontFamily</span>=<span class="hljs-string">"Playfair Display"</span>
+    <span class="hljs-attr">fontSize</span>=<span class="hljs-string">"2em"</span>
+    <span class="hljs-attr">fontWeight</span>=<span class="hljs-string">{700}</span>
+    <span class="hljs-attr">lineHeight</span>=<span class="hljs-string">"normal"</span>
+    <span class="hljs-attr">letterSpacing</span>=<span class="hljs-string">"1px"</span>
+    <span class="hljs-attr">textAlign</span>=<span class="hljs-string">"center"</span>
+    <span class="hljs-attr">textTransform</span>=<span class="hljs-string">"uppercase"</span>
+    <span class="hljs-attr">color</span>=<span class="hljs-string">"#2E2E2E"</span>
+  &gt;</span>
+    H1 Component
+  <span class="hljs-tag">&lt;/<span class="hljs-name">H1</span>&gt;</span></span>
+</code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="h2"></a><a href="#h2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>H2</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { H2 } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/h2'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">H2</span>
+    <span class="hljs-attr">fontFamily</span>=<span class="hljs-string">"Montserrat"</span>
+    <span class="hljs-attr">fontSize</span>=<span class="hljs-string">"1.8em"</span>
+    <span class="hljs-attr">fontWeight</span>=<span class="hljs-string">{700}</span>
+    <span class="hljs-attr">lineHeight</span>=<span class="hljs-string">"normal"</span>
+    <span class="hljs-attr">letterSpacing</span>=<span class="hljs-string">"1px"</span>
+    <span class="hljs-attr">textAlign</span>=<span class="hljs-string">"center"</span>
+    <span class="hljs-attr">textTransform</span>=<span class="hljs-string">"uppercase"</span>
+    <span class="hljs-attr">color</span>=<span class="hljs-string">"#2E2E2E"</span>
+  &gt;</span>
+    H2 Component
+  <span class="hljs-tag">&lt;/<span class="hljs-name">H2</span>&gt;</span></span>
+</code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="h3"></a><a href="#h3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>H3</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { H3 } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/h3'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">H3</span>
+    <span class="hljs-attr">fontFamily</span>=<span class="hljs-string">"Montserrat"</span>
+    <span class="hljs-attr">fontSize</span>=<span class="hljs-string">"1.6em"</span>
+    <span class="hljs-attr">fontWeight</span>=<span class="hljs-string">{700}</span>
+    <span class="hljs-attr">lineHeight</span>=<span class="hljs-string">"normal"</span>
+    <span class="hljs-attr">letterSpacing</span>=<span class="hljs-string">"1px"</span>
+    <span class="hljs-attr">textAlign</span>=<span class="hljs-string">"center"</span>
+    <span class="hljs-attr">textTransform</span>=<span class="hljs-string">"uppercase"</span>
+    <span class="hljs-attr">color</span>=<span class="hljs-string">"#2E2E2E"</span>
+  &gt;</span>
+    H3 Component
+  <span class="hljs-tag">&lt;/<span class="hljs-name">H3</span>&gt;</span></span>
+</code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="h4"></a><a href="#h4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>H4</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { H4 } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/h4'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">H4</span>
+    <span class="hljs-attr">fontFamily</span>=<span class="hljs-string">"Montserrat"</span>
+    <span class="hljs-attr">fontSize</span>=<span class="hljs-string">"1.4em"</span>
+    <span class="hljs-attr">fontWeight</span>=<span class="hljs-string">{700}</span>
+    <span class="hljs-attr">lineHeight</span>=<span class="hljs-string">"normal"</span>
+    <span class="hljs-attr">letterSpacing</span>=<span class="hljs-string">"1px"</span>
+    <span class="hljs-attr">textAlign</span>=<span class="hljs-string">"center"</span>
+    <span class="hljs-attr">textTransform</span>=<span class="hljs-string">"uppercase"</span>
+    <span class="hljs-attr">color</span>=<span class="hljs-string">"#2E2E2E"</span>
+  &gt;</span>
+    H4 Component
+  <span class="hljs-tag">&lt;/<span class="hljs-name">H4</span>&gt;</span></span>
+</code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="h5"></a><a href="#h5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>H5</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { H5 } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/h5'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">H5</span>
+    <span class="hljs-attr">fontFamily</span>=<span class="hljs-string">"Montserrat"</span>
+    <span class="hljs-attr">fontSize</span>=<span class="hljs-string">"1.2em"</span>
+    <span class="hljs-attr">fontWeight</span>=<span class="hljs-string">{700}</span>
+    <span class="hljs-attr">lineHeight</span>=<span class="hljs-string">"normal"</span>
+    <span class="hljs-attr">letterSpacing</span>=<span class="hljs-string">"1px"</span>
+    <span class="hljs-attr">textAlign</span>=<span class="hljs-string">"center"</span>
+    <span class="hljs-attr">textTransform</span>=<span class="hljs-string">"uppercase"</span>
+    <span class="hljs-attr">color</span>=<span class="hljs-string">"#2E2E2E"</span>
+  &gt;</span>
+    H5 Component
+  <span class="hljs-tag">&lt;/<span class="hljs-name">H5</span>&gt;</span></span>
+</code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="hr"></a><a href="#hr" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>HR</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { HR } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/hr'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">HR</span> <span class="hljs-attr">width</span>=<span class="hljs-string">"100%"</span> <span class="hljs-attr">lineColor</span>=<span class="hljs-string">"#1E90FF"</span> /&gt;</span>
+</span></code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="image"></a><a href="#image" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { Image } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/image'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Image</span>
+    <span class="hljs-attr">imageUrl</span>=<span class="hljs-string">"https://cdn-images-1.medium.com/max/1200/1- ###y6C4nSv…"</span>
+    <span class="hljs-attr">alt</span>=<span class="hljs-string">"alt-image"</span>
+    <span class="hljs-attr">margin</span>=<span class="hljs-string">"0"</span>
+    <span class="hljs-attr">padding</span>=<span class="hljs-string">"0"</span>
+    <span class="hljs-attr">width</span>=<span class="hljs-string">"600px"</span>
+    <span class="hljs-attr">height</span>=<span class="hljs-string">"auto"</span>
+  /&gt;</span>
+</span></code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="input"></a><a href="#input" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Input</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { Input } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/input'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Input</span>
+    <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span>
+    <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"Enter your email here"</span>
+    <span class="hljs-attr">height</span>=<span class="hljs-string">"3.5em"</span>
+    <span class="hljs-attr">border</span>=<span class="hljs-string">"1px solid #EFEFEF"</span>
+    <span class="hljs-attr">borderRadius</span>=<span class="hljs-string">"0.5em"</span>
+    <span class="hljs-attr">backgroundColor</span>=<span class="hljs-string">"#ffffff"</span>
+  /&gt;</span>
+</span></code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="li"></a><a href="#li" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Li</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { Li } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/li'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Li</span>&gt;</span>Value<span class="hljs-tag">&lt;/<span class="hljs-name">Li</span>&gt;</span></span>
+</code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="progressbar"></a><a href="#progressbar" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ProgressBar</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { ProgressBar } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/progress-bar'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">ProgressBar</span>
+    <span class="hljs-attr">value</span>=<span class="hljs-string">"20"</span>
+    <span class="hljs-attr">min</span>=<span class="hljs-string">"0"</span>
+    <span class="hljs-attr">max</span>=<span class="hljs-string">"100"</span>
+    <span class="hljs-attr">width</span>=<span class="hljs-string">"100%"</span>
+    <span class="hljs-attr">height</span>=<span class="hljs-string">"0.25em"</span>
+    <span class="hljs-attr">backgroundColorBar</span>=<span class="hljs-string">"#F62F5E"</span>
+    <span class="hljs-attr">backgroundColorValue</span>=<span class="hljs-string">"#EFFC90"</span>
+    <span class="hljs-attr">transition</span>=<span class="hljs-string">"2.5s ease-out"</span>
+  /&gt;</span>
+</span></code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="radiobutton"></a><a href="#radiobutton" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>RadioButton</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { RadioButton } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/radio-button'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">RadioButton</span> <span class="hljs-attr">checked</span> /&gt;</span>
+</span></code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="rowcontainer"></a><a href="#rowcontainer" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>RowContainer</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { RowContainer } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/row-container'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">RowContainer</span>
+    <span class="hljs-attr">justifyContent</span>=<span class="hljs-string">"center"</span>
+    <span class="hljs-attr">alignItems</span>=<span class="hljs-string">"center"</span>
+  &gt;</span>
+    RowContainer Component
+  <span class="hljs-tag">&lt;/<span class="hljs-name">RowContainer</span>&gt;</span></span>
+</code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="spacer"></a><a href="#spacer" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Spacer</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { Spacer } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/spacer'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Spacer</span>
+    <span class="hljs-attr">margin</span>=<span class="hljs-string">"1em 1em 1em 1em"</span>
+    <span class="hljs-attr">padding</span>=<span class="hljs-string">"0em 0em 0em 0em"</span>
+  /&gt;</span>
+</span></code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="textarea"></a><a href="#textarea" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>TextArea</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">   <span class="hljs-keyword">import</span> { TextArea } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/text-area'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">TextArea</span>
+    <span class="hljs-attr">autofocus</span>=<span class="hljs-string">{false}</span>
+    <span class="hljs-attr">cols</span>=<span class="hljs-string">{70}</span>
+    <span class="hljs-attr">dirname</span>=<span class="hljs-string">""</span>
+    <span class="hljs-attr">disabled</span>=<span class="hljs-string">{false}</span>
+    <span class="hljs-attr">form</span>=<span class="hljs-string">""</span>
+    <span class="hljs-attr">maxlength</span>=<span class="hljs-string">{300}</span>
+    <span class="hljs-attr">name</span>=<span class="hljs-string">""</span>
+    <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"Enter message here"</span>
+    <span class="hljs-attr">readonly</span>=<span class="hljs-string">{false}</span>
+    <span class="hljs-attr">required</span>=<span class="hljs-string">{false}</span>
+    <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span>
+    <span class="hljs-attr">wrap</span>=<span class="hljs-string">"hard"</span>
+    <span class="hljs-attr">rows</span>=<span class="hljs-string">{12}</span>
+    <span class="hljs-attr">border</span>=<span class="hljs-string">"1px solid #EFEFEF"</span>
+    <span class="hljs-attr">borderRadius</span>=<span class="hljs-string">"0.5em"</span>
+    <span class="hljs-attr">backgroundColor</span>=<span class="hljs-string">"#FFFFFF"</span>
+  /&gt;</span>
+</span></code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="text"></a><a href="#text" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Text</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { Text } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/text'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Text</span>
+    <span class="hljs-attr">fontFamily</span>=<span class="hljs-string">"Montserrat"</span>
+    <span class="hljs-attr">fontSize</span>=<span class="hljs-string">"1em"</span>
+    <span class="hljs-attr">fontWeight</span>=<span class="hljs-string">{400}</span>
+    <span class="hljs-attr">lineHeight</span>=<span class="hljs-string">{0.8}</span>
+    <span class="hljs-attr">letterSpacing</span>=<span class="hljs-string">"1px"</span>
+    <span class="hljs-attr">textAlign</span>=<span class="hljs-string">"center"</span>
+    <span class="hljs-attr">textTransform</span>=<span class="hljs-string">"none"</span>
+    <span class="hljs-attr">textDecoration</span>=<span class="hljs-string">"none"</span>
+    <span class="hljs-attr">color</span>=<span class="hljs-string">"#2E2E2E"</span>
+  &gt;</span>
+    Text Component
+  <span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span></span>
+</code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="ul"></a><a href="#ul" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ul</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { Ul } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/ul'</span>;
+
+  &lt;Ul&gt;
+    &lt;Li&gt;Value&lt;/Li&gt;
+  &lt;Ul&gt;
+</code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="video"></a><a href="#video" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Video</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { Video } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/video'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Video</span>
+    <span class="hljs-attr">autoplay</span>
+    <span class="hljs-attr">controls</span>
+    <span class="hljs-attr">loop</span>=<span class="hljs-string">{false}</span>
+    <span class="hljs-attr">muted</span>=<span class="hljs-string">{false}</span>
+    <span class="hljs-attr">poster</span>=<span class="hljs-string">"https://upload.wikimedia.org/wikipedia/commons/b/b…"</span>
+    <span class="hljs-attr">preload</span>=<span class="hljs-string">"auto"</span>
+    <span class="hljs-attr">src</span>=<span class="hljs-string">"http://commondatastorage.googleapis.com/gtv-videos…"</span>
+    <span class="hljs-attr">width</span>=<span class="hljs-string">"100%"</span>
+  /&gt;</span>
+</span></code></pre>
+<ul>
+<li><h3><a class="anchor" aria-hidden="true" id="wrapper"></a><a href="#wrapper" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wrapper</h3>
+</li>
+</ul>
+<pre><code class="hljs css language-javascript">  <span class="hljs-keyword">import</span> { Wrapper } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-pakistan/react-commons-collection/commons/wrapper'</span>;
+
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Wrapper</span> <span class="hljs-attr">width</span>=<span class="hljs-string">"70%"</span>&gt;</span>
+    Wrapper Component
+  <span class="hljs-tag">&lt;/<span class="hljs-name">Wrapper</span>&gt;</span></span>
+</code></pre>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-next button" href="/docs/react-commons-contributors"><span>React Commons Contributors</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#react-pakistan">React Pakistan</a></li><li><a href="#react-commons-collection">React Commons Collection</a></li><li><a href="#getting-started">Getting Started</a></li><li><a href="#documentation-of-react-commons-components">Documentation of React Commons Components</a><ul class="toc-headings"><li><a href="#a">A</a></li><li><a href="#audio">Audio</a></li><li><a href="#background-image">Background Image</a></li><li><a href="#checkbox">Checkbox</a></li><li><a href="#childgrid">ChildGrid</a></li><li><a href="#columncontainer">ColumnContainer</a></li><li><a href="#grid">Grid</a></li><li><a href="#h1">H1</a></li><li><a href="#h2">H2</a></li><li><a href="#h3">H3</a></li><li><a href="#h4">H4</a></li><li><a href="#h5">H5</a></li><li><a href="#hr">HR</a></li><li><a href="#image">Image</a></li><li><a href="#input">Input</a></li><li><a href="#li">Li</a></li><li><a href="#progressbar">ProgressBar</a></li><li><a href="#radiobutton">RadioButton</a></li><li><a href="#rowcontainer">RowContainer</a></li><li><a href="#spacer">Spacer</a></li><li><a href="#textarea">TextArea</a></li><li><a href="#text">Text</a></li><li><a href="#ul">Ul</a></li><li><a href="#video">Video</a></li><li><a href="#wrapper">Wrapper</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/favicon.ico" alt="React Pakistan" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/react-commons-collection.html">React Commons Collection</a><a href="/docs/en/react-ui-collection.html">React UI Collection</a><a href="/docs/en/react-icon-collection.html">React Icon Collection</a><a href="/docs/en/react-logo-collection.html">React Logo Collection</a><a href="/docs/en/react-native-boilerplate.html">React Native Boilerplate</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="https://reactpakistan.slack.com/">React Pakistan Slack</a><a href="https://twitter.com/ReactJSPakistan" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/react-pakistan">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="https://github.com/react-pakistan/react-native-boilerplate/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 React Pakistan</section></footer></div></body></html>
