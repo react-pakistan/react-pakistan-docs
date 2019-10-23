@@ -29,11 +29,12 @@ Install React Commons Collection to your project:
 
 - ### A
 ```javascript
-import { A } from '@react-pakistan/react-commons-collection/commons/a';
+  import { A } from '@react-pakistan/react-commons-collection/commons/a';
 
   <A
+    color="#000000"
     download=""
-    href=""
+    href="https://google.com"
     hreflang=""
     media=""
     referrerpolicy=""
@@ -41,7 +42,7 @@ import { A } from '@react-pakistan/react-commons-collection/commons/a';
     target="_blank"
     type=""
   >
-  Go to Google
+    Go to Google
   </A>
 ```
 
@@ -51,32 +52,61 @@ import { A } from '@react-pakistan/react-commons-collection/commons/a';
 
   <Audio
     autoplay
-    controls
-    loop={false}
-    muted={false}
-    preload="auto"
-    src="https://notificationsounds.com/sound-effects/insig…"
     controlPanelColor="#F7F7F7"
+    controls
     currentTimeColor="#00D3CA"
+    preload="auto"
     remainingTimeColor="#F62F5E"
+    src="https://notificationsounds.com/sound-effects/insight-578/download/mp3"
   />
 ```
 
 - ### Background Image
 ```javascript
-import { BackgroundImage } from '@react-pakistan/react-commons-collection/commons/background-image';
+  import { BackgroundImage } from '@react-pakistan/react-commons-collection/commons/background-image';
 
   <BackgroundImage
+    imageBackgroundColor="#6C6C6C"
+    imageBackgroundHeight="400px"
     imageBackgroundMargin="0"
     imageBackgroundPadding="0"
-    imageBackgroundWidth="600px"
-    imageBackgroundHeight="400px"
-    imageBackgroundColor="#6C6C6C"
-    imageBackgroundUrl="https://cdn-images-1.medium.com/max/1200/1- ###y6C4nSv…"
-    imageBackgroundRepeat="no-repeat"
     imageBackgroundPosition="center center"
+    imageBackgroundRepeat="no-repeat"
     imageBackgroundSize="cover"
+    imageBackgroundUrl="https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png"
+    imageBackgroundWidth="600px"
     imageBorderRadius="0"
+  />
+```
+
+- ### Button
+```javascript
+  import { Button } from '@react-pakistan/react-commons-collection/commons/button';
+
+  <Button
+    autoFocus
+    form=""
+    formEncType="text/plain"
+    formMethod="get"
+    formTarget="_self"
+    formaction=""
+    name=""
+    type="button"
+    value=""
+  >
+    Hello World
+  </Button>
+```
+
+- ### Canvas
+```javascript
+  import { Canvas } from '@react-pakistan/react-commons-collection/commons/button';
+
+  <Canvas
+    border="1px solid #000000"
+    height="400px"
+    id="canvasId"
+    width="600px"
   />
 ```
 
@@ -92,12 +122,12 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   import { ChildGrid } from '@react-pakistan/react-commons-collection/commons/child-grid';
 
   <ChildGrid
-    gridColumnStart={1}
-    gridColumnEnd={1}
-    gridRowStart={1}
-    gridRowEnd={1}
-    justifySelf="center"
     alignSelf="center"
+    gridColumnEnd={1}
+    gridColumnStart={1}
+    gridRowEnd={1}
+    gridRowStart={1}
+    justifySelf="center"
   >
     ChildGrid Component
   </ChildGrid>
@@ -108,8 +138,8 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   import { ColumnContainer } from '@react-pakistan/react-commons-collection/commons/column-container';
 
   <ColumnContainer
-    justifyContent="center"
     alignItems="center"
+    justifyContent="center"
   >
     ColumnContainer Component
   </ColumnContainer>
@@ -120,38 +150,135 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   import { Grid } from '@react-pakistan/react-commons-collection/commons/grid';
 
   <Grid
+    alignItems="center"
+    columnGap="1em"
     gridColumn="1fr 1fr 1fr"
     gridRow="1fr 1fr"
-    columnGap="1em"
-    rowGap="1em"
     justifyItems="stretch"
-    alignItems="center"
+    rowGap="1em"
   >
-  <h2 style={{
-      alignItems: 'center',
-      background: 'lightblue',
-      border: '1px solid black',
-    }}
-  >
-    Item
-  </h2>
-  <h2 style={{
-      alignItems: 'center',
-      background: 'lightblue',
-      border: '1px solid black',
-    }}
-  >
-    Item
-  </h2>
-  <h2 style={{
-      alignItems: 'center',
-      background: 'lightblue',
-      border: '1px solid black',
-    }}
-  >
-    Item
-  </h2>
-</Grid>
+    <h2
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
+    >
+      Item
+    </h2>
+    <h2
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
+    >
+      Item
+    </h2>
+    <h2
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
+    >
+      Item
+    </h2>
+    <h2
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
+    >
+      Item
+    </h2>
+    <h2
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
+    >
+      Item
+    </h2>
+    <h2
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
+    >
+      Item
+    </h2>
+    <h2
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
+    >
+      Item
+    </h2>
+    <h2
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
+    >
+      Item
+    </h2>
+  </Grid>
+```
+
+- ### Footer
+```javascript
+  import { Footer } from '@react-pakistan/react-commons-collection/commons/footer';
+
+  <Footer>
+    Footer component
+  </Footer>
 ```
 
 - ### H1
@@ -159,14 +286,14 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   import { H1 } from '@react-pakistan/react-commons-collection/commons/h1';
 
   <H1
+    color="#2E2E2E"
     fontFamily="Playfair Display"
     fontSize="2em"
     fontWeight={700}
-    lineHeight="normal"
     letterSpacing="1px"
+    lineHeight="normal"
     textAlign="center"
     textTransform="uppercase"
-    color="#2E2E2E"
   >
     H1 Component
   </H1>
@@ -177,14 +304,14 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   import { H2 } from '@react-pakistan/react-commons-collection/commons/h2';
 
   <H2
+    color="#2E2E2E"
     fontFamily="Montserrat"
     fontSize="1.8em"
     fontWeight={700}
-    lineHeight="normal"
     letterSpacing="1px"
+    lineHeight="normal"
     textAlign="center"
     textTransform="uppercase"
-    color="#2E2E2E"
   >
     H2 Component
   </H2>
@@ -195,14 +322,14 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   import { H3 } from '@react-pakistan/react-commons-collection/commons/h3';
 
   <H3
+    color="#2E2E2E"
     fontFamily="Montserrat"
     fontSize="1.6em"
     fontWeight={700}
-    lineHeight="normal"
     letterSpacing="1px"
+    lineHeight="normal"
     textAlign="center"
     textTransform="uppercase"
-    color="#2E2E2E"
   >
     H3 Component
   </H3>
@@ -213,14 +340,14 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   import { H4 } from '@react-pakistan/react-commons-collection/commons/h4';
 
   <H4
+    color="#2E2E2E"
     fontFamily="Montserrat"
     fontSize="1.4em"
     fontWeight={700}
-    lineHeight="normal"
     letterSpacing="1px"
+    lineHeight="normal"
     textAlign="center"
     textTransform="uppercase"
-    color="#2E2E2E"
   >
     H4 Component
   </H4>
@@ -231,24 +358,49 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   import { H5 } from '@react-pakistan/react-commons-collection/commons/h5';
 
   <H5
+    color="#2E2E2E"
     fontFamily="Montserrat"
     fontSize="1.2em"
     fontWeight={700}
-    lineHeight="normal"
     letterSpacing="1px"
+    lineHeight="normal"
     textAlign="center"
     textTransform="uppercase"
-    color="#2E2E2E"
   >
     H5 Component
   </H5>
+```
+
+- ### Header
+```javascript
+  import { Header } from '@react-pakistan/react-commons-collection/commons/header';
+
+  <Header>
+    Header component
+  </Header>
 ```
 
 - ### HR
 ```javascript
   import { HR } from '@react-pakistan/react-commons-collection/commons/hr';
 
-  <HR width="100%" lineColor="#1E90FF" />
+  <HR
+    lineColor="#1E90FF"
+    width="100%"
+  />
+```
+
+- ### Iframe
+```javascript
+  import { Iframe } from '@react-pakistan/react-commons-collection/commons/iframe';
+
+  <Iframe
+    height="600px"
+    name="iframe"
+    sandbox="allow-scripts"
+    src="http://geekmarketers.xyz"
+    width="800px"
+  />
 ```
 
 - ### Image
@@ -256,12 +408,12 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   import { Image } from '@react-pakistan/react-commons-collection/commons/image';
 
   <Image
-    imageUrl="https://cdn-images-1.medium.com/max/1200/1- ###y6C4nSv…"
     alt="alt-image"
+    height="auto"
+    imageUrl="https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png"
     margin="0"
     padding="0"
     width="600px"
-    height="auto"
   />
 ```
 
@@ -270,12 +422,12 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   import { Input } from '@react-pakistan/react-commons-collection/commons/input';
 
   <Input
-    type="text"
-    placeholder="Enter your email here"
-    height="3.5em"
+    backgroundColor="#FFFFFF"
     border="1px solid #EFEFEF"
     borderRadius="0.5em"
-    backgroundColor="#ffffff"
+    height="3.5em"
+    placeholder="Enter your email here"
+    type="text"
   />
 ```
 
@@ -291,14 +443,14 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   import { ProgressBar } from '@react-pakistan/react-commons-collection/commons/progress-bar';
 
   <ProgressBar
-    value="20"
-    min="0"
-    max="100"
-    width="100%"
-    height="0.25em"
     backgroundColorBar="#F62F5E"
     backgroundColorValue="#EFFC90"
+    height="0.25em"
+    max="100"
+    min="0"
     transition="2.5s ease-out"
+    value="20"
+    width="100%"
   />
 ```
 
@@ -314,11 +466,44 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   import { RowContainer } from '@react-pakistan/react-commons-collection/commons/row-container';
 
   <RowContainer
-    justifyContent="center"
     alignItems="center"
+    justifyContent="center"
   >
     RowContainer Component
   </RowContainer>
+```
+
+- ### Select
+```javascript
+  import { Select } from '@react-pakistan/react-commons-collection/commons/select';
+
+  <Select
+    form="form_id"
+    name="dropDownName"
+    size={0}
+  >
+    <Option
+      value="volvo"
+    >
+      Volvo
+    </Option>
+    <Option
+      disabled
+      value="saab"
+    >
+      Saab
+    </Option>
+    <Option
+      value="mercedes"
+    >
+      Mercedes
+    </Option>
+    <Option
+      value="audi"
+    >
+      Audi
+    </Option>
+  </Select>
 ```
 
 - ### Spacer
@@ -331,27 +516,215 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   />
 ```
 
+- ### SocialShare
+```javascript
+  import { Spacer } from '@react-pakistan/react-commons-collection/commons/social-share';
+
+  <SocialShare
+    socialIcons={[
+      {
+        borderRadius: '50%',
+        id: 'social-icon-1',
+        round: true,
+        serviceName: 'facebook',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-2',
+        round: true,
+        serviceName: 'twitter',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-3',
+        round: true,
+        serviceName: 'telegram',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-4',
+        round: true,
+        serviceName: 'whatsapp',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-5',
+        round: true,
+        serviceName: 'linkedin',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-6',
+        round: true,
+        serviceName: 'pinterest',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-7',
+        round: true,
+        serviceName: 'vk',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-8',
+        round: true,
+        serviceName: 'ok',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-9',
+        round: true,
+        serviceName: 'reddit',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-10',
+        round: true,
+        serviceName: 'tumblr',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-11',
+        round: true,
+        serviceName: 'livejournal',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-12',
+        round: true,
+        serviceName: 'mailru',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-13',
+        round: true,
+        serviceName: 'viber',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-14',
+        round: true,
+        serviceName: 'workplace',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-15',
+        round: true,
+        serviceName: 'line',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-16',
+        round: true,
+        serviceName: 'pocket',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-17',
+        round: true,
+        serviceName: 'instapaper',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      },
+      {
+        borderRadius: '50%',
+        id: 'social-icon-18',
+        round: true,
+        serviceName: 'email',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
+      }
+    ]}
+  />
+```
+
+- ### Table
+```javascript
+  import { Table } from '@react-pakistan/react-commons-collection/commons/table';
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Td>
+          Hey header
+        </Td>
+        <Td>
+          Hello header
+        </Td>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td>
+          Hey body
+        </Td>
+        <Td>
+          Hello body
+        </Td>
+      </Tr>
+    </Tbody>
+    <Tfoot>
+      <Tr>
+        <Td>
+          Hey foot
+        </Td>
+        <Td>
+          Hello foot
+        </Td>
+      </Tr>
+    </Tfoot>
+  </Table>
+```
+
 - ### TextArea
 ```javascript
    import { TextArea } from '@react-pakistan/react-commons-collection/commons/text-area';
 
   <TextArea
-    autofocus={false}
+    backgroundColor="#FFFFFF"
+    border="1px solid #EFEFEF"
+    borderRadius="0.5em"
     cols={70}
     dirname=""
-    disabled={false}
     form=""
     maxlength={300}
     name=""
     placeholder="Enter message here"
-    readonly={false}
-    required={false}
+    rows={12}
     type="text"
     wrap="hard"
-    rows={12}
-    border="1px solid #EFEFEF"
-    borderRadius="0.5em"
-    backgroundColor="#FFFFFF"
   />
 ```
 
@@ -360,15 +733,15 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   import { Text } from '@react-pakistan/react-commons-collection/commons/text';
 
   <Text
+    color="#2E2E2E"
     fontFamily="Montserrat"
     fontSize="1em"
     fontWeight={400}
-    lineHeight={0.8}
     letterSpacing="1px"
+    lineHeight={0.8}
     textAlign="center"
-    textTransform="none"
     textDecoration="none"
-    color="#2E2E2E"
+    textTransform="none"
   >
     Text Component
   </Text>
@@ -390,11 +763,9 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
   <Video
     autoplay
     controls
-    loop={false}
-    muted={false}
-    poster="https://upload.wikimedia.org/wikipedia/commons/b/b…"
+    poster="https://upload.wikimedia.org/wikipedia/commons/b/b9/Elephants_Dream_s8_proog.jpg"
     preload="auto"
-    src="http://commondatastorage.googleapis.com/gtv-videos…"
+    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
     width="100%"
   />
 ```
@@ -403,7 +774,7 @@ import { BackgroundImage } from '@react-pakistan/react-commons-collection/common
 ```javascript
   import { Wrapper } from '@react-pakistan/react-commons-collection/commons/wrapper';
 
-  <Wrapper width="70%">
+  <Wrapper width="90%">
     Wrapper Component
   </Wrapper>
 ```
