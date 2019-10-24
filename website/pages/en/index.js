@@ -5,6 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+require('dotenv').config();
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
