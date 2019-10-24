@@ -23,7 +23,7 @@ const users = [
 const siteConfig = {
   title: 'React Pakistan', // Title for your website.
   tagline: 'An Open Source Platform',
-  url: 'https://react-pakistan.github.io', // Your website URL
+  url: 'https://react-pakistan.github.io/', // Your website URL
   baseUrl: '/react-pakistan-docs/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -38,12 +38,13 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {page: 'index', label: 'Home'},
+    // {page: 'index', label: 'Home'},
     {doc: 'react-commons-collection', label: 'React Commons'},
     {doc: 'react-ui-collection', label: 'React UI'},
     {doc: 'react-icon-collection', label: 'React Icon'},
     {doc: 'react-logo-collection', label: 'React Logo'},
     {doc: 'react-native-boilerplate', label: 'React Native'},
+    {search: true},
   ],
 
   // If you have users set above, you add it here:
@@ -105,6 +106,12 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
+
+  algolia: {
+    apiKey: process.env.ALGOLIA_KEY,
+    indexName: 'react-pakistan',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
 };
 
 module.exports = siteConfig;

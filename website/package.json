@@ -1,7 +1,7 @@
 {
   "scripts": {
     "examples": "docusaurus-examples",
-    "start": "docusaurus-start",
+    "start": "docusaurus-start dotenv/config",
     "build": "docusaurus-build",
     "publish-gh-pages": "docusaurus-publish",
     "publish": "GIT_USER=Taimoormk USE_SSH=true yarn run publish-gh-pages",
@@ -16,6 +16,7 @@
     "@react-pakistan/react-commons-collection": "^1.0.0",
     "@react-pakistan/react-icon-collection": "^1.0.2",
     "@react-pakistan/react-logo-collection": "^0.0.3",
-    "@react-pakistan/react-ui-collection": "^2.1.0"
+    "@react-pakistan/react-ui-collection": "^2.1.0",
+    "dotenv": "^8.2.0"
   }
 }
