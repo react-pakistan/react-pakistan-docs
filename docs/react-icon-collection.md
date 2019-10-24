@@ -19,6 +19,12 @@ React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React 
 
 A generic, Icons library for React web apps & React Native apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
 
+## Getting Started
+
+Install React Icon Collection to your project:
+
+`yarn add @react-pakistan/react-icon-collection` or `npm install @react-pakistan/react-icon-collection`
+
 ## Documentation of React Commons Components
 
 - ### Icon4ThofjulyGrey6
