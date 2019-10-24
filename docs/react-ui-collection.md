@@ -10,7 +10,7 @@ sidebar_label: React UI Collection
 
 React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React software solutions for the global community.
 
-## UI/UX Library built upon React Storybook
+## React UI/UX Collection
 
 <div>
   <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1566265693/GitHub/react-ui-collection.jpg" width="70%"/>
@@ -18,6 +18,12 @@ React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React 
 </div>
 
 A generic to specific, UI/UX library for React web apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
+
+## Getting Started
+
+Install React UI Collection to your project:
+
+`yarn add @react-pakistan/react-ui-collection` or `npm install @react-pakistan/react-ui-collection`
 
 ## Documentation of React UI/UX Components
 
