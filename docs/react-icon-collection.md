@@ -29,7 +29,7 @@ Install React Icon Collection to your project:
 
 - ### Icon4ThofjulyGrey6
 ```javascript
-import { Icon4ThofjulyGrey6 } from '@react-pakistan/react-icons-collection/icons/4thofjuly-grey';
+  import { Icon4ThofjulyGrey6 } from '@react-pakistan/react-icons-collection/icons/4thofjuly-grey';
 
   <Icon4ThofjulyGrey6
     fontSize="32px"
