@@ -10,7 +10,7 @@ sidebar_label: React Icon Collection
 
 React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React software solutions for the global community.
 
-## Icons Library built upon React Storybook
+## React Icon Collection
 
 <div>
   <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499955/GitHub/react-icons-collection.jpg" width="70%"/>
@@ -25,7 +25,7 @@ Install React Icon Collection to your project:
 
 `yarn add @react-pakistan/react-icon-collection` or `npm install @react-pakistan/react-icon-collection`
 
-## Documentation of React Commons Components
+## Documentation of React Icon Components
 
 - ### Icon4ThofjulyGrey6
 ```javascript
