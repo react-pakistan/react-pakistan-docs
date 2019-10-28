@@ -135,7 +135,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'React Icon collection library is a categoried sets of Reactified versions of SVG icon components, designed to be friendly for developers, you can customise icons on the fly, e.g its colors, size etc.',
+              'React Icon collection library is a categorised sets of Reactified versions of SVG icon components, designed to be friendly for developers, you can customise icons on the fly, e.g its colors, size etc.',
             image: `${baseUrl}img/react-icon.svg`,
             imageAlign: 'right',
             title: 'React Icon Collection',
@@ -149,7 +149,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'React Logo collection library is a categoried sets of Reactified versions of SVG logo components, designed to be friendly for developers, you can customise icons on the fly, e.g its colors, size etc.',
+              'React Logo collection library is a categorised sets of Reactified versions of SVG logo components, designed to be friendly for developers, you can customise icons on the fly, e.g its colors, size etc.',
             image: `${baseUrl}img/react-logo.svg`,
             imageAlign: 'left',
             title: 'React Logo Collection',
@@ -177,7 +177,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'A well curated and high in-demand set of React Native boilerplate with various possiblities and combinations.',
+              'A well curated and high in-demand set of React Native boilerplate with various possibilities and combinations.',
             image: `${baseUrl}img/react-native.svg`,
             imageAlign: 'left',
             title: 'React Native',
