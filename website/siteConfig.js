@@ -112,6 +112,8 @@ const siteConfig = {
     indexName: 'react-pakistan',
     algoliaOptions: {} // Optional, if provided by Algolia
   },
+
+  gaTrackingId: 'UA-150982437-1',
 };
 
 module.exports = siteConfig;
