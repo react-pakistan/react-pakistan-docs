@@ -10,13 +10,9 @@
     "rename-version": "docusaurus-rename-version"
   },
   "devDependencies": {
-    "docusaurus": "^1.13.0"
+    "docusaurus": "^1.14.4"
   },
   "dependencies": {
-    "@react-pakistan/react-commons-collection": "^1.0.0",
-    "@react-pakistan/react-icon-collection": "^1.0.2",
-    "@react-pakistan/react-logo-collection": "^0.0.3",
-    "@react-pakistan/react-ui-collection": "^2.1.0",
     "dotenv": "^8.2.0"
   }
 }
