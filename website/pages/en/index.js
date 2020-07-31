@@ -122,7 +122,7 @@ class Index extends React.Component {
           {
             content:
               'React Native Commons collection library is the most generic form of components, these components can be extended into anything specific as per your design specs',
-            image: `${baseUrl}img/react-commons.svg`,
+            image: `${baseUrl}img/react-native-commons.svg`,
             imageAlign: 'left',
             title: 'React Native Commons Collection',
           },
@@ -150,7 +150,7 @@ class Index extends React.Component {
           {
             content:
               'React Native UI collection library is extended on React Native Commons collection library, creating semi-dynamic UI/UX implementation of various interfaces.',
-            image: `${baseUrl}img/react-ui.svg`,
+            image: `${baseUrl}img/react-native-ui.svg`,
             imageAlign: 'left',
             title: 'React Native UI Collection',
           },
@@ -178,7 +178,7 @@ class Index extends React.Component {
           {
             content:
               'React Native Icon collection library is a categorised sets of Reactified versions of SVG icon components, designed to be friendly for developers, you can customise icons on the fly, e.g its colors, size etc.',
-            image: `${baseUrl}img/react-icon.svg`,
+            image: `${baseUrl}img/react-native-icon.svg`,
             imageAlign: 'left',
             title: 'React Native Icon Collection',
           },
@@ -206,7 +206,7 @@ class Index extends React.Component {
           {
             content:
               'React Native Logo collection library is a categorised sets of Reactified versions of SVG logo components, designed to be friendly for developers, you can customise logos on the fly, e.g its colors, size etc.',
-            image: `${baseUrl}img/react-logo.svg`,
+            image: `${baseUrl}img/react-native-logo.svg`,
             imageAlign: 'left',
             title: 'React Native Logo Collection',
           },
@@ -256,15 +256,15 @@ class Index extends React.Component {
       </Block>
     );
 
-    const ReactNative = () => (
+    const ReactNativeBoilerplate = () => (
       <Block background="dark">
         {[
           {
             content:
               'A well curated and high in-demand set of React Native boilerplate with various possibilities and combinations.',
-            image: `${baseUrl}img/react-native.svg`,
+            image: `${baseUrl}img/react-native-boilerplates.svg`,
             imageAlign: 'left',
-            title: 'React Native',
+            title: 'React Native Boilerplates',
           },
         ]}
       </Block>
@@ -395,7 +395,7 @@ class Index extends React.Component {
           <ReactEmoji />
           <ReactNativeEmoji />
           <ReactDesign />
-          <ReactNative />
+          <ReactNativeBoilerplate />
           <Showcase />
         </div>
       </div>
