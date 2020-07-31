@@ -38,12 +38,12 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    // {page: 'index', label: 'Home'},
+    {page: 'index', label: 'Home'},
     {doc: 'react-commons-collection', label: 'React Commons'},
     {doc: 'react-ui-collection', label: 'React UI'},
     {doc: 'react-icon-collection', label: 'React Icon'},
     {doc: 'react-logo-collection', label: 'React Logo'},
-    {doc: 'react-native-boilerplate', label: 'React Native'},
+    {doc: 'react-native-boilerplate', label: 'React Native Boilerplate'},
     {search: true},
   ],
 
