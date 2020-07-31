@@ -116,22 +116,50 @@ class Index extends React.Component {
       </Block>
     );
 
+    const ReactNativeCommons = () => (
+      <Block background="dark">
+        {[
+          {
+            content:
+              'React Native Commons collection library is the most generic form of components, these components can be extended into anything specific as per your design specs',
+            image: `${baseUrl}img/react-commons.svg`,
+            imageAlign: 'left',
+            title: 'React Native Commons Collection',
+          },
+        ]}
+      </Block>
+    );
+
     const ReactUI = () => (
-      <Block id="try">
+      <Block background="light">
         {[
           {
             content:
               'React UI collection library is extended on React Commons collection library, creating semi-dynamic UI/UX implementation of various interfaces e.g. eCommerce app and more.',
             image: `${baseUrl}img/react-ui.svg`,
-            imageAlign: 'left',
+            imageAlign: 'right',
             title: 'React UI Collection',
           },
         ]}
       </Block>
     );
 
-    const ReactIcon = () => (
+    const ReactNativeUI = () => (
       <Block background="dark">
+        {[
+          {
+            content:
+              'React Native UI collection library is extended on React Native Commons collection library, creating semi-dynamic UI/UX implementation of various interfaces.',
+            image: `${baseUrl}img/react-ui.svg`,
+            imageAlign: 'left',
+            title: 'React Native UI Collection',
+          },
+        ]}
+      </Block>
+    );
+
+    const ReactIcon = () => (
+      <Block background="light">
         {[
           {
             content:
@@ -144,15 +172,71 @@ class Index extends React.Component {
       </Block>
     );
 
+    const ReactNativeIcon = () => (
+      <Block background="dark">
+        {[
+          {
+            content:
+              'React Native Icon collection library is a categorised sets of Reactified versions of SVG icon components, designed to be friendly for developers, you can customise icons on the fly, e.g its colors, size etc.',
+            image: `${baseUrl}img/react-icon.svg`,
+            imageAlign: 'left',
+            title: 'React Native Icon Collection',
+          },
+        ]}
+      </Block>
+    );
+
     const ReactLogo = () => (
       <Block background="light">
         {[
           {
             content:
-              'React Logo collection library is a categorised sets of Reactified versions of SVG logo components, designed to be friendly for developers, you can customise icons on the fly, e.g its colors, size etc.',
+              'React Logo collection library is a categorised sets of Reactified versions of SVG logo components, designed to be friendly for developers, you can customise logos on the fly, e.g its colors, size etc.',
+            image: `${baseUrl}img/react-logo.svg`,
+            imageAlign: 'right',
+            title: 'React Logo Collection',
+          },
+        ]}
+      </Block>
+    );
+
+    const ReactNativeLogo = () => (
+      <Block background="dark">
+        {[
+          {
+            content:
+              'React Native Logo collection library is a categorised sets of Reactified versions of SVG logo components, designed to be friendly for developers, you can customise logos on the fly, e.g its colors, size etc.',
             image: `${baseUrl}img/react-logo.svg`,
             imageAlign: 'left',
-            title: 'React Logo Collection',
+            title: 'React Native Logo Collection',
+          },
+        ]}
+      </Block>
+    );
+
+    const ReactEmoji = () => (
+      <Block background="light">
+        {[
+          {
+            content:
+              'React Emoji collection library is a categorised sets of Reactified versions of SVG logo components, designed to be friendly for developers, you can customise emojis on the fly, e.g its size etc.',
+            image: `${baseUrl}img/react-emoji.svg`,
+            imageAlign: 'right',
+            title: 'React Emoji Collection',
+          },
+        ]}
+      </Block>
+    );
+
+    const ReactNativeEmoji = () => (
+      <Block background="dark">
+        {[
+          {
+            content:
+              'React Native Emoji collection library is a categorised sets of Reactified versions of SVG logo components, designed to be friendly for developers, you can customise emojis on the fly, e.g its size etc.',
+            image: `${baseUrl}img/react-native-emoji.svg`,
+            imageAlign: 'left',
+            title: 'React Native Emoji Collection',
           },
         ]}
       </Block>
@@ -259,7 +343,7 @@ class Index extends React.Component {
             // content: 'The content of my second feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1583650658/GitHub/react-native-logo-collection.jpg',
             imageAlign: 'left',
-            title: 'React Native Logo Collection',
+            title: 'React Native Emoji Collection',
           },
         ]}
       </Block>
@@ -301,9 +385,15 @@ class Index extends React.Component {
           <Features />
           {/* <FeatureCallout /> */}
           <ReactCommons />
+          <ReactNativeCommons />
           <ReactUI />
+          <ReactNativeUI />
           <ReactIcon />
+          <ReactNativeIcon />
           <ReactLogo />
+          <ReactNativeLogo />
+          <ReactEmoji />
+          <ReactNativeEmoji />
           <ReactDesign />
           <ReactNative />
           <Showcase />
