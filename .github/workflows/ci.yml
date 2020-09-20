@@ -1,15 +1,15 @@
-name: Node CI - build
+name: Continuous Integration
 
-on: [push]
+on:
+  push:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-versions: [8.x, 10.x, 12.x]
+        node-versions: [12.x]
     
     steps:
     - uses: actions/checkout@v1
@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm build 
+    - name: yarn & build
       run: |
         cd website
         yarn
