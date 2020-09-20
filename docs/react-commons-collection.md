@@ -22,17 +22,34 @@ React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React 
 
 A generic, Commons library for React web apps & React Native apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
 
-## Getting Started
+## Install
 
-Install React Commons Collection to your project:
+Add React Commons Collection to your project:
 
 `yarn add @react-pakistan/react-commons-collection` or `npm install @react-pakistan/react-commons-collection`
 
-## Documentation of React Commons Components
+Add React Commons Collection base theme to your project.
+
+`yarn add @react-pakistan/util-functions` or `npm install @react-pakistan/util-functions`
+
+## Styles
+
+Styled Components are employed to maintain and update theme for this project. Please consider adding Styled Component Provider wrapper to the entry point of your application, following is the sample code. You could either use the default theme as shown below or wire your custom theme object instead. See [Typography](https://taimoormk.github.io/react-commons-collection/?path=/docs/styleguide-typography--typography-story) & [Colors](https://taimoormk.github.io/react-commons-collection/?path=/docs/styleguide-colors--colors-story) being used in the theme object.
+
+```javascript
+  import { ThemeProvider } from 'styled-components';
+  import { theme } from '@react-pakistan/util-functions';
+
+  <ThemeProvider theme={theme}>
+    <App />
+  </ThemeProvider>
+```
+
+## Use
 
 - ### A
 ```javascript
-  import { A } from '@react-pakistan/react-commons-collection/commons/a';
+  import { A } from '@react-pakistan/react-commons-collection';
 
   <A
     color="#000000"
@@ -51,7 +68,7 @@ Install React Commons Collection to your project:
 
 - ### Audio
 ```javascript
-  import { Audio } from '@react-pakistan/react-commons-collection/commons/audio';
+  import { Audio } from '@react-pakistan/react-commons-collection';
 
   <Audio
     autoplay
@@ -66,7 +83,7 @@ Install React Commons Collection to your project:
 
 - ### Background Image
 ```javascript
-  import { BackgroundImage } from '@react-pakistan/react-commons-collection/commons/background-image';
+  import { BackgroundImage } from '@react-pakistan/react-commons-collection';
 
   <BackgroundImage
     imageBackgroundColor="#6C6C6C"
@@ -84,7 +101,7 @@ Install React Commons Collection to your project:
 
 - ### Button
 ```javascript
-  import { Button } from '@react-pakistan/react-commons-collection/commons/button';
+  import { Button } from '@react-pakistan/react-commons-collection';
 
   <Button
     autoFocus
@@ -103,7 +120,7 @@ Install React Commons Collection to your project:
 
 - ### Canvas
 ```javascript
-  import { Canvas } from '@react-pakistan/react-commons-collection/commons/button';
+  import { Canvas } from '@react-pakistan/react-commons-collection';
 
   <Canvas
     border="1px solid #000000"
@@ -115,14 +132,14 @@ Install React Commons Collection to your project:
 
 - ### Checkbox
 ```javascript
-  import { CheckBox } from '@react-pakistan/react-commons-collection/commons/check-box';`
+  import { CheckBox } from '@react-pakistan/react-commons-collection';`
 
   <CheckBox />
 ```
 
 - ### ChildGrid
 ```javascript
-  import { ChildGrid } from '@react-pakistan/react-commons-collection/commons/child-grid';
+  import { ChildGrid } from '@react-pakistan/react-commons-collection';
 
   <ChildGrid
     alignSelf="center"
@@ -138,7 +155,7 @@ Install React Commons Collection to your project:
 
 - ### ColumnContainer
 ```javascript
-  import { ColumnContainer } from '@react-pakistan/react-commons-collection/commons/column-container';
+  import { ColumnContainer } from '@react-pakistan/react-commons-collection';
 
   <ColumnContainer
     alignItems="center"
@@ -150,7 +167,7 @@ Install React Commons Collection to your project:
 
 - ### Grid
 ```javascript
-  import { Grid } from '@react-pakistan/react-commons-collection/commons/grid';
+  import { Grid } from '@react-pakistan/react-commons-collection';
 
   <Grid
     alignItems="center"
@@ -277,7 +294,7 @@ Install React Commons Collection to your project:
 
 - ### Footer
 ```javascript
-  import { Footer } from '@react-pakistan/react-commons-collection/commons/footer';
+  import { Footer } from '@react-pakistan/react-commons-collection';
 
   <Footer>
     Footer component
@@ -286,7 +303,7 @@ Install React Commons Collection to your project:
 
 - ### H1
 ```javascript
-  import { H1 } from '@react-pakistan/react-commons-collection/commons/h1';
+  import { H1 } from '@react-pakistan/react-commons-collection';
 
   <H1
     color="#2E2E2E"
@@ -304,7 +321,7 @@ Install React Commons Collection to your project:
 
 - ### H2
 ```javascript
-  import { H2 } from '@react-pakistan/react-commons-collection/commons/h2';
+  import { H2 } from '@react-pakistan/react-commons-collection';
 
   <H2
     color="#2E2E2E"
@@ -322,7 +339,7 @@ Install React Commons Collection to your project:
 
 - ### H3
 ```javascript
-  import { H3 } from '@react-pakistan/react-commons-collection/commons/h3';
+  import { H3 } from '@react-pakistan/react-commons-collection';
 
   <H3
     color="#2E2E2E"
@@ -340,7 +357,7 @@ Install React Commons Collection to your project:
 
 - ### H4
 ```javascript
-  import { H4 } from '@react-pakistan/react-commons-collection/commons/h4';
+  import { H4 } from '@react-pakistan/react-commons-collection';
 
   <H4
     color="#2E2E2E"
@@ -358,7 +375,7 @@ Install React Commons Collection to your project:
 
 - ### H5
 ```javascript
-  import { H5 } from '@react-pakistan/react-commons-collection/commons/h5';
+  import { H5 } from '@react-pakistan/react-commons-collection';
 
   <H5
     color="#2E2E2E"
@@ -376,7 +393,7 @@ Install React Commons Collection to your project:
 
 - ### Header
 ```javascript
-  import { Header } from '@react-pakistan/react-commons-collection/commons/header';
+  import { Header } from '@react-pakistan/react-commons-collection';
 
   <Header>
     Header component
@@ -385,7 +402,7 @@ Install React Commons Collection to your project:
 
 - ### HR
 ```javascript
-  import { HR } from '@react-pakistan/react-commons-collection/commons/hr';
+  import { HR } from '@react-pakistan/react-commons-collection';
 
   <HR
     lineColor="#1E90FF"
@@ -395,7 +412,7 @@ Install React Commons Collection to your project:
 
 - ### Iframe
 ```javascript
-  import { Iframe } from '@react-pakistan/react-commons-collection/commons/iframe';
+  import { Iframe } from '@react-pakistan/react-commons-collection';
 
   <Iframe
     height="600px"
@@ -408,7 +425,7 @@ Install React Commons Collection to your project:
 
 - ### Image
 ```javascript
-  import { Image } from '@react-pakistan/react-commons-collection/commons/image';
+  import { Image } from '@react-pakistan/react-commons-collection';
 
   <Image
     alt="alt-image"
@@ -422,7 +439,7 @@ Install React Commons Collection to your project:
 
 - ### Input
 ```javascript
-  import { Input } from '@react-pakistan/react-commons-collection/commons/input';
+  import { Input } from '@react-pakistan/react-commons-collection';
 
   <Input
     backgroundColor="#FFFFFF"
@@ -436,14 +453,14 @@ Install React Commons Collection to your project:
 
 - ### Li
 ```javascript
-  import { Li } from '@react-pakistan/react-commons-collection/commons/li';
+  import { Li } from '@react-pakistan/react-commons-collection';
 
   <Li>Value</Li>
 ```
 
 - ### ProgressBar
 ```javascript
-  import { ProgressBar } from '@react-pakistan/react-commons-collection/commons/progress-bar';
+  import { ProgressBar } from '@react-pakistan/react-commons-collection';
 
   <ProgressBar
     backgroundColorBar="#F62F5E"
@@ -459,14 +476,14 @@ Install React Commons Collection to your project:
 
 - ### RadioButton
 ```javascript
-  import { RadioButton } from '@react-pakistan/react-commons-collection/commons/radio-button';
+  import { RadioButton } from '@react-pakistan/react-commons-collection';
 
   <RadioButton checked />
 ```
 
 - ### RowContainer
 ```javascript
-  import { RowContainer } from '@react-pakistan/react-commons-collection/commons/row-container';
+  import { RowContainer } from '@react-pakistan/react-commons-collection';
 
   <RowContainer
     alignItems="center"
@@ -478,7 +495,7 @@ Install React Commons Collection to your project:
 
 - ### Select
 ```javascript
-  import { Select } from '@react-pakistan/react-commons-collection/commons/select';
+  import { Select } from '@react-pakistan/react-commons-collectiont';
 
   <Select
     form="form_id"
@@ -511,7 +528,7 @@ Install React Commons Collection to your project:
 
 - ### Spacer
 ```javascript
-  import { Spacer } from '@react-pakistan/react-commons-collection/commons/spacer';
+  import { Spacer } from '@react-pakistan/react-commons-collection';
 
   <Spacer
     margin="1em 1em 1em 1em"
@@ -521,7 +538,7 @@ Install React Commons Collection to your project:
 
 - ### SocialShare
 ```javascript
-  import { Spacer } from '@react-pakistan/react-commons-collection/commons/social-share';
+  import { Spacer } from '@react-pakistan/react-commons-collection';
 
   <SocialShare
     socialIcons={[
@@ -675,7 +692,7 @@ Install React Commons Collection to your project:
 
 - ### Table
 ```javascript
-  import { Table } from '@react-pakistan/react-commons-collection/commons/table';
+  import { Table } from '@react-pakistan/react-commons-collection';
 
   <Table>
     <Thead>
@@ -713,7 +730,7 @@ Install React Commons Collection to your project:
 
 - ### TextArea
 ```javascript
-   import { TextArea } from '@react-pakistan/react-commons-collection/commons/text-area';
+   import { TextArea } from '@react-pakistan/react-commons-collection';
 
   <TextArea
     backgroundColor="#FFFFFF"
@@ -733,7 +750,7 @@ Install React Commons Collection to your project:
 
 - ### Text
 ```javascript
-  import { Text } from '@react-pakistan/react-commons-collection/commons/text';
+  import { Text } from '@react-pakistan/react-commons-collection';
 
   <Text
     color="#2E2E2E"
@@ -752,7 +769,7 @@ Install React Commons Collection to your project:
 
 - ### Ul
 ```javascript
-  import { Ul } from '@react-pakistan/react-commons-collection/commons/ul';
+  import { Ul } from '@react-pakistan/react-commons-collection';
 
   <Ul>
     <Li>Value</Li>
@@ -761,7 +778,7 @@ Install React Commons Collection to your project:
 
 - ### Video
 ```javascript
-  import { Video } from '@react-pakistan/react-commons-collection/commons/video';
+  import { Video } from '@react-pakistan/react-commons-collection';
 
   <Video
     autoplay
@@ -775,7 +792,7 @@ Install React Commons Collection to your project:
 
 - ### Wrapper
 ```javascript
-  import { Wrapper } from '@react-pakistan/react-commons-collection/commons/wrapper';
+  import { Wrapper } from '@react-pakistan/react-commons-collection';
 
   <Wrapper width="90%">
     Wrapper Component
