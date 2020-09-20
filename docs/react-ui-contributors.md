@@ -6,7 +6,7 @@ sidebar_label: React UI Contributors
 
 ## Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 | Contributors        | GitHub           | Emoji  |
 | ------------- |:-------------:|:-----:|

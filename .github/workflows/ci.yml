@@ -16,11 +16,17 @@ jobs:
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
+        auth-token: ${{ secrets.GH_TOKEN }}
+        registry-url: "https://npm.pkg.github.com"
+        scope: taimoormk
         node-version: ${{ matrix.node-version }}
-    - name: yarn & build
+    - name: yarn, lint, build, & test 
       run: |
-        cd website
         yarn
+        yarn lint
         yarn build
+        yarn test
       env:
         CI: true
+        NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
+        NPM_REGISTRY_URL: https://npm.pkg.github.com
