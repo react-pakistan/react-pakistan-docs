@@ -274,73 +274,61 @@ class Index extends React.Component {
       <Block layout="threeColumn">
         {[
           {
-            // content: 'This is the content of my feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1566355017/GitHub/react-commons-collection.jpg',
             imageAlign: 'left',
             title: 'React Commons Collection',
           },
           {
-            // content: 'The content of my second feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1566355010/GitHub/react-ui-collection.jpg',
             imageAlign: 'left',
             title: 'React UI Collection',
           },
           {
-            // content: 'This is the content of my feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499955/GitHub/react-icons-collection.jpg',
             imageAlign: 'left',
             title: 'React Icon Collection',
           },
           {
-            // content: 'The content of my second feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499957/GitHub/react-logo-collection.jpg',
             imageAlign: 'left',
             title: 'React Logo Collection',
           },
           {
-            // content: 'The content of my second feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1592815676/GitHub/react-emoji-collection.jpg',
             imageAlign: 'left',
             title: 'React Emoji Collection',
           },
           {
-            // content: 'The content of my second feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499950/GitHub/react-design-collection.jpg',
             imageAlign: 'left',
             title: 'React Design Collection',
           },
           {
-            // content: 'The content of my second feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1548862588/react-native-boilerplate.jpg',
             imageAlign: 'left',
             title: 'React Native Boilerplate',
           },
           {
-            // content: 'The content of my second feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1583650645/GitHub/react-native-commons-collection.jpg',
             imageAlign: 'left',
             title: 'React Native Commons Collection',
           },
           {
-            // content: 'The content of my second feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1583650649/GitHub/react-native-ui-collection.jpg',
             imageAlign: 'left',
             title: 'React Native UI Collection',
           },
           {
-            // content: 'The content of my second feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1583650647/GitHub/react-native-icon-collection.jpg',
             imageAlign: 'left',
             title: 'React Native Icon Collection',
           },
           {
-            // content: 'The content of my second feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1583650658/GitHub/react-native-logo-collection.jpg',
             imageAlign: 'left',
             title: 'React Native Logo Collection',
           },
           {
-            // content: 'The content of my second feature',
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1583650658/GitHub/react-native-logo-collection.jpg',
             imageAlign: 'left',
             title: 'React Native Emoji Collection',

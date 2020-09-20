@@ -22,17 +22,34 @@ React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React 
 
 A generic, Commons library for React web apps & React Native apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
 
-## Getting Started
+## Install
 
-Install React Commons Collection to your project:
+Add React Commons Collection to your project:
 
 `yarn add @react-pakistan/react-commons-collection` or `npm install @react-pakistan/react-commons-collection`
 
-## Documentation of React Commons Components
+Add React Commons Collection base theme to your project.
+
+`yarn add @react-pakistan/util-functions` or `npm install @react-pakistan/util-functions`
+
+## Styles
+
+Styled Components are employed to maintain and update theme for this project. Please consider adding Styled Component Provider wrapper to the entry point of your application, following is the sample code. You could either use the default theme as shown below or wire your custom theme object instead. See [Typography](https://taimoormk.github.io/react-commons-collection/?path=/docs/styleguide-typography--typography-story) & [Colors](https://taimoormk.github.io/react-commons-collection/?path=/docs/styleguide-colors--colors-story) being used in the theme object.
+
+```javascript
+  import { ThemeProvider } from 'styled-components';
+  import { theme } from '@react-pakistan/util-functions';
+
+  <ThemeProvider theme={theme}>
+    <App />
+  </ThemeProvider>
+```
+
+## Use
 
 - ### A
 ```javascript
-  import { A } from '@react-pakistan/react-commons-collection/commons/a';
+  import { A } from '@react-pakistan/react-commons-collection';
 
   <A
     color="#000000"
@@ -49,9 +66,17 @@ Install React Commons Collection to your project:
   </A>
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection A"
+  title="React Pakistan - React Commons Collection A"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/misc-a--a-story">
+</iframe>
+
 - ### Audio
 ```javascript
-  import { Audio } from '@react-pakistan/react-commons-collection/commons/audio';
+  import { Audio } from '@react-pakistan/react-commons-collection';
 
   <Audio
     autoplay
@@ -64,9 +89,17 @@ Install React Commons Collection to your project:
   />
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection Audio"
+  title="React Pakistan - React Commons Collection Audio"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-audio--audio-story">
+</iframe>
+
 - ### Background Image
 ```javascript
-  import { BackgroundImage } from '@react-pakistan/react-commons-collection/commons/background-image';
+  import { BackgroundImage } from '@react-pakistan/react-commons-collection';
 
   <BackgroundImage
     imageBackgroundColor="#6C6C6C"
@@ -82,9 +115,17 @@ Install React Commons Collection to your project:
   />
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection Background Image"
+  title="React Pakistan - React Commons Collection Background Image"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-backgroundimage--background-image-story">
+</iframe>
+
 - ### Button
 ```javascript
-  import { Button } from '@react-pakistan/react-commons-collection/commons/button';
+  import { Button } from '@react-pakistan/react-commons-collection';
 
   <Button
     autoFocus
@@ -101,9 +142,17 @@ Install React Commons Collection to your project:
   </Button>
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection Button"
+  title="React Pakistan - React Commons Collection Button"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/input-button--button-story">
+</iframe>
+
 - ### Canvas
 ```javascript
-  import { Canvas } from '@react-pakistan/react-commons-collection/commons/button';
+  import { Canvas } from '@react-pakistan/react-commons-collection';
 
   <Canvas
     border="1px solid #000000"
@@ -113,16 +162,32 @@ Install React Commons Collection to your project:
   />
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection Canvas"
+  title="React Pakistan - React Commons Collection Canvas"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-canvas--canvas-story">
+</iframe>
+
 - ### Checkbox
 ```javascript
-  import { CheckBox } from '@react-pakistan/react-commons-collection/commons/check-box';`
+  import { CheckBox } from '@react-pakistan/react-commons-collection';`
 
   <CheckBox />
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection CheckBox"
+  title="React Pakistan - React Commons Collection CheckBox"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/input-checkbox--check-box-story">
+</iframe>
+
 - ### ChildGrid
 ```javascript
-  import { ChildGrid } from '@react-pakistan/react-commons-collection/commons/child-grid';
+  import { ChildGrid } from '@react-pakistan/react-commons-collection';
 
   <ChildGrid
     alignSelf="center"
@@ -136,9 +201,17 @@ Install React Commons Collection to your project:
   </ChildGrid>
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection ChildGrid"
+  title="React Pakistan - React Commons Collection ChildGrid"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-childgrid--child-grid-story">
+</iframe>
+
 - ### ColumnContainer
 ```javascript
-  import { ColumnContainer } from '@react-pakistan/react-commons-collection/commons/column-container';
+  import { ColumnContainer } from '@react-pakistan/react-commons-collection';
 
   <ColumnContainer
     alignItems="center"
@@ -148,9 +221,17 @@ Install React Commons Collection to your project:
   </ColumnContainer>
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection ColumnContainer"
+  title="React Pakistan - React Commons Collection ColumnContainer"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-columncontainer--column-container-story">
+</iframe>
+
 - ### Grid
 ```javascript
-  import { Grid } from '@react-pakistan/react-commons-collection/commons/grid';
+  import { Grid } from '@react-pakistan/react-commons-collection';
 
   <Grid
     alignItems="center"
@@ -275,18 +356,34 @@ Install React Commons Collection to your project:
   </Grid>
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection Grid"
+  title="React Pakistan - React Commons Collection Grid"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-grid--grid-story">
+</iframe>
+
 - ### Footer
 ```javascript
-  import { Footer } from '@react-pakistan/react-commons-collection/commons/footer';
+  import { Footer } from '@react-pakistan/react-commons-collection';
 
   <Footer>
     Footer component
   </Footer>
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection Footer"
+  title="React Pakistan - React Commons Collection Footer"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-footer--footer-story">
+</iframe>
+
 - ### H1
 ```javascript
-  import { H1 } from '@react-pakistan/react-commons-collection/commons/h1';
+  import { H1 } from '@react-pakistan/react-commons-collection';
 
   <H1
     color="#2E2E2E"
@@ -302,9 +399,17 @@ Install React Commons Collection to your project:
   </H1>
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection H1"
+  title="React Pakistan - React Commons Collection H1"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/heading-h1--h-1-story">
+</iframe>
+
 - ### H2
 ```javascript
-  import { H2 } from '@react-pakistan/react-commons-collection/commons/h2';
+  import { H2 } from '@react-pakistan/react-commons-collection';
 
   <H2
     color="#2E2E2E"
@@ -320,9 +425,17 @@ Install React Commons Collection to your project:
   </H2>
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection H2"
+  title="React Pakistan - React Commons Collection H2"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/heading-h2--h-2-story">
+</iframe>
+
 - ### H3
 ```javascript
-  import { H3 } from '@react-pakistan/react-commons-collection/commons/h3';
+  import { H3 } from '@react-pakistan/react-commons-collection';
 
   <H3
     color="#2E2E2E"
@@ -338,9 +451,17 @@ Install React Commons Collection to your project:
   </H3>
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection H3"
+  title="React Pakistan - React Commons Collection H3"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/heading-h3--h-3-story">
+</iframe>
+
 - ### H4
 ```javascript
-  import { H4 } from '@react-pakistan/react-commons-collection/commons/h4';
+  import { H4 } from '@react-pakistan/react-commons-collection';
 
   <H4
     color="#2E2E2E"
@@ -356,9 +477,17 @@ Install React Commons Collection to your project:
   </H4>
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection H4"
+  title="React Pakistan - React Commons Collection H4"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/heading-h4--h-4-story">
+</iframe>
+
 - ### H5
 ```javascript
-  import { H5 } from '@react-pakistan/react-commons-collection/commons/h5';
+  import { H5 } from '@react-pakistan/react-commons-collection';
 
   <H5
     color="#2E2E2E"
@@ -374,18 +503,34 @@ Install React Commons Collection to your project:
   </H5>
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection H5"
+  title="React Pakistan - React Commons Collection H5"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/heading-h5--h-5-story">
+</iframe>
+
 - ### Header
 ```javascript
-  import { Header } from '@react-pakistan/react-commons-collection/commons/header';
+  import { Header } from '@react-pakistan/react-commons-collection';
 
   <Header>
     Header component
   </Header>
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection Header"
+  title="React Pakistan - React Commons Collection Header"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-header--header-story">
+</iframe>
+
 - ### HR
 ```javascript
-  import { HR } from '@react-pakistan/react-commons-collection/commons/hr';
+  import { HR } from '@react-pakistan/react-commons-collection';
 
   <HR
     lineColor="#1E90FF"
@@ -393,9 +538,17 @@ Install React Commons Collection to your project:
   />
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection HR"
+  title="React Pakistan - React Commons Collection HR"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/misc-hr--hr-story">
+</iframe>
+
 - ### Iframe
 ```javascript
-  import { Iframe } from '@react-pakistan/react-commons-collection/commons/iframe';
+  import { Iframe } from '@react-pakistan/react-commons-collection';
 
   <Iframe
     height="600px"
@@ -406,9 +559,17 @@ Install React Commons Collection to your project:
   />
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection Iframe"
+  title="React Pakistan - React Commons Collection Iframe"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-iframe--iframe-story">
+</iframe>
+
 - ### Image
 ```javascript
-  import { Image } from '@react-pakistan/react-commons-collection/commons/image';
+  import { Image } from '@react-pakistan/react-commons-collection';
 
   <Image
     alt="alt-image"
@@ -420,9 +581,17 @@ Install React Commons Collection to your project:
   />
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection Image"
+  title="React Pakistan - React Commons Collection Image"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-image--image-story">
+</iframe>
+
 - ### Input
 ```javascript
-  import { Input } from '@react-pakistan/react-commons-collection/commons/input';
+  import { Input } from '@react-pakistan/react-commons-collection';
 
   <Input
     backgroundColor="#FFFFFF"
@@ -436,14 +605,22 @@ Install React Commons Collection to your project:
 
 - ### Li
 ```javascript
-  import { Li } from '@react-pakistan/react-commons-collection/commons/li';
+  import { Li } from '@react-pakistan/react-commons-collection';
 
   <Li>Value</Li>
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection Image"
+  title="React Pakistan - React Commons Collection Image"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/misc-li--li-story">
+</iframe>
+
 - ### ProgressBar
 ```javascript
-  import { ProgressBar } from '@react-pakistan/react-commons-collection/commons/progress-bar';
+  import { ProgressBar } from '@react-pakistan/react-commons-collection';
 
   <ProgressBar
     backgroundColorBar="#F62F5E"
@@ -457,16 +634,24 @@ Install React Commons Collection to your project:
   />
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection ProgressBar"
+  title="React Pakistan - React Commons Collection ProgressBar"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-progressbar--progress-bar-story">
+</iframe>
+
 - ### RadioButton
 ```javascript
-  import { RadioButton } from '@react-pakistan/react-commons-collection/commons/radio-button';
+  import { RadioButton } from '@react-pakistan/react-commons-collection';
 
   <RadioButton checked />
 ```
 
 - ### RowContainer
 ```javascript
-  import { RowContainer } from '@react-pakistan/react-commons-collection/commons/row-container';
+  import { RowContainer } from '@react-pakistan/react-commons-collection';
 
   <RowContainer
     alignItems="center"
@@ -476,9 +661,17 @@ Install React Commons Collection to your project:
   </RowContainer>
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection RowContainer"
+  title="React Pakistan - React Commons Collection RowContainer"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-rowcontainer--row-container-story">
+</iframe>
+
 - ### Select
 ```javascript
-  import { Select } from '@react-pakistan/react-commons-collection/commons/select';
+  import { Select } from '@react-pakistan/react-commons-collectiont';
 
   <Select
     form="form_id"
@@ -511,7 +704,7 @@ Install React Commons Collection to your project:
 
 - ### Spacer
 ```javascript
-  import { Spacer } from '@react-pakistan/react-commons-collection/commons/spacer';
+  import { Spacer } from '@react-pakistan/react-commons-collection';
 
   <Spacer
     margin="1em 1em 1em 1em"
@@ -519,9 +712,17 @@ Install React Commons Collection to your project:
   />
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection Spacer"
+  title="React Pakistan - React Commons Collection Spacer"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-spacer--spacer-story">
+</iframe>
+
 - ### SocialShare
 ```javascript
-  import { Spacer } from '@react-pakistan/react-commons-collection/commons/social-share';
+  import { Spacer } from '@react-pakistan/react-commons-collection';
 
   <SocialShare
     socialIcons={[
@@ -673,9 +874,17 @@ Install React Commons Collection to your project:
   />
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection SocialShare"
+  title="React Pakistan - React Commons Collection SocialShare"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/misc-socialshare--social-share-story">
+</iframe>
+
 - ### Table
 ```javascript
-  import { Table } from '@react-pakistan/react-commons-collection/commons/table';
+  import { Table } from '@react-pakistan/react-commons-collection';
 
   <Table>
     <Thead>
@@ -713,7 +922,7 @@ Install React Commons Collection to your project:
 
 - ### TextArea
 ```javascript
-   import { TextArea } from '@react-pakistan/react-commons-collection/commons/text-area';
+   import { TextArea } from '@react-pakistan/react-commons-collection';
 
   <TextArea
     backgroundColor="#FFFFFF"
@@ -731,9 +940,17 @@ Install React Commons Collection to your project:
   />
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection TextArea"
+  title="React Pakistan - React Commons Collection TextArea"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/input-textarea--text-area-story">
+</iframe>
+
 - ### Text
 ```javascript
-  import { Text } from '@react-pakistan/react-commons-collection/commons/text';
+  import { Text } from '@react-pakistan/react-commons-collection';
 
   <Text
     color="#2E2E2E"
@@ -752,16 +969,24 @@ Install React Commons Collection to your project:
 
 - ### Ul
 ```javascript
-  import { Ul } from '@react-pakistan/react-commons-collection/commons/ul';
+  import { Ul } from '@react-pakistan/react-commons-collection';
 
   <Ul>
     <Li>Value</Li>
   <Ul>
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection Ul"
+  title="React Pakistan - React Commons Collection Ul"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/misc-ul--ul-story">
+</iframe>
+
 - ### Video
 ```javascript
-  import { Video } from '@react-pakistan/react-commons-collection/commons/video';
+  import { Video } from '@react-pakistan/react-commons-collection';
 
   <Video
     autoplay
@@ -773,11 +998,27 @@ Install React Commons Collection to your project:
   />
 ```
 
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection Video"
+  title="React Pakistan - React Commons Collection Video"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-video--video-story">
+</iframe>
+
 - ### Wrapper
 ```javascript
-  import { Wrapper } from '@react-pakistan/react-commons-collection/commons/wrapper';
+  import { Wrapper } from '@react-pakistan/react-commons-collection';
 
   <Wrapper width="90%">
     Wrapper Component
   </Wrapper>
 ```
+
+<iframe
+  height="500"
+  id="React Pakistan - React Commons Collection Wrapper"
+  title="React Pakistan - React Commons Collection Wrapper"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-wrapper--wrapper-story">
+</iframe>
