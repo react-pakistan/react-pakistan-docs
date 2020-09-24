@@ -159,14 +159,30 @@ We aim to achieve 100% coverage and we shall...
 
   <Button
     autoFocus
+    border="1px solid #3C3C3C"
+    borderRadius="0.5em"
+    backgroundColor="#FFFFFF"
+    desktop=""
+    disabled={false}
     form=""
-    formEncType="text/plain"
-    formMethod="get"
-    formTarget="_self"
     formaction=""
+    formenctype="text/plain"
+    formmethod="get"
+    formnovalidate={false}
+    formTarget="_self"
+    height="auto"
+    laptop=""
+    laptopL=""
+    mobileL=""
+    mobileM=""
+    mobileS=""
     name=""
+    onClick={() => null}
+    padding="1em"
+    tablet=""
     type="button"
     value=""
+    width="aito"
   >
     Hello World
   </Button>
