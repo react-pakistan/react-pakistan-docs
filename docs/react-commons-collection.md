@@ -62,12 +62,19 @@ We aim to achieve 100% coverage and we shall...
 
   <A
     color="#000000"
+    desktop=""
     download=""
     href="https://google.com"
     hreflang=""
+    laptop=""
+    laptopL=""
     media=""
+    mobileL=""
+    mobileM=""
+    mobileS=""
     referrerpolicy=""
     rel=""
+    tablet=""
     target="_blank"
     type=""
   >
