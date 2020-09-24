@@ -62,12 +62,19 @@ We aim to achieve 100% coverage and we shall...
 
   <A
     color="#000000"
+    desktop=""
     download=""
     href="https://google.com"
     hreflang=""
+    laptop=""
+    laptopL=""
     media=""
+    mobileL=""
+    mobileM=""
+    mobileS=""
     referrerpolicy=""
     rel=""
+    tablet=""
     target="_blank"
     type=""
   >
@@ -92,9 +99,16 @@ We aim to achieve 100% coverage and we shall...
     controlPanelColor="#F7F7F7"
     controls
     currentTimeColor="#00D3CA"
+    desktop=""
+    laptop=""
+    laptopL=""
+    mobileL=""
+    mobileM=""
+    mobileS=""
     preload="auto"
     remainingTimeColor="#F62F5E"
     src="https://notificationsounds.com/sound-effects/insight-578/download/mp3"
+    tablet=""
   />
 ```
 
@@ -111,6 +125,7 @@ We aim to achieve 100% coverage and we shall...
   import { BackgroundImage } from '@react-pakistan/react-commons-collection';
 
   <BackgroundImage
+    desktop=""
     imageBackgroundColor="#6C6C6C"
     imageBackgroundHeight="400px"
     imageBackgroundMargin="0"
@@ -121,6 +136,12 @@ We aim to achieve 100% coverage and we shall...
     imageBackgroundUrl="https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png"
     imageBackgroundWidth="600px"
     imageBorderRadius="0"
+    laptop=""
+    laptopL=""
+    mobileL=""
+    mobileM=""
+    mobileS=""
+    tablet=""
   />
 ```
 
@@ -138,14 +159,30 @@ We aim to achieve 100% coverage and we shall...
 
   <Button
     autoFocus
+    border="1px solid #3C3C3C"
+    borderRadius="0.5em"
+    backgroundColor="#FFFFFF"
+    desktop=""
+    disabled={false}
     form=""
-    formEncType="text/plain"
-    formMethod="get"
-    formTarget="_self"
     formaction=""
+    formenctype="text/plain"
+    formmethod="get"
+    formnovalidate={false}
+    formTarget="_self"
+    height="auto"
+    laptop=""
+    laptopL=""
+    mobileL=""
+    mobileM=""
+    mobileS=""
     name=""
+    onClick={() => null}
+    padding="1em"
+    tablet=""
     type="button"
     value=""
+    width="aito"
   >
     Hello World
   </Button>
@@ -165,8 +202,15 @@ We aim to achieve 100% coverage and we shall...
 
   <Canvas
     border="1px solid #000000"
+    desktop=""
     height="400px"
+    laptop=""
+    laptopL=""
+    mobileL=""
+    mobileM=""
+    mobileS=""
     id="canvasId"
+    tablet=""
     width="600px"
   />
 ```
