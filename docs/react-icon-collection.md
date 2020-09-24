@@ -20,7 +20,7 @@ React Pakistan is a Free & OpenSource Software (FOSS) platform, creating React s
 - [React Icon Storybook Playground](https://taimoormk.github.io/react-icon-collection/?path=/docs/react-pakistan-intro--page/)
 - [React Icon NPM Module](https://www.npmjs.com/package/@react-pakistan/react-icon-collection)
 
-A generic, Icons library for React web apps & React Native apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
+A generic, SVG Icon library for React web apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
 
 ## Install
 
