@@ -13,7 +13,7 @@ React Pakistan is a Free & OpenSource Software (FOSS) platform, creating React s
 ## React Emoji Collection
 
 <div>
-  <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499957/GitHub/react-logo-collection.jpg" width="70%"/>
+  <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1592815676/GitHub/react-emoji-collection.jpg" width="70%"/>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-" width="20%" />
 </div>
 
