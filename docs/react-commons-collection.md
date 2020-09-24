@@ -8,7 +8,7 @@ sidebar_label: React Commons Collection
 
 <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1565548545/GitHub/React_Pakistan_Storybook_Logo.jpg" width="100%" />
 
-React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React software solutions for the global community.
+React Pakistan is a Free & OpenSource Software (FOSS) platform, creating React software solutions for the global community.
 
 ## React Commons Collection
 
@@ -44,6 +44,15 @@ Styled Components are employed to maintain and update theme for this project. Pl
     <App />
   </ThemeProvider>
 ```
+
+## Tested
+
+We aim to achieve 100% coverage and we shall...
+
+![React Commons Collection Badge Branches](https://res.cloudinary.com/dq6hflqwx/image/upload/v1597117511/GitHub/badges/react-commons-collection/badge-branches.svg)
+![React Commons Collection Badge Functions](https://res.cloudinary.com/dq6hflqwx/image/upload/v1597117511/GitHub/badges/react-commons-collection/badge-functions.svg)
+![React Commons Collection Badge Lines](https://res.cloudinary.com/dq6hflqwx/image/upload/v1597117511/GitHub/badges/react-commons-collection/badge-lines.svg)
+![React Commons Collection Badge Statements](https://res.cloudinary.com/dq6hflqwx/image/upload/v1597117511/GitHub/badges/react-commons-collection/badge-statements.svg)
 
 ## Use
 
