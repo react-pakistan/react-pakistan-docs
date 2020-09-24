@@ -59,8 +59,8 @@ Styled Components are employed to maintain and update theme for this project. Pl
 
 <iframe
   height="500"
-  id="React Pakistan - React Commons Collection Wrapper"
-  title="React Pakistan - React Commons Collection Wrapper"
+  id="React Pakistan - React Icon Collection Wrapper"
+  title="React Pakistan - React Icon Collection Wrapper"
   width="100%"
   src="https://taimoormk.github.io/react-icon-collection/?path=/story/icon-fourthofjulygrey--fourthofjuly-grey">
 </iframe>
