@@ -11,7 +11,8 @@
     "write-translations": "docusaurus-write-translations"
   },
   "devDependencies": {
-    "docusaurus": "^1.14.6"
+    "docusaurus": "^1.14.6",
+    "husky": "^4.3.0"
   },
   "dependencies": {
     "dotenv": "^8.2.0"
