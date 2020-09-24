@@ -99,9 +99,16 @@ We aim to achieve 100% coverage and we shall...
     controlPanelColor="#F7F7F7"
     controls
     currentTimeColor="#00D3CA"
+    desktop=""
+    laptop=""
+    laptopL=""
+    mobileL=""
+    mobileM=""
+    mobileS=""
     preload="auto"
     remainingTimeColor="#F62F5E"
     src="https://notificationsounds.com/sound-effects/insight-578/download/mp3"
+    tablet=""
   />
 ```
 
