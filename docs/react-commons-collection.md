@@ -125,6 +125,7 @@ We aim to achieve 100% coverage and we shall...
   import { BackgroundImage } from '@react-pakistan/react-commons-collection';
 
   <BackgroundImage
+    desktop=""
     imageBackgroundColor="#6C6C6C"
     imageBackgroundHeight="400px"
     imageBackgroundMargin="0"
@@ -135,6 +136,12 @@ We aim to achieve 100% coverage and we shall...
     imageBackgroundUrl="https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png"
     imageBackgroundWidth="600px"
     imageBorderRadius="0"
+    laptop=""
+    laptopL=""
+    mobileL=""
+    mobileM=""
+    mobileS=""
+    tablet=""
   />
 ```
 
