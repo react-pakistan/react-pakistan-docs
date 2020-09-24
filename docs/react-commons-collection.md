@@ -202,8 +202,15 @@ We aim to achieve 100% coverage and we shall...
 
   <Canvas
     border="1px solid #000000"
+    desktop=""
     height="400px"
+    laptop=""
+    laptopL=""
+    mobileL=""
+    mobileM=""
+    mobileS=""
     id="canvasId"
+    tablet=""
     width="600px"
   />
 ```
