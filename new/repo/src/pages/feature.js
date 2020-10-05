@@ -4,7 +4,8 @@ import clsx from 'clsx';
 import { string } from 'prop-types'
 import React from 'react';
 import styles from './styles.module.css';
-import { FeatureItemWrapper } from './styled';
+import { FeatureItemWrapper, ButtonWrapper } from './styled';
+import Link from '@docusaurus/Link';
 
 export const Feature = ({
   description,
@@ -15,7 +16,7 @@ export const Feature = ({
   const imgUrl = useBaseUrl(imageUrl);
 
   return (
-    <FeatureItemWrapper className={clsx('col col--6', styles.feature)}>
+    <FeatureItemWrapper className={clsx('col col--5', styles.feature)}>
       {imgUrl && (
         <div className='text--center'>
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -34,6 +35,18 @@ export const Feature = ({
       >
         {description}
       </Text>
+      <Spacer margin='1.5rem 0' />
+      <ButtonWrapper className={styles.buttons}>
+        <Link
+          className={clsx(
+            'button button--outline button--secondary button--lg',
+            styles.getStarted,
+          )}
+          to={useBaseUrl(route)}
+        >
+          Read Docs
+        </Link>
+      </ButtonWrapper>
     </FeatureItemWrapper>
   );
 };
