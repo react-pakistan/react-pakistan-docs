@@ -4,10 +4,9 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import { H3, Text } from '@react-pakistan/react-commons-collection';
 import { theme } from '@react-pakistan/util-functions';
 import { ThemeProvider } from 'styled-components';
-import styles from './styles.module.css';
+import { Feature } from './feature';
 import { features } from './helpers';
 import {
   ReactPakistanLogo,
@@ -17,25 +16,12 @@ import {
   HeaderSubtitle,
   Main,
 } from './styled';
+import styles from './styles.module.css';
 
-function Feature({imageUrl, title, description}) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={clsx('col col--6', styles.feature)}>
-      {imgUrl && (
-        <div className='text--center'>
-          <img className={styles.featureImage} src={imgUrl} alt={title}  />
-        </div>
-      )}
-      <H3>{title}</H3>
-      <Text>{description}</Text>
-    </div>
-  );
-}
-
-function Home() {
+const Home = () => {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
+
   return (
     <ThemeProvider theme={theme}>
       <Layout
