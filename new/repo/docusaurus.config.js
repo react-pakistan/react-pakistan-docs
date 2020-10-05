@@ -16,7 +16,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/react-commons-collection',
+          to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',

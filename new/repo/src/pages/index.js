@@ -11,8 +11,11 @@ import styles from './styles.module.css';
 import { features } from './helpers';
 import {
   ReactPakistanLogo,
+  Container,
+  Header,
   HeaderTitle,
   HeaderSubtitle,
+  Main,
 } from './styled';
 
 function Feature({imageUrl, title, description}) {
@@ -38,8 +41,8 @@ function Home() {
       <Layout
         title={`Hello from ${siteConfig.title}`}
         description='Description will go into a meta tag in <head />'>
-        <header className={clsx('hero hero--primary', styles.heroBanner)}>
-          <div className='container'>
+        <Header className={clsx('hero hero--primary', styles.heroBanner)}>
+          <Container className='container'>
             <ReactPakistanLogo src='../static/img/react-pakistan-logo-white.svg' />
             <HeaderTitle className='hero__title'>{siteConfig.title}</HeaderTitle>
             <HeaderSubtitle className='hero__subtitle'>{siteConfig.tagline}</HeaderSubtitle>
@@ -49,26 +52,26 @@ function Home() {
                   'button button--outline button--secondary button--lg',
                   styles.getStarted,
                 )}
-                  to={useBaseUrl('docs/')}
-                >
+                to={useBaseUrl('docs/')}
+              >
                 Read Docs
               </Link>
             </div>
-          </div>
-        </header>
-        <main>
+          </Container>
+        </Header>
+        <Main>
           {features && features.length > 0 && (
             <section className={styles.features}>
               <div className='container'>
                 <div className='row'>
                   {features.map((props, idx) => (
                     <Feature key={idx} {...props} />
-                    ))}
+                  ))}
                 </div>
               </div>
             </section>
           )}
-        </main>
+        </Main>
       </Layout>
     </ThemeProvider>
   );
