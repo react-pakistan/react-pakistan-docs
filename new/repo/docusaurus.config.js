@@ -44,8 +44,20 @@ module.exports = {
               to: 'docs/react-commons-collection',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'React UI Collection',
+              to: 'docs/react-ui-collection',
+            },
+            {
+              label: 'React Icon Collection',
+              to: 'docs/react-icon-collection',
+            },
+            {
+              label: 'React Logo Collection',
+              to: 'docs/react-logo-collection',
+            },
+            {
+              label: 'React Emoji Collection',
+              to: 'docs/react-emoji-collection',
             },
           ],
         },
