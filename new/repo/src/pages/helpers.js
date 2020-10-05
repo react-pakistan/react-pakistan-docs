@@ -33,8 +33,7 @@ export const features = [
     imageUrl: 'img/react-logo.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <code>React Logo Collection</code> library is a categorised sets of Reactified versions of SVG logo components, designed to be friendly for developers, you can customise logos on the fly, e.g its colors, size etc.
       </>
     ),
   },
@@ -43,8 +42,7 @@ export const features = [
     imageUrl: 'img/react-emoji.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <code>React Emoji Collection</code> library is a categorised sets of Reactified versions of SVG logo components, designed to be friendly for developers, you can customise emojis on the fly, e.g its size etc.
       </>
     ),
   },
@@ -53,8 +51,7 @@ export const features = [
     imageUrl: 'img/react-native-commons.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <code>React Native Commons Collection</code> library is the most generic form of components, these components can be extended into anything specific as per your design specs.
       </>
     ),
   },
@@ -63,8 +60,7 @@ export const features = [
     imageUrl: 'img/react-native-ui.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <code>React Native UI Collection</code> library is extended on React Native Commons collection library, creating semi-dynamic UI/UX implementation of various interfaces.
       </>
     ),
   },
