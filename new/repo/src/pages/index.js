@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'React Commons Collection',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/react-commons.svg',
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -19,7 +19,7 @@ const features = [
   },
   {
     title: 'React UI Collection',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/react-ui.svg',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -29,7 +29,7 @@ const features = [
   },
   {
     title: 'React Icon Collection',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/react-icon.svg',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -39,7 +39,7 @@ const features = [
   },
   {
     title: 'React Logo Collection',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/react-logo.svg',
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -49,7 +49,7 @@ const features = [
   },
   {
     title: 'React Emoji Collection',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/react-emoji.svg',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -59,7 +59,7 @@ const features = [
   },
   {
     title: 'React Native Commons Collection',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/react-native-commons.svg',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -69,7 +69,7 @@ const features = [
   },
   {
     title: 'React Native UI Collection',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/react-native-ui.svg',
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -79,7 +79,7 @@ const features = [
   },
   {
     title: 'React Native Icon Collection',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/react-native-icon.svg',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -89,7 +89,7 @@ const features = [
   },
   {
     title: 'React Native Logo Collection',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/react-native-logo.svg',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -99,7 +99,7 @@ const features = [
   },
   {
     title: 'React Native Emoji Collection',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/react-native-emoji.svg',
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -109,7 +109,7 @@ const features = [
   },
   {
     title: 'React Native Boilerplates',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/react-native-boilerplates.svg',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -118,8 +118,8 @@ const features = [
     ),
   },
   {
-    title: 'React Native Logo Collection',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'React Design Collection',
+    imageUrl: 'img/react-design.svg',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
