@@ -15,8 +15,7 @@ export const features = [
     imageUrl: 'img/react-ui.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <code>React UI Collection</code> library is extended on React Commons collection library, creating semi-dynamic UI/UX implementation of various interfaces e.g. eCommerce app and more.
       </>
     ),
   },
@@ -25,8 +24,7 @@ export const features = [
     imageUrl: 'img/react-icon.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <code>React Icon Collection</code> library is a categorised sets of Reactified versions of SVG icon components, designed to be friendly for developers, you can customise icons on the fly, e.g its colors, size etc.
       </>
     ),
   },
