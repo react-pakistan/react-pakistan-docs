@@ -9,12 +9,12 @@ import { ThemeProvider } from 'styled-components';
 import { Feature } from './feature';
 import { features } from './helpers';
 import {
-  ReactPakistanLogo,
   Container,
   Header,
-  HeaderTitle,
   HeaderSubtitle,
+  HeaderTitle,
   Main,
+  ReactPakistanLogo,
 } from './styled';
 import styles from './styles.module.css';
 

@@ -18,8 +18,18 @@ export const Feature = ({
           <img className={styles.featureImage} src={imgUrl} alt={title}  />
         </div>
       )}
-      <H3 color='#FFF' textAlign='center'>{title}</H3>
-      <Text color='#FFF' textAlign='center'>{description}</Text>
+      <H3
+        color='#006600'
+        textAlign='center'
+      >
+        {title}
+      </H3>
+      <Text
+        color='#006600'
+        textAlign='center'
+      >
+        {description}
+      </Text>
     </div>
   );
 };
