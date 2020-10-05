@@ -9,7 +9,11 @@ import { ThemeProvider } from 'styled-components';
 import { Feature } from './feature';
 import { features } from './helpers';
 import {
+  ButtonWrapper,
   Container,
+  FeatureRow,
+  FeatureSection,
+  FeatureWrapper,
   Header,
   HeaderSubtitle,
   HeaderTitle,
@@ -32,7 +36,7 @@ const Home = () => {
             <ReactPakistanLogo src='../static/img/react-pakistan-logo-white.svg' />
             <HeaderTitle className='hero__title'>{siteConfig.title}</HeaderTitle>
             <HeaderSubtitle className='hero__subtitle'>{siteConfig.tagline}</HeaderSubtitle>
-            <div className={styles.buttons}>
+            <ButtonWrapper className={styles.buttons}>
               <Link
                 className={clsx(
                   'button button--outline button--secondary button--lg',
@@ -42,25 +46,25 @@ const Home = () => {
               >
                 Read Docs
               </Link>
-            </div>
+            </ButtonWrapper>
           </Container>
         </Header>
         <Main>
           {features && features.length > 0 && (
-            <section className={styles.features}>
-              <div className='container'>
-                <div className='row'>
+            <FeatureSection className={styles.features}>
+              <FeatureWrapper className='container'>
+                <FeatureRow className='row'>
                   {features.map((props, idx) => (
                     <Feature key={idx} {...props} />
                   ))}
-                </div>
-              </div>
-            </section>
+                </FeatureRow>
+              </FeatureWrapper>
+            </FeatureSection>
           )}
         </Main>
       </Layout>
     </ThemeProvider>
   );
-}
+};
 
 export default Home;
