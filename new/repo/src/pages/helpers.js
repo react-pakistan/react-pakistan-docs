@@ -69,8 +69,7 @@ export const features = [
     imageUrl: 'img/react-native-icon.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <code>React Native Icon Collection</code> library is a categorised sets of Reactified versions of SVG icon components, designed to be friendly for developers, you can customise icons on the fly, e.g its colors, size etc.
       </>
     ),
   },
@@ -79,8 +78,7 @@ export const features = [
     imageUrl: 'img/react-native-logo.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <code>React Native Logo Collection</code> library is a categorised sets of Reactified versions of SVG logo components, designed to be friendly for developers, you can customise logos on the fly, e.g its colors, size etc.
       </>
     ),
   },
@@ -89,18 +87,16 @@ export const features = [
     imageUrl: 'img/react-native-emoji.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <code>React Native Emoji Collection</code> library is a categorised sets of Reactified versions of SVG logo components, designed to be friendly for developers, you can customise emojis on the fly, e.g its size etc.
       </>
     ),
   },
   {
-    title: 'React Native Boilerplates',
+    title: 'React Native Boilerplate',
     imageUrl: 'img/react-native-boilerplates.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        A well curated and high in-demand set of <code>React Native boilerplate</code> with various possibilities and combinations.
       </>
     ),
   },
@@ -109,8 +105,7 @@ export const features = [
     imageUrl: 'img/react-design.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        This project is still under development for its initial launch phase.
       </>
     ),
   },
