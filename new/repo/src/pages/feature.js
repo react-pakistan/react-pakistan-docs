@@ -1,5 +1,5 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import { H3, Text } from '@react-pakistan/react-commons-collection';
+import { H3, Spacer, Text } from '@react-pakistan/react-commons-collection';
 import clsx from 'clsx';
 import { string } from 'prop-types'
 import React from 'react';
@@ -24,6 +24,7 @@ export const Feature = ({
       >
         {title}
       </H3>
+      <Spacer margin='1.5rem 0' />
       <Text
         color='#006600'
         textAlign='center'
