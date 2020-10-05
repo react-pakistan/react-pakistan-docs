@@ -65,16 +65,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Slack',
+              href: 'https://reactpakistan.slack.com/',
             },
             {
               label: 'Twitter',
               href: 'https://twitter.com/ReactJSPakistan',
+            },
+            {
+              label: 'Email',
+              href: 'mailto:react.pakistan14@gmail.com',
             },
           ],
         },
