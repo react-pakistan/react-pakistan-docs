@@ -6,8 +6,7 @@ export const features = [
     imageUrl: 'img/react-commons.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <code>React Commons Collection</code> library is the most generic form of components, these components can be extended into anything specific as per your design specs.
       </>
     ),
   },
