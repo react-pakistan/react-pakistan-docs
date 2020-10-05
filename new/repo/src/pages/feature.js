@@ -4,18 +4,21 @@ import clsx from 'clsx';
 import { string } from 'prop-types'
 import React from 'react';
 import styles from './styles.module.css';
+import { FeatureItemWrapper } from './styled';
 
 export const Feature = ({
   description,
   imageUrl,
+  route,
   title,
 }) => {
   const imgUrl = useBaseUrl(imageUrl);
+
   return (
-    <div className={clsx('col col--6', styles.feature)}>
+    <FeatureItemWrapper className={clsx('col col--6', styles.feature)}>
       {imgUrl && (
         <div className='text--center'>
-          <img className={styles.featureImage} src={imgUrl} alt={title}  />
+          <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
       <H3
@@ -31,12 +34,13 @@ export const Feature = ({
       >
         {description}
       </Text>
-    </div>
+    </FeatureItemWrapper>
   );
 };
 
 Feature.propTypes = {
   description: string.isRequired,
   imageUrl: string.isRequired,
+  route: string.isRequired,
   title: string.isRequired,
 };

@@ -21,3 +21,5 @@ export const FeatureSection = styled.section``;
 export const FeatureWrapper = styled.div``;
 
 export const FeatureRow = styled.div``;
+
+export const FeatureItemWrapper = styled.div``;
