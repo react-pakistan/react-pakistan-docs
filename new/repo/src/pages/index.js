@@ -30,7 +30,8 @@ const Home = () => {
     <ThemeProvider theme={theme}>
       <Layout
         title={`Hello from ${siteConfig.title}`}
-        description='Description will go into a meta tag in <head />'>
+        description='Description will go into a meta tag in <head />'
+      >
         <Header className={clsx('hero hero--primary', styles.heroBanner)}>
           <Container className='container'>
             <ReactPakistanLogo src='../static/img/react-pakistan-logo-white.svg' />
