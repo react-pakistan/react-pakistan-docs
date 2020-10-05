@@ -7,6 +7,9 @@
 
 require('dotenv').config();
 const React = require('react');
+const Commons = require('@react-pakistan/react-commons-collection/a');
+const Util = require('@react-pakistan/util-functions');
+const Styled = require('styled-components');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 
@@ -23,37 +26,37 @@ class HomeSplash extends React.Component {
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
 
     const SplashContainer = props => (
-      <div className="homeContainer">
-        <div className="homeSplashFade">
-          <div className="wrapper homeWrapper">{props.children}</div>
+      <div className='homeContainer'>
+        <div className='homeSplashFade'>
+          <div className='wrapper homeWrapper'>{props.children}</div>
         </div>
       </div>
     );
 
     const Logo = props => (
-      <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
+      <div className='projectLogo'>
+        <img src={props.img_src} alt='Project Logo' />
       </div>
     );
 
     const ProjectTitle = () => (
-      <h2 className="projectTitle">
+      <h2 className='projectTitle'>
         {siteConfig.title}
         <small>{siteConfig.tagline}</small>
       </h2>
     );
 
     const PromoSection = props => (
-      <div className="section promoSection">
-        <div className="promoRow">
-          <div className="pluginRowBlock">{props.children}</div>
+      <div className='section promoSection'>
+        <div className='promoRow'>
+          <div className='pluginRowBlock'>{props.children}</div>
         </div>
       </div>
     );
 
     const Button = props => (
-      <div className="pluginWrapper buttonWrapper">
-        <a className="button" href={props.href} target={props.target}>
+      <div className='pluginWrapper buttonWrapper'>
+        <a className='button' href={props.href} target={props.target}>
           {props.children}
         </a>
       </div>
@@ -62,10 +65,10 @@ class HomeSplash extends React.Component {
     return (
       <SplashContainer>
         <Logo img_src={`${baseUrl}img/react-pakistan.svg`} />
-        <div className="inner">
+        <div className='inner'>
           <ProjectTitle siteConfig={siteConfig} />
           {/* <PromoSection> */}
-            {/* <Button href="#try">Try It Out</Button> */}
+            {/* <Button href='#try'>Try It Out</Button> */}
             {/* <Button href={docUrl('doc1.html')}>Example Link</Button> */}
             {/* <Button href={docUrl('doc2.html')}>Example Link 2</Button> */}
           {/* </PromoSection> */}
@@ -81,21 +84,23 @@ class Index extends React.Component {
     const {baseUrl} = siteConfig;
 
     const Block = props => (
-      <Container
-        padding={['bottom', 'top']}
-        id={props.id}
-        background={props.background}>
-        <GridBlock
-          align="center"
-          contents={props.children}
-          layout={props.layout}
-        />
-      </Container>
+      <a href='google.com'>
+        <Container
+          padding={['bottom', 'top']}
+          id={props.id}
+          background={props.background}>
+          <GridBlock
+            align='center'
+            contents={props.children}
+            layout={props.layout}
+          />
+        </Container>
+      </a>
     );
 
     // const FeatureCallout = () => (
     //   <div
-    //     className="productShowcaseSection paddingBottom"
+    //     className='productShowcaseSection paddingBottom'
     //     style={{textAlign: 'center'}}>
     //     <h2>Feature Callout</h2>
     //     <MarkdownBlock>These are features of this project</MarkdownBlock>
@@ -103,7 +108,7 @@ class Index extends React.Component {
     // );
 
     const ReactCommons = () => (
-      <Block background="light">
+      <Block background='light'>
         {[
           {
             content:
@@ -117,7 +122,7 @@ class Index extends React.Component {
     );
 
     const ReactNativeCommons = () => (
-      <Block background="dark">
+      <Block background='dark'>
         {[
           {
             content:
@@ -131,7 +136,7 @@ class Index extends React.Component {
     );
 
     const ReactUI = () => (
-      <Block background="light">
+      <Block background='light'>
         {[
           {
             content:
@@ -145,7 +150,7 @@ class Index extends React.Component {
     );
 
     const ReactNativeUI = () => (
-      <Block background="dark">
+      <Block background='dark'>
         {[
           {
             content:
@@ -159,7 +164,7 @@ class Index extends React.Component {
     );
 
     const ReactIcon = () => (
-      <Block background="light">
+      <Block background='light'>
         {[
           {
             content:
@@ -173,7 +178,7 @@ class Index extends React.Component {
     );
 
     const ReactNativeIcon = () => (
-      <Block background="dark">
+      <Block background='dark'>
         {[
           {
             content:
@@ -187,7 +192,7 @@ class Index extends React.Component {
     );
 
     const ReactLogo = () => (
-      <Block background="light">
+      <Block background='light'>
         {[
           {
             content:
@@ -201,7 +206,7 @@ class Index extends React.Component {
     );
 
     const ReactNativeLogo = () => (
-      <Block background="dark">
+      <Block background='dark'>
         {[
           {
             content:
@@ -215,7 +220,7 @@ class Index extends React.Component {
     );
 
     const ReactEmoji = () => (
-      <Block background="light">
+      <Block background='light'>
         {[
           {
             content:
@@ -229,7 +234,7 @@ class Index extends React.Component {
     );
 
     const ReactNativeEmoji = () => (
-      <Block background="dark">
+      <Block background='dark'>
         {[
           {
             content:
@@ -257,7 +262,7 @@ class Index extends React.Component {
     );
 
     const ReactNativeBoilerplate = () => (
-      <Block background="dark">
+      <Block background='dark'>
         {[
           {
             content:
@@ -271,7 +276,7 @@ class Index extends React.Component {
     );
 
     const Features = () => (
-      <Block layout="threeColumn">
+      <Block layout='threeColumn'>
         {[
           {
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1566355017/GitHub/react-commons-collection.jpg',
@@ -353,12 +358,12 @@ class Index extends React.Component {
       const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
 
       return (
-        <div className="productShowcaseSection paddingBottom">
+        <div className='productShowcaseSection paddingBottom'>
           <h2>Who is Using This?</h2>
           <p>This project is used by these folks</p>
-          <div className="logos">{showcase}</div>
-          <div className="more-users">
-            <a className="button" href={pageUrl('users.html')}>
+          <div className='logos'>{showcase}</div>
+          <div className='more-users'>
+            <a className='button' href={pageUrl('users.html')}>
               More {siteConfig.title} Users
             </a>
           </div>
@@ -367,26 +372,32 @@ class Index extends React.Component {
     };
 
     return (
-      <div>
-        <HomeSplash siteConfig={siteConfig} language={language} />
-        <div className="mainContainer">
-          <Features />
-          {/* <FeatureCallout /> */}
-          <ReactCommons />
-          <ReactNativeCommons />
-          <ReactUI />
-          <ReactNativeUI />
-          <ReactIcon />
-          <ReactNativeIcon />
-          <ReactLogo />
-          <ReactNativeLogo />
-          <ReactEmoji />
-          <ReactNativeEmoji />
-          <ReactDesign />
-          <ReactNativeBoilerplate />
-          <Showcase />
+      <Styled.ThemeProvider theme={Util.theme}>
+        <div>
+          <HomeSplash siteConfig={siteConfig} language={language} />
+          <div className='mainContainer'>
+            <Features />
+            {/* <FeatureCallout /> */}
+            {/* <Commons.A href='/doc1.html' target='_self'> */}
+              <a href='/doc1.html'>
+                <ReactCommons />
+              </a>
+            {/* </Commons.A> */}
+            <ReactNativeCommons />
+            <ReactUI />
+            <ReactNativeUI />
+            <ReactIcon />
+            <ReactNativeIcon />
+            <ReactLogo />
+            <ReactNativeLogo />
+            <ReactEmoji />
+            <ReactNativeEmoji />
+            <ReactDesign />
+            <ReactNativeBoilerplate />
+            <Showcase />
+          </div>
         </div>
-      </div>
+      </Styled.ThemeProvider>
     );
   }
 }
