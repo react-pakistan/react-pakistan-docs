@@ -19,7 +19,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: yarn & build
       run: |
-        cd website
         yarn
         yarn build
       env:
