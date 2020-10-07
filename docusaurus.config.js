@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'An Open Source Platform',
   url: 'https://react-pakistan.github.io/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'error',
   favicon: 'img/favicon.ico',
   organizationName: 'react-pakistan', // Usually your GitHub org/user name.
   projectName: 'react-pakistan-docs', // Usually your repo name.
@@ -108,19 +108,24 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/react-pakistan/react-pakistan-docs/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/react-pakistan/react-pakistan-docs/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+          cacheTime: 600 * 1000, // 600 sec - cache purge period
+          changefreq: 'weekly',
+          priority: 0.5,
+          trailingSlash: false,
+        },
       },
     ],
   ],
-  plugins: ['@docusaurus/plugin-google-analytics'],
 };

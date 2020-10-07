@@ -7,7 +7,7 @@ import React from 'react';
 import styles from './styles.module.css';
 import { FeatureItemWrapper, ButtonWrapper } from './styled';
 
-export const Feature = ({
+const Feature = ({
   description,
   imageUrl,
   route,
@@ -57,3 +57,5 @@ Feature.propTypes = {
   route: string.isRequired,
   title: string.isRequired,
 };
+
+export default Feature;

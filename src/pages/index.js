@@ -6,20 +6,9 @@ import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import { ThemeProvider } from 'styled-components';
 import React from 'react';
-import { Feature } from './feature';
-import { features } from './helpers';
-import {
-  ButtonWrapper,
-  Container,
-  FeatureRow,
-  FeatureSection,
-  FeatureWrapper,
-  Header,
-  HeaderSubtitle,
-  HeaderTitle,
-  Main,
-  ReactPakistanLogo,
-} from './styled';
+import Feature from './feature';
+import features from './helpers';
+import * as Styled from './styled';
 import styles from './styles.module.css';
 
 const Home = () => {
@@ -32,12 +21,12 @@ const Home = () => {
         title={`Hello from ${siteConfig.title}`}
         description='Description will go into a meta tag in <head />'
       >
-        <Header className={clsx('hero hero--primary', styles.heroBanner)}>
-          <Container className='container'>
-            <ReactPakistanLogo src='../static/img/react-pakistan-logo-white.svg' />
-            <HeaderTitle className='hero__title'>{siteConfig.title}</HeaderTitle>
-            <HeaderSubtitle className='hero__subtitle'>{siteConfig.tagline}</HeaderSubtitle>
-            <ButtonWrapper className={styles.buttons}>
+        <Styled.Header className={clsx('hero hero--primary', styles.heroBanner)}>
+          <Styled.Container className='container'>
+            <img src='../static/img/react-pakistan-logo-white.svg' alt='React Pakistan Logo' />
+            <Styled.HeaderTitle className='hero__title'>{siteConfig.title}</Styled.HeaderTitle>
+            <Styled.HeaderSubtitle className='hero__subtitle'>{siteConfig.tagline}</Styled.HeaderSubtitle>
+            <Styled.ButtonWrapper className={styles.buttons}>
               <Link
                 className={clsx(
                   'button button--outline button--secondary button--lg',
@@ -47,9 +36,9 @@ const Home = () => {
               >
                 Read Docs
               </Link>
-            </ButtonWrapper>
-          </Container>
-        </Header>
+            </Styled.ButtonWrapper>
+          </Styled.Container>
+        </Styled.Header>
         <Main>
           {features && features.length > 0 && (
             <FeatureSection className={styles.features}>

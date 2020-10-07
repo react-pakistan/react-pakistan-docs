@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const features = [
+const features = [
   {
     title: 'React Commons Collection',
     imageUrl: 'img/react-commons.svg',
@@ -120,3 +120,5 @@ export const features = [
     ),
   },
 ];
+
+export default features;
