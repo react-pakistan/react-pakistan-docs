@@ -1,0 +1,22 @@
+{
+  "unversionedId": "react-emoji-collection",
+  "id": "react-emoji-collection",
+  "isDocsHomePage": false,
+  "title": "React Emoji Collection",
+  "description": "React Pakistan",
+  "source": "@site/docs/react-emoji-collection.md",
+  "slug": "/react-emoji-collection",
+  "permalink": "/docs/react-emoji-collection",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/react-emoji-collection.md",
+  "version": "current",
+  "sidebar_label": "React Emoji Collection",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "React Logo Contributors",
+    "permalink": "/docs/react-logo-contributors"
+  },
+  "next": {
+    "title": "React Emoji Contributors",
+    "permalink": "/docs/react-emoji-contributors"
+  }
+}

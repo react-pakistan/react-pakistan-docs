@@ -1,0 +1,24 @@
+{
+  "permalink": "/react-pakistan-docs/blog/launching-react-pakistan-docs",
+  "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/blog/blog/2020-11-16-launching-react-pakistan-docs.md",
+  "source": "@site/blog/2020-11-16-launching-react-pakistan-docs.md",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+  "date": "2020-11-16T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "react",
+      "permalink": "/react-pakistan-docs/blog/tags/react"
+    },
+    {
+      "label": "react-native",
+      "permalink": "/react-pakistan-docs/blog/tags/react-native"
+    },
+    {
+      "label": "docs",
+      "permalink": "/react-pakistan-docs/blog/tags/docs"
+    }
+  ],
+  "title": "Launching React Pakistan Docs",
+  "readingTime": 0.12,
+  "truncated": false
+}

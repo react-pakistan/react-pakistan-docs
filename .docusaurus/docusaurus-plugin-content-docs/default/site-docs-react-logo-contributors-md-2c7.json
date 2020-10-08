@@ -1,0 +1,22 @@
+{
+  "unversionedId": "react-logo-contributors",
+  "id": "react-logo-contributors",
+  "isDocsHomePage": false,
+  "title": "React Logo Contributors",
+  "description": "Contributors",
+  "source": "@site/docs/react-logo-contributors.md",
+  "slug": "/react-logo-contributors",
+  "permalink": "/docs/react-logo-contributors",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/react-logo-contributors.md",
+  "version": "current",
+  "sidebar_label": "React Logo Contributors",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "React Logo Collection",
+    "permalink": "/docs/react-logo-collection"
+  },
+  "next": {
+    "title": "React Emoji Collection",
+    "permalink": "/docs/react-emoji-collection"
+  }
+}

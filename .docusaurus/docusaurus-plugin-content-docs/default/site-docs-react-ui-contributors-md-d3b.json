@@ -1,0 +1,22 @@
+{
+  "unversionedId": "react-ui-contributors",
+  "id": "react-ui-contributors",
+  "isDocsHomePage": false,
+  "title": "React UI Contributors",
+  "description": "Contributors",
+  "source": "@site/docs/react-ui-contributors.md",
+  "slug": "/react-ui-contributors",
+  "permalink": "/docs/react-ui-contributors",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/react-ui-contributors.md",
+  "version": "current",
+  "sidebar_label": "React UI Contributors",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "React UI Collection",
+    "permalink": "/docs/react-ui-collection"
+  },
+  "next": {
+    "title": "React Icon Collection",
+    "permalink": "/docs/react-icon-collection"
+  }
+}

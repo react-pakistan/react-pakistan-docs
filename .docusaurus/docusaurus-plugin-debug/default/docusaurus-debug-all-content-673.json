@@ -1,0 +1,686 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/react-pakistan-docs/docs",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/taimoor.khan/programming/own/react-pakistan/react-pakistan-docs/sidebars.js",
+          "docsDirPath": "/Users/taimoor.khan/programming/own/react-pakistan/react-pakistan-docs/docs",
+          "mainDocId": "intro",
+          "sidebars": {
+            "someSidebar": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Intro",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "intro"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "React Commons",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-commons-collection"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-commons-contributors"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "React UI",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-ui-collection"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-ui-contributors"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "React Icon",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-icon-collection"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-icon-contributors"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "React Logo",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-logo-collection"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-logo-contributors"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "React Emoji",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-emoji-collection"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-emoji-contributors"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "React Full-Stack",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-native-boilerplate"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "React Native Commons",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-native-boilerplate"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-native-contributors"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "React Native UI",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-native-boilerplate"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-native-contributors"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "React Native Icon",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-native-boilerplate"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-native-contributors"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "React Native Logo",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-native-boilerplate"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-native-contributors"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "React Native Emoji",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-native-boilerplate"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-native-contributors"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "React Native Boilerplates",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-native-boilerplate"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-native-contributors"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "React Pakistan Docs",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-pakistan-docs-contributors"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/react-pakistan-docs/docs/": "someSidebar",
+            "/react-pakistan-docs/docs/react-commons-collection": "someSidebar",
+            "/react-pakistan-docs/docs/react-commons-contributors": "someSidebar",
+            "/react-pakistan-docs/docs/react-emoji-collection": "someSidebar",
+            "/react-pakistan-docs/docs/react-emoji-contributors": "someSidebar",
+            "/react-pakistan-docs/docs/react-icon-collection": "someSidebar",
+            "/react-pakistan-docs/docs/react-icon-contributors": "someSidebar",
+            "/react-pakistan-docs/docs/react-logo-collection": "someSidebar",
+            "/react-pakistan-docs/docs/react-logo-contributors": "someSidebar",
+            "/react-pakistan-docs/docs/react-native-boilerplate": "someSidebar",
+            "/react-pakistan-docs/docs/react-native-contributors": "someSidebar",
+            "/react-pakistan-docs/docs/react-pakistan-docs-contributors": "someSidebar",
+            "/react-pakistan-docs/docs/react-ui-collection": "someSidebar",
+            "/react-pakistan-docs/docs/react-ui-contributors": "someSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "doc1",
+              "id": "doc1",
+              "isDocsHomePage": false,
+              "title": "Style Guide",
+              "description": "You can write content using GitHub-flavored Markdown syntax.",
+              "source": "@site/docs/doc1.md",
+              "slug": "/doc1",
+              "permalink": "/react-pakistan-docs/docs/doc1",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/doc1.md",
+              "version": "current",
+              "sidebar_label": "Style Guide"
+            },
+            {
+              "unversionedId": "doc2",
+              "id": "doc2",
+              "isDocsHomePage": false,
+              "title": "Document Number 2",
+              "description": "This is a link to another document. This is a link to an external page.",
+              "source": "@site/docs/doc2.md",
+              "slug": "/doc2",
+              "permalink": "/react-pakistan-docs/docs/doc2",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/doc2.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "doc3",
+              "id": "doc3",
+              "isDocsHomePage": false,
+              "title": "This is Document Number 3",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "source": "@site/docs/doc3.md",
+              "slug": "/doc3",
+              "permalink": "/react-pakistan-docs/docs/doc3",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/doc3.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "isDocsHomePage": false,
+              "title": "Intro",
+              "description": "Intro goes here",
+              "source": "@site/docs/intro.mdx",
+              "slug": "/",
+              "permalink": "/react-pakistan-docs/docs/",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/intro.mdx",
+              "version": "current",
+              "sidebar_label": "React Pakistan",
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "React Commons Collection",
+                "permalink": "/react-pakistan-docs/docs/react-commons-collection"
+              }
+            },
+            {
+              "unversionedId": "mdx",
+              "id": "mdx",
+              "isDocsHomePage": false,
+              "title": "Powered by MDX",
+              "description": "You can write JSX and use React components within your Markdown thanks to MDX.",
+              "source": "@site/docs/mdx.md",
+              "slug": "/mdx",
+              "permalink": "/react-pakistan-docs/docs/mdx",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/mdx.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "react-commons-collection",
+              "id": "react-commons-collection",
+              "isDocsHomePage": false,
+              "title": "React Commons Collection",
+              "description": "React Pakistan",
+              "source": "@site/docs/react-commons-collection.mdx",
+              "slug": "/react-commons-collection",
+              "permalink": "/react-pakistan-docs/docs/react-commons-collection",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-commons-collection.mdx",
+              "version": "current",
+              "sidebar_label": "React Commons Collection",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Intro",
+                "permalink": "/react-pakistan-docs/docs/"
+              },
+              "next": {
+                "title": "React Commons Contributors",
+                "permalink": "/react-pakistan-docs/docs/react-commons-contributors"
+              }
+            },
+            {
+              "unversionedId": "react-commons-contributors",
+              "id": "react-commons-contributors",
+              "isDocsHomePage": false,
+              "title": "React Commons Contributors",
+              "description": "Contributors",
+              "source": "@site/docs/react-commons-contributors.mdx",
+              "slug": "/react-commons-contributors",
+              "permalink": "/react-pakistan-docs/docs/react-commons-contributors",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-commons-contributors.mdx",
+              "version": "current",
+              "sidebar_label": "React Commons Contributors",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "React Commons Collection",
+                "permalink": "/react-pakistan-docs/docs/react-commons-collection"
+              },
+              "next": {
+                "title": "React UI Collection",
+                "permalink": "/react-pakistan-docs/docs/react-ui-collection"
+              }
+            },
+            {
+              "unversionedId": "react-emoji-collection",
+              "id": "react-emoji-collection",
+              "isDocsHomePage": false,
+              "title": "React Emoji Collection",
+              "description": "React Pakistan",
+              "source": "@site/docs/react-emoji-collection.mdx",
+              "slug": "/react-emoji-collection",
+              "permalink": "/react-pakistan-docs/docs/react-emoji-collection",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-emoji-collection.mdx",
+              "version": "current",
+              "sidebar_label": "React Emoji Collection",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "React Logo Contributors",
+                "permalink": "/react-pakistan-docs/docs/react-logo-contributors"
+              },
+              "next": {
+                "title": "React Emoji Contributors",
+                "permalink": "/react-pakistan-docs/docs/react-emoji-contributors"
+              }
+            },
+            {
+              "unversionedId": "react-emoji-contributors",
+              "id": "react-emoji-contributors",
+              "isDocsHomePage": false,
+              "title": "React Emoji Contributors",
+              "description": "Contributors",
+              "source": "@site/docs/react-emoji-contributors.mdx",
+              "slug": "/react-emoji-contributors",
+              "permalink": "/react-pakistan-docs/docs/react-emoji-contributors",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-emoji-contributors.mdx",
+              "version": "current",
+              "sidebar_label": "React Emoji Contributors",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "React Emoji Collection",
+                "permalink": "/react-pakistan-docs/docs/react-emoji-collection"
+              },
+              "next": {
+                "title": "React Native Boilerplate",
+                "permalink": "/react-pakistan-docs/docs/react-native-boilerplate"
+              }
+            },
+            {
+              "unversionedId": "react-icon-collection",
+              "id": "react-icon-collection",
+              "isDocsHomePage": false,
+              "title": "React Icon Collection",
+              "description": "React Pakistan",
+              "source": "@site/docs/react-icon-collection.mdx",
+              "slug": "/react-icon-collection",
+              "permalink": "/react-pakistan-docs/docs/react-icon-collection",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-icon-collection.mdx",
+              "version": "current",
+              "sidebar_label": "React Icon Collection",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "React UI Contributors",
+                "permalink": "/react-pakistan-docs/docs/react-ui-contributors"
+              },
+              "next": {
+                "title": "React Icon Contributors",
+                "permalink": "/react-pakistan-docs/docs/react-icon-contributors"
+              }
+            },
+            {
+              "unversionedId": "react-icon-contributors",
+              "id": "react-icon-contributors",
+              "isDocsHomePage": false,
+              "title": "React Icon Contributors",
+              "description": "Contributors",
+              "source": "@site/docs/react-icon-contributors.mdx",
+              "slug": "/react-icon-contributors",
+              "permalink": "/react-pakistan-docs/docs/react-icon-contributors",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-icon-contributors.mdx",
+              "version": "current",
+              "sidebar_label": "React Icon Contributors",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "React Icon Collection",
+                "permalink": "/react-pakistan-docs/docs/react-icon-collection"
+              },
+              "next": {
+                "title": "React Logo Collection",
+                "permalink": "/react-pakistan-docs/docs/react-logo-collection"
+              }
+            },
+            {
+              "unversionedId": "react-logo-collection",
+              "id": "react-logo-collection",
+              "isDocsHomePage": false,
+              "title": "React Logo Collection",
+              "description": "React Pakistan",
+              "source": "@site/docs/react-logo-collection.mdx",
+              "slug": "/react-logo-collection",
+              "permalink": "/react-pakistan-docs/docs/react-logo-collection",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-logo-collection.mdx",
+              "version": "current",
+              "sidebar_label": "React Logo Collection",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "React Icon Contributors",
+                "permalink": "/react-pakistan-docs/docs/react-icon-contributors"
+              },
+              "next": {
+                "title": "React Logo Contributors",
+                "permalink": "/react-pakistan-docs/docs/react-logo-contributors"
+              }
+            },
+            {
+              "unversionedId": "react-logo-contributors",
+              "id": "react-logo-contributors",
+              "isDocsHomePage": false,
+              "title": "React Logo Contributors",
+              "description": "Contributors",
+              "source": "@site/docs/react-logo-contributors.mdx",
+              "slug": "/react-logo-contributors",
+              "permalink": "/react-pakistan-docs/docs/react-logo-contributors",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-logo-contributors.mdx",
+              "version": "current",
+              "sidebar_label": "React Logo Contributors",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "React Logo Collection",
+                "permalink": "/react-pakistan-docs/docs/react-logo-collection"
+              },
+              "next": {
+                "title": "React Emoji Collection",
+                "permalink": "/react-pakistan-docs/docs/react-emoji-collection"
+              }
+            },
+            {
+              "unversionedId": "react-native-boilerplate",
+              "id": "react-native-boilerplate",
+              "isDocsHomePage": false,
+              "title": "React Native Boilerplate",
+              "description": "React Pakistan",
+              "source": "@site/docs/react-native-boilerplate.mdx",
+              "slug": "/react-native-boilerplate",
+              "permalink": "/react-pakistan-docs/docs/react-native-boilerplate",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-native-boilerplate.mdx",
+              "version": "current",
+              "sidebar_label": "React Native Boilerplate",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "React Emoji Contributors",
+                "permalink": "/react-pakistan-docs/docs/react-emoji-contributors"
+              },
+              "next": {
+                "title": "React Native Boilerplate",
+                "permalink": "/react-pakistan-docs/docs/react-native-boilerplate"
+              }
+            },
+            {
+              "unversionedId": "react-native-contributors",
+              "id": "react-native-contributors",
+              "isDocsHomePage": false,
+              "title": "React Native Contributors",
+              "description": "Contributors",
+              "source": "@site/docs/react-native-contributors.mdx",
+              "slug": "/react-native-contributors",
+              "permalink": "/react-pakistan-docs/docs/react-native-contributors",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-native-contributors.mdx",
+              "version": "current",
+              "sidebar_label": "React Native Contributors",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "React Native Boilerplate",
+                "permalink": "/react-pakistan-docs/docs/react-native-boilerplate"
+              },
+              "next": {
+                "title": "React Native Boilerplate",
+                "permalink": "/react-pakistan-docs/docs/react-native-boilerplate"
+              }
+            },
+            {
+              "unversionedId": "react-pakistan-docs-contributors",
+              "id": "react-pakistan-docs-contributors",
+              "isDocsHomePage": false,
+              "title": "React Pakistan Docs Contributors",
+              "description": "Contributors",
+              "source": "@site/docs/react-pakistan-docs-contributors.mdx",
+              "slug": "/react-pakistan-docs-contributors",
+              "permalink": "/react-pakistan-docs/docs/react-pakistan-docs-contributors",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-pakistan-docs-contributors.mdx",
+              "version": "current",
+              "sidebar_label": "React Pakistan Docs Contributors",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "React Native Contributors",
+                "permalink": "/react-pakistan-docs/docs/react-native-contributors"
+              }
+            },
+            {
+              "unversionedId": "react-ui-collection",
+              "id": "react-ui-collection",
+              "isDocsHomePage": false,
+              "title": "React UI Collection",
+              "description": "React Pakistan",
+              "source": "@site/docs/react-ui-collection.mdx",
+              "slug": "/react-ui-collection",
+              "permalink": "/react-pakistan-docs/docs/react-ui-collection",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-ui-collection.mdx",
+              "version": "current",
+              "sidebar_label": "React UI Collection",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "React Commons Contributors",
+                "permalink": "/react-pakistan-docs/docs/react-commons-contributors"
+              },
+              "next": {
+                "title": "React UI Contributors",
+                "permalink": "/react-pakistan-docs/docs/react-ui-contributors"
+              }
+            },
+            {
+              "unversionedId": "react-ui-contributors",
+              "id": "react-ui-contributors",
+              "isDocsHomePage": false,
+              "title": "React UI Contributors",
+              "description": "Contributors",
+              "source": "@site/docs/react-ui-contributors.mdx",
+              "slug": "/react-ui-contributors",
+              "permalink": "/react-pakistan-docs/docs/react-ui-contributors",
+              "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-ui-contributors.mdx",
+              "version": "current",
+              "sidebar_label": "React UI Contributors",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "React UI Collection",
+                "permalink": "/react-pakistan-docs/docs/react-ui-collection"
+              },
+              "next": {
+                "title": "React Icon Collection",
+                "permalink": "/react-pakistan-docs/docs/react-icon-collection"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "launching-react-pakistan-docs",
+          "metadata": {
+            "permalink": "/react-pakistan-docs/blog/launching-react-pakistan-docs",
+            "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/blog/blog/2020-11-16-launching-react-pakistan-docs.md",
+            "source": "@site/blog/2020-11-16-launching-react-pakistan-docs.md",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2020-11-16T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "react",
+                "permalink": "/react-pakistan-docs/blog/tags/react"
+              },
+              {
+                "label": "react-native",
+                "permalink": "/react-pakistan-docs/blog/tags/react-native"
+              },
+              {
+                "label": "docs",
+                "permalink": "/react-pakistan-docs/blog/tags/docs"
+              }
+            ],
+            "title": "Launching React Pakistan Docs",
+            "readingTime": 0.12,
+            "truncated": false
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/react-pakistan-docs/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 1,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog"
+          },
+          "items": [
+            "launching-react-pakistan-docs"
+          ]
+        }
+      ],
+      "blogTags": {
+        "react": {
+          "name": "react",
+          "items": [
+            "launching-react-pakistan-docs"
+          ],
+          "permalink": "/react-pakistan-docs/blog/tags/react"
+        },
+        "react-native": {
+          "name": "react-native",
+          "items": [
+            "launching-react-pakistan-docs"
+          ],
+          "permalink": "/react-pakistan-docs/blog/tags/react-native"
+        },
+        "docs": {
+          "name": "docs",
+          "items": [
+            "launching-react-pakistan-docs"
+          ],
+          "permalink": "/react-pakistan-docs/blog/tags/docs"
+        }
+      },
+      "blogTagsListPath": "/react-pakistan-docs/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/react-pakistan-docs/feature",
+        "source": "@site/src/pages/feature.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/react-pakistan-docs/helpers",
+        "source": "@site/src/pages/helpers.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/react-pakistan-docs/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

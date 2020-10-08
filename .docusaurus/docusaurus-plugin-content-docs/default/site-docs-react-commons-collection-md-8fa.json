@@ -1,0 +1,18 @@
+{
+  "unversionedId": "react-commons-collection",
+  "id": "react-commons-collection",
+  "isDocsHomePage": false,
+  "title": "React Commons Collection",
+  "description": "React Pakistan",
+  "source": "@site/docs/react-commons-collection.md",
+  "slug": "/react-commons-collection",
+  "permalink": "/docs/react-commons-collection",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/react-commons-collection.md",
+  "version": "current",
+  "sidebar_label": "React Commons Collection",
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "React Commons Contributors",
+    "permalink": "/docs/react-commons-contributors"
+  }
+}

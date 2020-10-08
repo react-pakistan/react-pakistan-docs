@@ -1,0 +1,22 @@
+{
+  "unversionedId": "react-icon-collection",
+  "id": "react-icon-collection",
+  "isDocsHomePage": false,
+  "title": "React Icon Collection",
+  "description": "React Pakistan",
+  "source": "@site/docs/react-icon-collection.md",
+  "slug": "/react-icon-collection",
+  "permalink": "/docs/react-icon-collection",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/react-icon-collection.md",
+  "version": "current",
+  "sidebar_label": "React Icon Collection",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "React UI Contributors",
+    "permalink": "/docs/react-ui-contributors"
+  },
+  "next": {
+    "title": "React Icon Contributors",
+    "permalink": "/docs/react-icon-contributors"
+  }
+}

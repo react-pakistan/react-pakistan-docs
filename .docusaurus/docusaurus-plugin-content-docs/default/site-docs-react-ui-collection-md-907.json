@@ -1,0 +1,22 @@
+{
+  "unversionedId": "react-ui-collection",
+  "id": "react-ui-collection",
+  "isDocsHomePage": false,
+  "title": "React UI Collection",
+  "description": "React Pakistan",
+  "source": "@site/docs/react-ui-collection.md",
+  "slug": "/react-ui-collection",
+  "permalink": "/docs/react-ui-collection",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/react-ui-collection.md",
+  "version": "current",
+  "sidebar_label": "React UI Collection",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "React Commons Contributors",
+    "permalink": "/docs/react-commons-contributors"
+  },
+  "next": {
+    "title": "React UI Contributors",
+    "permalink": "/docs/react-ui-contributors"
+  }
+}

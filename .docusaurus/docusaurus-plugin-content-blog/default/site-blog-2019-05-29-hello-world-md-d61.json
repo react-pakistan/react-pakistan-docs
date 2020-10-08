@@ -1,0 +1,24 @@
+{
+  "permalink": "/react-pakistan-docs/blog/hello-world",
+  "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/blog/blog/2019-05-29-hello-world.md",
+  "source": "@site/blog/2019-05-29-hello-world.md",
+  "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
+  "date": "2019-05-29T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "hello",
+      "permalink": "/react-pakistan-docs/blog/tags/hello"
+    },
+    {
+      "label": "docusaurus",
+      "permalink": "/react-pakistan-docs/blog/tags/docusaurus"
+    }
+  ],
+  "title": "Hello",
+  "readingTime": 0.12,
+  "truncated": true,
+  "prevItem": {
+    "title": "Launching React Pakistan Docs",
+    "permalink": "/react-pakistan-docs/blog/launching-react-pakistan-docs"
+  }
+}

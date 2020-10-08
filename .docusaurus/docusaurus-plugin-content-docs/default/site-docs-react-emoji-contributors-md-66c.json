@@ -1,0 +1,22 @@
+{
+  "unversionedId": "react-emoji-contributors",
+  "id": "react-emoji-contributors",
+  "isDocsHomePage": false,
+  "title": "React Emoji Contributors",
+  "description": "Contributors",
+  "source": "@site/docs/react-emoji-contributors.md",
+  "slug": "/react-emoji-contributors",
+  "permalink": "/docs/react-emoji-contributors",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/react-emoji-contributors.md",
+  "version": "current",
+  "sidebar_label": "React Emoji Contributors",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "React Emoji Collection",
+    "permalink": "/docs/react-emoji-collection"
+  },
+  "next": {
+    "title": "React Native Boilerplate",
+    "permalink": "/docs/react-native-boilerplate"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "react-logo-collection",
+  "id": "react-logo-collection",
+  "isDocsHomePage": false,
+  "title": "React Logo Collection",
+  "description": "React Pakistan",
+  "source": "@site/docs/react-logo-collection.md",
+  "slug": "/react-logo-collection",
+  "permalink": "/docs/react-logo-collection",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/react-logo-collection.md",
+  "version": "current",
+  "sidebar_label": "React Logo Collection",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "React Icon Contributors",
+    "permalink": "/docs/react-icon-contributors"
+  },
+  "next": {
+    "title": "React Logo Contributors",
+    "permalink": "/docs/react-logo-contributors"
+  }
+}

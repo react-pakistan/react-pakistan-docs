@@ -1,0 +1,22 @@
+{
+  "unversionedId": "react-native-contributors",
+  "id": "react-native-contributors",
+  "isDocsHomePage": false,
+  "title": "React Native Contributors",
+  "description": "Contributors",
+  "source": "@site/docs/react-native-contributors.md",
+  "slug": "/react-native-contributors",
+  "permalink": "/docs/react-native-contributors",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/react-native-contributors.md",
+  "version": "current",
+  "sidebar_label": "React Native Contributors",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "React Native Boilerplate",
+    "permalink": "/docs/react-native-boilerplate"
+  },
+  "next": {
+    "title": "React Docs Contributors",
+    "permalink": "/docs/react-docs-contributors"
+  }
+}

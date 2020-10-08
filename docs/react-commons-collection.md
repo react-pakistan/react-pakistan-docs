@@ -63,7 +63,7 @@ We aim to achieve 100% coverage and we shall...
   <A
     color="#000000"
     desktop=""
-    download=""
+    download="dummy.com"
     href="https://google.com"
     hreflang=""
     laptop=""

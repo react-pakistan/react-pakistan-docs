@@ -1,0 +1,22 @@
+{
+  "unversionedId": "react-icon-contributors",
+  "id": "react-icon-contributors",
+  "isDocsHomePage": false,
+  "title": "React Icon Contributors",
+  "description": "Contributors",
+  "source": "@site/docs/react-icon-contributors.mdx",
+  "slug": "/react-icon-contributors",
+  "permalink": "/react-pakistan-docs/docs/react-icon-contributors",
+  "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-icon-contributors.mdx",
+  "version": "current",
+  "sidebar_label": "React Icon Contributors",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "React Icon Collection",
+    "permalink": "/react-pakistan-docs/docs/react-icon-collection"
+  },
+  "next": {
+    "title": "React Logo Collection",
+    "permalink": "/react-pakistan-docs/docs/react-logo-collection"
+  }
+}

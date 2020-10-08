@@ -1,0 +1,22 @@
+{
+  "unversionedId": "react-icon-contributors",
+  "id": "react-icon-contributors",
+  "isDocsHomePage": false,
+  "title": "React Icon Contributors",
+  "description": "Contributors",
+  "source": "@site/docs/react-icon-contributors.md",
+  "slug": "/react-icon-contributors",
+  "permalink": "/docs/react-icon-contributors",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/react-icon-contributors.md",
+  "version": "current",
+  "sidebar_label": "React Icon Contributors",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "React Icon Collection",
+    "permalink": "/docs/react-icon-collection"
+  },
+  "next": {
+    "title": "React Logo Collection",
+    "permalink": "/docs/react-logo-collection"
+  }
+}

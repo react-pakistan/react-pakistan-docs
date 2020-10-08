@@ -1,0 +1,22 @@
+{
+  "unversionedId": "react-commons-contributors",
+  "id": "react-commons-contributors",
+  "isDocsHomePage": false,
+  "title": "React Commons Contributors",
+  "description": "Contributors",
+  "source": "@site/docs/react-commons-contributors.md",
+  "slug": "/react-commons-contributors",
+  "permalink": "/docs/react-commons-contributors",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/react-commons-contributors.md",
+  "version": "current",
+  "sidebar_label": "React Commons Contributors",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "React Commons Collection",
+    "permalink": "/docs/react-commons-collection"
+  },
+  "next": {
+    "title": "React UI Collection",
+    "permalink": "/docs/react-ui-collection"
+  }
+}

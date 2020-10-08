@@ -1,0 +1,23 @@
+{
+  "react": {
+    "allTagsPath": "/react-pakistan-docs/blog/tags",
+    "slug": "react",
+    "name": "react",
+    "count": 1,
+    "permalink": "/react-pakistan-docs/blog/tags/react"
+  },
+  "react-native": {
+    "allTagsPath": "/react-pakistan-docs/blog/tags",
+    "slug": "react-native",
+    "name": "react-native",
+    "count": 1,
+    "permalink": "/react-pakistan-docs/blog/tags/react-native"
+  },
+  "docs": {
+    "allTagsPath": "/react-pakistan-docs/blog/tags",
+    "slug": "docs",
+    "name": "docs",
+    "count": 1,
+    "permalink": "/react-pakistan-docs/blog/tags/docs"
+  }
+}

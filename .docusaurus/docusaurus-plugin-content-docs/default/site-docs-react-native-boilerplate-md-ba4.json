@@ -1,0 +1,22 @@
+{
+  "unversionedId": "react-native-boilerplate",
+  "id": "react-native-boilerplate",
+  "isDocsHomePage": false,
+  "title": "React Native Boilerplate",
+  "description": "React Pakistan",
+  "source": "@site/docs/react-native-boilerplate.md",
+  "slug": "/react-native-boilerplate",
+  "permalink": "/docs/react-native-boilerplate",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/react-native-boilerplate.md",
+  "version": "current",
+  "sidebar_label": "React Native Boilerplate",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "React Emoji Contributors",
+    "permalink": "/docs/react-emoji-contributors"
+  },
+  "next": {
+    "title": "React Native Contributors",
+    "permalink": "/docs/react-native-contributors"
+  }
+}

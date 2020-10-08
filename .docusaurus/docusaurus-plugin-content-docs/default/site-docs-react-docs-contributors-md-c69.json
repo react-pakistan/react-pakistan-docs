@@ -1,0 +1,18 @@
+{
+  "unversionedId": "react-docs-contributors",
+  "id": "react-docs-contributors",
+  "isDocsHomePage": false,
+  "title": "React Docs Contributors",
+  "description": "Contributors",
+  "source": "@site/docs/react-docs-contributors.md",
+  "slug": "/react-docs-contributors",
+  "permalink": "/docs/react-docs-contributors",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/react-docs-contributors.md",
+  "version": "current",
+  "sidebar_label": "React Docs Contributors",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "React Native Contributors",
+    "permalink": "/docs/react-native-contributors"
+  }
+}

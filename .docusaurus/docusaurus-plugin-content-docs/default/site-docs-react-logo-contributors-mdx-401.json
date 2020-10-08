@@ -1,0 +1,22 @@
+{
+  "unversionedId": "react-logo-contributors",
+  "id": "react-logo-contributors",
+  "isDocsHomePage": false,
+  "title": "React Logo Contributors",
+  "description": "Contributors",
+  "source": "@site/docs/react-logo-contributors.mdx",
+  "slug": "/react-logo-contributors",
+  "permalink": "/react-pakistan-docs/docs/react-logo-contributors",
+  "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-logo-contributors.mdx",
+  "version": "current",
+  "sidebar_label": "React Logo Contributors",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "React Logo Collection",
+    "permalink": "/react-pakistan-docs/docs/react-logo-collection"
+  },
+  "next": {
+    "title": "React Emoji Collection",
+    "permalink": "/react-pakistan-docs/docs/react-emoji-collection"
+  }
+}
