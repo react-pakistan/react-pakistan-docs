@@ -37,12 +37,12 @@ Add React Commons Collection base theme to your project.
 Styled Components are employed to maintain and update theme for this project. Please consider adding Styled Component Provider wrapper to the entry point of your application, following is the sample code. You could either use the default theme as shown below or wire your custom theme object instead. See [Typography](https://taimoormk.github.io/react-commons-collection/?path=/docs/styleguide-typography--typography-story) & [Colors](https://taimoormk.github.io/react-commons-collection/?path=/docs/styleguide-colors--colors-story) being used in the theme object.
 
 ```javascript
-  import { ThemeProvider } from 'styled-components';
-  import { theme } from '@react-pakistan/util-functions';
+import { ThemeProvider } from 'styled-components';
+import { theme } from '@react-pakistan/util-functions';
 
-  <ThemeProvider theme={theme}>
-    <App />
-  </ThemeProvider>
+<ThemeProvider theme={theme}>
+  <App />
+</ThemeProvider>;
 ```
 
 ## Tested
@@ -57,29 +57,30 @@ We aim to achieve 100% coverage and we shall...
 ## Use
 
 - ### A
-```javascript
-  import { A } from '@react-pakistan/react-commons-collection';
 
-  <A
-    color="#000000"
-    desktop=""
-    download=""
-    href="https://google.com"
-    hreflang=""
-    laptop=""
-    laptopL=""
-    media=""
-    mobileL=""
-    mobileM=""
-    mobileS=""
-    referrerpolicy=""
-    rel=""
-    tablet=""
-    target="_blank"
-    type=""
-  >
-    Go to Google
-  </A>
+```javascript
+import { A } from '@react-pakistan/react-commons-collection';
+
+<A
+  color='#000000'
+  desktop=''
+  download=''
+  href='https://google.com'
+  hreflang=''
+  laptop=''
+  laptopL=''
+  media=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  referrerpolicy=''
+  rel=''
+  tablet=''
+  target='_blank'
+  type=''
+>
+  Go to Google
+</A>;
 ```
 
 <iframe
@@ -91,25 +92,26 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Audio
-```javascript
-  import { Audio } from '@react-pakistan/react-commons-collection';
 
-  <Audio
-    autoplay
-    controlPanelColor="#F7F7F7"
-    controls
-    currentTimeColor="#00D3CA"
-    desktop=""
-    laptop=""
-    laptopL=""
-    mobileL=""
-    mobileM=""
-    mobileS=""
-    preload="auto"
-    remainingTimeColor="#F62F5E"
-    src="https://notificationsounds.com/sound-effects/insight-578/download/mp3"
-    tablet=""
-  />
+```javascript
+import { Audio } from '@react-pakistan/react-commons-collection';
+
+<Audio
+  autoplay
+  controlPanelColor='#F7F7F7'
+  controls
+  currentTimeColor='#00D3CA'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  preload='auto'
+  remainingTimeColor='#F62F5E'
+  src='https://notificationsounds.com/sound-effects/insight-578/download/mp3'
+  tablet=''
+/>;
 ```
 
 <iframe
@@ -121,28 +123,29 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Background Image
-```javascript
-  import { BackgroundImage } from '@react-pakistan/react-commons-collection';
 
-  <BackgroundImage
-    desktop=""
-    imageBackgroundColor="#6C6C6C"
-    imageBackgroundHeight="400px"
-    imageBackgroundMargin="0"
-    imageBackgroundPadding="0"
-    imageBackgroundPosition="center center"
-    imageBackgroundRepeat="no-repeat"
-    imageBackgroundSize="cover"
-    imageBackgroundUrl="https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png"
-    imageBackgroundWidth="600px"
-    imageBorderRadius="0"
-    laptop=""
-    laptopL=""
-    mobileL=""
-    mobileM=""
-    mobileS=""
-    tablet=""
-  />
+```javascript
+import { BackgroundImage } from '@react-pakistan/react-commons-collection';
+
+<BackgroundImage
+  desktop=''
+  imageBackgroundColor='#F7F7F7'
+  imageBackgroundHeight='400px'
+  imageBackgroundMargin='0'
+  imageBackgroundPadding='0'
+  imageBackgroundPosition='center center'
+  imageBackgroundRepeat='no-repeat'
+  imageBackgroundSize='cover'
+  imageBackgroundUrl='https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png'
+  imageBackgroundWidth='600px'
+  imageBorderRadius='0'
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+/>;
 ```
 
 <iframe
@@ -154,38 +157,39 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Button
-```javascript
-  import { Button } from '@react-pakistan/react-commons-collection';
 
-  <Button
-    autoFocus
-    border="1px solid #3C3C3C"
-    borderRadius="0.5em"
-    backgroundColor="#FFFFFF"
-    desktop=""
-    disabled={false}
-    form=""
-    formaction=""
-    formenctype="text/plain"
-    formmethod="get"
-    formnovalidate={false}
-    formTarget="_self"
-    height="auto"
-    laptop=""
-    laptopL=""
-    mobileL=""
-    mobileM=""
-    mobileS=""
-    name=""
-    onClick={() => null}
-    padding="1em"
-    tablet=""
-    type="button"
-    value=""
-    width="aito"
-  >
-    Hello World
-  </Button>
+```javascript
+import { Button } from '@react-pakistan/react-commons-collection';
+
+<Button
+  autoFocus
+  border='1px solid #EFEFEF'
+  borderRadius='0.5em'
+  backgroundColor='#FFFFFF'
+  desktop=''
+  disabled={false}
+  form=''
+  formaction=''
+  formenctype='text/plain'
+  formmethod='get'
+  formnovalidate={false}
+  formTarget='_blank'
+  height='auto'
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  name=''
+  onClick={() => null}
+  padding='1em'
+  tablet=''
+  type='submit'
+  value=''
+  width='auto'
+>
+  Hello World
+</Button>;
 ```
 
 <iframe
@@ -197,22 +201,23 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Canvas
-```javascript
-  import { Canvas } from '@react-pakistan/react-commons-collection';
 
-  <Canvas
-    border="1px solid #000000"
-    desktop=""
-    height="400px"
-    laptop=""
-    laptopL=""
-    mobileL=""
-    mobileM=""
-    mobileS=""
-    id="canvasId"
-    tablet=""
-    width="600px"
-  />
+```javascript
+import { Canvas } from '@react-pakistan/react-commons-collection';
+
+<Canvas
+  border='1px solid #000000'
+  desktop=''
+  height='400px'
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  id='canvasId'
+  tablet=''
+  width='600px'
+/>;
 ```
 
 <iframe
@@ -224,10 +229,26 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Checkbox
-```javascript
-  import { CheckBox } from '@react-pakistan/react-commons-collection';`
 
-  <CheckBox />
+```javascript
+import { CheckBox } from '@react-pakistan/react-commons-collection';
+
+<CheckBox
+  checkedColor='#1E90FF'
+  hasError={false}
+  helperText=''
+  helperTextColor=''
+  isChecked={false}
+  onChange={() => null}
+  unCheckedColor='#B4B4B4'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+/>;
 ```
 
 <iframe
@@ -239,19 +260,27 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### ChildGrid
-```javascript
-  import { ChildGrid } from '@react-pakistan/react-commons-collection';
 
-  <ChildGrid
-    alignSelf="center"
-    gridColumnEnd={1}
-    gridColumnStart={1}
-    gridRowEnd={1}
-    gridRowStart={1}
-    justifySelf="center"
-  >
-    ChildGrid Component
-  </ChildGrid>
+```javascript
+import { ChildGrid } from '@react-pakistan/react-commons-collection';
+
+<ChildGrid
+  alignSelf='center'
+  gridColumnEnd={1}
+  gridColumnStart={1}
+  gridRowEnd={1}
+  gridRowStart={1}
+  justifySelf='center'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+>
+  ChildGrid Component
+</ChildGrid>;
 ```
 
 <iframe
@@ -263,15 +292,23 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### ColumnContainer
-```javascript
-  import { ColumnContainer } from '@react-pakistan/react-commons-collection';
 
-  <ColumnContainer
-    alignItems="center"
-    justifyContent="center"
-  >
-    ColumnContainer Component
-  </ColumnContainer>
+```javascript
+import { ColumnContainer } from '@react-pakistan/react-commons-collection';
+
+<ColumnContainer
+  alignItems='center'
+  justifyContent='center'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+>
+  ColumnContainer Component
+</ColumnContainer>;
 ```
 
 <iframe
@@ -283,130 +320,137 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Grid
-```javascript
-  import { Grid } from '@react-pakistan/react-commons-collection';
 
-  <Grid
-    alignItems="center"
-    columnGap="1em"
-    gridColumn="1fr 1fr 1fr"
-    gridRow="1fr 1fr"
-    justifyItems="stretch"
-    rowGap="1em"
+```javascript
+import { Grid } from '@react-pakistan/react-commons-collection';
+<Grid
+  alignItems='center'
+  columnGap='1em'
+  gridColumn='1fr 1fr 1fr'
+  gridRow='1fr 1fr'
+  justifyItems='stretch'
+  rowGap='1em'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+>
+  <h2
+    style={{
+      alignItems: 'center',
+      background: 'lightblue',
+      border: '1px solid black',
+      color: 'white',
+      display: 'flex',
+      justifyContent: 'center',
+      margin: 0,
+      padding: '1rem'
+    }}
   >
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-  </Grid>
+    Item
+  </h2>
+  <h2
+    style={{
+      alignItems: 'center',
+      background: 'lightblue',
+      border: '1px solid black',
+      color: 'white',
+      display: 'flex',
+      justifyContent: 'center',
+      margin: 0,
+      padding: '1rem'
+    }}
+  >
+    Item
+  </h2>
+  <h2
+    style={{
+      alignItems: 'center',
+      background: 'lightblue',
+      border: '1px solid black',
+      color: 'white',
+      display: 'flex',
+      justifyContent: 'center',
+      margin: 0,
+      padding: '1rem'
+    }}
+  >
+    Item
+  </h2>
+  <h2
+    style={{
+      alignItems: 'center',
+      background: 'lightblue',
+      border: '1px solid black',
+      color: 'white',
+      display: 'flex',
+      justifyContent: 'center',
+      margin: 0,
+      padding: '1rem'
+    }}
+  >
+    Item
+  </h2>
+  <h2
+    style={{
+      alignItems: 'center',
+      background: 'lightblue',
+      border: '1px solid black',
+      color: 'white',
+      display: 'flex',
+      justifyContent: 'center',
+      margin: 0,
+      padding: '1rem'
+    }}
+  >
+    Item
+  </h2>
+  <h2
+    style={{
+      alignItems: 'center',
+      background: 'lightblue',
+      border: '1px solid black',
+      color: 'white',
+      display: 'flex',
+      justifyContent: 'center',
+      margin: 0,
+      padding: '1rem'
+    }}
+  >
+    Item
+  </h2>
+  <h2
+    style={{
+      alignItems: 'center',
+      background: 'lightblue',
+      border: '1px solid black',
+      color: 'white',
+      display: 'flex',
+      justifyContent: 'center',
+      margin: 0,
+      padding: '1rem'
+    }}
+  >
+    Item
+  </h2>
+  <h2
+    style={{
+      alignItems: 'center',
+      background: 'lightblue',
+      border: '1px solid black',
+      color: 'white',
+      display: 'flex',
+      justifyContent: 'center',
+      margin: 0,
+      padding: '1rem'
+    }}
+  >
+    Item
+  </h2>
+</Grid>;
 ```
 
 <iframe
@@ -418,12 +462,21 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Footer
-```javascript
-  import { Footer } from '@react-pakistan/react-commons-collection';
 
-  <Footer>
-    Footer component
-  </Footer>
+```javascript
+import { Footer } from '@react-pakistan/react-commons-collection';
+
+<Footer
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+>
+  Footer component
+</Footer>;
 ```
 
 <iframe
@@ -435,21 +488,29 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### H1
-```javascript
-  import { H1 } from '@react-pakistan/react-commons-collection';
 
-  <H1
-    color="#2E2E2E"
-    fontFamily="Playfair Display"
-    fontSize="2em"
-    fontWeight={700}
-    letterSpacing="1px"
-    lineHeight="normal"
-    textAlign="center"
-    textTransform="uppercase"
-  >
-    H1 Component
-  </H1>
+```javascript
+import { H1 } from '@react-pakistan/react-commons-collection';
+
+<H1
+  color='#FFFFFF'
+  fontFamily='Playfair Display'
+  fontSize='2em'
+  fontWeight={700}
+  letterSpacing='1px'
+  lineHeight='normal'
+  textAlign='left'
+  textTransform='uppercase'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+>
+  H1 Component
+</H1>;
 ```
 
 <iframe
@@ -461,21 +522,29 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### H2
-```javascript
-  import { H2 } from '@react-pakistan/react-commons-collection';
 
-  <H2
-    color="#2E2E2E"
-    fontFamily="Montserrat"
-    fontSize="1.8em"
-    fontWeight={700}
-    letterSpacing="1px"
-    lineHeight="normal"
-    textAlign="center"
-    textTransform="uppercase"
-  >
-    H2 Component
-  </H2>
+```javascript
+import { H2 } from '@react-pakistan/react-commons-collection';
+
+<H2
+  color='#FFFFFF'
+  fontFamily='Montserrat'
+  fontSize='1.8em'
+  fontWeight={700}
+  letterSpacing='1px'
+  lineHeight='normal'
+  textAlign='left'
+  textTransform='uppercase'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+>
+  H2 Component
+</H2>;
 ```
 
 <iframe
@@ -487,21 +556,29 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### H3
-```javascript
-  import { H3 } from '@react-pakistan/react-commons-collection';
 
-  <H3
-    color="#2E2E2E"
-    fontFamily="Montserrat"
-    fontSize="1.6em"
-    fontWeight={700}
-    letterSpacing="1px"
-    lineHeight="normal"
-    textAlign="center"
-    textTransform="uppercase"
-  >
-    H3 Component
-  </H3>
+```javascript
+import { H3 } from '@react-pakistan/react-commons-collection';
+
+<H3
+  color='#FFFFFF'
+  fontFamily='Montserrat'
+  fontSize='1.6em'
+  fontWeight={700}
+  letterSpacing='1px'
+  lineHeight='normal'
+  textAlign='left'
+  textTransform='uppercase'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+>
+  H3 Component
+</H3>;
 ```
 
 <iframe
@@ -513,21 +590,29 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### H4
-```javascript
-  import { H4 } from '@react-pakistan/react-commons-collection';
 
-  <H4
-    color="#2E2E2E"
-    fontFamily="Montserrat"
-    fontSize="1.4em"
-    fontWeight={700}
-    letterSpacing="1px"
-    lineHeight="normal"
-    textAlign="center"
-    textTransform="uppercase"
-  >
-    H4 Component
-  </H4>
+```javascript
+import { H4 } from '@react-pakistan/react-commons-collection';
+
+<H4
+  color='#FFFFFF'
+  fontFamily='Montserrat'
+  fontSize='1.4em'
+  fontWeight={700}
+  letterSpacing='1px'
+  lineHeight='normal'
+  textAlign='left'
+  textTransform='uppercase'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+>
+  H4 Component
+</H4>;
 ```
 
 <iframe
@@ -539,21 +624,29 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### H5
-```javascript
-  import { H5 } from '@react-pakistan/react-commons-collection';
 
-  <H5
-    color="#2E2E2E"
-    fontFamily="Montserrat"
-    fontSize="1.2em"
-    fontWeight={700}
-    letterSpacing="1px"
-    lineHeight="normal"
-    textAlign="center"
-    textTransform="uppercase"
-  >
-    H5 Component
-  </H5>
+```javascript
+import { H5 } from '@react-pakistan/react-commons-collection';
+
+<H5
+  color='#FFFFFF'
+  fontFamily='Montserrat'
+  fontSize='1.2em'
+  fontWeight={700}
+  letterSpacing='1px'
+  lineHeight='normal'
+  textAlign='left'
+  textTransform='uppercase'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+>
+  H5 Component
+</H5>;
 ```
 
 <iframe
@@ -565,12 +658,11 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Header
-```javascript
-  import { Header } from '@react-pakistan/react-commons-collection';
 
-  <Header>
-    Header component
-  </Header>
+```javascript
+import { Header } from '@react-pakistan/react-commons-collection';
+
+<Header>Header component</Header>;
 ```
 
 <iframe
@@ -582,13 +674,11 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### HR
-```javascript
-  import { HR } from '@react-pakistan/react-commons-collection';
 
-  <HR
-    lineColor="#1E90FF"
-    width="100%"
-  />
+```javascript
+import { HR } from '@react-pakistan/react-commons-collection';
+
+<HR border='1px solid #1E90FF' width='100%' padding='0px' margin='0px' />;
 ```
 
 <iframe
@@ -600,16 +690,24 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Iframe
-```javascript
-  import { Iframe } from '@react-pakistan/react-commons-collection';
 
-  <Iframe
-    height="600px"
-    name="iframe"
-    sandbox="allow-scripts"
-    src="http://geekmarketers.xyz"
-    width="800px"
-  />
+```javascript
+import { Iframe } from '@react-pakistan/react-commons-collection';
+
+<Iframe
+  height='600px'
+  name='iframe'
+  sandbox='allow-Same-Origin'
+  src='http://taimoor.io'
+  width='800px'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+/>;
 ```
 
 <iframe
@@ -621,17 +719,25 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Image
-```javascript
-  import { Image } from '@react-pakistan/react-commons-collection';
 
-  <Image
-    alt="alt-image"
-    height="auto"
-    imageUrl="https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png"
-    margin="0"
-    padding="0"
-    width="600px"
-  />
+```javascript
+import { Image } from '@react-pakistan/react-commons-collection';
+
+<Image
+  alt='alt-image'
+  height='auto'
+  imageUrl='https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png'
+  margin='0'
+  padding='0'
+  width='600px'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+/>;
 ```
 
 <iframe
@@ -643,24 +749,40 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Input
-```javascript
-  import { Input } from '@react-pakistan/react-commons-collection';
 
-  <Input
-    backgroundColor="#FFFFFF"
-    border="1px solid #EFEFEF"
-    borderRadius="0.5em"
-    height="3.5em"
-    placeholder="Enter your email here"
-    type="text"
-  />
+```javascript
+import { Input } from '@react-pakistan/react-commons-collection';
+
+<Input
+  backgroundColor='#FFFFFF'
+  border='1px solid #EFEFEF'
+  borderRadius='0.5em'
+  focusBorder='1px solid #1E90FF'
+  focusColor='#F62F5E'
+  hasError={false}
+  helperText=''
+  height='3.5em'
+  width='100%'
+  placeholder='Enter your email here'
+  type='text'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+/>;
 ```
 
 - ### Li
-```javascript
-  import { Li } from '@react-pakistan/react-commons-collection';
 
-  <Li>Value</Li>
+```javascript
+import { Li } from '@react-pakistan/react-commons-collection';
+
+<Li desktop='' laptop='' laptopL='' mobileL='' mobileM='' mobileS='' tablet=''>
+  Value
+</Li>;
 ```
 
 <iframe
@@ -672,19 +794,27 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### ProgressBar
-```javascript
-  import { ProgressBar } from '@react-pakistan/react-commons-collection';
 
-  <ProgressBar
-    backgroundColorBar="#F62F5E"
-    backgroundColorValue="#EFFC90"
-    height="0.25em"
-    max="100"
-    min="0"
-    transition="2.5s ease-out"
-    value="20"
-    width="100%"
-  />
+```javascript
+import { ProgressBar } from '@react-pakistan/react-commons-collection';
+
+<ProgressBar
+  backgroundColorBar='#F62F5E'
+  backgroundColorValue='#EFFC90'
+  height='0.25em'
+  max='100'
+  min='0'
+  transition='2.5s ease-out'
+  value='20'
+  width='100%'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+/>;
 ```
 
 <iframe
@@ -696,22 +826,37 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### RadioButton
-```javascript
-  import { RadioButton } from '@react-pakistan/react-commons-collection';
 
-  <RadioButton checked />
+```javascript
+import { RadioButton } from '@react-pakistan/react-commons-collection';
+
+<RadioButton
+  checked
+  hasError={false}
+  helperText={false}
+  label=''
+  tag='Label'
+/>;
 ```
 
 - ### RowContainer
-```javascript
-  import { RowContainer } from '@react-pakistan/react-commons-collection';
 
-  <RowContainer
-    alignItems="center"
-    justifyContent="center"
-  >
-    RowContainer Component
-  </RowContainer>
+```javascript
+import { RowContainer } from '@react-pakistan/react-commons-collection';
+
+<RowContainer
+  alignItems='center'
+  justifyContent='center'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+>
+  RowContainer Component
+</RowContainer>;
 ```
 
 <iframe
@@ -723,46 +868,38 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Select
-```javascript
-  import { Select } from '@react-pakistan/react-commons-collectiont';
 
-  <Select
-    form="form_id"
-    name="dropDownName"
-    size={0}
-  >
-    <Option
-      value="volvo"
-    >
-      Volvo
-    </Option>
-    <Option
-      disabled
-      value="saab"
-    >
-      Saab
-    </Option>
-    <Option
-      value="mercedes"
-    >
-      Mercedes
-    </Option>
-    <Option
-      value="audi"
-    >
-      Audi
-    </Option>
-  </Select>
+```javascript
+import { Select } from '@react-pakistan/react-commons-collectiont';
+
+<Select
+  form='form_id'
+  name='dropDownName'
+  size={0}
+  autoFocus={false}
+  disabled={false}
+  hasError={false}
+  helperText=''
+  helperTextColor='#FFFFFF'
+  label=''
+  multiple={false}
+  required={false}
+>
+  <Option value='volvo'>Volvo</Option>
+  <Option disabled value='saab'>
+    Saab
+  </Option>
+  <Option value='mercedes'>Mercedes</Option>
+  <Option value='audi'>Audi</Option>
+</Select>;
 ```
 
 - ### Spacer
-```javascript
-  import { Spacer } from '@react-pakistan/react-commons-collection';
 
-  <Spacer
-    margin="1em 1em 1em 1em"
-    padding="0em 0em 0em 0em"
-  />
+```javascript
+import { Spacer } from '@react-pakistan/react-commons-collection';
+
+<Spacer margin='1em 1em 1em 1em' padding='0em 0em 0em 0em' />;
 ```
 
 <iframe
@@ -774,157 +911,158 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### SocialShare
-```javascript
-  import { Spacer } from '@react-pakistan/react-commons-collection';
 
-  <SocialShare
-    socialIcons={[
-      {
-        borderRadius: '50%',
-        id: 'social-icon-1',
-        round: true,
-        serviceName: 'facebook',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-2',
-        round: true,
-        serviceName: 'twitter',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-3',
-        round: true,
-        serviceName: 'telegram',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-4',
-        round: true,
-        serviceName: 'whatsapp',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-5',
-        round: true,
-        serviceName: 'linkedin',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-6',
-        round: true,
-        serviceName: 'pinterest',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-7',
-        round: true,
-        serviceName: 'vk',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-8',
-        round: true,
-        serviceName: 'ok',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-9',
-        round: true,
-        serviceName: 'reddit',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-10',
-        round: true,
-        serviceName: 'tumblr',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-11',
-        round: true,
-        serviceName: 'livejournal',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-12',
-        round: true,
-        serviceName: 'mailru',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-13',
-        round: true,
-        serviceName: 'viber',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-14',
-        round: true,
-        serviceName: 'workplace',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-15',
-        round: true,
-        serviceName: 'line',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-16',
-        round: true,
-        serviceName: 'pocket',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-17',
-        round: true,
-        serviceName: 'instapaper',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      },
-      {
-        borderRadius: '50%',
-        id: 'social-icon-18',
-        round: true,
-        serviceName: 'email',
-        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-        size: 32
-      }
-    ]}
-  />
+```javascript
+import { SocialShare } from '@react-pakistan/react-commons-collection';
+
+<SocialShare
+  socialIcons={[
+    {
+      borderRadius: '50%',
+      id: 'social-icon-1',
+      round: true,
+      serviceName: 'facebook',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-2',
+      round: true,
+      serviceName: 'twitter',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-3',
+      round: true,
+      serviceName: 'telegram',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-4',
+      round: true,
+      serviceName: 'whatsapp',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-5',
+      round: true,
+      serviceName: 'linkedin',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-6',
+      round: true,
+      serviceName: 'pinterest',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-7',
+      round: true,
+      serviceName: 'vk',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-8',
+      round: true,
+      serviceName: 'ok',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-9',
+      round: true,
+      serviceName: 'reddit',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-10',
+      round: true,
+      serviceName: 'tumblr',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-11',
+      round: true,
+      serviceName: 'livejournal',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-12',
+      round: true,
+      serviceName: 'mailru',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-13',
+      round: true,
+      serviceName: 'viber',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-14',
+      round: true,
+      serviceName: 'workplace',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-15',
+      round: true,
+      serviceName: 'line',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-16',
+      round: true,
+      serviceName: 'pocket',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-17',
+      round: true,
+      serviceName: 'instapaper',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    },
+    {
+      borderRadius: '50%',
+      id: 'social-icon-18',
+      round: true,
+      serviceName: 'email',
+      shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+      size: 32
+    }
+  ]}
+/>;
 ```
 
 <iframe
@@ -936,61 +1074,70 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Table
-```javascript
-  import { Table } from '@react-pakistan/react-commons-collection';
 
-  <Table>
-    <Thead>
-      <Tr>
-        <Td>
-          Hey header
-        </Td>
-        <Td>
-          Hello header
-        </Td>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td>
-          Hey body
-        </Td>
-        <Td>
-          Hello body
-        </Td>
-      </Tr>
-    </Tbody>
-    <Tfoot>
-      <Tr>
-        <Td>
-          Hey foot
-        </Td>
-        <Td>
-          Hello foot
-        </Td>
-      </Tr>
-    </Tfoot>
-  </Table>
+```javascript
+import { Table } from '@react-pakistan/react-commons-collection';
+
+<Table>
+  <Thead>
+    <Tr>
+      <Td>Hey header</Td>
+      <Td>Hello header</Td>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+      <Td>Hey body</Td>
+      <Td>Hello body</Td>
+    </Tr>
+  </Tbody>
+  <Tfoot>
+    <Tr>
+      <Td>Hey foot</Td>
+      <Td>Hello foot</Td>
+    </Tr>
+  </Tfoot>
+</Table>;
 ```
 
 - ### TextArea
-```javascript
-   import { TextArea } from '@react-pakistan/react-commons-collection';
 
-  <TextArea
-    backgroundColor="#FFFFFF"
-    border="1px solid #EFEFEF"
-    borderRadius="0.5em"
-    cols={70}
-    dirname=""
-    form=""
-    maxlength={300}
-    name=""
-    placeholder="Enter message here"
-    rows={12}
-    type="text"
-    wrap="hard"
-  />
+```javascript
+import { TextArea } from '@react-pakistan/react-commons-collection';
+
+<TextArea
+  backgroundColor='#FFFFFF'
+  border='1px solid #EFEFEF'
+  borderRadius='0.5em'
+  color='#2E2E2E'
+  disabled={false}
+  fontFamily='Montserrat'
+  fontSize='1em'
+  fontWeight={400}
+  hasError={false}
+  helperText=''
+  label=''
+  letterSpacing='normal'
+  lineHeight='normal'
+  outlineColor='#1E90FF'
+  cols={20}
+  maxlength={300}
+  minLenght={10}
+  placeholder='Enter message here'
+  placeholderColor='#6C6C6C'
+  rows={12}
+  wrap='hard'
+  autoFocus={false}
+  readOnly={false}
+  required={false}
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+/>;
 ```
 
 <iframe
@@ -1002,29 +1149,45 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Text
-```javascript
-  import { Text } from '@react-pakistan/react-commons-collection';
 
-  <Text
-    color="#2E2E2E"
-    fontFamily="Montserrat"
-    fontSize="1em"
-    fontWeight={400}
-    letterSpacing="1px"
-    lineHeight={0.8}
-    textAlign="center"
-    textDecoration="none"
-    textTransform="none"
-  >
-    Text Component
-  </Text>
+```javascript
+import { Text } from '@react-pakistan/react-commons-collection';
+
+<Text
+  color='#FFFFFF'
+  fontFamily='Montserrat'
+  fontSize='1em'
+  fontWeight={400}
+  letterSpacing='normal'
+  lineHeight='normal'
+  textAlign='left'
+  textTransform='none'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+>
+  Text Component
+</Text>;
 ```
 
 - ### Ul
+
 ```javascript
   import { Ul } from '@react-pakistan/react-commons-collection';
 
-  <Ul>
+  <Ul
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+  >
     <Li>Value</Li>
   <Ul>
 ```
@@ -1038,17 +1201,28 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Video
-```javascript
-  import { Video } from '@react-pakistan/react-commons-collection';
 
-  <Video
-    autoplay
-    controls
-    poster="https://upload.wikimedia.org/wikipedia/commons/b/b9/Elephants_Dream_s8_proog.jpg"
-    preload="auto"
-    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
-    width="100%"
-  />
+```javascript
+import { Video } from '@react-pakistan/react-commons-collection';
+
+<Video
+  autoplay={false}
+  controls
+  loops={false}
+  muted={false}
+  poster='https://upload.wikimedia.org/wikipedia/commons/b/b9/Elephants_Dream_s8_proog.jpg'
+  preload='auto'
+  src='http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'
+  width='100%'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+  autoplay
+/>;
 ```
 
 <iframe
@@ -1060,12 +1234,22 @@ We aim to achieve 100% coverage and we shall...
 </iframe>
 
 - ### Wrapper
-```javascript
-  import { Wrapper } from '@react-pakistan/react-commons-collection';
 
-  <Wrapper width="90%">
-    Wrapper Component
-  </Wrapper>
+```javascript
+import { Wrapper } from '@react-pakistan/react-commons-collection';
+
+<Wrapper
+  width='90%'
+  desktop=''
+  laptop=''
+  laptopL=''
+  mobileL=''
+  mobileM=''
+  mobileS=''
+  tablet=''
+>
+  Wrapper Component
+</Wrapper>;
 ```
 
 <iframe
