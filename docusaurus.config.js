@@ -2,7 +2,7 @@ module.exports = {
   title: 'React Pakistan',
   tagline: 'An Open Source Platform',
   url: 'https://react-pakistan.github.io/',
-  baseUrl: '/',
+  baseUrl: '/react-pakistan-docs/',
   onBrokenLinks: 'error',
   favicon: 'img/favicon.ico',
   organizationName: 'react-pakistan', // Usually your GitHub org/user name.
@@ -19,13 +19,13 @@ module.exports = {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
-          position: 'left',
+          position: 'right',
         },
-        // {
-        //   to: 'blog',
-        //   label: 'Blog',
-        //   position: 'left'
-        // },
+        {
+          to: 'blog',
+          label: 'Blog',
+          position: 'right'
+        },
         {
           href: 'https://github.com/react-pakistan',
           label: 'GitHub',

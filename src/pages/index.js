@@ -8,7 +8,6 @@ import { ThemeProvider } from 'styled-components';
 import React from 'react';
 import Feature from './feature';
 import features from './helpers';
-import * as Styled from './styled';
 import styles from './styles.module.css';
 
 const Home = () => {
@@ -21,12 +20,12 @@ const Home = () => {
         title={`Hello from ${siteConfig.title}`}
         description='Description will go into a meta tag in <head />'
       >
-        <Styled.Header className={clsx('hero hero--primary', styles.heroBanner)}>
-          <Styled.Container className='container'>
-            <img src='../static/img/react-pakistan-logo-white.svg' alt='React Pakistan Logo' />
-            <Styled.HeaderTitle className='hero__title'>{siteConfig.title}</Styled.HeaderTitle>
-            <Styled.HeaderSubtitle className='hero__subtitle'>{siteConfig.tagline}</Styled.HeaderSubtitle>
-            <Styled.ButtonWrapper className={styles.buttons}>
+        <header className={clsx('hero hero--primary', styles.heroBanner)}>
+          <div className='container'>
+            <img src='../static/img/react-pakistan-logo-white.svg' alt='React Pakistan Logo' width='150rem' />
+            <h1 className='hero__title'>{siteConfig.title}</h1>
+            <h2 className='hero__subtitle'>{siteConfig.tagline}</h2>
+            <div className={styles.buttons}>
               <Link
                 className={clsx(
                   'button button--outline button--secondary button--lg',
@@ -36,22 +35,22 @@ const Home = () => {
               >
                 Read Docs
               </Link>
-            </Styled.ButtonWrapper>
-          </Styled.Container>
-        </Styled.Header>
-        <Main>
+            </div>
+          </div>
+        </header>
+        <main>
           {features && features.length > 0 && (
-            <FeatureSection className={styles.features}>
-              <FeatureWrapper className='container'>
-                <FeatureRow className='row'>
+            <section className={styles.features}>
+              <div className='container'>
+                <div className='row'>
                   {features.map((props, idx) => (
                     <Feature key={idx} {...props} />
                   ))}
-                </FeatureRow>
-              </FeatureWrapper>
-            </FeatureSection>
+                </div>
+              </div>
+            </section>
           )}
-        </Main>
+        </main>
       </Layout>
     </ThemeProvider>
   );
