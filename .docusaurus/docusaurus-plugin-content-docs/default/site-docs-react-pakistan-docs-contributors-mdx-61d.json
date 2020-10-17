@@ -1,0 +1,18 @@
+{
+  "unversionedId": "react-pakistan-docs-contributors",
+  "id": "react-pakistan-docs-contributors",
+  "isDocsHomePage": false,
+  "title": "React Pakistan Docs Contributors",
+  "description": "Contributors",
+  "source": "@site/docs/react-pakistan-docs-contributors.mdx",
+  "slug": "/react-pakistan-docs-contributors",
+  "permalink": "/react-pakistan-docs/docs/react-pakistan-docs-contributors",
+  "editUrl": "https://github.com/react-pakistan/react-pakistan-docs/edit/master/docs/react-pakistan-docs-contributors.mdx",
+  "version": "current",
+  "sidebar_label": "React Pakistan Docs Contributors",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "React Native Contributors",
+    "permalink": "/react-pakistan-docs/docs/react-native-contributors"
+  }
+}

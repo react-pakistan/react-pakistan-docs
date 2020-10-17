@@ -1,0 +1,663 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "1": [
+      0,
+      2,
+      3,
+      4,
+      6,
+      11,
+      29,
+      34,
+      36,
+      37,
+      46,
+      47,
+      1
+    ],
+    "2": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      29,
+      34,
+      36,
+      37,
+      46,
+      47,
+      2
+    ],
+    "3": [
+      0,
+      1,
+      2,
+      29,
+      34,
+      37,
+      3
+    ],
+    "4": [
+      0,
+      1,
+      2,
+      14,
+      36,
+      4
+    ],
+    "styles": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      11,
+      14,
+      29,
+      34,
+      36,
+      37,
+      44,
+      45,
+      46,
+      47,
+      0
+    ],
+    "@site/blog/2020-11-20-sitemap.md": [
+      5
+    ],
+    "@theme/BlogTagsListPage": [
+      0,
+      1,
+      2,
+      6
+    ],
+    "@site/blog/2020-11-20-sitemap.md?truncated=true": [
+      7
+    ],
+    "@site/blog/2020-11-16-welcome.md?truncated=true": [
+      8
+    ],
+    "@site/docs/react-logo-collection.mdx": [
+      9
+    ],
+    "~blog/default/react-pakistan-docs-blog-tags-storybook-c60.json": [
+      10
+    ],
+    "@theme/DocItem": [
+      0,
+      1,
+      11
+    ],
+    "@site/blog/2020-11-16-welcome.md": [
+      12
+    ],
+    "@site/docs/react-commons-collection.mdx": [
+      13
+    ],
+    "@site/src/pages/feature.js": [
+      0,
+      1,
+      2,
+      4,
+      16
+    ],
+    "~blog/default/react-pakistan-docs-blog-tags-tags-357.json": [
+      15
+    ],
+    "@site/src/pages/helpers.js": [
+      0,
+      1,
+      2,
+      4,
+      16
+    ],
+    "~blog/default/react-pakistan-docs-blog-tags-sitemap-4da.json": [
+      17
+    ],
+    "@site/docs/react-emoji-contributors.mdx": [
+      18
+    ],
+    "@site/docs/react-logo-contributors.mdx": [
+      19
+    ],
+    "@site/docs/react-commons-contributors.mdx": [
+      20
+    ],
+    "~blog/default/react-pakistan-docs-blog-tags-pakistan-b39.json": [
+      21
+    ],
+    "@site/docs/react-native-boilerplate.mdx": [
+      22
+    ],
+    "@site/docs/react-ui-contributors.mdx": [
+      23
+    ],
+    "@site/docs/doc3.md": [
+      24
+    ],
+    "@site/docs/react-pakistan-docs-contributors.mdx": [
+      25
+    ],
+    "@site/docs/react-native-contributors.mdx": [
+      26
+    ],
+    "~blog/default/react-pakistan-docs-blog-c8b.json": [
+      27
+    ],
+    "@site/docs/react-icon-contributors.mdx": [
+      28
+    ],
+    "@theme/BlogTagsPostsPage": [
+      0,
+      1,
+      2,
+      3,
+      29
+    ],
+    "@site/docs/react-ui-collection.mdx": [
+      30
+    ],
+    "~blog/default/react-pakistan-docs-blog-tags-generator-6bf.json": [
+      31
+    ],
+    "~docs/default/version-current-metadata-prop-751.json": [
+      32
+    ],
+    "~blog/default/react-pakistan-docs-blog-tags-welcome-2b1.json": [
+      33
+    ],
+    "@theme/BlogListPage": [
+      0,
+      1,
+      2,
+      3,
+      34
+    ],
+    "@site/docs/doc1.md": [
+      35
+    ],
+    "@site/src/pages/index.js": [
+      0,
+      1,
+      2,
+      4,
+      16
+    ],
+    "@theme/BlogPostPage": [
+      0,
+      1,
+      2,
+      3,
+      37
+    ],
+    "@site/docs/mdx.md": [
+      38
+    ],
+    "~blog/default/react-pakistan-docs-blog-tags-react-01e.json": [
+      39
+    ],
+    "@site/docs/doc2.md": [
+      40
+    ],
+    "@site/docs/react-emoji-collection.mdx": [
+      41
+    ],
+    "@site/docs/react-icon-collection.mdx": [
+      42
+    ],
+    "@site/docs/intro.mdx": [
+      43
+    ],
+    "@generated/docusaurus.config": [
+      0,
+      45,
+      44
+    ],
+    "main": [
+      0,
+      45,
+      44
+    ],
+    "runtime~main": [
+      0,
+      44,
+      45
+    ],
+    "@theme/DocPage": [
+      0,
+      1,
+      2,
+      47
+    ],
+    "@theme/NotFound": [
+      0,
+      1,
+      2,
+      47
+    ]
+  },
+  "assets": {
+    "0": {
+      "css": [
+        {
+          "file": "styles.48d84661.css",
+          "hash": "580bd8ee4042725f888a",
+          "publicPath": "/react-pakistan-docs/styles.48d84661.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "styles.f09ac2c8.js",
+          "hash": "580bd8ee4042725f888a",
+          "publicPath": "/react-pakistan-docs/styles.f09ac2c8.js"
+        }
+      ]
+    },
+    "1": {
+      "js": [
+        {
+          "file": "1.fc64385b.js",
+          "hash": "60933ac8d0e7fb267bc0",
+          "publicPath": "/react-pakistan-docs/1.fc64385b.js"
+        }
+      ]
+    },
+    "2": {
+      "js": [
+        {
+          "file": "2.1af5a042.js",
+          "hash": "4086c0abecc3537489ac",
+          "publicPath": "/react-pakistan-docs/2.1af5a042.js"
+        }
+      ]
+    },
+    "3": {
+      "js": [
+        {
+          "file": "3.2a6448d2.js",
+          "hash": "e59d70f59b303405cac9",
+          "publicPath": "/react-pakistan-docs/3.2a6448d2.js"
+        }
+      ]
+    },
+    "4": {
+      "js": [
+        {
+          "file": "4.50cac766.js",
+          "hash": "7771d2d06381394bc124",
+          "publicPath": "/react-pakistan-docs/4.50cac766.js"
+        }
+      ]
+    },
+    "5": {
+      "js": [
+        {
+          "file": "019fb6b4.e5e9dc3c.js",
+          "hash": "1cafd78a5e92d8dafd0e",
+          "publicPath": "/react-pakistan-docs/019fb6b4.e5e9dc3c.js"
+        }
+      ]
+    },
+    "6": {
+      "js": [
+        {
+          "file": "01a85c17.de77aa54.js",
+          "hash": "3288364af2d8f9916146",
+          "publicPath": "/react-pakistan-docs/01a85c17.de77aa54.js"
+        }
+      ]
+    },
+    "7": {
+      "js": [
+        {
+          "file": "0326217b.7921e310.js",
+          "hash": "2c9077e975de8867a0c5",
+          "publicPath": "/react-pakistan-docs/0326217b.7921e310.js"
+        }
+      ]
+    },
+    "8": {
+      "js": [
+        {
+          "file": "0d0683b7.8f1f9edc.js",
+          "hash": "111a78708b743ca757d9",
+          "publicPath": "/react-pakistan-docs/0d0683b7.8f1f9edc.js"
+        }
+      ]
+    },
+    "9": {
+      "js": [
+        {
+          "file": "148110ab.f0388ca1.js",
+          "hash": "243a715cb20b259c3c41",
+          "publicPath": "/react-pakistan-docs/148110ab.f0388ca1.js"
+        }
+      ]
+    },
+    "10": {
+      "js": [
+        {
+          "file": "1662c5aa.5e03495e.js",
+          "hash": "bfc141d0b0f974445119",
+          "publicPath": "/react-pakistan-docs/1662c5aa.5e03495e.js"
+        }
+      ]
+    },
+    "11": {
+      "js": [
+        {
+          "file": "17896441.abb750bd.js",
+          "hash": "6287efe897e798245633",
+          "publicPath": "/react-pakistan-docs/17896441.abb750bd.js"
+        }
+      ]
+    },
+    "12": {
+      "js": [
+        {
+          "file": "22c5ea2e.d2a21cfa.js",
+          "hash": "bce6c2aa27ec106e2188",
+          "publicPath": "/react-pakistan-docs/22c5ea2e.d2a21cfa.js"
+        }
+      ]
+    },
+    "13": {
+      "js": [
+        {
+          "file": "22f14df0.277fe7e3.js",
+          "hash": "40ed862aacc0dc60e3f0",
+          "publicPath": "/react-pakistan-docs/22f14df0.277fe7e3.js"
+        }
+      ]
+    },
+    "15": {
+      "js": [
+        {
+          "file": "2de8411f.10f2d8e2.js",
+          "hash": "8ca743f8a92808ac38d6",
+          "publicPath": "/react-pakistan-docs/2de8411f.10f2d8e2.js"
+        }
+      ]
+    },
+    "16": {
+      "js": [
+        {
+          "file": "c4f5d8e4.22cadbc0.js",
+          "hash": "f0a90f79925124ca8ab9",
+          "publicPath": "/react-pakistan-docs/c4f5d8e4.22cadbc0.js"
+        }
+      ]
+    },
+    "17": {
+      "js": [
+        {
+          "file": "33116262.081c6825.js",
+          "hash": "1ff59339b0f908b9d7b4",
+          "publicPath": "/react-pakistan-docs/33116262.081c6825.js"
+        }
+      ]
+    },
+    "18": {
+      "js": [
+        {
+          "file": "333a8524.03cb8e31.js",
+          "hash": "ae96903b689bfada9441",
+          "publicPath": "/react-pakistan-docs/333a8524.03cb8e31.js"
+        }
+      ]
+    },
+    "19": {
+      "js": [
+        {
+          "file": "401f57f2.8b0ab7ff.js",
+          "hash": "e3ccc4d236992a35ee43",
+          "publicPath": "/react-pakistan-docs/401f57f2.8b0ab7ff.js"
+        }
+      ]
+    },
+    "20": {
+      "js": [
+        {
+          "file": "42d66990.700eb2ed.js",
+          "hash": "123df5c2109449e3c1a5",
+          "publicPath": "/react-pakistan-docs/42d66990.700eb2ed.js"
+        }
+      ]
+    },
+    "21": {
+      "js": [
+        {
+          "file": "4d209b5c.5d5bfd57.js",
+          "hash": "cb7fbe8dac54b4006da9",
+          "publicPath": "/react-pakistan-docs/4d209b5c.5d5bfd57.js"
+        }
+      ]
+    },
+    "22": {
+      "js": [
+        {
+          "file": "508d2178.b6a7296f.js",
+          "hash": "1d9c1170d40adb4f5a18",
+          "publicPath": "/react-pakistan-docs/508d2178.b6a7296f.js"
+        }
+      ]
+    },
+    "23": {
+      "js": [
+        {
+          "file": "5b612279.13a07f20.js",
+          "hash": "a39f5418f847a611a1a6",
+          "publicPath": "/react-pakistan-docs/5b612279.13a07f20.js"
+        }
+      ]
+    },
+    "24": {
+      "js": [
+        {
+          "file": "616665f6.57e54c0f.js",
+          "hash": "843e84320a81e0f60f6c",
+          "publicPath": "/react-pakistan-docs/616665f6.57e54c0f.js"
+        }
+      ]
+    },
+    "25": {
+      "js": [
+        {
+          "file": "61d3c7dd.d75dc03c.js",
+          "hash": "f83c853db2881eb9057d",
+          "publicPath": "/react-pakistan-docs/61d3c7dd.d75dc03c.js"
+        }
+      ]
+    },
+    "26": {
+      "js": [
+        {
+          "file": "6583ee55.9a1e938b.js",
+          "hash": "98d884f301d73b9b3243",
+          "publicPath": "/react-pakistan-docs/6583ee55.9a1e938b.js"
+        }
+      ]
+    },
+    "27": {
+      "js": [
+        {
+          "file": "6626a7f7.088c4c54.js",
+          "hash": "57be0d6d9ab6367b3a73",
+          "publicPath": "/react-pakistan-docs/6626a7f7.088c4c54.js"
+        }
+      ]
+    },
+    "28": {
+      "js": [
+        {
+          "file": "66513b4c.3fd08ed6.js",
+          "hash": "524e02212cf026e2360e",
+          "publicPath": "/react-pakistan-docs/66513b4c.3fd08ed6.js"
+        }
+      ]
+    },
+    "29": {
+      "js": [
+        {
+          "file": "6875c492.259b06dc.js",
+          "hash": "e2ba52bac2973ec1f36e",
+          "publicPath": "/react-pakistan-docs/6875c492.259b06dc.js"
+        }
+      ]
+    },
+    "30": {
+      "js": [
+        {
+          "file": "73038426.6dcb4289.js",
+          "hash": "3de7e0eda202e130a7a1",
+          "publicPath": "/react-pakistan-docs/73038426.6dcb4289.js"
+        }
+      ]
+    },
+    "31": {
+      "js": [
+        {
+          "file": "9227f418.a44eb994.js",
+          "hash": "aa4564c3ec6430c2f203",
+          "publicPath": "/react-pakistan-docs/9227f418.a44eb994.js"
+        }
+      ]
+    },
+    "32": {
+      "js": [
+        {
+          "file": "935f2afb.2b75d1c2.js",
+          "hash": "e0fb47d507f171288ac3",
+          "publicPath": "/react-pakistan-docs/935f2afb.2b75d1c2.js"
+        }
+      ]
+    },
+    "33": {
+      "js": [
+        {
+          "file": "977ffbbf.6e94db00.js",
+          "hash": "80f2e9cd78203af51f30",
+          "publicPath": "/react-pakistan-docs/977ffbbf.6e94db00.js"
+        }
+      ]
+    },
+    "34": {
+      "js": [
+        {
+          "file": "a6aa9e1f.0650088c.js",
+          "hash": "4e6ba511f52e6dd84d2a",
+          "publicPath": "/react-pakistan-docs/a6aa9e1f.0650088c.js"
+        }
+      ]
+    },
+    "35": {
+      "js": [
+        {
+          "file": "b2f90839.3d5bbb72.js",
+          "hash": "7046dbd77b072e39ef93",
+          "publicPath": "/react-pakistan-docs/b2f90839.3d5bbb72.js"
+        }
+      ]
+    },
+    "37": {
+      "js": [
+        {
+          "file": "ccc49370.0e278075.js",
+          "hash": "b684cbd9396c5f8df48f",
+          "publicPath": "/react-pakistan-docs/ccc49370.0e278075.js"
+        }
+      ]
+    },
+    "38": {
+      "js": [
+        {
+          "file": "ce3e42ad.20cf50cd.js",
+          "hash": "419f23f0329558b1f75c",
+          "publicPath": "/react-pakistan-docs/ce3e42ad.20cf50cd.js"
+        }
+      ]
+    },
+    "39": {
+      "js": [
+        {
+          "file": "de5616a9.a3733893.js",
+          "hash": "99411eba96bd693bda4b",
+          "publicPath": "/react-pakistan-docs/de5616a9.a3733893.js"
+        }
+      ]
+    },
+    "40": {
+      "js": [
+        {
+          "file": "df361e2b.c8555ff4.js",
+          "hash": "3322b9a808894c78654e",
+          "publicPath": "/react-pakistan-docs/df361e2b.c8555ff4.js"
+        }
+      ]
+    },
+    "41": {
+      "js": [
+        {
+          "file": "f4a467fb.59534157.js",
+          "hash": "222d77c19f7eaffd3b93",
+          "publicPath": "/react-pakistan-docs/f4a467fb.59534157.js"
+        }
+      ]
+    },
+    "42": {
+      "js": [
+        {
+          "file": "f64b1ef8.4900c6af.js",
+          "hash": "6a73a9a37c2428146310",
+          "publicPath": "/react-pakistan-docs/f64b1ef8.4900c6af.js"
+        }
+      ]
+    },
+    "43": {
+      "js": [
+        {
+          "file": "f8409a7e.83a571ef.js",
+          "hash": "4a7d6694b88173bd44c2",
+          "publicPath": "/react-pakistan-docs/f8409a7e.83a571ef.js"
+        }
+      ]
+    },
+    "44": {
+      "js": [
+        {
+          "file": "main.a5838259.js",
+          "hash": "8696517fc808bbe62900",
+          "publicPath": "/react-pakistan-docs/main.a5838259.js"
+        }
+      ]
+    },
+    "45": {
+      "js": [
+        {
+          "file": "runtime~main.05ad417f.js",
+          "hash": "48e7109b931d6d9e2bdc",
+          "publicPath": "/react-pakistan-docs/runtime~main.05ad417f.js"
+        }
+      ]
+    },
+    "47": {
+      "js": [
+        {
+          "file": "46.35852e95.js",
+          "hash": "c9c5c166d33517b50387",
+          "publicPath": "/react-pakistan-docs/46.35852e95.js"
+        },
+        {
+          "file": "47.a25f743e.js",
+          "hash": "760dfa90183e9db51eca",
+          "publicPath": "/react-pakistan-docs/47.a25f743e.js"
+        }
+      ]
+    }
+  }
+}
