@@ -62,5 +62,5 @@ Styled Components are employed to maintain and update theme for this project. Pl
   id="React Pakistan - React Logo Collection Wrapper"
   title="React Pakistan - React Logo Collection Wrapper"
   width="100%"
-  src="https://taimoormk.github.io/react-logo-collection/?path=/story/logo-bitcoincolor--bitcoin-color">
+  src="https://react-pakistan.github.io/react-logo-collection/?path=/story/logo-bitcoincolor--bitcoin-color">
 </iframe>
