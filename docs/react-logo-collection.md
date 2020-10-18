@@ -49,7 +49,7 @@ Styled Components are employed to maintain and update theme for this project. Pl
 
 - ### BitcoinColor22
 ```javascript
-  import { BitcoinColor22 } from ‘@react-pakistan/react-logo-collection/logos/bitcoin-color’;
+  import { BitcoinColor22 } from '@react-pakistan/react-logo-collection/bitcoin-color';
 
   <BitcoinColor22
     fontSize="32px"
