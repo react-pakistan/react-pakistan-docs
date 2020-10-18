@@ -1,5 +1,6 @@
 {
   "docs": {
+    "Intro": ["intro"],
     "React Commons": ["react-commons-collection", "react-commons-contributors"],
     "React UI": ["react-ui-collection", "react-ui-contributors"],
     "React Icon": ["react-icon-collection", "react-icon-contributors"],
@@ -7,8 +8,5 @@
     "React Emoji": ["react-emoji-collection", "react-emoji-contributors"],
     "React Native": ["react-native-boilerplate", "react-native-contributors"],
     "React Docs": ["react-docs-contributors"]
-  },
-  "docs-other": {
-    "First Category": ["react-logo", "doc5"]
   }
 }

@@ -5,6 +5,9 @@
     "previous": "Previous",
     "tagline": "An Open Source Platform",
     "docs": {
+      "intro": {
+        "title": "intro"
+      },
       "react-commons-collection": {
         "title": "React Commons Collection",
         "sidebar_label": "React Commons Collection"
@@ -59,22 +62,17 @@
       }
     },
     "links": {
-      "Home": "Home",
-      "React Commons": "React Commons",
-      "React UI": "React UI",
-      "React Icon": "React Icon",
-      "React Logo": "React Logo",
-      "React Native Boilerplate": "React Native Boilerplate"
+      "Docs": "Docs"
     },
     "categories": {
+      "Intro": "Intro",
       "React Commons": "React Commons",
       "React UI": "React UI",
       "React Icon": "React Icon",
       "React Logo": "React Logo",
       "React Emoji": "React Emoji",
       "React Native": "React Native",
-      "React Docs": "React Docs",
-      "First Category": "First Category"
+      "React Docs": "React Docs"
     }
   },
   "pages-strings": {
