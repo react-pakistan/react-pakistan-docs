@@ -1,7 +1,7 @@
 ---
-id: react-native-logo-collection
-title: React Native Logo Collection
-sidebar_label: React Native Logo Collection
+id: react-logo-collection
+title: React Logo Collection
+sidebar_label: React Logo Collection
 ---
 
 ## React Pakistan
