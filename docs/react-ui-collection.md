@@ -36,6 +36,12 @@ import { Breadcrumbs } from '@react-pakistan/react-ui-collection/eCommerceV1UI/b
 
   <Breadcrumbs
     breadcrumbs={['Item1','Item2','Item3']}
+    desktop=''
+  	laptop=''
+	  laptopL=''
+	  mobileL=''
+	  mobileM=''
+	  mobileS=''    
   />
 ```
 
@@ -78,6 +84,12 @@ import { Cart } from '@react-pakistan/react-ui-collection/eCommerceV1UI/cart';
 
   <Cart
     cartItemsNumber={6}
+    desktop=''
+	  laptop=''
+	  laptopL=''
+	  mobileL=''
+  	mobileM=''
+	  mobileS=''
   />
 ```
 
@@ -90,20 +102,18 @@ import { CategoryBanner } from '@react-pakistan/react-ui-collection/eCommerceV1U
     imageBackgroundWidth="100%"
     imageBackgroundHeight="500px"
     imageBackgroundUrl="https://demo.accesspressthemes.com/fashstore-pro/w…"
-    fontFamilyH3="PlayFair Display"
-    fontSizeH3="3em"
-    textAlignH3="left"
-    textTransformH3="none"
     headingH3="Mens wear"
     menuItems={[
       {id: 'menu-item-1',menuLabel: 'Accessories',menuUrl: '/accessories'},
       {id: 'menu-item-2',menuLabel: 'ASOS Baisc Tops',menuUrl: '/asos-basic-tops'},
       {id: 'menu-item-3',menuLabel: 'Bags',menuUrl: '/bags'},
     ]}
-    fontFamilyH5="Montserrat"
-    textAlignH5="left"
-    textTransformH5="none"
-    colorH5="#FFFFFF"
+    desktop=''
+	  laptop=''
+	  laptopL=''
+	  mobileL=''
+  	mobileM=''
+	  mobileS=''
   />
 ```
 
