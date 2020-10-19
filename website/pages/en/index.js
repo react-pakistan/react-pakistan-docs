@@ -84,7 +84,7 @@ class Index extends React.Component {
     const {baseUrl} = siteConfig;
 
     const Block = props => (
-      <a href='google.com'>
+      <a href={props.to}>
         <Container
           padding={['bottom', 'top']}
           id={props.id}
@@ -108,7 +108,7 @@ class Index extends React.Component {
     // );
 
     const ReactCommons = () => (
-      <Block background='light'>
+      <Block background='light' to='docs/react-commons-collection'>
         {[
           {
             content:
@@ -262,7 +262,7 @@ class Index extends React.Component {
     );
 
     const ReactNativeBoilerplate = () => (
-      <Block background='dark'>
+      <Block background='light'>
         {[
           {
             content:
@@ -303,16 +303,11 @@ class Index extends React.Component {
             imageAlign: 'left',
             title: 'React Emoji Collection',
           },
-          {
-            image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499950/GitHub/react-design-collection.jpg',
-            imageAlign: 'left',
-            title: 'React Design Collection',
-          },
-          {
-            image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1548862588/react-native-boilerplate.jpg',
-            imageAlign: 'left',
-            title: 'React Native Boilerplate',
-          },
+          // {
+          //   image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499950/GitHub/react-design-collection.jpg',
+          //   imageAlign: 'left',
+          //   title: 'React Design Collection',
+          // },
           {
             image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1583650645/GitHub/react-native-commons-collection.jpg',
             imageAlign: 'left',
@@ -338,6 +333,12 @@ class Index extends React.Component {
             imageAlign: 'left',
             title: 'React Native Emoji Collection',
           },
+          {
+            image: 'https://res.cloudinary.com/dq6hflqwx/image/upload/v1548862588/react-native-boilerplate.jpg',
+            imageAlign: 'left',
+            title: 'React Native Boilerplate',
+          },
+          {},
         ]}
       </Block>
     );
@@ -378,11 +379,7 @@ class Index extends React.Component {
           <div className='mainContainer'>
             <Features />
             {/* <FeatureCallout /> */}
-            {/* <Commons.A href='/doc1.html' target='_self'> */}
-              <a href='/doc1.html'>
-                <ReactCommons />
-              </a>
-            {/* </Commons.A> */}
+            <ReactCommons />
             <ReactNativeCommons />
             <ReactUI />
             <ReactNativeUI />
@@ -392,9 +389,9 @@ class Index extends React.Component {
             <ReactNativeLogo />
             <ReactEmoji />
             <ReactNativeEmoji />
-            <ReactDesign />
+            {/* <ReactDesign /> */}
             <ReactNativeBoilerplate />
-            <Showcase />
+            {/* <Showcase /> */}
           </div>
         </div>
       </Styled.ThemeProvider>

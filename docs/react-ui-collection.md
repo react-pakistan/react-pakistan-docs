@@ -1,7 +1,7 @@
 ---
-id: react-native-ui-collection
-title: React Native UI Collection
-sidebar_label: React Naive UI Collection
+id: react-ui-collection
+title: React UI Collection
+sidebar_label: React UI Collection
 ---
 
 ## React Pakistan

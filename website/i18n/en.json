@@ -84,17 +84,17 @@
         "title": "React Native Logo Contributors",
         "sidebar_label": "React Native Logo Contributors"
       },
-      "react-ui-collection": {
-        "title": "React UI Collection",
-        "sidebar_label": "React UI Collection"
+      "react-native-ui-collection": {
+        "title": "React Native UI Collection",
+        "sidebar_label": "React Native UI Collection"
       },
       "react-native-ui-contributors": {
         "title": "React Native UI Contributors",
         "sidebar_label": "React Native UI Contributors"
       },
-      "react-native-ui-collection": {
-        "title": "React Native UI Collection",
-        "sidebar_label": "React Naive UI Collection"
+      "react-ui-collection": {
+        "title": "React UI Collection",
+        "sidebar_label": "React UI Collection"
       },
       "react-ui-contributors": {
         "title": "React UI Contributors",
