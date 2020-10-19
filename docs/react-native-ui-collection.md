@@ -17,7 +17,7 @@ React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React 
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-" width="20%" />
 </div>
 
-- [React UI NPM Module](https://www.npmjs.com/package/@react-pakistan/react-ui-collection)
+- [React Native UI NPM Module](https://www.npmjs.com/package/@react-pakistan/react-native-ui-collection)
 
 A generic to specific, UI/UX library for React Native apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
 
@@ -37,7 +37,7 @@ Styled Components are employed to maintain and update theme for this project. Pl
 
 ```javascript
   import { ThemeProvider } from 'styled-components';
-  import { theme } from '@react-pakistan/util-functions';
+  import { theme } from '@react-pakistan/util-react-native-functions';
 
   <ThemeProvider theme={theme}>
     <App />

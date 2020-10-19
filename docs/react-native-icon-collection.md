@@ -10,57 +10,45 @@ sidebar_label: React Native Icon Collection
 
 React Pakistan is a Free & OpenSource Software (FOSS) platform, creating React software solutions for the global community.
 
-## React Icon Collection
+## React Native Icon Collection
 
 <div>
-  <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499955/GitHub/react-icons-collection.jpg" width="70%"/>
+  <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1583650647/GitHub/react-native-icon-collection.jpg" width="70%"/>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-" width="20%" />
 </div>
 
-- [React Icon Storybook Playground](https://taimoormk.github.io/react-icon-collection/?path=/docs/react-pakistan-intro--page/)
-- [React Icon NPM Module](https://www.npmjs.com/package/@react-pakistan/react-icon-collection)
+- [React Native Icon NPM Module](https://www.npmjs.com/package/@react-pakistan/react-native-icon-collection)
 
-A generic, SVG Icon library for React web apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
+A generic, SVG Icon library for React Native apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
 
 ## Install
 
 Add React Icon Collection to your project:
 
-`yarn add @react-pakistan/react-icon-collection` or `npm install @react-pakistan/react-icon-collection`
+`yarn add @react-pakistan/react-native-icon-collection` or `npm install @react-pakistan/react-native-icon-collection`
 
-Add React Icon Collection base theme to your project.
+Add React Native Icon Collection base theme to your project.
 
-`yarn add @react-pakistan/util-functions` or `npm install @react-pakistan/util-functions`
+`yarn add @react-pakistan/util-react-native-functions` or `npm install @react-pakistan/util-react-native-functions`
 
 ## Styles
 
-Styled Components are employed to maintain and update theme for this project. Please consider adding Styled Component Provider wrapper to the entry point of your application, following is the sample code. You could either use the default theme as shown below or wire your custom theme object instead.
+Styled Components are employed to maintain and update theme for this project. Please consider adding Styled Component Provider wrapper to the entry point of your application, following is the sample code. You could either use the default theme as shown below or wire your custom theme object instead. See [Typography](https://taimoormk.github.io/react-commons-collection/?path=/docs/styleguide-typography--typography-story) & [Colors](https://taimoormk.github.io/react-commons-collection/?path=/docs/styleguide-colors--colors-story) being used in the theme object.
 
 ```javascript
   import { ThemeProvider } from 'styled-components';
-  import { theme } from '@react-pakistan/util-functions';
+  import { theme } from '@react-pakistan/util-react-native-functions';
 
   <ThemeProvider theme={theme}>
     <App />
   </ThemeProvider>
 ```
 
-## Use
+## Tested
 
-- ### FourthofjulyGrey12
-```javascript
-  import { FourthofjulyGrey12 } from '@react-pakistan/react-icons-collection/fourthofjuly-grey';
+We aim to achieve 100% coverage and we shall...
 
-  <FourthofjulyGrey12
-    fontSize="32px"
-    fill="#2E2E2E"
-  />
-```
-
-<iframe
-  height="500"
-  id="React Pakistan - React Icon Collection Wrapper"
-  title="React Pakistan - React Icon Collection Wrapper"
-  width="100%"
-  src="https://react-pakistan.github.io/react-icon-collection/?path=/story/icon-fourthofjulygrey--fourthofjuly-grey">
-</iframe>
+![React Commons Collection Badge Branches](https://res.cloudinary.com/dq6hflqwx/image/upload/v1597117511/GitHub/badges/react-commons-collection/badge-branches.svg)
+![React Commons Collection Badge Functions](https://res.cloudinary.com/dq6hflqwx/image/upload/v1597117511/GitHub/badges/react-commons-collection/badge-functions.svg)
+![React Commons Collection Badge Lines](https://res.cloudinary.com/dq6hflqwx/image/upload/v1597117511/GitHub/badges/react-commons-collection/badge-lines.svg)
+![React Commons Collection Badge Statements](https://res.cloudinary.com/dq6hflqwx/image/upload/v1597117511/GitHub/badges/react-commons-collection/badge-statements.svg)
