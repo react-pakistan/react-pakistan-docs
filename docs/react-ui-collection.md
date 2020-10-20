@@ -588,3 +588,375 @@ import { Footer } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 		tablet=''
 	/>
 ```
+
+- ### HighlightCard
+```javascript 
+import { HighlightCard } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	<HighlightCard
+		backgroundColorButton='#FFFFFF'
+		buttonText='Shop'
+		colorButtonText='#F62F5E'
+		fontFamilyButtonText='Montserrat'
+		fontSizeButtonText='1.5em'
+		headingButtonText='Scandi-cool'
+		headingH2='"New Trend"'
+		headingH3='"Scandi-cool"'
+		imageBackgroundHeight='500px'
+		imageBackgroundUrl='http://kyotobowtie.com/images/onlineshop/banner_onlineshop.jpg'
+		imageBackgroundWidth='100%'
+		textAlignButtonText='left'
+		textTransformButtonText='normal'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### IconWrapper
+```javascript
+import { IconWrapper } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	<IconWrapper
+		backgroundColor='#FFFFFF'
+		isSelected={false}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### Label
+```javascript
+import { Label } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	<Label
+		backgroundColor='#2E2E2E'
+		left='1.5em'
+		padding='0.5em 0.75em'
+		top='1.5em'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### MenuBar
+```javascript
+import { MenuBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	<MenuBar
+		cartItemsNumber={6}
+		iconFill='#FFFFFF'
+		logoText='Shopmate'
+		menuItems={[
+			{
+				id:"menu-bar-item-1",
+				menuLabel:"Women",
+				menuUrl:"./women"
+			},
+		]}
+		type='menubar_type.NORMAL'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### MenuItem
+```javascript
+import { MenuItem } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	<MenuItem 
+		color='#2E2E2E'
+		fontFamily='Open Sans'
+		fontSize='0.7em'
+		fontWeight={400}
+		letterSpacing=''
+		lineHeight={0.8}
+		textAlign='left'
+		textTransform='uppercase'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### OrderTable
+```javascript 
+import { OrderTable } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	<OrderTable
+		orderBodyItems={[
+			{
+				id:"order-body-item-1",
+				itemName:"Green T-shirt 2016",
+				sku:"Men BK3569",
+				quantity:2,
+				priceCurrency:"£",
+				price:14
+			},
+		]}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+``` 
+
+- ### PaginatorBar
+```javascript
+import { PaginatorBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	<PaginatorBar
+		pagination={[
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24
+		]}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### Paginator
+```javascript
+import { Paginator } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	<Paginator
+		pagination={[
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24
+		]}
+		width=''
+		height=''
+		borderRadius=''
+		backgroundColor=''
+		backgroundColorHover=''
+		colorHover=''
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### ProductItem
+```javascript
+import { ProductItem } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	<ProductItem
+		backgroundColorButton='#F62F5E'
+		backgroundColorLabel='#F62F5E'
+		buttonText='Buy now'
+		buttonTextVariationPrice='From £4.95'
+		buttonTextWishlist='Add to Wish List'
+		colorButtonText='#FFFFFF'
+		colorButtonTextWishlist='#6C6C6C'
+		colorH5='#2E2E2E'
+		colorLabelText='#FFFFFF'
+		colorVariationPrice='F62F5E'
+		fontFamilyButtonText='Montserrat'
+		fontFamilyButtonTextWishlist='Montserrat'
+		fontFamilyVariationPrice='Montserrat'
+		fontSizeButtonText='1.5em'
+		fontSizeButtonTextWishlist='0.8em'
+		iconColorWishlist='#F62F5E'
+		imageBackgroundColor='none'
+		imageBackgroundHeight='300px'
+		imageBackgroundSize='contain'
+		imageBackgroundUrl='https://media.matinique.com/images/medium-denim-trostol-bd-shirt.jpg?i=AFaRMYyo1gg/125123&w=294&h=441'
+		imageBackgroundWidth='100%'
+		labelText='Hot'
+		overlayButtonText='Quick View'
+		productItemHeadingH5='Various T-shirts'
+		textTransformButtonText='normal'
+		textTransformVariationPrice='normal'
+		variationColors={[
+			{
+				id:"item-color-1",
+				colorShade:"red"
+			},
+			{
+				id:"item-color-2",
+				colorShade:"green"
+			},
+			{
+				id:"item-color-3",
+				colorShade:"blue"
+			}
+		]}
+		textAlignH5=''
+		textTransformH5=''
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### ProductReview
+```javascript
+import { ProductReview } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	
+	<ProductReview
+		colorDisclaimerText='#B4B4B4'
+		colorDisclaimerTextSpan='#F62F5E'
+		colorMainText='#6C6C6C'
+		colorTimeText='#B4B4B4'
+		fontFamilyDisclaimerText='Montserrat'
+		fontFamilyH4Add='Montserrat'
+		fontFamilyH4Product='Montserrat'
+		fontFamilyH5='Montserrat'
+		fontFamilyMainText='Montserrat'
+		fontFamilyTimeText='Montserrat'
+		fontSizeDisclaimerText='0.9em'
+		fontSizeMainText='1.2em'
+		fontWeightMainText={400}
+		headingH4Add='Add a review'
+		headingH4Product='Product Reviews'
+		headingH5='Pablo Permis'
+		likeIconColor='#F62F5E'
+		lineColor='#F7F7F7'
+		nicknameH5='Choose a nickname'
+		numberOfStars={5}
+		rating={4}
+		ratingH5='Overall rating'
+		reviewH5='Your review'
+		starDimension='2em'
+		starRatedColor='#F1AD3D'
+		textAlignDisclaimerText='left'
+		textAlignH4Add='left'
+		textAlignH4Product='left'
+		textAlignH5='left'
+		textAlignMainText='left'
+		textAlignTimeText='left'
+		textDisclaimerText='Your review must be at least 50 characters'
+		textDisclaimerTextSpan='Full review guidelines'
+		textMainText='Got this through the post the other day and right from opening the packet I knew this was quality, put it on and I was right!! Well done'
+		textTransformH4Add='none'
+		textTransformH4Product='none'
+		textTransformH5='none'
+		timeText='one hour ago'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### PromoCard
+```javascript
+import { PromoCard } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+
+	<PromoCard
+		alt='alt-image'
+		backgroundColorButton='#F62F5E'
+		backgroundColorLabel='#00D3CA'
+		buttonText='Shop Now'
+		colorButtonText='#FFFFFF'
+		colorLabelText='#FFFFFF'
+		fontFamilyButtonText='Montserrat'
+		fontFamilyHeading='Montserrat'
+		fontFamilyLabelText='Montserrat'
+		fontFamilyText='Montserrat'
+		fontSizeButtonText='1.5em'
+		fontSizeLabelText='1em'
+		fontWeightLabelText={700}
+		height='auto'
+		imageUrl='https://images-na.ssl-images-amazon.com/images/I/619twX5-uaL._UY395_.jpg'
+		labelText='Hello'
+		letterSpacingLabelText='1px'
+		lineHeightLabelText='normal'
+		lineHeightText='normal'
+		margin={0}
+		padding={0}
+		promoHeading='Heading'
+		promoText='Carry the day in style with this extra-large tote crafted in our chic B. B. Collection textured PVC. Featuring colorful faux leather trim, this tote offers a roomy interior plus just enough perfectly placed as a to keep smaller items organised and easy to find.'
+		textAlignHeading='left'
+		textAlignLabelText='center'
+		textAlignText='left'
+		textTransformHeading='normal'
+		textTransformLabelText='uppercase'
+		textTransformText='normal'
+		width='300px'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
