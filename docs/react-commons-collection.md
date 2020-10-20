@@ -844,10 +844,10 @@ import {Select} from '@react-pakistan/react-commons-collectiont'
 </Select>
 ```
 
--   ### Spacer
+-  ### Spacer
 ```javascript
 import {Spacer} from '@react-pakistan/react-commons-collection'
-<Spacer margin='1em 1em 1em 1em' padding='0em 0em 0em 0em' />
+  <Spacer margin='1em 1em 1em 1em' padding='0em 0em 0em 0em' />
 ```
 
 <iframe
@@ -858,157 +858,157 @@ import {Spacer} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-spacer--spacer-story">
 </iframe>
 
--   ### SocialShare
+-  ### SocialShare
 ```javascript
 import {SocialShare} from '@react-pakistan/react-commons-collection'
-<SocialShare
+  <SocialShare
     socialIcons={[
-        {
-            borderRadius: '50%',
-            id: 'social-icon-1',
-            round: true,
-            serviceName: 'facebook',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-2',
-            round: true,
-            serviceName: 'twitter',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-3',
-            round: true,
-            serviceName: 'telegram',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-4',
-            round: true,
-            serviceName: 'whatsapp',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-5',
-            round: true,
-            serviceName: 'linkedin',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-6',
-            round: true,
-            serviceName: 'pinterest',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-7',
-            round: true,
-            serviceName: 'vk',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-8',
-            round: true,
-            serviceName: 'ok',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-9',
-            round: true,
-            serviceName: 'reddit',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-10',
-            round: true,
-            serviceName: 'tumblr',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-11',
-            round: true,
-            serviceName: 'livejournal',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-12',
-            round: true,
-            serviceName: 'mailru',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-13',
-            round: true,
-            serviceName: 'viber',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-14',
-            round: true,
-            serviceName: 'workplace',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-15',
-            round: true,
-            serviceName: 'line',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-16',
-            round: true,
-            serviceName: 'pocket',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-17',
-            round: true,
-            serviceName: 'instapaper',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-18',
-            round: true,
-            serviceName: 'email',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        }
+      {
+          borderRadius: '50%',
+          id: 'social-icon-1',
+          round: true,
+          serviceName: 'facebook',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-2',
+          round: true,
+          serviceName: 'twitter',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-3',
+          round: true,
+          serviceName: 'telegram',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-4',
+          round: true,
+          serviceName: 'whatsapp',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-5',
+          round: true,
+          serviceName: 'linkedin',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-6',
+          round: true,
+          serviceName: 'pinterest',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-7',
+          round: true,
+          serviceName: 'vk',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-8',
+          round: true,
+          serviceName: 'ok',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-9',
+          round: true,
+          serviceName: 'reddit',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-10',
+          round: true,
+          serviceName: 'tumblr',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-11',
+          round: true,
+          serviceName: 'livejournal',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-12',
+          round: true,
+          serviceName: 'mailru',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-13',
+          round: true,
+          serviceName: 'viber',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-14',
+          round: true,
+          serviceName: 'workplace',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-15',
+          round: true,
+          serviceName: 'line',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-16',
+          round: true,
+          serviceName: 'pocket',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-17',
+          round: true,
+          serviceName: 'instapaper',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      },
+      {
+          borderRadius: '50%',
+          id: 'social-icon-18',
+          round: true,
+          serviceName: 'email',
+          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+          size: 32
+      }
     ]}
-/>
+  />
 ```
 
 <iframe
@@ -1019,10 +1019,10 @@ import {SocialShare} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/misc-socialshare--social-share-story">
 </iframe>
 
--   ### Table
+-  ### Table
 ```javascript
 import {Table} from '@react-pakistan/react-commons-collection'
-<Table>
+  <Table>
     <Thead>
         <Tr>
             <Td>Hey header</Td>
@@ -1041,13 +1041,13 @@ import {Table} from '@react-pakistan/react-commons-collection'
             <Td>Hello foot</Td>
         </Tr>
     </Tfoot>
-</Table>
+  </Table>
 ```
 
--   ### TextArea
+-  ### TextArea
 ```javascript
 import {TextArea} from '@react-pakistan/react-commons-collection'
-<TextArea
+  <TextArea
     backgroundColor='#FFFFFF'
     border='1px solid #EFEFEF'
     borderRadius='0.5em'
@@ -1079,7 +1079,7 @@ import {TextArea} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-/>
+  />
 ```
 
 <iframe
@@ -1090,10 +1090,10 @@ import {TextArea} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/input-textarea--text-area-story">
 </iframe>
 
--   ### Text
+-  ### Text
 ```javascript
 import {Text} from '@react-pakistan/react-commons-collection'
-<Text
+  <Text
     color='#FFFFFF'
     fontFamily='Montserrat'
     fontSize='1em'
@@ -1111,24 +1111,24 @@ import {Text} from '@react-pakistan/react-commons-collection'
     tablet=''
 >
     Text Component
-</Text>
+  </Text>
 ```
 
--   ### Ul
+-  ### Ul
 ```javascript
   import { Ul } from '@react-pakistan/react-commons-collection';
 
-<Ul
-  desktop=''
-  laptop=''
-  laptopL=''
-  mobileL=''
-  mobileM=''
-  mobileS=''
-  tablet=''
+  <Ul
+    desktop=''
+    laptop=''
+    laptopL=''
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    tablet=''
   >
-  <Li>Value</Li>
-<Ul>
+    <Li>Value</Li>
+  <Ul>
 ```
 
 <iframe
@@ -1139,10 +1139,10 @@ import {Text} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/misc-ul--ul-story">
 </iframe>
 
--   ### Video
+-  ### Video
 ```javascript
 import {Video} from '@react-pakistan/react-commons-collection'
-<Video
+  <Video
     autoplay={false}
     controls
     loops={false}
@@ -1159,7 +1159,7 @@ import {Video} from '@react-pakistan/react-commons-collection'
     mobileS=''
     tablet=''
     autoplay
-/>
+  />
 ```
 
 <iframe
@@ -1170,21 +1170,21 @@ import {Video} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-video--video-story">
 </iframe>
 
--   ### Wrapper
+-  ### Wrapper
 ```javascript
 import {Wrapper} from '@react-pakistan/react-commons-collection'
-<Wrapper
-    width='90%'
-    desktop=''
-    laptop=''
-    laptopL=''
-    mobileL=''
-    mobileM=''
-    mobileS=''
-    tablet=''
->
-    Wrapper Component
-</Wrapper>
+  <Wrapper
+      width='90%'
+      desktop=''
+      laptop=''
+      laptopL=''
+      mobileL=''
+      mobileM=''
+      mobileS=''
+      tablet=''
+    >
+        Wrapper Component
+  </Wrapper>
 ```
 
 <iframe
@@ -1192,5 +1192,5 @@ import {Wrapper} from '@react-pakistan/react-commons-collection'
   id="React Pakistan - React Commons Collection Wrapper"
   title="React Pakistan - React Commons Collection Wrapper"
   width="100%"
-    src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-wrapper--wrapper-story">
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-wrapper--wrapper-story">
 </iframe>
