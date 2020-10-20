@@ -858,154 +858,154 @@ import {Spacer} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-spacer--spacer-story">
 </iframe>
 
--  ### SocialShare
+- ### SocialShare
 ```javascript
 import {SocialShare} from '@react-pakistan/react-commons-collection'
   <SocialShare
     socialIcons={[
       {
-          borderRadius: '50%',
-          id: 'social-icon-1',
-          round: true,
-          serviceName: 'facebook',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-1',
+        round: true,
+        serviceName: 'facebook',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-2',
-          round: true,
-          serviceName: 'twitter',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-2',
+        round: true,
+        serviceName: 'twitter',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-3',
-          round: true,
-          serviceName: 'telegram',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-3',
+        round: true,
+        serviceName: 'telegram',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-4',
-          round: true,
-          serviceName: 'whatsapp',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-4',
+        round: true,
+        serviceName: 'whatsapp',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-5',
-          round: true,
-          serviceName: 'linkedin',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-5',
+        round: true,
+        serviceName: 'linkedin',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-6',
-          round: true,
-          serviceName: 'pinterest',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-6',
+        round: true,
+        serviceName: 'pinterest',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-7',
-          round: true,
-          serviceName: 'vk',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-7',
+        round: true,
+        serviceName: 'vk',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-8',
-          round: true,
-          serviceName: 'ok',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-8',
+        round: true,
+        serviceName: 'ok',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-9',
-          round: true,
-          serviceName: 'reddit',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-9',
+        round: true,
+        serviceName: 'reddit',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-10',
-          round: true,
-          serviceName: 'tumblr',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-10',
+        round: true,
+        serviceName: 'tumblr',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-11',
-          round: true,
-          serviceName: 'livejournal',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+       borderRadius: '50%',
+        id: 'social-icon-11',
+        round: true,
+        serviceName: 'livejournal',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-12',
-          round: true,
-          serviceName: 'mailru',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-12',
+        round: true,
+        serviceName: 'mailru',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-13',
-          round: true,
-          serviceName: 'viber',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-13',
+        round: true,
+        serviceName: 'viber',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-14',
-          round: true,
-          serviceName: 'workplace',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-14',
+        round: true,
+        serviceName: 'workplace',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-15',
-          round: true,
-          serviceName: 'line',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-15',
+        round: true,
+        serviceName: 'line',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-16',
-          round: true,
-          serviceName: 'pocket',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-16',
+        round: true,
+        serviceName: 'pocket',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-17',
-          round: true,
-          serviceName: 'instapaper',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-17',
+        round: true,
+        serviceName: 'instapaper',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       },
       {
-          borderRadius: '50%',
-          id: 'social-icon-18',
-          round: true,
-          serviceName: 'email',
-          shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-          size: 32
+        borderRadius: '50%',
+        id: 'social-icon-18',
+        round: true,
+        serviceName: 'email',
+        shareUrl: 'https://taimoormk.github.io/react-commons-collection',
+        size: 32
       }
     ]}
   />
