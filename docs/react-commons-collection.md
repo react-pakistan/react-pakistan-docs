@@ -17,8 +17,8 @@ React Pakistan is a Free & OpenSource Software (FOSS) platform, creating React s
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-" width="20%" />
 </div>
 
--   [React Commons Storybook Playground](https://taimoormk.github.io/react-commons-collection/?path=/docs/react-pakistan-intro--page/)
--   [React Commons NPM Module](https://www.npmjs.com/package/@react-pakistan/react-commons-collection)
+- [React Commons Storybook Playground](https://taimoormk.github.io/react-commons-collection/?path=/docs/react-pakistan-intro--page/)
+- [React Commons NPM Module](https://www.npmjs.com/package/@react-pakistan/react-commons-collection)
 
 A generic, Commons library for React web apps & React Native apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
 
@@ -39,9 +39,9 @@ Styled Components are employed to maintain and update theme for this project. Pl
 ```javascript
 import {ThemeProvider} from 'styled-components'
 import {theme} from '@react-pakistan/util-functions'
-<ThemeProvider theme={theme}>
+  <ThemeProvider theme={theme}>
     <App />
-</ThemeProvider>
+  </ThemeProvider>
 ```
 
 ## Tested
@@ -55,10 +55,11 @@ We aim to achieve 100% coverage and we shall...
 
 ## Use
 
--   ### A
+- ### A
 ```javascript
 import {A} from '@react-pakistan/react-commons-collection'
-<A
+
+  <A
     color='#000000'
     desktop=''
     download=''
@@ -75,9 +76,9 @@ import {A} from '@react-pakistan/react-commons-collection'
     tablet=''
     target='_blank'
     type=''
->
+  >
     Go to Google
-</A>
+  </A>
 ```
 
 <iframe
@@ -88,10 +89,11 @@ import {A} from '@react-pakistan/react-commons-collection'
     src="https://taimoormk.github.io/react-commons-collection/?path=/story/misc-a--a-story">
 </iframe>
 
--   ### Audio
+- ### Audio
 ```javascript
 import {Audio} from '@react-pakistan/react-commons-collection'
-<Audio
+
+  <Audio
     autoplay
     controlPanelColor='#F7F7F7'
     controls
@@ -106,7 +108,7 @@ import {Audio} from '@react-pakistan/react-commons-collection'
     remainingTimeColor='#F62F5E'
     src='https://notificationsounds.com/sound-effects/insight-578/download/mp3'
     tablet=''
-/>
+  />
 ```
 
 <iframe
@@ -117,10 +119,11 @@ import {Audio} from '@react-pakistan/react-commons-collection'
     src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-audio--audio-story">
 </iframe>
 
--   ### Background Image
+- ### Background Image
 ```javascript
 import {BackgroundImage} from '@react-pakistan/react-commons-collection'
-<BackgroundImage
+
+  <BackgroundImage
     desktop=''
     imageBackgroundColor='#F7F7F7'
     imageBackgroundHeight='400px'
@@ -138,7 +141,7 @@ import {BackgroundImage} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-/>
+  />
 ```
 
 <iframe
@@ -149,10 +152,11 @@ import {BackgroundImage} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-backgroundimage--background-image-story">
 </iframe>
 
--   ### Button
+- ### Button
 ```javascript
 import {Button} from '@react-pakistan/react-commons-collection'
-<Button
+
+  <Button
     autoFocus
     border='1px solid #EFEFEF'
     borderRadius='0.5em'
@@ -178,9 +182,9 @@ import {Button} from '@react-pakistan/react-commons-collection'
     type='submit'
     value=''
     width='auto'
->
+  >
     Hello World
-</Button>
+  </Button>
 ```
 
 <iframe
@@ -191,10 +195,11 @@ import {Button} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/input-button--button-story">
 </iframe>
 
--   ### Canvas
+- ### Canvas
 ```javascript
 import {Canvas} from '@react-pakistan/react-commons-collection'
-<Canvas
+
+  <Canvas
     border='1px solid #000000'
     desktop=''
     height='400px'
@@ -206,7 +211,7 @@ import {Canvas} from '@react-pakistan/react-commons-collection'
     id='canvasId'
     tablet=''
     width='600px'
-/>
+  />
 ```
 
 <iframe
@@ -217,10 +222,11 @@ import {Canvas} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-canvas--canvas-story">
 </iframe>
 
--   ### Checkbox
+- ### Checkbox
 ```javascript
 import {CheckBox} from '@react-pakistan/react-commons-collection'
-<CheckBox
+
+  <CheckBox
     checkedColor='#1E90FF'
     hasError={false}
     helperText=''
@@ -235,7 +241,7 @@ import {CheckBox} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-/>
+  />
 ```
 
 <iframe
@@ -246,10 +252,11 @@ import {CheckBox} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/input-checkbox--check-box-story">
 </iframe>
 
--   ### ChildGrid
+- ### ChildGrid
 ```javascript
 import {ChildGrid} from '@react-pakistan/react-commons-collection'
-<ChildGrid
+
+  <ChildGrid
     alignSelf='center'
     gridColumnEnd={1}
     gridColumnStart={1}
@@ -263,9 +270,9 @@ import {ChildGrid} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
->
+  >
     ChildGrid Component
-</ChildGrid>
+  </ChildGrid>
 ```
 
 <iframe
@@ -276,10 +283,11 @@ import {ChildGrid} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-childgrid--child-grid-story">
 </iframe>
 
--   ### ColumnContainer
+- ### ColumnContainer
 ```javascript
 import {ColumnContainer} from '@react-pakistan/react-commons-collection'
-<ColumnContainer
+
+  <ColumnContainer
     alignItems='center'
     justifyContent='center'
     desktop=''
@@ -289,9 +297,9 @@ import {ColumnContainer} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
->
+  >
     ColumnContainer Component
-</ColumnContainer>
+  </ColumnContainer>
 ```
 
 <iframe
@@ -302,10 +310,11 @@ import {ColumnContainer} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-columncontainer--column-container-story">
 </iframe>
 
--   ### Grid
+- ### Grid
 ```javascript
 import {Grid} from '@react-pakistan/react-commons-collection'
-<Grid
+
+  <Grid
     alignItems='center'
     columnGap='1em'
     gridColumn='1fr 1fr 1fr'
@@ -319,120 +328,120 @@ import {Grid} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
->
+  >
     <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
     >
-        Item
+      Item
     </h2>
     <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
     >
-        Item
+      Item
     </h2>
     <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
     >
-        Item
+      Item
     </h2>
     <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
     >
-        Item
+      Item
     </h2>
     <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
     >
-        Item
+      Item
     </h2>
     <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
     >
-        Item
+      Item
     </h2>
     <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
     >
-        Item
+      Item
     </h2>
     <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
+      style={{
+        alignItems: 'center',
+        background: 'lightblue',
+        border: '1px solid black',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: 0,
+        padding: '1rem'
+      }}
     >
-        Item
+      Item
     </h2>
-</Grid>
+  </Grid>
 ```
 
 <iframe
@@ -443,10 +452,11 @@ import {Grid} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-grid--grid-story">
 </iframe>
 
--   ### Footer
+- ### Footer
 ```javascript
 import {Footer} from '@react-pakistan/react-commons-collection'
-<Footer
+
+  <Footer
     desktop=''
     laptop=''
     laptopL=''
@@ -454,9 +464,9 @@ import {Footer} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
->
+  >
     Footer component
-</Footer>
+  </Footer>
 ```
 
 <iframe
@@ -467,10 +477,11 @@ import {Footer} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-footer--footer-story">
 </iframe>
 
--   ### H1
+- ### H1
 ```javascript
 import {H1} from '@react-pakistan/react-commons-collection'
-<H1
+
+  <H1
     color='#FFFFFF'
     fontFamily='Playfair Display'
     fontSize='2em'
@@ -486,9 +497,9 @@ import {H1} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
->
+  >
     H1 Component
-</H1>
+  </H1>
 ```
 
 <iframe
@@ -499,10 +510,11 @@ import {H1} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/heading-h1--h-1-story">
 </iframe>
 
--   ### H2
+- ### H2
 ```javascript
 import {H2} from '@react-pakistan/react-commons-collection'
-<H2
+
+  <H2
     color='#FFFFFF'
     fontFamily='Montserrat'
     fontSize='1.8em'
@@ -518,9 +530,9 @@ import {H2} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
->
+  >
     H2 Component
-</H2>
+  </H2>
 ```
 
 <iframe
@@ -531,10 +543,11 @@ import {H2} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/heading-h2--h-2-story">
 </iframe>
 
--   ### H3
+- ### H3
 ```javascript
 import {H3} from '@react-pakistan/react-commons-collection'
-<H3
+
+  <H3
     color='#FFFFFF'
     fontFamily='Montserrat'
     fontSize='1.6em'
@@ -550,9 +563,9 @@ import {H3} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
->
+  >
     H3 Component
-</H3>
+  </H3>
 ```
 
 <iframe
@@ -563,10 +576,11 @@ import {H3} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/heading-h3--h-3-story">
 </iframe>
 
--   ### H4
+- ### H4
 ```javascript
 import {H4} from '@react-pakistan/react-commons-collection'
-<H4
+
+  <H4
     color='#FFFFFF'
     fontFamily='Montserrat'
     fontSize='1.4em'
@@ -582,9 +596,9 @@ import {H4} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
->
+  >
     H4 Component
-</H4>
+  </H4>
 ```
 
 <iframe
@@ -595,10 +609,11 @@ import {H4} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/heading-h4--h-4-story">
 </iframe>
 
--   ### H5
+- ### H5
 ```javascript
 import {H5} from '@react-pakistan/react-commons-collection'
-<H5
+
+  <H5
     color='#FFFFFF'
     fontFamily='Montserrat'
     fontSize='1.2em'
@@ -614,9 +629,9 @@ import {H5} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
->
+  >
     H5 Component
-</H5>
+  </H5>
 ```
 
 <iframe
@@ -627,10 +642,11 @@ import {H5} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/heading-h5--h-5-story">
 </iframe>
 
--   ### Header
+- ### Header
 ```javascript
 import {Header} from '@react-pakistan/react-commons-collection'
-<Header>Header component</Header>
+
+  <Header>Header component</Header>
 ```
 
 <iframe
@@ -641,10 +657,15 @@ import {Header} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-header--header-story">
 </iframe>
 
--   ### HR
+- ### HR
 ```javascript
 import {HR} from '@react-pakistan/react-commons-collection'
-<HR border='1px solid #1E90FF' width='100%' padding='0px' margin='0px' />
+
+  <HR 
+    border='1px solid #1E90FF' 
+    width='100%' padding='0px' 
+    margin='0px' 
+  />
 ```
 
 <iframe
@@ -655,10 +676,11 @@ import {HR} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/misc-hr--hr-story">
 </iframe>
 
--   ### Iframe
+- ### Iframe
 ```javascript
 import {Iframe} from '@react-pakistan/react-commons-collection'
-<Iframe
+
+  <Iframe
     height='600px'
     name='iframe'
     sandbox='allow-Same-Origin'
@@ -671,7 +693,7 @@ import {Iframe} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-/>
+  />
 ```
 
 <iframe
@@ -682,10 +704,11 @@ import {Iframe} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-iframe--iframe-story">
 </iframe>
 
--   ### Image
+- ### Image
 ```javascript
 import {Image} from '@react-pakistan/react-commons-collection'
-<Image
+
+  <Image
     alt='alt-image'
     height='auto'
     imageUrl='https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png'
@@ -699,7 +722,7 @@ import {Image} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-/>
+  />
 ```
 
 <iframe
@@ -710,10 +733,11 @@ import {Image} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-image--image-story">
 </iframe>
 
--   ### Input
+- ### Input
 ```javascript
 import {Input} from '@react-pakistan/react-commons-collection'
-<Input
+
+  <Input
     backgroundColor='#FFFFFF'
     border='1px solid #EFEFEF'
     borderRadius='0.5em'
@@ -732,15 +756,16 @@ import {Input} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-/>
+  />
 ```
 
--   ### Li
+- ### Li
 ```javascript
 import {Li} from '@react-pakistan/react-commons-collection'
-<Li desktop='' laptop='' laptopL='' mobileL='' mobileM='' mobileS='' tablet=''>
+
+  <Li desktop='' laptop='' laptopL='' mobileL='' mobileM='' mobileS='' tablet=''>
     Value
-</Li>
+  </Li>
 ```
 
 <iframe
@@ -751,10 +776,11 @@ import {Li} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/misc-li--li-story">
 </iframe>
 
--   ### ProgressBar
+- ### ProgressBar
 ```javascript
 import {ProgressBar} from '@react-pakistan/react-commons-collection'
-<ProgressBar
+
+  <ProgressBar
     backgroundColorBar='#F62F5E'
     backgroundColorValue='#EFFC90'
     height='0.25em'
@@ -770,7 +796,7 @@ import {ProgressBar} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-/>
+  />
 ```
 
 <iframe
@@ -781,22 +807,24 @@ import {ProgressBar} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-progressbar--progress-bar-story">
 </iframe>
 
--   ### RadioButton
+- ### RadioButton
 ```javascript
 import {RadioButton} from '@react-pakistan/react-commons-collection'
-<RadioButton
+
+  <RadioButton
     checked
     hasError={false}
     helperText={false}
     label=''
     tag='Label'
-/>
+  />
 ```
 
--   ### RowContainer
+- ### RowContainer
 ```javascript
 import {RowContainer} from '@react-pakistan/react-commons-collection'
-<RowContainer
+
+  <RowContainer
     alignItems='center'
     justifyContent='center'
     desktop=''
@@ -808,7 +836,7 @@ import {RowContainer} from '@react-pakistan/react-commons-collection'
     tablet=''
 >
     RowContainer Component
-</RowContainer>
+  </RowContainer>
 ```
 
 <iframe
@@ -819,10 +847,11 @@ import {RowContainer} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/layout-rowcontainer--row-container-story">
 </iframe>
 
--   ### Select
+- ### Select
 ```javascript
 import {Select} from '@react-pakistan/react-commons-collectiont'
-<Select
+
+  <Select
     form='form_id'
     name='dropDownName'
     size={0}
@@ -841,13 +870,17 @@ import {Select} from '@react-pakistan/react-commons-collectiont'
     </Option>
     <Option value='mercedes'>Mercedes</Option>
     <Option value='audi'>Audi</Option>
-</Select>
+  </Select>
 ```
 
--  ### Spacer
+- ### Spacer
 ```javascript
 import {Spacer} from '@react-pakistan/react-commons-collection'
-  <Spacer margin='1em 1em 1em 1em' padding='0em 0em 0em 0em' />
+
+  <Spacer 
+    margin='1em 1em 1em 1em'
+    padding='0em 0em 0em 0em' 
+  />
 ```
 
 <iframe
@@ -861,6 +894,7 @@ import {Spacer} from '@react-pakistan/react-commons-collection'
 - ### SocialShare
 ```javascript
 import {SocialShare} from '@react-pakistan/react-commons-collection'
+
   <SocialShare
     socialIcons={[
       {
@@ -944,7 +978,7 @@ import {SocialShare} from '@react-pakistan/react-commons-collection'
         size: 32
       },
       {
-       borderRadius: '50%',
+        borderRadius: '50%',
         id: 'social-icon-11',
         round: true,
         serviceName: 'livejournal',
@@ -1019,34 +1053,36 @@ import {SocialShare} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/misc-socialshare--social-share-story">
 </iframe>
 
--  ### Table
+- ### Table
 ```javascript
 import {Table} from '@react-pakistan/react-commons-collection'
+
   <Table>
     <Thead>
-        <Tr>
-            <Td>Hey header</Td>
-            <Td>Hello header</Td>
-        </Tr>
+      <Tr>
+        <Td>Hey header</Td>
+        <Td>Hello header</Td>
+      </Tr>
     </Thead>
     <Tbody>
-        <Tr>
-            <Td>Hey body</Td>
-            <Td>Hello body</Td>
-        </Tr>
+      <Tr>
+        <Td>Hey body</Td>
+        <Td>Hello body</Td>
+      </Tr>
     </Tbody>
     <Tfoot>
-        <Tr>
-            <Td>Hey foot</Td>
-            <Td>Hello foot</Td>
-        </Tr>
+      <Tr>
+        <Td>Hey foot</Td>
+        <Td>Hello foot</Td>
+       </Tr>
     </Tfoot>
   </Table>
 ```
 
--  ### TextArea
+- ### TextArea
 ```javascript
 import {TextArea} from '@react-pakistan/react-commons-collection'
+
   <TextArea
     backgroundColor='#FFFFFF'
     border='1px solid #EFEFEF'
@@ -1090,9 +1126,10 @@ import {TextArea} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/input-textarea--text-area-story">
 </iframe>
 
--  ### Text
+- ### Text
 ```javascript
 import {Text} from '@react-pakistan/react-commons-collection'
+
   <Text
     color='#FFFFFF'
     fontFamily='Montserrat'
@@ -1114,7 +1151,7 @@ import {Text} from '@react-pakistan/react-commons-collection'
   </Text>
 ```
 
--  ### Ul
+- ### Ul
 ```javascript
   import { Ul } from '@react-pakistan/react-commons-collection';
 
@@ -1139,9 +1176,10 @@ import {Text} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/misc-ul--ul-story">
 </iframe>
 
--  ### Video
+- ### Video
 ```javascript
 import {Video} from '@react-pakistan/react-commons-collection'
+
   <Video
     autoplay={false}
     controls
@@ -1170,20 +1208,21 @@ import {Video} from '@react-pakistan/react-commons-collection'
   src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-video--video-story">
 </iframe>
 
--  ### Wrapper
+- ### Wrapper
 ```javascript
 import {Wrapper} from '@react-pakistan/react-commons-collection'
+
   <Wrapper
-      width='90%'
-      desktop=''
-      laptop=''
-      laptopL=''
-      mobileL=''
-      mobileM=''
-      mobileS=''
-      tablet=''
+    width='90%'
+    desktop=''
+    laptop=''
+    laptopL=''
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    tablet=''
     >
-        Wrapper Component
+      Wrapper Component
   </Wrapper>
 ```
 
