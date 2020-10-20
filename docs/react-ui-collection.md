@@ -126,19 +126,13 @@ import { CategoryCard } from '@react-pakistan/react-ui-collection/eCommerceV1UI/
     imageBackgroundWidth="100%"
     imageBackgroundHeight="500px"
     overlayColor="rgba(30, 144, 255, 0.5)"
-    fontFamilyH3="PlayFair Display"
-    fontSizeH3="2.5em"
-    textAlignH3="center"
-    textTransformH3="normal"
-    colorH3="#FFFFFF"
     headingH3="Blue"
-    fontFamilyText="Montserrat"
-    fontSizeText="3em"
-    fontWeightText={500}
-    textTransformText="normal"
-    textAlignText="left"
-    lineHeightText={1.5}
-    colorText="#FFFFFF"
     categoryText="Shop now"
+    desktop=''
+	  laptop=''
+	  laptopL=''
+	  mobileL=''
+  	mobileM=''
+	  mobileS=''
   />
 ```
