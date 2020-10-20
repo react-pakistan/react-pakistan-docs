@@ -37,8 +37,9 @@ Add React Commons Collection base theme to your project.
 Styled Components are employed to maintain and update theme for this project. Please consider adding Styled Component Provider wrapper to the entry point of your application, following is the sample code. You could either use the default theme as shown below or wire your custom theme object instead. See [Typography](https://taimoormk.github.io/react-commons-collection/?path=/docs/styleguide-typography--typography-story) & [Colors](https://taimoormk.github.io/react-commons-collection/?path=/docs/styleguide-colors--colors-story) being used in the theme object.
 
 ```javascript
-import {ThemeProvider} from 'styled-components'
-import {theme} from '@react-pakistan/util-functions'
+  import {ThemeProvider} from 'styled-components';
+  import {theme} from '@react-pakistan/util-functions';
+
   <ThemeProvider theme={theme}>
     <App />
   </ThemeProvider>
@@ -57,7 +58,7 @@ We aim to achieve 100% coverage and we shall...
 
 - ### A
 ```javascript
-import {A} from '@react-pakistan/react-commons-collection'
+  import { A } from '@react-pakistan/react-commons-collection';
 
   <A
     color='#000000'
@@ -82,16 +83,16 @@ import {A} from '@react-pakistan/react-commons-collection'
 ```
 
 <iframe
-    height="500"
-    id="React Pakistan - React Commons Collection A"
-    title="React Pakistan - React Commons Collection A"
-    width="100%"
-    src="https://taimoormk.github.io/react-commons-collection/?path=/story/misc-a--a-story">
+  height="500"
+  id="React Pakistan - React Commons Collection A"
+  title="React Pakistan - React Commons Collection A"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/misc-a--a-story">
 </iframe>
 
 - ### Audio
 ```javascript
-import {Audio} from '@react-pakistan/react-commons-collection'
+  import {Audio} from '@react-pakistan/react-commons-collection';
 
   <Audio
     autoplay
@@ -112,16 +113,16 @@ import {Audio} from '@react-pakistan/react-commons-collection'
 ```
 
 <iframe
-    height="500"
-    id="React Pakistan - React Commons Collection Audio"
-    title="React Pakistan - React Commons Collection Audio"
-    width="100%"
-    src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-audio--audio-story">
+  height="500"
+  id="React Pakistan - React Commons Collection Audio"
+  title="React Pakistan - React Commons Collection Audio"
+  width="100%"
+  src="https://taimoormk.github.io/react-commons-collection/?path=/story/media-audio--audio-story">
 </iframe>
 
 - ### Background Image
 ```javascript
-import {BackgroundImage} from '@react-pakistan/react-commons-collection'
+  import {BackgroundImage} from '@react-pakistan/react-commons-collection';
 
   <BackgroundImage
     desktop=''
@@ -154,7 +155,7 @@ import {BackgroundImage} from '@react-pakistan/react-commons-collection'
 
 - ### Button
 ```javascript
-import {Button} from '@react-pakistan/react-commons-collection'
+  import {Button} from '@react-pakistan/react-commons-collection';
 
   <Button
     autoFocus
@@ -197,7 +198,7 @@ import {Button} from '@react-pakistan/react-commons-collection'
 
 - ### Canvas
 ```javascript
-import {Canvas} from '@react-pakistan/react-commons-collection'
+  import {Canvas} from '@react-pakistan/react-commons-collection';
 
   <Canvas
     border='1px solid #000000'
@@ -224,7 +225,7 @@ import {Canvas} from '@react-pakistan/react-commons-collection'
 
 - ### Checkbox
 ```javascript
-import {CheckBox} from '@react-pakistan/react-commons-collection'
+  import {CheckBox} from '@react-pakistan/react-commons-collection';
 
   <CheckBox
     checkedColor='#1E90FF'
@@ -254,7 +255,7 @@ import {CheckBox} from '@react-pakistan/react-commons-collection'
 
 - ### ChildGrid
 ```javascript
-import {ChildGrid} from '@react-pakistan/react-commons-collection'
+  import {ChildGrid} from '@react-pakistan/react-commons-collection';
 
   <ChildGrid
     alignSelf='center'
@@ -285,7 +286,7 @@ import {ChildGrid} from '@react-pakistan/react-commons-collection'
 
 - ### ColumnContainer
 ```javascript
-import {ColumnContainer} from '@react-pakistan/react-commons-collection'
+  import {ColumnContainer} from '@react-pakistan/react-commons-collection';
 
   <ColumnContainer
     alignItems='center'
@@ -312,7 +313,7 @@ import {ColumnContainer} from '@react-pakistan/react-commons-collection'
 
 - ### Grid
 ```javascript
-import {Grid} from '@react-pakistan/react-commons-collection'
+  import {Grid} from '@react-pakistan/react-commons-collection';
 
   <Grid
     alignItems='center'
@@ -454,7 +455,7 @@ import {Grid} from '@react-pakistan/react-commons-collection'
 
 - ### Footer
 ```javascript
-import {Footer} from '@react-pakistan/react-commons-collection'
+  import {Footer} from '@react-pakistan/react-commons-collection';
 
   <Footer
     desktop=''
@@ -479,7 +480,7 @@ import {Footer} from '@react-pakistan/react-commons-collection'
 
 - ### H1
 ```javascript
-import {H1} from '@react-pakistan/react-commons-collection'
+  import {H1} from '@react-pakistan/react-commons-collection';
 
   <H1
     color='#FFFFFF'
@@ -512,7 +513,7 @@ import {H1} from '@react-pakistan/react-commons-collection'
 
 - ### H2
 ```javascript
-import {H2} from '@react-pakistan/react-commons-collection'
+  import {H2} from '@react-pakistan/react-commons-collection';
 
   <H2
     color='#FFFFFF'
@@ -545,7 +546,7 @@ import {H2} from '@react-pakistan/react-commons-collection'
 
 - ### H3
 ```javascript
-import {H3} from '@react-pakistan/react-commons-collection'
+  import {H3} from '@react-pakistan/react-commons-collection';
 
   <H3
     color='#FFFFFF'
@@ -578,7 +579,7 @@ import {H3} from '@react-pakistan/react-commons-collection'
 
 - ### H4
 ```javascript
-import {H4} from '@react-pakistan/react-commons-collection'
+  import {H4} from '@react-pakistan/react-commons-collection';
 
   <H4
     color='#FFFFFF'
@@ -611,7 +612,7 @@ import {H4} from '@react-pakistan/react-commons-collection'
 
 - ### H5
 ```javascript
-import {H5} from '@react-pakistan/react-commons-collection'
+  import {H5} from '@react-pakistan/react-commons-collection';
 
   <H5
     color='#FFFFFF'
@@ -644,7 +645,7 @@ import {H5} from '@react-pakistan/react-commons-collection'
 
 - ### Header
 ```javascript
-import {Header} from '@react-pakistan/react-commons-collection'
+  import {Header} from '@react-pakistan/react-commons-collection';
 
   <Header>Header component</Header>
 ```
@@ -659,7 +660,7 @@ import {Header} from '@react-pakistan/react-commons-collection'
 
 - ### HR
 ```javascript
-import {HR} from '@react-pakistan/react-commons-collection'
+  import {HR} from '@react-pakistan/react-commons-collection';
 
   <HR 
     border='1px solid #1E90FF' 
@@ -678,7 +679,7 @@ import {HR} from '@react-pakistan/react-commons-collection'
 
 - ### Iframe
 ```javascript
-import {Iframe} from '@react-pakistan/react-commons-collection'
+  import {Iframe} from '@react-pakistan/react-commons-collection';
 
   <Iframe
     height='600px'
@@ -706,7 +707,7 @@ import {Iframe} from '@react-pakistan/react-commons-collection'
 
 - ### Image
 ```javascript
-import {Image} from '@react-pakistan/react-commons-collection'
+  import {Image} from '@react-pakistan/react-commons-collection';
 
   <Image
     alt='alt-image'
@@ -735,7 +736,7 @@ import {Image} from '@react-pakistan/react-commons-collection'
 
 - ### Input
 ```javascript
-import {Input} from '@react-pakistan/react-commons-collection'
+  import {Input} from '@react-pakistan/react-commons-collection';
 
   <Input
     backgroundColor='#FFFFFF'
@@ -761,7 +762,7 @@ import {Input} from '@react-pakistan/react-commons-collection'
 
 - ### Li
 ```javascript
-import {Li} from '@react-pakistan/react-commons-collection'
+  import {Li} from '@react-pakistan/react-commons-collection';
 
   <Li desktop='' laptop='' laptopL='' mobileL='' mobileM='' mobileS='' tablet=''>
     Value
@@ -778,7 +779,7 @@ import {Li} from '@react-pakistan/react-commons-collection'
 
 - ### ProgressBar
 ```javascript
-import {ProgressBar} from '@react-pakistan/react-commons-collection'
+  import {ProgressBar} from '@react-pakistan/react-commons-collection';
 
   <ProgressBar
     backgroundColorBar='#F62F5E'
@@ -809,7 +810,7 @@ import {ProgressBar} from '@react-pakistan/react-commons-collection'
 
 - ### RadioButton
 ```javascript
-import {RadioButton} from '@react-pakistan/react-commons-collection'
+  import {RadioButton} from '@react-pakistan/react-commons-collection';
 
   <RadioButton
     checked
@@ -822,7 +823,7 @@ import {RadioButton} from '@react-pakistan/react-commons-collection'
 
 - ### RowContainer
 ```javascript
-import {RowContainer} from '@react-pakistan/react-commons-collection'
+  import {RowContainer} from '@react-pakistan/react-commons-collection';
 
   <RowContainer
     alignItems='center'
@@ -849,7 +850,7 @@ import {RowContainer} from '@react-pakistan/react-commons-collection'
 
 - ### Select
 ```javascript
-import {Select} from '@react-pakistan/react-commons-collectiont'
+  import {Select} from '@react-pakistan/react-commons-collectiont';
 
   <Select
     form='form_id'
@@ -875,7 +876,7 @@ import {Select} from '@react-pakistan/react-commons-collectiont'
 
 - ### Spacer
 ```javascript
-import {Spacer} from '@react-pakistan/react-commons-collection'
+  import {Spacer} from '@react-pakistan/react-commons-collection';
 
   <Spacer 
     margin='1em 1em 1em 1em'
@@ -893,7 +894,7 @@ import {Spacer} from '@react-pakistan/react-commons-collection'
 
 - ### SocialShare
 ```javascript
-import {SocialShare} from '@react-pakistan/react-commons-collection'
+  import {SocialShare} from '@react-pakistan/react-commons-collection';
 
   <SocialShare
     socialIcons={[
@@ -1055,7 +1056,7 @@ import {SocialShare} from '@react-pakistan/react-commons-collection'
 
 - ### Table
 ```javascript
-import {Table} from '@react-pakistan/react-commons-collection'
+  import {Table} from '@react-pakistan/react-commons-collection';
 
   <Table>
     <Thead>
@@ -1081,7 +1082,7 @@ import {Table} from '@react-pakistan/react-commons-collection'
 
 - ### TextArea
 ```javascript
-import {TextArea} from '@react-pakistan/react-commons-collection'
+  import {TextArea} from '@react-pakistan/react-commons-collection';
 
   <TextArea
     backgroundColor='#FFFFFF'
@@ -1128,7 +1129,7 @@ import {TextArea} from '@react-pakistan/react-commons-collection'
 
 - ### Text
 ```javascript
-import {Text} from '@react-pakistan/react-commons-collection'
+  import {Text} from '@react-pakistan/react-commons-collection';
 
   <Text
     color='#FFFFFF'
@@ -1178,7 +1179,7 @@ import {Text} from '@react-pakistan/react-commons-collection'
 
 - ### Video
 ```javascript
-import {Video} from '@react-pakistan/react-commons-collection'
+  import {Video} from '@react-pakistan/react-commons-collection';
 
   <Video
     autoplay={false}
@@ -1210,7 +1211,7 @@ import {Video} from '@react-pakistan/react-commons-collection'
 
 - ### Wrapper
 ```javascript
-import {Wrapper} from '@react-pakistan/react-commons-collection'
+  import {Wrapper} from '@react-pakistan/react-commons-collection';
 
   <Wrapper
     width='90%'
