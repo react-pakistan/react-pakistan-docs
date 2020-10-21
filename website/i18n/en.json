@@ -6,7 +6,8 @@
     "tagline": "An Open Source Platform",
     "docs": {
       "intro": {
-        "title": "intro"
+        "title": "Intro",
+        "sidebar_label": "React Pakistan"
       },
       "react-commons-collection": {
         "title": "React Commons Collection",
