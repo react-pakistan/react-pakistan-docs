@@ -963,7 +963,7 @@ import { PromoCard } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### RangeSlider
 ```javascript 
-import { RangeSlider } from '';
+import { RangeSlider } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 	<RangeSlider 
 		allowCross={false}
@@ -975,31 +975,50 @@ import { RangeSlider } from '';
 		trackColor='#B4B4B4'
 		handleColor='#1E90FF'
 		handleBorderColor='#F1AD3D'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
 	/>
 ```
 
 - ### RemoveTag
 ```javascript
-import { RemoveTag } from '';
+import { RemoveTag } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 	<RemoveTag
 		tagLabel='Remove'
-
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
 	/>
 ```
 
 - ### SearchBar
 ```javascript
-import { SearchBar } from '';
+import { SearchBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 	<SearchBar
-
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
 	/>
 ```
 
 - ### ShopImageGallery
 ```javascript
-import { ShopImageGallery } from '';
+import { ShopImageGallery } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 	<ShopImageGallery
 		shopImageGallery={[
@@ -1019,13 +1038,19 @@ import { ShopImageGallery } from '';
 				altImage:"image-3"
 			}
 		]}
-
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
 	/>
 ```
 
 - ### ShopItem
 ```javascript
-import { ShopItem } from '';
+import { ShopItem } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 	<ShopItem
 		altImage='shop-main-item-image'
@@ -1078,13 +1103,19 @@ import { ShopItem } from '';
 		starDimension='2em'
 		starRatedColor='#F1AD3D'
 		widthMainImage='100%'
-
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
 	/>
 ```
 
 - ### ShopItemsSummary
 ```javascript 
-import { ShopItemsSummary } from '';
+import { ShopItemsSummary } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 	<ShopItemsSummary
 		backgroundColorButton='#F62F5E'
@@ -1145,31 +1176,162 @@ import { ShopItemsSummary } from '';
 				favIconText:"Add to wish list"
 			},
 		]}
-
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
 	/>
 ```
 
 - ### Sign
 ```javascript
-import { Sign } from '';
+import { Sign } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 	<Sign
 		signType='sign_type.SIGNIN'
-
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
 	/>
 ```
 
 - ### SizePalette
 ```javascript
-import { SizePalette } from '';
+import { SizePalette } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 	<SizePalette
 		backgroundColor='#6C6C6C'
 		borderRadius='0.25em'
 		margin={0}
 		padding='5px 15px'
-
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
 	/>
 ```
 
 - ### SortBar
+```javascript
+import { SortBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+
+	<SortBar
+		lowerLimit={48}
+		upperLimit={120}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### StarRating
+```javascript
+import { StarRating } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+
+	<StarRating
+		name='rating'
+		numberOfStars={5}
+		rating={4}
+		starDimension='30px'
+		starRatedColor='#3C3C3C'
+		starSpacing='5px'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### Stepper
+```javascript 
+import { Stepper } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+
+	<Stepper
+		currentStep={2}
+		steps={[
+			{
+				id:"step-item-1",
+				stepLabel:"Delivery"
+			},
+			{
+				id:"step-item-2",
+				stepLabel:"Confirmation"
+			},
+			{
+				id:"step-item-3",
+				stepLabel:"Payment"
+			},
+			{
+				id:"step-item-4",
+				stepLabel:"Finish"
+			}
+		]}
+		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### SubscriptionBar
+```javascript 
+import { SubscriptionBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+
+	<SubscriptionBar
+		colorH4='#F62F5E'
+		headingH4='10% Discount for your subscription'
+		headingH5='Carry the day in style with this extra-large tote crafted in our chic B.B. Collection textured PVC. Featuring colorful faux leather trim, this tote offers a roomy interior.'
+		style='subscriptionbar_type.REGULAR'
+		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+
+	/>
+```
+
+- ### SubscriptionOffer
+```javascript
+import { SubscriptionOffer } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+
+	<SubcriptionOffer
+		headingH4='10% Discount for your subscription'
+		bodyH5='Carry the day on style with this extra-large tote crafted in our chic B.B. Collection textured PVC. Featuring colourful faux leather trim, this tote offers a roomy interior.'
+		buttonText='Subscribe'
+		style='subscriptionoffer_type.NORMAL'
+
+		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
