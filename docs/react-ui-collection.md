@@ -961,3 +961,20 @@ import { PromoCard } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 	/>
 ```
 
+- ### RangeSlider
+```javascript 
+import { RangeSlider } from '';
+
+	<RangeSlider 
+		allowCross={false}
+		defaultValue={[
+			10,
+			80
+		]}
+		railColor='#6C6C6C'
+		trackColor='#B4B4B4'
+		handleColor='#1E90FF'
+		handleBorderColor='#F1AD3D'
+	/>
+```
+
