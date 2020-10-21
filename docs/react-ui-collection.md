@@ -1420,3 +1420,251 @@ import { WorldFlags} from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 	/>
 ```
 
+RESUME Tags
+
+- ### Accordion
+```javascript
+import { Accordion } from '';
+
+	<Accordion
+		content='I am the content for this Accordion'
+		heading='Heading'
+		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+
+	/>
+```
+
+- ### AvatarBlock
+```javascript
+import { AvatarBlock } from '';
+
+	<AvatarBlock
+		imageBackgroundUrl='https://www.w3schools.com/howto/img_avatar.png'
+		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+
+	/>
+```
+
+- ### Avatar
+```javascript
+import { Avatar } from '';
+
+	<Avatar
+		avatarBackgroundColor='#6C6C6C'
+		avatarBackgroundHeight='100px'
+		avatarBackgroundPosition='center center'
+		avatarBackgroundRepeat='no-repeat'
+		avatarBackgroundSize='cover'
+		avatarBackgroundUrl='https://cdn.dribbble.com/users/199982/screenshots/4044699/furkan-avatar-dribbble.png'
+		avatarBackgroundWidth='100px'
+		avatarBorderRadius='50%'
+
+	/>
+```
+
+- ### BioBlock
+```javascript
+import { BioBlock } from '';
+
+	<BioBlock
+		contactDetails={[
+			{
+				detail:"+92 300 1234567",
+				icon:{
+					key:null,
+					ref:null,
+					props:{
+						fontSize:"32px"
+					},
+					_owner:null,
+					_store:{}
+				},
+				id:"contact-detail-1"
+			},
+			{
+				detail:"my-name@gmail.com",
+				icon:{
+					key:null,
+					ref:null,
+					props:{
+						fontSize:"32px"
+					},
+					_owner:null,
+					_store:{}
+				},
+				id:"contact-detail-2"
+			},
+		]}
+		designation='Your Designation Here'
+		headline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+		name='Name Surname'
+		tags={[
+			{
+			color:"#3C3C3C",
+			id:"tag-1",
+			imgUrl:"https://www.swarmonline.com/wp-content/uploads/2018/04/react-featured-image.jpg",
+			label:"#React Enthusiast"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-2",
+				imgUrl:"https://lzacc.com/wp-content/uploads/Innovation-Image.jpg",
+				label:"#Innovator"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-3",
+				imgUrl:"https://r.hswstatic.com/w_1024/gif/Invention-1920x1080.jpg",
+				label:"#Inventor"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-4",
+				imgUrl:"https://image.shutterstock.com/image-vector/creative-beard-hairstyle-geek-logo-260nw-1045962688.jpg",
+				label:"#Geek"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-5",
+				imgUrl:"https://www.simply2cloud.com/wp-content/uploads/2019/05/cloud-computing.jpg",
+				label:"#Cloud Computing"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-6",
+				imgUrl:"https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/01/Blockchain-Funds.png",
+				label:"#BlockChain Enthusiast"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-7",
+				imgUrl:"https://res.cloudinary.com/cryptojobslist/image/upload/v1563452566/ogImage/fa3qogtykgsn7zeqdqgu.jpg",
+				label:"#Web 3.0 Enthusiast"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-8",
+				imgUrl:"https://www.minisontop.org/s/cc_images/cache_18005806.jpg?t=1516758160",
+				label:"#Charitech"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-9",
+				imgUrl:"https://g3.dcdn.lt/images/pix/12d795ad5ec28e1bdf-77732867.jpg",
+				label:"#Fintech"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-10",
+				imgUrl:"https://www.officevibe.com/wp-content/uploads/2017/05/OV_Illustrations_article2_header-490x245.png",
+				label:"#Motivational Speaker"
+			}
+		]}
+		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+
+	/>
+```
+
+- ### CardGrid
+```javascript
+import { CardGrid } from '';
+
+	<CardGrid
+		techCards={[
+			{
+				id:"tech-card-1",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702296/logos/react.svg",
+				subtitle:"ReactJS"
+			},
+			{
+				id:"tech-card-2",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702295/logos/react-native.svg",
+				subtitle:"React Native"
+			},
+			{
+				id:"tech-card-3",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702298/logos/redux.svg",
+				subtitle:"Redux"
+			},
+			{
+				id:"tech-card-4",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702297/logos/redux-saga.svg",
+				subtitle:"Redux Saga"
+			},
+			{
+				id:"tech-card-5",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702287/logos/apollo.svg",
+				subtitle:"Apollo"
+			},
+			{
+				id:"tech-card-6",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702303/logos/typescript.svg",
+				subtitle:"TypeScript"
+			},
+			{
+				id:"tech-card-7",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702301/logos/styledcomponents.svg",
+				subtitle:"Styled Components"
+			},
+			{
+				id:"tech-card-8",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702300/logos/storybook.svg",
+				subtitle:"Storybook"
+			},
+			{
+				id:"tech-card-9",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702297/logos/reactrouter.svg",
+				subtitle:"React Router"
+			}
+		]}
+		mobileL='div > .jOsJbn 
+			{
+    		grid-template-columns: 1fr 1fr;
+    		grid-template-rows: auto;
+			}'
+		mobileM='div > .jOsJbn 
+			{
+    		grid-template-columns: 1fr;
+    		grid-template-rows: auto;
+			}'
+		mobileS='div > .jOsJbn
+		 {
+   		 grid-template-columns: 1fr;
+    	grid-template-rows: auto;
+			}'
+		tablet=''
+		desktop=''
+		laptop=''
+		laptopL=''
+	/>
+```
+
+- ### CoverLetter
+```javascript
+import { CoverLetter } from '';
+
+	<CoverLetter
+		coverLetter="\n\nDear Sir / Madam,\n\nDate: Tuesday, 20/10/2020\n\nSubject: Applying to be considered for a Senior React FullStack Engineer\n\nI am an energetic and enthusiastic software engineer who enjoys a challenge\nand achieving organisational goals.\n\nI gave a lot of thought on how to effectively design my resume for the\njob placement since I would like to showcase all of my work so far\nacross React Eco-system. An ideal resume should only have a single page,\nso naturally what could be better than React for creating SPA with high\nuser engagement and simplicity in the flow of enriched React UI’s.\n\nI consider myself a React enthusiast and likes to return to the community\nacross Pakistan, I have conducted couple of one-day React workshops at\nMicrosoft Innovation Center Lahore which had a good turnout. I enjoy speaking\nabout React on public forums and plays active role in it’s awareness creation\nwithin the community. I have also conducted 2 months technology training at\nPlan9 Tech Incubator, which inspired my students to embrace React eco-system\nas to be their professional choice of software stack. Currently, I am also\na React (JavaScript) Mentor at Facebook Dev Circles Lahore.\n\nYours Sincerely,\n\nTaimoor Muhammad Khan\n\n"
+
+	/>
+```
+
+- ### EducationDetail
+```javascript
+import { EducationDetail } from '';
+
+	<EducationDetail
+		educationDetails={{
+			courseCommenced:"October 2017",
+			courseCompleted:"October 2018",
+			courseDescription:"ICBootcamp brings the same curriculum as the other leading bootcamps in the world. A bootcamp which teaches fullstack Javascript development using the latest technologies, frameworks and libraries. The program is career oriented and prepares the student with professional tools that are used in the software industry. It includes real-life project life-cycle using agile methodologies. Why take multiple short courses in Academies or spend years in University. This course is tailored to teach you all the relevant technologies: FrontEnd, BackEnd, Databases, Testing, QA, Deployment and Code Management combined with Live Projects with the aim of teaching how professional projects are structured. After graduation, students will be able to apply for mid to senior level positions. An additional interview and skills enhancment course will be offered for applying to positions abroad in USA and Europe.",
+			courseDuration:"12 months",
+			courseLocation:"Lahore, Pakistan",
+			degreeAwarded:"JavaScript (React) full-stack Engineer",
+			instituteName:"ICBootcamp"
+		}}
+
+	/>
+```
+
+- ### 
