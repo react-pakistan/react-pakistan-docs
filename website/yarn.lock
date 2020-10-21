@@ -1062,12 +1062,12 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@react-pakistan/react-commons-collection@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/react-commons-collection/-/react-commons-collection-6.0.2.tgz#5a2efa4c708341802f3b4fb27f1c936078e32be3"
-  integrity sha512-lIn0DFPgvq+DwSYdJqm5+ei+zMNigoCL+ttC7V4KDY3sBnHyecqoeBdm4EIVYkiSxv7iVFur+/k6JPMwzTpn6g==
+"@react-pakistan/react-commons-collection@^6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-commons-collection/-/react-commons-collection-6.0.4.tgz#c56529834eb0efb8a1cf0685f9234a75ed0970fc"
+  integrity sha512-tkhqF8Fsk1WD+8bPk/J1MXRedp0XxOqAneVwmSL2F/HTKzYOE8XzGfixGt1puUjcVqMD+PjXhzwqTY+CssV85g==
   dependencies:
-    react-share "^4.3.0"
+    react-share "^4.3.1"
     styled-components "^5.2.0"
 
 "@react-pakistan/util-functions@^1.0.13":
@@ -5971,7 +5971,7 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.11.0.tgz#b85dfecd48ad1ce469ff558a882ca8e8313928fa"
   integrity sha512-gbBVYR2p8mnriqAwWx9LbuUrShnAuSCNnuPGyc7GJrMVQtPDAh8iLpv7FRuMPFb56KkaVZIYSz1PrjI9q0QPCw==
 
-react-share@^4.3.0:
+react-share@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/react-share/-/react-share-4.3.1.tgz#2eac80bc5e3f1c6d83c7315342db1fd2f21009d3"
   integrity sha512-ikh0y8NKxhU7dQBXh1Jccd1ANLb9WNYaSonln33yLyNYo2HTBRp9D6HkTsFlgX/2J9GPsGLqhzzpDNiVKx3WVA==

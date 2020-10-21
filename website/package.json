@@ -15,7 +15,7 @@
     "husky": "^4.3.0"
   },
   "dependencies": {
-    "@react-pakistan/react-commons-collection": "^6.0.2",
+    "@react-pakistan/react-commons-collection": "^6.0.4",
     "@react-pakistan/util-functions": "^1.0.13",
     "dotenv": "^8.2.0",
     "styled-components": "^5.2.0"
