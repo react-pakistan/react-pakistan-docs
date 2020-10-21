@@ -2,7 +2,6 @@
 id: intro
 title: Intro
 sidebar_label: React Pakistan
-slug: /
 ---
 
 <div>
