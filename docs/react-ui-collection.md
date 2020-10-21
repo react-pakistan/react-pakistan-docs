@@ -1335,3 +1335,88 @@ import { SubscriptionOffer } from '@react-pakistan/react-ui-collection/eCommerce
 		tablet=''
 	/>
 ```
+
+- ### Tag
+```javascript 
+import { Tag } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+
+	<Tag
+		backgroundColor='#2E2E2E'
+		padding='0.5em 0.75em'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### TopBar
+```javascript
+import { TopBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+
+	<TopBar
+		topMenuItems={[
+			{
+				id:"top-menu-item-1",
+				menuLabel:"Daily Deals",
+				url:"./daily-deals"
+			},
+			{
+				id:"top-menu-item-2",
+				menuLabel:"Sell",
+				url:"./sell"
+			},
+			{
+				id:"top-menu-item-3",
+				menuLabel:"Help & Contact",
+				url:"./help-contact"
+			}
+		]}
+		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### WishlistButton
+```javascript
+import { WishlistButton } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+
+	<WishlistButton
+		buttonText='Add to Wish List'
+		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### WorldFlags
+```javascript
+import { WorldFlags} from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+
+	<WorldFlags
+		width='25px'
+		code='PK'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
