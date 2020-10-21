@@ -978,3 +978,198 @@ import { RangeSlider } from '';
 	/>
 ```
 
+- ### RemoveTag
+```javascript
+import { RemoveTag } from '';
+
+	<RemoveTag
+		tagLabel='Remove'
+
+	/>
+```
+
+- ### SearchBar
+```javascript
+import { SearchBar } from '';
+
+	<SearchBar
+
+	/>
+```
+
+- ### ShopImageGallery
+```javascript
+import { ShopImageGallery } from '';
+
+	<ShopImageGallery
+		shopImageGallery={[
+			{
+				id:"image-1",
+				imageUrl:"https://cdn.store.vegemite.com.au/wp-content/uploads/2018/05/VEGEMITE_Male_Tshirt1-600x600.jpg",
+				altImage:"image-1"
+			},
+			{
+				id:"image-2",
+				imageUrl:"https://c.76.my/Malaysia/pokemon-pikachu-face-t-shirt-5w33-1609-22-5w33@1.jpg",
+				altImage:"image-2"
+			},
+			{
+				id:"image-3",
+				imageUrl:"https://mide.com.my/wp-content/uploads/2017/12/Long-Sleeves_T-shirt_v2-01-edited.jpg",
+				altImage:"image-3"
+			}
+		]}
+
+	/>
+```
+
+- ### ShopItem
+```javascript
+import { ShopItem } from '';
+
+	<ShopItem
+		altImage='shop-main-item-image'
+		breadcrumbs={[
+			"Home",
+			"All Categories",
+			"Men's Clothing & Accessories"
+		]}
+		buttonText='Add to Wish List'
+		colorButtonText='#6C6C6C'
+		colorH3='#2E2E2E'
+		colorH3Price='#F62F5E'
+		colorPalettes={[
+			"#1E90FF",
+			"#00D3CA",
+			"#F62F5E",
+			"#F1AD3D",
+			"#EFFC90",
+			"#00D3CA"
+		]}
+		counter={2}
+		headingH3='Super Oversized T-Shirt With Raw Sleeves In Brown'
+		headingH3Price='£13.99'
+		heightMainImage='auto'
+		iconColor='#F62F5E'
+		imageUrl='https://ae01.alicdn.com/kf/HTB19imskrsrBKNjSZFpq6AXhFXas/Men-Funny-T-Shirt-Women-Cool-tshirt-Luke-Cage-Pops-Barber-Shop-Comic-Black-Superhero-T.jpg_640x640.jpg'
+		numberOfStars={5}
+		rating={4}
+		shopImageGallery={[
+			{
+				id:"image-1",
+				imageUrl:"https://cdn.store.vegemite.com.au/wp-content/uploads/2018/05/VEGEMITE_Male_Tshirt1-600x600.jpg"},
+			{
+				id:"image-2",
+				imageUrl:"https://c.76.my/Malaysia/pokemon-pikachu-face-t-shirt-5w33-1609-22-5w33@1.jpg"
+			},
+			{
+				id:"image-3",
+				imageUrl:"https://mide.com.my/wp-content/uploads/2017/12/Long-Sleeves_T-shirt_v2-01-edited.jpg"
+			}
+		]}
+		sizePalettes={[
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		]}
+		starDimension='2em'
+		starRatedColor='#F1AD3D'
+		widthMainImage='100%'
+
+	/>
+```
+
+- ### ShopItemsSummary
+```javascript 
+import { ShopItemsSummary } from '';
+
+	<ShopItemsSummary
+		backgroundColorButton='#F62F5E'
+		breadcrumbs={[
+			"Home",
+			"All Categories",
+			"Men's Clothing & Accessories"
+		]}
+		buttonText='Add to Wish List'
+		colorButtonText='#6C6C6C'
+		colorH3='#2E2E2E'
+		colorH3Price='#F62F5E'
+		colorH5='#2E2E2E'
+		colorText='#B4B4B4'
+		colorTextPrice='#6C6C6C'
+		iconColor='#F62F5E'
+		iconIsSelected={false}
+		itemsSummaryHeadingH3='Men Shirts & Tops'
+		lineColor='#F7F7F7'
+		pagination={[
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10
+		]}
+		shopItems={[
+			{
+				id:"shop-item-1",
+				itemImage:"https://cdn.shopify.com/s/files/1/1755/5355/products/mock-10-2122-14213D-nh-ns-111802514472174936291489614087-3_1200x.png?v=1543020586",
+				itemImageAlt:"shop-product",
+				itemName:"Pull&Bear Jumper In Textured Knit In Blue",
+				itemCategory:"Tops",
+				itemCurrency:"£",
+				itemSalesPrice:"14.99",
+				itemRegularPrice:"19.99",
+				itemSizes:[
+					{
+						id:"section-product-size-1a",
+						label:"Small"
+					},
+					{
+						id:"section-product-size-2a",
+						label:"Medium"
+					},
+					{
+						id:"section-product-size-3a",
+						label:"Large"
+					}
+				],
+				buttonLabel:"Add to cart",
+				favIcon:"http://www.stickpng.com/assets/images/5a02bfca18e87004f1ca4395.png",
+				favIconText:"Add to wish list"
+			},
+		]}
+
+	/>
+```
+
+- ### Sign
+```javascript
+import { Sign } from '';
+
+	<Sign
+		signType='sign_type.SIGNIN'
+
+	/>
+```
+
+- ### SizePalette
+```javascript
+import { SizePalette } from '';
+
+	<SizePalette
+		backgroundColor='#6C6C6C'
+		borderRadius='0.25em'
+		margin={0}
+		padding='5px 15px'
+
+	/>
+```
+
+- ### SortBar
