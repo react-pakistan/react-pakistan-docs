@@ -1,7 +1,7 @@
 ---
-id: react-native-contributors
-title: React Native Contributors
-sidebar_label: React Native Contributors
+id: react-native-emoji-contributors
+title: React Native Emoji Contributors
+sidebar_label: React Native Emoji Contributors
 ---
 
 ## Contributors

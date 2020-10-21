@@ -49,7 +49,7 @@ Styled Components are employed to maintain and update theme for this project. Pl
 
 - ### BodyParts1
 ```javascript
-  import { BodyParts1 } from ‘@react-pakistan/react-logo-collection/emoji/body-parts’;
+  import { BodyParts1 } from '@react-pakistan/react-logo-collection/body-parts';
 
   <BodyParts1
     fontSize="32px"
@@ -61,5 +61,5 @@ Styled Components are employed to maintain and update theme for this project. Pl
   id="React Pakistan - React Emoji Collection Wrapper"
   title="React Pakistan - React Emoji Collection Wrapper"
   width="100%"
-  src="https://taimoormk.github.io/react-emoji-collection/?path=/story/peoplebody-bodyparts--body-parts">
+  src="https://react-pakistan.github.io/react-emoji-collection/?path=/story/peoplebody-bodyparts--body-parts">
 </iframe>
