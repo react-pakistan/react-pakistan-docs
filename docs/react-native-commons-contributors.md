@@ -1,7 +1,7 @@
 ---
-id: react-native-contributors
-title: React Native Contributors
-sidebar_label: React Native Contributors
+id: react-native-commons-contributors
+title: React Native Commons Contributors
+sidebar_label: React Native Commons Contributors
 ---
 
 ## Contributors

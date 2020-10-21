@@ -1,7 +1,7 @@
 ---
-id: react-native-contributors
-title: React Native Contributors
-sidebar_label: React Native Contributors
+id: react-native-icon-contributors
+title: React Native Icon Contributors
+sidebar_label: React Native Icon Contributors
 ---
 
 ## Contributors

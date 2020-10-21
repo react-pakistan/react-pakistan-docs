@@ -49,7 +49,7 @@ Styled Components are employed to maintain and update theme for this project. Pl
 
 - ### FourthofjulyGrey12
 ```javascript
-  import { FourthofjulyGrey12 } from '@react-pakistan/react-icons-collection/icons/fourthofjuly-grey';
+  import { FourthofjulyGrey12 } from '@react-pakistan/react-icons-collection/fourthofjuly-grey';
 
   <FourthofjulyGrey12
     fontSize="32px"
