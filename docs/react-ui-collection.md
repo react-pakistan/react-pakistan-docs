@@ -1424,30 +1424,42 @@ RESUME Tags
 
 - ### Accordion
 ```javascript
-import { Accordion } from '';
+import { Accordion } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 	<Accordion
 		content='I am the content for this Accordion'
 		heading='Heading'
 		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
-
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
 	/>
 ```
 
 - ### AvatarBlock
 ```javascript
-import { AvatarBlock } from '';
+import { AvatarBlock } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 	<AvatarBlock
 		imageBackgroundUrl='https://www.w3schools.com/howto/img_avatar.png'
 		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
-
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
 	/>
 ```
 
 - ### Avatar
 ```javascript
-import { Avatar } from '';
+import { Avatar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 	<Avatar
 		avatarBackgroundColor='#6C6C6C'
@@ -1458,13 +1470,19 @@ import { Avatar } from '';
 		avatarBackgroundUrl='https://cdn.dribbble.com/users/199982/screenshots/4044699/furkan-avatar-dribbble.png'
 		avatarBackgroundWidth='100px'
 		avatarBorderRadius='50%'
-
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
 	/>
 ```
 
 - ### BioBlock
 ```javascript
-import { BioBlock } from '';
+import { BioBlock } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 	<BioBlock
 		contactDetails={[
@@ -1561,13 +1579,19 @@ import { BioBlock } from '';
 			}
 		]}
 		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
-
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
 	/>
 ```
 
 - ### CardGrid
 ```javascript
-import { CardGrid } from '';
+import { CardGrid } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 	<CardGrid
 		techCards={[
@@ -1641,17 +1665,23 @@ import { CardGrid } from '';
 
 - ### CoverLetter
 ```javascript
-import { CoverLetter } from '';
+import { CoverLetter } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 	<CoverLetter
 		coverLetter="\n\nDear Sir / Madam,\n\nDate: Tuesday, 20/10/2020\n\nSubject: Applying to be considered for a Senior React FullStack Engineer\n\nI am an energetic and enthusiastic software engineer who enjoys a challenge\nand achieving organisational goals.\n\nI gave a lot of thought on how to effectively design my resume for the\njob placement since I would like to showcase all of my work so far\nacross React Eco-system. An ideal resume should only have a single page,\nso naturally what could be better than React for creating SPA with high\nuser engagement and simplicity in the flow of enriched React UI’s.\n\nI consider myself a React enthusiast and likes to return to the community\nacross Pakistan, I have conducted couple of one-day React workshops at\nMicrosoft Innovation Center Lahore which had a good turnout. I enjoy speaking\nabout React on public forums and plays active role in it’s awareness creation\nwithin the community. I have also conducted 2 months technology training at\nPlan9 Tech Incubator, which inspired my students to embrace React eco-system\nas to be their professional choice of software stack. Currently, I am also\na React (JavaScript) Mentor at Facebook Dev Circles Lahore.\n\nYours Sincerely,\n\nTaimoor Muhammad Khan\n\n"
-
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
 	/>
 ```
 
 - ### EducationDetail
 ```javascript
-import { EducationDetail } from '';
+import { EducationDetail } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 	<EducationDetail
 		educationDetails={{
@@ -1663,8 +1693,179 @@ import { EducationDetail } from '';
 			degreeAwarded:"JavaScript (React) full-stack Engineer",
 			instituteName:"ICBootcamp"
 		}}
-
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
 	/>
 ```
 
-- ### 
+- ### GuestBookComment
+```javascript
+import { GuestBookComment } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+
+	<GuestBookComment
+		guestBookComments={[
+			{
+				avatarUrl:"https://cdn.dribbble.com/users/1068771/screenshots/6902238/dribbble_final_s_2x.jpg",
+				comment:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				email:"email@gmail.com",
+				firstName:"Name",
+				id:"5df0ae5fb9cb255d0545cfd5",
+				lastName:"Surname"
+			},
+			{
+				avatarUrl:"https://cdn.dribbble.com/users/5746/screenshots/4143186/dribbble-salvatier-avatar.jpg",
+				comment:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				email:"email@gmail.com",
+				firstName:"Name",
+				id:"5df0aedcb9cb255d0545cfd6",
+				lastName:"Surname"
+			},
+			{
+				avatarUrl:"https://cdn.dribbble.com/users/2320445/screenshots/6104565/avatar_2.png",
+				comment:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				email:"email@gmail.com",
+				firstName:"Name",
+				id:"5df0aedcb9cb255d0545cfd7",
+				lastName:"Surname"
+			}
+		]}
+		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### GuestBookForm
+```javascript
+import { GuestBookForm } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+
+	<GuestBookForm
+		commentValue=''
+		emailValue=''
+		firstNameValue=''
+		lastNameValue=''
+		theme=''
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### IntroSlider
+```javascript
+import { IntroSlider } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+
+	<IntroSlider
+		banners=''
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### JobDescription
+```javascript 
+import { JobDescription } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+
+	<JobDescription
+		jobDescriptions={[
+			{
+				id:"job-description-1",
+				label:"Architect modern JavaScript web applications using state of the art ReactJS along with a bunch of other technologies."
+			},
+			{
+				id:"job-description-2",
+				label:"Architect modern JavaScript mobile (iOS and Android) applications using state of the art React Native along with a bunch of other technologies."
+			},
+			{
+				id:"job-description-3",
+				label:"Building full stack mobile and web applications on modern web/mobile technologies stack across various domains."
+			}
+		]}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### JobDetail
+```javascript
+import { JobDetail } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+
+	<JobDetail
+		jobDetails={{
+			designation:"Software Engineer (React)",
+			fulltime:"Full Time",
+			jobCommenced:"August 2018",
+			jobLocated:"Lahore, Pakistan",
+			jobSwitched:"Not yet"
+		}}
+		labels={[
+			{
+				id:"label-1",
+				label:"ReactJS",
+				color:"orange"
+			},
+			{
+				id:"label-2",
+				label:"ReactJS",
+				color:"orange"
+			},
+			{
+				id:"label-3",
+				label:"ReactJS",
+				color:"orange"
+			},
+			{
+				id:"label-4",
+				label:"ReactJS",
+				color:"orange"
+			},
+			{
+				id:"label-5",
+				label:"ReactJS",
+				color:"orange"
+			},
+			{
+				id:"label-6",
+				label:"ReactJS",
+				color:"orange"
+			},
+			{
+				id:"label-7",
+				label:"React Native",
+				color:"orange"
+			}
+		]}
+		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
