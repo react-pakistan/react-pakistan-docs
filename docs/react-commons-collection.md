@@ -87,8 +87,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection A'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/misc-a--a-story'
   title='React Pakistan - React Commons Collection A'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Audio
@@ -118,8 +117,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection Audio'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/media-audio--audio-story'
   title='React Pakistan - React Commons Collection Audio'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Background Image
@@ -152,8 +150,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection Background Image'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/media-backgroundimage--background-image-story'
   title='React Pakistan - React Commons Collection Background Image'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Button
@@ -196,8 +193,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection Button'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-button--button-story'
   title='React Pakistan - React Commons Collection Button'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Canvas
@@ -224,8 +220,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection Canvas'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/media-canvas--canvas-story'
   title='React Pakistan - React Commons Collection Canvas'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Checkbox
@@ -255,8 +250,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection CheckBox'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-checkbox--check-box-story'
   title='React Pakistan - React Commons Collection CheckBox'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### ChildGrid
@@ -287,8 +281,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection ChildGrid'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/layout-childgrid--child-grid-story'
   title='React Pakistan - React Commons Collection ChildGrid'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### ColumnContainer
@@ -315,8 +308,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection ColumnContainer'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/layout-columncontainer--column-container-story'
   title='React Pakistan - React Commons Collection ColumnContainer'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Grid
@@ -458,8 +450,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection Grid'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/layout-grid--grid-story'
   title='React Pakistan - React Commons Collection Grid'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Footer
@@ -484,8 +475,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection Footer'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/layout-footer--footer-story'
   title='React Pakistan - React Commons Collection Footer'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### H1
@@ -518,8 +508,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection H1'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/heading-h1--h-1-story'
   title='React Pakistan - React Commons Collection H1'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### H2
@@ -552,8 +541,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection H2'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/heading-h2--h-2-story'
   title='React Pakistan - React Commons Collection H2'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### H3
@@ -586,8 +574,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection H3'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/heading-h3--h-3-story'
   title='React Pakistan - React Commons Collection H3'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### H4
@@ -620,8 +607,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection H4'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/heading-h4--h-4-story'
   title='React Pakistan - React Commons Collection H4'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### H5
@@ -654,8 +640,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection H5'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/heading-h5--h-5-story'
   title='React Pakistan - React Commons Collection H5'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Header
@@ -670,8 +655,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection Header'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/layout-header--header-story'
   title='React Pakistan - React Commons Collection Header'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### HR
@@ -690,8 +674,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection HR'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/misc-hr--hr-story'
   title='React Pakistan - React Commons Collection HR'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Iframe
@@ -719,8 +702,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection Iframe'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/media-iframe--iframe-story'
   title='React Pakistan - React Commons Collection Iframe'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Image
@@ -749,8 +731,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection Image'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/media-image--image-story'
   title='React Pakistan - React Commons Collection Image'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Input
@@ -801,8 +782,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection Image'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/misc-li--li-story'
   title='React Pakistan - React Commons Collection Image'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### ProgressBar
@@ -833,8 +813,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection ProgressBar'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/media-progressbar--progress-bar-story'
   title='React Pakistan - React Commons Collection ProgressBar'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### RadioButton
@@ -874,8 +853,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection RowContainer'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/layout-rowcontainer--row-container-story'
   title='React Pakistan - React Commons Collection RowContainer'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Select
@@ -917,8 +895,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection Spacer'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/layout-spacer--spacer-story'
   title='React Pakistan - React Commons Collection Spacer'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### SocialShare
@@ -1080,8 +1057,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection SocialShare'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/misc-socialshare--social-share-story'
   title='React Pakistan - React Commons Collection SocialShare'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Table
@@ -1154,8 +1130,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection TextArea'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-textarea--text-area-story'
   title='React Pakistan - React Commons Collection TextArea'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Text
@@ -1205,8 +1180,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection Ul'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/misc-ul--ul-story'
   title='React Pakistan - React Commons Collection Ul'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Video
@@ -1238,8 +1212,7 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection Video'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/media-video--video-story'
   title='React Pakistan - React Commons Collection Video'
-  width='100%'
->
+  width='100%'>
 </iframe>
 
 - ### Wrapper
@@ -1265,6 +1238,5 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection Wrapper'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/layout-wrapper--wrapper-story'
   title='React Pakistan - React Commons Collection Wrapper'
-  width='100%'
->
+  width='100%'>
 </iframe>
