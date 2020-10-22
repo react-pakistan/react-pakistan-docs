@@ -33,7 +33,7 @@ Add React Native Icon Collection base theme to your project.
 
 ## Styles
 
-Styled Components are employed to maintain and update theme for this project. Please consider adding Styled Component Provider wrapper to the entry point of your application, following is the sample code. You could either use the default theme as shown below or wire your custom theme object instead. See [Typography](https://taimoormk.github.io/react-commons-collection/?path=/docs/styleguide-typography--typography-story) & [Colors](https://taimoormk.github.io/react-commons-collection/?path=/docs/styleguide-colors--colors-story) being used in the theme object.
+Styled Components are employed to maintain and update theme for this project. Please consider adding Styled Component Provider wrapper to the entry point of your application, following is the sample code. You could either use the default theme as shown below or wire your custom theme object instead.
 
 ```javascript
   import { ThemeProvider } from 'styled-components';
@@ -44,11 +44,14 @@ Styled Components are employed to maintain and update theme for this project. Pl
   </ThemeProvider>
 ```
 
-## Tested
+## Use
 
-We aim to achieve 100% coverage and we shall...
+- ### FourthofjulyGrey12
+```javascript
+  import { FourthofjulyGrey12 } from '@react-pakistan/react-native-icons-collection/fourthofjuly-grey';
 
-![React Commons Collection Badge Branches](https://res.cloudinary.com/dq6hflqwx/image/upload/v1597117511/GitHub/badges/react-commons-collection/badge-branches.svg)
-![React Commons Collection Badge Functions](https://res.cloudinary.com/dq6hflqwx/image/upload/v1597117511/GitHub/badges/react-commons-collection/badge-functions.svg)
-![React Commons Collection Badge Lines](https://res.cloudinary.com/dq6hflqwx/image/upload/v1597117511/GitHub/badges/react-commons-collection/badge-lines.svg)
-![React Commons Collection Badge Statements](https://res.cloudinary.com/dq6hflqwx/image/upload/v1597117511/GitHub/badges/react-commons-collection/badge-statements.svg)
+  <FourthofjulyGrey12
+    fontSize="32px"
+    fill="#2E2E2E"
+  />
+```
