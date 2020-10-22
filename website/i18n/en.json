@@ -5,6 +5,10 @@
     "previous": "Previous",
     "tagline": "An Open Source Platform",
     "docs": {
+      "intro": {
+        "title": "Intro",
+        "sidebar_label": "React Pakistan"
+      },
       "react-commons-collection": {
         "title": "React Commons Collection",
         "sidebar_label": "React Commons Collection"
@@ -45,9 +49,49 @@
         "title": "React Native Boilerplate",
         "sidebar_label": "React Native Boilerplate"
       },
+      "react-native-commons-collection": {
+        "title": "React Native Commons Collection",
+        "sidebar_label": "React Native Commons Collection"
+      },
+      "react-native-commons-contributors": {
+        "title": "React Native Commons Contributors",
+        "sidebar_label": "React Native Commons Contributors"
+      },
       "react-native-contributors": {
         "title": "React Native Contributors",
         "sidebar_label": "React Native Contributors"
+      },
+      "react-native-emoji-collection": {
+        "title": "React Native Emoji Collection",
+        "sidebar_label": "React Native Emoji Collection"
+      },
+      "react-native-emoji-contributors": {
+        "title": "React Native Emoji Contributors",
+        "sidebar_label": "React Native Emoji Contributors"
+      },
+      "react-native-icon-collection": {
+        "title": "React Native Icon Collection",
+        "sidebar_label": "React Native Icon Collection"
+      },
+      "react-native-icon-contributors": {
+        "title": "React Native Icon Contributors",
+        "sidebar_label": "React Native Icon Contributors"
+      },
+      "react-native-logo-collection": {
+        "title": "React Native Logo Collection",
+        "sidebar_label": "React Native Logo Collection"
+      },
+      "react-native-logo-contributors": {
+        "title": "React Native Logo Contributors",
+        "sidebar_label": "React Native Logo Contributors"
+      },
+      "react-native-ui-collection": {
+        "title": "React Native UI Collection",
+        "sidebar_label": "React Native UI Collection"
+      },
+      "react-native-ui-contributors": {
+        "title": "React Native UI Contributors",
+        "sidebar_label": "React Native UI Contributors"
       },
       "react-ui-collection": {
         "title": "React UI Collection",
@@ -59,22 +103,20 @@
       }
     },
     "links": {
-      "Home": "Home",
-      "React Commons": "React Commons",
-      "React UI": "React UI",
-      "React Icon": "React Icon",
-      "React Logo": "React Logo",
-      "React Native Boilerplate": "React Native Boilerplate"
+      "Docs": "Docs"
     },
     "categories": {
+      "Intro": "Intro",
       "React Commons": "React Commons",
       "React UI": "React UI",
       "React Icon": "React Icon",
       "React Logo": "React Logo",
       "React Emoji": "React Emoji",
+      "React Native Icon": "React Native Icon",
+      "React Native Logo": "React Native Logo",
+      "React Native Emoji": "React Native Emoji",
       "React Native": "React Native",
-      "React Docs": "React Docs",
-      "First Category": "First Category"
+      "React Docs": "React Docs"
     }
   },
   "pages-strings": {

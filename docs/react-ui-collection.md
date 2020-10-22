@@ -32,7 +32,7 @@ Install React UI Collection to your project:
 
 - ### Breadcrumbs
 ```javascript
-import { Breadcrumbs } from '@react-pakistan/react-ui-collection/eCommerceV1UI/breadcrumbs';
+	import { Breadcrumbs } from '@react-pakistan/react-ui-collection';
 
   <Breadcrumbs
     breadcrumbs={['Item1','Item2','Item3']}
@@ -48,7 +48,7 @@ import { Breadcrumbs } from '@react-pakistan/react-ui-collection/eCommerceV1UI/b
 
 - ### CartSummary
 ```javascript
-	import { CartSummary } from '@react-pakistan/react-ui-collection/eCommerceV1UI/cart-summary';
+	import { CartSummary } from '@react-pakistan/react-ui-collection';
 
   <CartSummary
     topHeadingH4="4 Items In Your Cart"
@@ -88,7 +88,7 @@ import { Breadcrumbs } from '@react-pakistan/react-ui-collection/eCommerceV1UI/b
 
 - ### Cart
 ```javascript
-import { Cart } from '@react-pakistan/react-ui-collection/eCommerceV1UI/cart';
+	import { Cart } from '@react-pakistan/react-ui-collection';
 
   <Cart
     cartItemsNumber={6}
@@ -104,7 +104,7 @@ import { Cart } from '@react-pakistan/react-ui-collection/eCommerceV1UI/cart';
 
 - ### CategoryBanner
 ```javascript
-import { CategoryBanner } from '@react-pakistan/react-ui-collection/eCommerceV1UI/category-banner';
+	import { CategoryBanner } from '@react-pakistan/react-ui-collection';
 
   <CategoryBanner
     imageBackgroundPadding="5em"
@@ -129,7 +129,7 @@ import { CategoryBanner } from '@react-pakistan/react-ui-collection/eCommerceV1U
 
 - ### CategoryCard
 ```javascript
-import { CategoryCard } from '@react-pakistan/react-ui-collection/eCommerceV1UI/category-card';
+	import { CategoryCard } from '@react-pakistan/react-ui-collection';
 
   <CategoryCard
     imageBackgroundUrl="http://cdn.shopify.com/s/files/1/0014/1980/4719/co…"
@@ -150,7 +150,7 @@ import { CategoryCard } from '@react-pakistan/react-ui-collection/eCommerceV1UI/
 
 - ### ButtonText
 ```javascript
-import { ButtonText } from '@react-pakistan/react-ui-collection/eCommerceV1UI/category-card';
+	import { ButtonText } from '@react-pakistan/react-ui-collection';
 
   <ButtonText 
     textTransform='uppercase'
@@ -172,7 +172,7 @@ import { ButtonText } from '@react-pakistan/react-ui-collection/eCommerceV1UI/ca
 
 - ### Button
 ```javascript 
-import { Button } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { Button } from '@react-pakistan/react-ui-collection';
 
   <Button 
 		backgroundColor='#F62F5E'
@@ -192,8 +192,8 @@ import { Button } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 ```
 
 - ### CheckoutConfirmation
-```javascript 
-import { CheckoutConfirmation} from '';
+```javascript
+	import { CheckoutConfirmation} from '@react-pakistan/react-ui-collection';
 
   <CheckoutConfirmation
 		headingH4='Checkout'
@@ -238,7 +238,7 @@ import { CheckoutConfirmation} from '';
 
 - ### CheckoutDelivery
 ```javascript
-import { CheckoutDelivery } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { CheckoutDelivery } from '@react-pakistan/react-ui-collection';
 
 	<CheckoutDelivery
 		backButton='Back'
@@ -314,7 +314,7 @@ import { CheckoutDelivery } from '@react-pakistan/react-ui-collection/eCommerceV
 
 - ### CheckoutFinish
 ```javascript
-import { CheckoutFinish } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { CheckoutFinish } from '@react-pakistan/react-ui-collection';
 
 	<CheckoutFinish
 		mainHeadingH4='Checkout'
@@ -348,7 +348,7 @@ import { CheckoutFinish } from '@react-pakistan/react-ui-collection/eCommerceV1U
 
 - ### CheckoutFooter
 ```javascript
-import { CheckoutFooter } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { CheckoutFooter } from '@react-pakistan/react-ui-collection';
 
 	<CheckoutFooter
 		backButton='Back'
@@ -365,7 +365,7 @@ import { CheckoutFooter } from '@react-pakistan/react-ui-collection/eCommerceV1U
 
 - ### CheckoutPayment
 ```javascript
-import { CheckoutPayment } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { CheckoutPayment } from '@react-pakistan/react-ui-collection';
 
 	<CheckoutPayment
 		backButton='Back'
@@ -411,7 +411,7 @@ import { CheckoutPayment } from '@react-pakistan/react-ui-collection/eCommerceV1
 
 - ### ColorPalette
 ```javascript
-import { ColorPalette } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { ColorPalette } from '@react-pakistan/react-ui-collection';
 
 	<ColorPalette
 		width='20px'
@@ -431,7 +431,7 @@ import { ColorPalette } from '@react-pakistan/react-ui-collection/eCommerceV1UI'
 
 - ### ContactUs
 ```javascript
-import { ContactUs } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { ContactUs } from '@react-pakistan/react-ui-collection';
 
 	<ContactUs
 		desktop=''
@@ -446,7 +446,7 @@ import { ContactUs } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### Counter
 ```javascript
-import { Counter } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { Counter } from '@react-pakistan/react-ui-collection';
 
 	<Counter 
 		counter={2}
@@ -463,7 +463,7 @@ import { Counter } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### DisplayCard
 ```javascript
-import { DisplayCard } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { DisplayCard } from '@react-pakistan/react-ui-collection';
 
 	<DisplayCard
 		buttonBackgroundColor='#F62F5E'
@@ -489,7 +489,7 @@ import { DisplayCard } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### DropDown
 ```javascript
-import { DropDown } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { DropDown } from '@react-pakistan/react-ui-collection';
 
 	<DropDown 
 		dropDownItems={
@@ -515,7 +515,7 @@ import { DropDown } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### EmailBar
 ```javascript
-import { EmailBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { EmailBar } from '@react-pakistan/react-ui-collection';
 
 	<EmailBar 
 		desktop=''
@@ -530,7 +530,7 @@ import { EmailBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### FilterBar
 ```javascript
-import { FilterBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { FilterBar } from '@react-pakistan/react-ui-collection';
 
 	<FilterBar 
 		desktop=''
@@ -545,7 +545,7 @@ import { FilterBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### Footer
 ```javascript
-import { Footer } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { Footer } from '@react-pakistan/react-ui-collection';
 
 	<Footer
 		footerMenuItems={[
@@ -591,7 +591,7 @@ import { Footer } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### HighlightCard
 ```javascript 
-import { HighlightCard } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { HighlightCard } from '@react-pakistan/react-ui-collection';
 	<HighlightCard
 		backgroundColorButton='#FFFFFF'
 		buttonText='Shop'
@@ -618,7 +618,8 @@ import { HighlightCard } from '@react-pakistan/react-ui-collection/eCommerceV1UI
 
 - ### IconWrapper
 ```javascript
-import { IconWrapper } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { IconWrapper } from '@react-pakistan/react-ui-collection';
+
 	<IconWrapper
 		backgroundColor='#FFFFFF'
 		isSelected={false}
@@ -634,7 +635,8 @@ import { IconWrapper } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### Label
 ```javascript
-import { Label } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { Label } from '@react-pakistan/react-ui-collection';
+
 	<Label
 		backgroundColor='#2E2E2E'
 		left='1.5em'
@@ -652,7 +654,8 @@ import { Label } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### MenuBar
 ```javascript
-import { MenuBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { MenuBar } from '@react-pakistan/react-ui-collection';
+
 	<MenuBar
 		cartItemsNumber={6}
 		iconFill='#FFFFFF'
@@ -677,7 +680,8 @@ import { MenuBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### MenuItem
 ```javascript
-import { MenuItem } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { MenuItem } from '@react-pakistan/react-ui-collection';
+
 	<MenuItem 
 		color='#2E2E2E'
 		fontFamily='Open Sans'
@@ -699,7 +703,8 @@ import { MenuItem } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### OrderTable
 ```javascript 
-import { OrderTable } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { OrderTable } from '@react-pakistan/react-ui-collection';
+
 	<OrderTable
 		orderBodyItems={[
 			{
@@ -723,7 +728,8 @@ import { OrderTable } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### PaginatorBar
 ```javascript
-import { PaginatorBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { PaginatorBar } from '@react-pakistan/react-ui-collection';
+
 	<PaginatorBar
 		pagination={[
 			1,
@@ -763,7 +769,8 @@ import { PaginatorBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI'
 
 - ### Paginator
 ```javascript
-import { Paginator } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { Paginator } from '@react-pakistan/react-ui-collection';
+
 	<Paginator
 		pagination={[
 			1,
@@ -809,7 +816,8 @@ import { Paginator } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### ProductItem
 ```javascript
-import { ProductItem } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { ProductItem } from '@react-pakistan/react-ui-collection';
+
 	<ProductItem
 		backgroundColorButton='#F62F5E'
 		backgroundColorLabel='#F62F5E'
@@ -865,7 +873,7 @@ import { ProductItem } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### ProductReview
 ```javascript
-import { ProductReview } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { ProductReview } from '@react-pakistan/react-ui-collection';
 	
 	<ProductReview
 		colorDisclaimerText='#B4B4B4'
@@ -918,7 +926,7 @@ import { ProductReview } from '@react-pakistan/react-ui-collection/eCommerceV1UI
 
 - ### PromoCard
 ```javascript
-import { PromoCard } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { PromoCard } from '@react-pakistan/react-ui-collection';
 
 	<PromoCard
 		alt='alt-image'
@@ -963,7 +971,7 @@ import { PromoCard } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### RangeSlider
 ```javascript 
-import { RangeSlider } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { RangeSlider } from '@react-pakistan/react-ui-collection';
 
 	<RangeSlider 
 		allowCross={false}
@@ -987,7 +995,7 @@ import { RangeSlider } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### RemoveTag
 ```javascript
-import { RemoveTag } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { RemoveTag } from '@react-pakistan/react-ui-collection';
 
 	<RemoveTag
 		tagLabel='Remove'
@@ -1003,7 +1011,7 @@ import { RemoveTag } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### SearchBar
 ```javascript
-import { SearchBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { SearchBar } from '@react-pakistan/react-ui-collection';
 
 	<SearchBar
 		desktop=''
@@ -1018,7 +1026,7 @@ import { SearchBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### ShopImageGallery
 ```javascript
-import { ShopImageGallery } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { ShopImageGallery } from '@react-pakistan/react-ui-collection';
 
 	<ShopImageGallery
 		shopImageGallery={[
@@ -1050,7 +1058,7 @@ import { ShopImageGallery } from '@react-pakistan/react-ui-collection/eCommerceV
 
 - ### ShopItem
 ```javascript
-import { ShopItem } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { ShopItem } from '@react-pakistan/react-ui-collection';
 
 	<ShopItem
 		altImage='shop-main-item-image'
@@ -1115,7 +1123,7 @@ import { ShopItem } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### ShopItemsSummary
 ```javascript 
-import { ShopItemsSummary } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { ShopItemsSummary } from '@react-pakistan/react-ui-collection';
 
 	<ShopItemsSummary
 		backgroundColorButton='#F62F5E'
@@ -1188,7 +1196,7 @@ import { ShopItemsSummary } from '@react-pakistan/react-ui-collection/eCommerceV
 
 - ### Sign
 ```javascript
-import { Sign } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { Sign } from '@react-pakistan/react-ui-collection';
 
 	<Sign
 		signType='sign_type.SIGNIN'
@@ -1204,7 +1212,7 @@ import { Sign } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### SizePalette
 ```javascript
-import { SizePalette } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { SizePalette } from '@react-pakistan/react-ui-collection';
 
 	<SizePalette
 		backgroundColor='#6C6C6C'
@@ -1223,7 +1231,7 @@ import { SizePalette } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### SortBar
 ```javascript
-import { SortBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { SortBar } from '@react-pakistan/react-ui-collection';
 
 	<SortBar
 		lowerLimit={48}
@@ -1240,7 +1248,7 @@ import { SortBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### StarRating
 ```javascript
-import { StarRating } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { StarRating } from '@react-pakistan/react-ui-collection';
 
 	<StarRating
 		name='rating'
@@ -1261,7 +1269,7 @@ import { StarRating } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### Stepper
 ```javascript 
-import { Stepper } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { Stepper } from '@react-pakistan/react-ui-collection';
 
 	<Stepper
 		currentStep={2}
@@ -1283,7 +1291,7 @@ import { Stepper } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 				stepLabel:"Finish"
 			}
 		]}
-		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		theme={theme}
 		desktop=''
 		laptop=''
 		laptopL=''
@@ -1296,14 +1304,14 @@ import { Stepper } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### SubscriptionBar
 ```javascript 
-import { SubscriptionBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { SubscriptionBar } from '@react-pakistan/react-ui-collection';
 
 	<SubscriptionBar
 		colorH4='#F62F5E'
 		headingH4='10% Discount for your subscription'
 		headingH5='Carry the day in style with this extra-large tote crafted in our chic B.B. Collection textured PVC. Featuring colorful faux leather trim, this tote offers a roomy interior.'
 		style='subscriptionbar_type.REGULAR'
-		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		theme={theme}
 		desktop=''
 		laptop=''
 		laptopL=''
@@ -1317,7 +1325,7 @@ import { SubscriptionBar } from '@react-pakistan/react-ui-collection/eCommerceV1
 
 - ### SubscriptionOffer
 ```javascript
-import { SubscriptionOffer } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { SubscriptionOffer } from '@react-pakistan/react-ui-collection';
 
 	<SubcriptionOffer
 		headingH4='10% Discount for your subscription'
@@ -1325,7 +1333,7 @@ import { SubscriptionOffer } from '@react-pakistan/react-ui-collection/eCommerce
 		buttonText='Subscribe'
 		style='subscriptionoffer_type.NORMAL'
 
-		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		theme={theme}
 		desktop=''
 		laptop=''
 		laptopL=''
@@ -1338,7 +1346,7 @@ import { SubscriptionOffer } from '@react-pakistan/react-ui-collection/eCommerce
 
 - ### Tag
 ```javascript 
-import { Tag } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { Tag } from '@react-pakistan/react-ui-collection';
 
 	<Tag
 		backgroundColor='#2E2E2E'
@@ -1355,7 +1363,7 @@ import { Tag } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### TopBar
 ```javascript
-import { TopBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { TopBar } from '@react-pakistan/react-ui-collection';
 
 	<TopBar
 		topMenuItems={[
@@ -1375,7 +1383,7 @@ import { TopBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 				url:"./help-contact"
 			}
 		]}
-		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		theme={theme}
 		desktop=''
 		laptop=''
 		laptopL=''
@@ -1388,11 +1396,11 @@ import { TopBar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### WishlistButton
 ```javascript
-import { WishlistButton } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { WishlistButton } from '@react-pakistan/react-ui-collection';
 
 	<WishlistButton
 		buttonText='Add to Wish List'
-		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		theme={theme}
 		desktop=''
 		laptop=''
 		laptopL=''
@@ -1405,7 +1413,7 @@ import { WishlistButton } from '@react-pakistan/react-ui-collection/eCommerceV1U
 
 - ### WorldFlags
 ```javascript
-import { WorldFlags} from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { WorldFlags} from '@react-pakistan/react-ui-collection';
 
 	<WorldFlags
 		width='25px'
@@ -1420,16 +1428,14 @@ import { WorldFlags} from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 	/>
 ```
 
-RESUME Tags
-
 - ### Accordion
 ```javascript
-import { Accordion } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { Accordion } from '@react-pakistan/react-ui-collection';
 
 	<Accordion
 		content='I am the content for this Accordion'
 		heading='Heading'
-		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		theme={theme}
 		desktop=''
 		laptop=''
 		laptopL=''
@@ -1442,11 +1448,11 @@ import { Accordion } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### AvatarBlock
 ```javascript
-import { AvatarBlock } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { AvatarBlock } from '@react-pakistan/react-ui-collection';
 
 	<AvatarBlock
 		imageBackgroundUrl='https://www.w3schools.com/howto/img_avatar.png'
-		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		theme={theme}
 		desktop=''
 		laptop=''
 		laptopL=''
@@ -1459,7 +1465,7 @@ import { AvatarBlock } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### Avatar
 ```javascript
-import { Avatar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { Avatar } from '@react-pakistan/react-ui-collection';
 
 	<Avatar
 		avatarBackgroundColor='#6C6C6C'
@@ -1482,7 +1488,7 @@ import { Avatar } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### BioBlock
 ```javascript
-import { BioBlock } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { BioBlock } from '@react-pakistan/react-ui-collection';
 
 	<BioBlock
 		contactDetails={[
@@ -1578,7 +1584,7 @@ import { BioBlock } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 				label:"#Motivational Speaker"
 			}
 		]}
-		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		theme={theme}
 		desktop=''
 		laptop=''
 		laptopL=''
@@ -1591,7 +1597,7 @@ import { BioBlock } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### CardGrid
 ```javascript
-import { CardGrid } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { CardGrid } from '@react-pakistan/react-ui-collection';
 
 	<CardGrid
 		techCards={[
@@ -1665,7 +1671,7 @@ import { CardGrid } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### CoverLetter
 ```javascript
-import { CoverLetter } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { CoverLetter } from '@react-pakistan/react-ui-collection';
 
 	<CoverLetter
 		coverLetter="\n\nDear Sir / Madam,\n\nDate: Tuesday, 20/10/2020\n\nSubject: Applying to be considered for a Senior React FullStack Engineer\n\nI am an energetic and enthusiastic software engineer who enjoys a challenge\nand achieving organisational goals.\n\nI gave a lot of thought on how to effectively design my resume for the\njob placement since I would like to showcase all of my work so far\nacross React Eco-system. An ideal resume should only have a single page,\nso naturally what could be better than React for creating SPA with high\nuser engagement and simplicity in the flow of enriched React UI’s.\n\nI consider myself a React enthusiast and likes to return to the community\nacross Pakistan, I have conducted couple of one-day React workshops at\nMicrosoft Innovation Center Lahore which had a good turnout. I enjoy speaking\nabout React on public forums and plays active role in it’s awareness creation\nwithin the community. I have also conducted 2 months technology training at\nPlan9 Tech Incubator, which inspired my students to embrace React eco-system\nas to be their professional choice of software stack. Currently, I am also\na React (JavaScript) Mentor at Facebook Dev Circles Lahore.\n\nYours Sincerely,\n\nTaimoor Muhammad Khan\n\n"
@@ -1681,7 +1687,7 @@ import { CoverLetter } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### EducationDetail
 ```javascript
-import { EducationDetail } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { EducationDetail } from '@react-pakistan/react-ui-collection';
 
 	<EducationDetail
 		educationDetails={{
@@ -1705,7 +1711,7 @@ import { EducationDetail } from '@react-pakistan/react-ui-collection/eCommerceV1
 
 - ### GuestBookComment
 ```javascript
-import { GuestBookComment } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+import { GuestBookComment } from '@react-pakistan/react-ui-collection';
 
 	<GuestBookComment
 		guestBookComments={[
@@ -1734,7 +1740,7 @@ import { GuestBookComment } from '@react-pakistan/react-ui-collection/eCommerceV
 				lastName:"Surname"
 			}
 		]}
-		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		theme={theme}
 		desktop=''
 		laptop=''
 		laptopL=''
@@ -1747,7 +1753,7 @@ import { GuestBookComment } from '@react-pakistan/react-ui-collection/eCommerceV
 
 - ### GuestBookForm
 ```javascript
-import { GuestBookForm } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { GuestBookForm } from '@react-pakistan/react-ui-collection';
 
 	<GuestBookForm
 		commentValue=''
@@ -1767,7 +1773,7 @@ import { GuestBookForm } from '@react-pakistan/react-ui-collection/eCommerceV1UI
 
 - ### IntroSlider
 ```javascript
-import { IntroSlider } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { IntroSlider } from '@react-pakistan/react-ui-collection';
 
 	<IntroSlider
 		banners=''
@@ -1783,7 +1789,7 @@ import { IntroSlider } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 
 - ### JobDescription
 ```javascript 
-import { JobDescription } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { JobDescription } from '@react-pakistan/react-ui-collection';
 
 	<JobDescription
 		jobDescriptions={[
@@ -1812,7 +1818,7 @@ import { JobDescription } from '@react-pakistan/react-ui-collection/eCommerceV1U
 
 - ### JobDetail
 ```javascript
-import { JobDetail } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
+	import { JobDetail } from '@react-pakistan/react-ui-collection';
 
 	<JobDetail
 		jobDetails={{
@@ -1859,7 +1865,7 @@ import { JobDetail } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 				color:"orange"
 			}
 		]}
-		theme={{"typography":{"fontFamily":"Montserrat","h1":{"fontFamily":"Playfair Display","fontSize":"2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h2":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h3":{"fontFamily":"Montserrat","fontSize":"1.6em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h4":{"fontFamily":"Montserrat","fontSize":"1.4em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"uppercase"},"h5":{"fontFamily":"Montserrat","fontSize":"1.2em","fontWeight":700,"letterSpacing":"1px","lineHeight":"normal","textAlign":"left","textTransform":"none"},"text":{"fontFamily":"Montserrat","fontSize":"1em","fontWeight":400,"letterSpacing":"normal","lineHeight":"normal","textAlign":"left","textTransform":"none"}},"avatarSizes":{"small":"16px","medium":"24px","large":"32px","xlarge":"40px"},"breakpoints":{"mobileS":"only screen and (min-width: 320px) and (max-width: 374px)","mobileM":"only screen and (min-width: 375px) and (max-width: 424px)","mobileL":"only screen and (min-width: 425px) and (max-width: 767px)","tablet":"only screen and (min-width: 768px) and (max-width: 1023px)","laptop":"only screen and (min-width: 1024px) and (max-width: 1439px)","laptopL":"only screen and (min-width: 1440px) and (max-width: 2559px)","desktop":"only screen and (min-width: 2560px)"},"colors":{"black":"#2E2E2E","cherryRed":"#F62F5E","darkGrey":"#EFEFEF","inputBorder":"#E1E1E1","lightBlack":"#6C6C6C","lighterBlack":"#B4B4B4","lightGrey":"#F7F7F7","limeYellow":"#EFFC90","paleGreen":"#00D3CA","rustyGold":"#F1AD3D","skyBlue":"#1E90FF","white":"#FFFFFF"},"misc":{},"radius":{"default":"0.25em","double":"0.5em","half":"0.75em","full":"1em"},"shadow":{"default":"0px 1px 4px #E5E9F2","medium":"-4px 0 12px rgba(0, 0, 0, 0.3)"},"spacing":{"xsmall":"0.25em","small":"0.50em","medium":"0.75em","default":"1em","large":"1.5em","xlarge":"1.75em","huge":"2em"},"zIndex":{"dropdown":100,"pageFooter":200,"modal":300}}}
+		theme={theme}
 		desktop=''
 		laptop=''
 		laptopL=''
@@ -1869,4 +1875,3 @@ import { JobDetail } from '@react-pakistan/react-ui-collection/eCommerceV1UI';
 		tablet=''
 	/>
 ```
-
