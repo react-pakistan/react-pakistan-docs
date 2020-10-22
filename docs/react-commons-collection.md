@@ -56,18 +56,11 @@ We aim to achieve 100% coverage and we shall...
 
 ## Use
 
-<<<<<<< HEAD
--   ### A
-```javascript
-import {A} from '@react-pakistan/react-commons-collection'
-<A
-=======
 - ### A
 ```javascript
   import { A } from '@react-pakistan/react-commons-collection';
 
   <A
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     color='#000000'
     desktop=''
     download=''
@@ -84,15 +77,9 @@ import {A} from '@react-pakistan/react-commons-collection'
     tablet=''
     target='_blank'
     type=''
-<<<<<<< HEAD
->
-    Go to Google
-</A>
-=======
   >
     Go to Google
   </A>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -103,18 +90,11 @@ import {A} from '@react-pakistan/react-commons-collection'
   width='100%'>
 </iframe>
 
-<<<<<<< HEAD
--   ### Audio
-```javascript
-import {Audio} from '@react-pakistan/react-commons-collection'
-<Audio
-=======
 - ### Audio
 ```javascript
   import { Audio } from '@react-pakistan/react-commons-collection';
 
   <Audio
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     autoplay
     controlPanelColor='#F7F7F7'
     controls
@@ -129,11 +109,7 @@ import {Audio} from '@react-pakistan/react-commons-collection'
     remainingTimeColor='#F62F5E'
     src='https://notificationsounds.com/sound-effects/insight-578/download/mp3'
     tablet=''
-<<<<<<< HEAD
-/>
-=======
   />
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -144,18 +120,11 @@ import {Audio} from '@react-pakistan/react-commons-collection'
   width='100%'>
 </iframe>
 
-<<<<<<< HEAD
--   ### Background Image
-```javascript
-import {BackgroundImage} from '@react-pakistan/react-commons-collection'
-<BackgroundImage
-=======
 - ### Background Image
 ```javascript
   import { BackgroundImage } from '@react-pakistan/react-commons-collection';
 
   <BackgroundImage
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     desktop=''
     imageBackgroundColor='#F7F7F7'
     imageBackgroundHeight='400px'
@@ -173,11 +142,7 @@ import {BackgroundImage} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
-/>
-=======
   />
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -190,14 +155,9 @@ import {BackgroundImage} from '@react-pakistan/react-commons-collection'
 
 - ### Button
 ```javascript
-<<<<<<< HEAD
-import {Button} from '@react-pakistan/react-commons-collection'
-<Button
-=======
   import { Button } from '@react-pakistan/react-commons-collection';
 
   <Button
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     autoFocus
     border='1px solid #EFEFEF'
     borderRadius='0.5em'
@@ -223,15 +183,9 @@ import {Button} from '@react-pakistan/react-commons-collection'
     type='submit'
     value=''
     width='auto'
-<<<<<<< HEAD
->
-    Hello World
-</Button>
-=======
   >
     Hello World
   </Button>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -244,14 +198,9 @@ import {Button} from '@react-pakistan/react-commons-collection'
 
 - ### Canvas
 ```javascript
-<<<<<<< HEAD
-import {Canvas} from '@react-pakistan/react-commons-collection'
-<Canvas
-=======
   import { Canvas } from '@react-pakistan/react-commons-collection';
 
   <Canvas
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     border='1px solid #000000'
     desktop=''
     height='400px'
@@ -263,11 +212,7 @@ import {Canvas} from '@react-pakistan/react-commons-collection'
     id='canvasId'
     tablet=''
     width='600px'
-<<<<<<< HEAD
-/>
-=======
   />
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -280,14 +225,9 @@ import {Canvas} from '@react-pakistan/react-commons-collection'
 
 - ### Checkbox
 ```javascript
-<<<<<<< HEAD
-import {CheckBox} from '@react-pakistan/react-commons-collection'
-<CheckBox
-=======
   import { CheckBox } from '@react-pakistan/react-commons-collection';
 
   <CheckBox
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     checkedColor='#1E90FF'
     hasError={false}
     helperText=''
@@ -302,11 +242,7 @@ import {CheckBox} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
-/>
-=======
   />
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -319,14 +255,9 @@ import {CheckBox} from '@react-pakistan/react-commons-collection'
 
 - ### ChildGrid
 ```javascript
-<<<<<<< HEAD
-import {ChildGrid} from '@react-pakistan/react-commons-collection'
-<ChildGrid
-=======
   import { ChildGrid } from '@react-pakistan/react-commons-collection';
 
   <ChildGrid
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     alignSelf='center'
     gridColumnEnd={1}
     gridColumnStart={1}
@@ -340,15 +271,9 @@ import {ChildGrid} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
->
-    ChildGrid Component
-</ChildGrid>
-=======
   >
     ChildGrid Component
   </ChildGrid>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -361,14 +286,9 @@ import {ChildGrid} from '@react-pakistan/react-commons-collection'
 
 - ### ColumnContainer
 ```javascript
-<<<<<<< HEAD
-import {ColumnContainer} from '@react-pakistan/react-commons-collection'
-<ColumnContainer
-=======
   import { ColumnContainer } from '@react-pakistan/react-commons-collection';
 
   <ColumnContainer
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     alignItems='center'
     justifyContent='center'
     desktop=''
@@ -378,15 +298,9 @@ import {ColumnContainer} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
->
-    ColumnContainer Component
-</ColumnContainer>
-=======
   >
     ColumnContainer Component
   </ColumnContainer>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -399,14 +313,9 @@ import {ColumnContainer} from '@react-pakistan/react-commons-collection'
 
 - ### Grid
 ```javascript
-<<<<<<< HEAD
-import {Grid} from '@react-pakistan/react-commons-collection'
-<Grid
-=======
   import { Grid } from '@react-pakistan/react-commons-collection';
 
   <Grid
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     alignItems='center'
     columnGap='1em'
     gridColumn='1fr 1fr 1fr'
@@ -420,122 +329,6 @@ import {Grid} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
->
-    <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
-    >
-        Item
-    </h2>
-    <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
-    >
-        Item
-    </h2>
-    <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
-    >
-        Item
-    </h2>
-    <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
-    >
-        Item
-    </h2>
-    <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
-    >
-        Item
-    </h2>
-    <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
-    >
-        Item
-    </h2>
-    <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
-    >
-        Item
-    </h2>
-    <h2
-        style={{
-            alignItems: 'center',
-            background: 'lightblue',
-            border: '1px solid black',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            margin: 0,
-            padding: '1rem'
-        }}
-    >
-        Item
-    </h2>
-</Grid>
-=======
   >
     <h2
       style={{
@@ -650,7 +443,6 @@ import {Grid} from '@react-pakistan/react-commons-collection'
       Item
     </h2>
   </Grid>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -663,14 +455,9 @@ import {Grid} from '@react-pakistan/react-commons-collection'
 
 - ### Footer
 ```javascript
-<<<<<<< HEAD
-import {Footer} from '@react-pakistan/react-commons-collection'
-<Footer
-=======
   import { Footer } from '@react-pakistan/react-commons-collection';
 
   <Footer
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     desktop=''
     laptop=''
     laptopL=''
@@ -678,15 +465,9 @@ import {Footer} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
->
-    Footer component
-</Footer>
-=======
   >
     Footer component
   </Footer>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -699,14 +480,9 @@ import {Footer} from '@react-pakistan/react-commons-collection'
 
 - ### H1
 ```javascript
-<<<<<<< HEAD
-import {H1} from '@react-pakistan/react-commons-collection'
-<H1
-=======
   import { H1 } from '@react-pakistan/react-commons-collection';
 
   <H1
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     color='#FFFFFF'
     fontFamily='Playfair Display'
     fontSize='2em'
@@ -722,15 +498,9 @@ import {H1} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
->
-    H1 Component
-</H1>
-=======
   >
     H1 Component
   </H1>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -743,14 +513,9 @@ import {H1} from '@react-pakistan/react-commons-collection'
 
 - ### H2
 ```javascript
-<<<<<<< HEAD
-import {H2} from '@react-pakistan/react-commons-collection'
-<H2
-=======
   import { H2 } from '@react-pakistan/react-commons-collection';
 
   <H2
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     color='#FFFFFF'
     fontFamily='Montserrat'
     fontSize='1.8em'
@@ -766,15 +531,9 @@ import {H2} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
->
-    H2 Component
-</H2>
-=======
   >
     H2 Component
   </H2>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -787,14 +546,9 @@ import {H2} from '@react-pakistan/react-commons-collection'
 
 - ### H3
 ```javascript
-<<<<<<< HEAD
-import {H3} from '@react-pakistan/react-commons-collection'
-<H3
-=======
   import { H3 } from '@react-pakistan/react-commons-collection';
 
   <H3
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     color='#FFFFFF'
     fontFamily='Montserrat'
     fontSize='1.6em'
@@ -810,15 +564,9 @@ import {H3} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
->
-    H3 Component
-</H3>
-=======
   >
     H3 Component
   </H3>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -831,14 +579,9 @@ import {H3} from '@react-pakistan/react-commons-collection'
 
 - ### H4
 ```javascript
-<<<<<<< HEAD
-import {H4} from '@react-pakistan/react-commons-collection'
-<H4
-=======
   import { H4 } from '@react-pakistan/react-commons-collection';
 
   <H4
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     color='#FFFFFF'
     fontFamily='Montserrat'
     fontSize='1.4em'
@@ -854,15 +597,9 @@ import {H4} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
->
-    H4 Component
-</H4>
-=======
   >
     H4 Component
   </H4>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -875,14 +612,9 @@ import {H4} from '@react-pakistan/react-commons-collection'
 
 - ### H5
 ```javascript
-<<<<<<< HEAD
-import {H5} from '@react-pakistan/react-commons-collection'
-<H5
-=======
   import { H5 } from '@react-pakistan/react-commons-collection';
 
   <H5
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     color='#FFFFFF'
     fontFamily='Montserrat'
     fontSize='1.2em'
@@ -898,15 +630,9 @@ import {H5} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
->
-    H5 Component
-</H5>
-=======
   >
     H5 Component
   </H5>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -953,14 +679,9 @@ import {H5} from '@react-pakistan/react-commons-collection'
 
 - ### Iframe
 ```javascript
-<<<<<<< HEAD
-import {Iframe} from '@react-pakistan/react-commons-collection'
-<Iframe
-=======
   import { Iframe } from '@react-pakistan/react-commons-collection';
 
   <Iframe
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     height='600px'
     name='iframe'
     sandbox='allow-Same-Origin'
@@ -973,11 +694,7 @@ import {Iframe} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
-/>
-=======
   />
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -990,14 +707,9 @@ import {Iframe} from '@react-pakistan/react-commons-collection'
 
 - ### Image
 ```javascript
-<<<<<<< HEAD
-import {Image} from '@react-pakistan/react-commons-collection'
-<Image
-=======
   import { Image } from '@react-pakistan/react-commons-collection';
 
   <Image
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     alt='alt-image'
     height='auto'
     imageUrl='https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png'
@@ -1011,11 +723,7 @@ import {Image} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
-/>
-=======
   />
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -1028,14 +736,9 @@ import {Image} from '@react-pakistan/react-commons-collection'
 
 - ### Input
 ```javascript
-<<<<<<< HEAD
-import {Input} from '@react-pakistan/react-commons-collection'
-<Input
-=======
   import { Input } from '@react-pakistan/react-commons-collection';
 
   <Input
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     backgroundColor='#FFFFFF'
     border='1px solid #EFEFEF'
     borderRadius='0.5em'
@@ -1054,21 +757,11 @@ import {Input} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
-/>
-=======
   />
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 - ### Li
 ```javascript
-<<<<<<< HEAD
-import {Li} from '@react-pakistan/react-commons-collection'
-<Li desktop='' laptop='' laptopL='' mobileL='' mobileM='' mobileS='' tablet=''>
-    Value
-</Li>
-=======
   import { Li } from '@react-pakistan/react-commons-collection';
 
   <Li
@@ -1082,7 +775,6 @@ import {Li} from '@react-pakistan/react-commons-collection'
   >
     Value
   </Li>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -1095,14 +787,9 @@ import {Li} from '@react-pakistan/react-commons-collection'
 
 - ### ProgressBar
 ```javascript
-<<<<<<< HEAD
-import {ProgressBar} from '@react-pakistan/react-commons-collection'
-<ProgressBar
-=======
   import { ProgressBar } from '@react-pakistan/react-commons-collection';
 
   <ProgressBar
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     backgroundColorBar='#F62F5E'
     backgroundColorValue='#EFFC90'
     height='0.25em'
@@ -1118,11 +805,7 @@ import {ProgressBar} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
-/>
-=======
   />
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -1135,36 +818,22 @@ import {ProgressBar} from '@react-pakistan/react-commons-collection'
 
 - ### RadioButton
 ```javascript
-<<<<<<< HEAD
-import {RadioButton} from '@react-pakistan/react-commons-collection'
-<RadioButton
-=======
   import { RadioButton } from '@react-pakistan/react-commons-collection';
 
   <RadioButton
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     checked
     hasError={false}
     helperText={false}
     label=''
     tag='Label'
-<<<<<<< HEAD
-/>
-=======
   />
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 - ### RowContainer
 ```javascript
-<<<<<<< HEAD
-import {RowContainer} from '@react-pakistan/react-commons-collection'
-<RowContainer
-=======
   import { RowContainer } from '@react-pakistan/react-commons-collection';
 
   <RowContainer
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     alignItems='center'
     justifyContent='center'
     desktop=''
@@ -1176,11 +845,7 @@ import {RowContainer} from '@react-pakistan/react-commons-collection'
     tablet=''
 >
     RowContainer Component
-<<<<<<< HEAD
-</RowContainer>
-=======
   </RowContainer>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -1193,14 +858,9 @@ import {RowContainer} from '@react-pakistan/react-commons-collection'
 
 - ### Select
 ```javascript
-<<<<<<< HEAD
-import {Select} from '@react-pakistan/react-commons-collectiont'
-<Select
-=======
   import { Select } from '@react-pakistan/react-commons-collection';
 
   <Select
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     form='form_id'
     name='dropDownName'
     size={0}
@@ -1214,19 +874,10 @@ import {Select} from '@react-pakistan/react-commons-collectiont'
     required={false}
 >
     <Option value='volvo'>Volvo</Option>
-<<<<<<< HEAD
-    <Option disabled value='saab'>
-        Saab
-    </Option>
-    <Option value='mercedes'>Mercedes</Option>
-    <Option value='audi'>Audi</Option>
-</Select>
-=======
     <Option disabled value='saab'>Saab</Option>
     <Option value='mercedes'>Mercedes</Option>
     <Option value='audi'>Audi</Option>
   </Select>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 - ### Spacer
@@ -1249,157 +900,6 @@ import {Select} from '@react-pakistan/react-commons-collectiont'
 
 - ### SocialShare
 ```javascript
-<<<<<<< HEAD
-import {SocialShare} from '@react-pakistan/react-commons-collection'
-<SocialShare
-    socialIcons={[
-        {
-            borderRadius: '50%',
-            id: 'social-icon-1',
-            round: true,
-            serviceName: 'facebook',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-2',
-            round: true,
-            serviceName: 'twitter',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-3',
-            round: true,
-            serviceName: 'telegram',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-4',
-            round: true,
-            serviceName: 'whatsapp',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-5',
-            round: true,
-            serviceName: 'linkedin',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-6',
-            round: true,
-            serviceName: 'pinterest',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-7',
-            round: true,
-            serviceName: 'vk',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-8',
-            round: true,
-            serviceName: 'ok',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-9',
-            round: true,
-            serviceName: 'reddit',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-10',
-            round: true,
-            serviceName: 'tumblr',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-11',
-            round: true,
-            serviceName: 'livejournal',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-12',
-            round: true,
-            serviceName: 'mailru',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-13',
-            round: true,
-            serviceName: 'viber',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-14',
-            round: true,
-            serviceName: 'workplace',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-15',
-            round: true,
-            serviceName: 'line',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-16',
-            round: true,
-            serviceName: 'pocket',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-17',
-            round: true,
-            serviceName: 'instapaper',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        },
-        {
-            borderRadius: '50%',
-            id: 'social-icon-18',
-            round: true,
-            serviceName: 'email',
-            shareUrl: 'https://taimoormk.github.io/react-commons-collection',
-            size: 32
-        }
-    ]}
-/>
-=======
   import { SocialShare } from '@react-pakistan/react-commons-collection';
 
   <SocialShare
@@ -1550,7 +1050,6 @@ import {SocialShare} from '@react-pakistan/react-commons-collection'
       }
     ]}
   />
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -1563,29 +1062,6 @@ import {SocialShare} from '@react-pakistan/react-commons-collection'
 
 - ### Table
 ```javascript
-<<<<<<< HEAD
-import {Table} from '@react-pakistan/react-commons-collection'
-<Table>
-    <Thead>
-        <Tr>
-            <Td>Hey header</Td>
-            <Td>Hello header</Td>
-        </Tr>
-    </Thead>
-    <Tbody>
-        <Tr>
-            <Td>Hey body</Td>
-            <Td>Hello body</Td>
-        </Tr>
-    </Tbody>
-    <Tfoot>
-        <Tr>
-            <Td>Hey foot</Td>
-            <Td>Hello foot</Td>
-        </Tr>
-    </Tfoot>
-</Table>
-=======
   import { Table } from '@react-pakistan/react-commons-collection';
 
   <Table>
@@ -1608,19 +1084,13 @@ import {Table} from '@react-pakistan/react-commons-collection'
        </Tr>
     </Tfoot>
   </Table>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 - ### TextArea
 ```javascript
-<<<<<<< HEAD
-import {TextArea} from '@react-pakistan/react-commons-collection'
-<TextArea
-=======
   import { TextArea } from '@react-pakistan/react-commons-collection';
 
   <TextArea
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     backgroundColor='#FFFFFF'
     border='1px solid #EFEFEF'
     borderRadius='0.5em'
@@ -1637,11 +1107,7 @@ import {TextArea} from '@react-pakistan/react-commons-collection'
     outlineColor='#1E90FF'
     cols={20}
     maxlength={300}
-<<<<<<< HEAD
-    minLenght={10}
-=======
     minLength={10}
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     placeholder='Enter message here'
     placeholderColor='#6C6C6C'
     rows={12}
@@ -1656,11 +1122,7 @@ import {TextArea} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
-/>
-=======
   />
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -1673,14 +1135,9 @@ import {TextArea} from '@react-pakistan/react-commons-collection'
 
 - ### Text
 ```javascript
-<<<<<<< HEAD
-import {Text} from '@react-pakistan/react-commons-collection'
-<Text
-=======
   import { Text } from '@react-pakistan/react-commons-collection';
 
   <Text
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     color='#FFFFFF'
     fontFamily='Montserrat'
     fontSize='1em'
@@ -1698,11 +1155,7 @@ import {Text} from '@react-pakistan/react-commons-collection'
     tablet=''
 >
     Text Component
-<<<<<<< HEAD
-</Text>
-=======
   </Text>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 - ### Ul
@@ -1732,14 +1185,9 @@ import {Text} from '@react-pakistan/react-commons-collection'
 
 - ### Video
 ```javascript
-<<<<<<< HEAD
-import {Video} from '@react-pakistan/react-commons-collection'
-<Video
-=======
   import { Video } from '@react-pakistan/react-commons-collection';
 
   <Video
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     autoplay={false}
     controls
     loops={false}
@@ -1756,11 +1204,7 @@ import {Video} from '@react-pakistan/react-commons-collection'
     mobileS=''
     tablet=''
     autoplay
-<<<<<<< HEAD
-/>
-=======
   />
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
@@ -1773,14 +1217,9 @@ import {Video} from '@react-pakistan/react-commons-collection'
 
 - ### Wrapper
 ```javascript
-<<<<<<< HEAD
-import {Wrapper} from '@react-pakistan/react-commons-collection'
-<Wrapper
-=======
   import { Wrapper } from '@react-pakistan/react-commons-collection';
 
   <Wrapper
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
     width='90%'
     desktop=''
     laptop=''
@@ -1789,15 +1228,9 @@ import {Wrapper} from '@react-pakistan/react-commons-collection'
     mobileM=''
     mobileS=''
     tablet=''
-<<<<<<< HEAD
->
-    Wrapper Component
-</Wrapper>
-=======
     >
       Wrapper Component
   </Wrapper>
->>>>>>> 6c65d1e0a15de9c48d6b5be978e7536c789dfe84
 ```
 
 <iframe
