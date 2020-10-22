@@ -32,16 +32,23 @@ Install React UI Collection to your project:
 
 - ### Breadcrumbs
 ```javascript
-import { Breadcrumbs } from '@react-pakistan/react-ui-collection/eCommerceV1UI/breadcrumbs';
+	import { Breadcrumbs } from '@react-pakistan/react-ui-collection';
 
   <Breadcrumbs
     breadcrumbs={['Item1','Item2','Item3']}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
   />
 ```
 
 - ### CartSummary
 ```javascript
-import { CartSummary } from '@react-pakistan/react-ui-collection/eCommerceV1UI/cart-summary';
+	import { CartSummary } from '@react-pakistan/react-ui-collection';
 
   <CartSummary
     topHeadingH4="4 Items In Your Cart"
@@ -68,67 +75,1803 @@ import { CartSummary } from '@react-pakistan/react-ui-collection/eCommerceV1UI/c
       },
     ]}
     backButton="Back to Shop"
-    nextButton="Checkout"
+		nextButton="Checkout"
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
   />
 ```
 
 - ### Cart
 ```javascript
-import { Cart } from '@react-pakistan/react-ui-collection/eCommerceV1UI/cart';
+	import { Cart } from '@react-pakistan/react-ui-collection';
 
   <Cart
     cartItemsNumber={6}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
   />
 ```
 
 - ### CategoryBanner
 ```javascript
-import { CategoryBanner } from '@react-pakistan/react-ui-collection/eCommerceV1UI/category-banner';
+	import { CategoryBanner } from '@react-pakistan/react-ui-collection';
 
   <CategoryBanner
     imageBackgroundPadding="5em"
     imageBackgroundWidth="100%"
     imageBackgroundHeight="500px"
     imageBackgroundUrl="https://demo.accesspressthemes.com/fashstore-pro/w…"
-    fontFamilyH3="PlayFair Display"
-    fontSizeH3="3em"
-    textAlignH3="left"
-    textTransformH3="none"
     headingH3="Mens wear"
     menuItems={[
       {id: 'menu-item-1',menuLabel: 'Accessories',menuUrl: '/accessories'},
       {id: 'menu-item-2',menuLabel: 'ASOS Baisc Tops',menuUrl: '/asos-basic-tops'},
       {id: 'menu-item-3',menuLabel: 'Bags',menuUrl: '/bags'},
     ]}
-    fontFamilyH5="Montserrat"
-    textAlignH5="left"
-    textTransformH5="none"
-    colorH5="#FFFFFF"
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
   />
 ```
 
 - ### CategoryCard
 ```javascript
-import { CategoryCard } from '@react-pakistan/react-ui-collection/eCommerceV1UI/category-card';
+	import { CategoryCard } from '@react-pakistan/react-ui-collection';
 
   <CategoryCard
     imageBackgroundUrl="http://cdn.shopify.com/s/files/1/0014/1980/4719/co…"
     imageBackgroundWidth="100%"
     imageBackgroundHeight="500px"
     overlayColor="rgba(30, 144, 255, 0.5)"
-    fontFamilyH3="PlayFair Display"
-    fontSizeH3="2.5em"
-    textAlignH3="center"
-    textTransformH3="normal"
-    colorH3="#FFFFFF"
     headingH3="Blue"
-    fontFamilyText="Montserrat"
-    fontSizeText="3em"
-    fontWeightText={500}
-    textTransformText="normal"
-    textAlignText="left"
-    lineHeightText={1.5}
-    colorText="#FFFFFF"
     categoryText="Shop now"
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
   />
+```
+
+- ### ButtonText
+```javascript
+	import { ButtonText } from '@react-pakistan/react-ui-collection';
+
+  <ButtonText 
+    textTransform='uppercase'
+		textAlign='center'
+		letterSpacing='normal'
+		lineHeight={1}
+		fontWeight={700}
+		fontSize='1em'
+		fontfamily='Montserrat'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+  />
+```
+
+- ### Button
+```javascript 
+	import { Button } from '@react-pakistan/react-ui-collection';
+
+  <Button 
+		backgroundColor='#F62F5E'
+		borderRadius='3em'
+		padding='1em 3.5em'
+		onClick={() => null}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	>
+		Shop Now
+  </Button>
+```
+
+- ### CheckoutConfirmation
+```javascript
+	import { CheckoutConfirmation} from '@react-pakistan/react-ui-collection';
+
+  <CheckoutConfirmation
+		headingH4='Checkout'
+		steps={[
+			{
+				id:"step-item-1",
+				stepLabel:"Delivery"},
+			{
+				id:"step-item-2",
+				stepLabel:"Confirmation"},
+			{
+				id:"step-item-3",
+				stepLabel:"Payment"},
+			{
+				id:"step-item-4",
+				stepLabel:"Finish"}
+			]}
+		orderSummary='Order summary'
+		orderBodyItems={[
+			{
+				id:"order-body-item-1",
+				itemName:"Green T-shirt 2016",
+				sku:"Men BK3569",
+				quantity:2,
+				priceCurrency:"£",
+				price:14},
+			}
+		delivery='Delivery'
+		address='Office 64, 8 Colmore Row Birmingham, England, 42000'
+		deliveryOption='Standard delivery (free, 2-3 days)'
+		backButton='Back'
+		nextButton='Next Step'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### CheckoutDelivery
+```javascript
+	import { CheckoutDelivery } from '@react-pakistan/react-ui-collection';
+
+	<CheckoutDelivery
+		backButton='Back'
+		billingInfo='My billing information is the same as my delivery information'
+		checkoutDeliveryFormFields={[
+			{
+				id:"checkout-delivery-form-field-1",
+				label:"First name *",
+				placeholder:"First name"
+			},
+			{
+				id:"checkout-delivery-form-field-2",
+				label:"Last name *",
+				placeholder:"Last name"
+			},
+			{
+				id:"checkout-delivery-form-field-3",
+				label:"Address *",
+				placeholder:"Address"
+			},
+			{
+				id:"checkout-delivery-form-field-4",
+				label:"City *",
+				placeholder:"City"
+			},
+			{
+				id:"checkout-delivery-form-field-5",
+				label:"State *",
+				placeholder:"State"
+			},
+			{
+				id:"checkout-delivery-form-field-6",
+				label:"ZIP code *",
+				placeholder:"ZIP code"
+			}
+		]}
+		country='Great Britain'
+		countryLabel='Country'
+		expressShippingMainText='Express shipping:'
+		expressShippingSubText='(£28, 1-2 business days)'
+		mainHeadingH4='Checkout'
+		nextButton='Next Step'
+		standardShippingMainText='Standard shipping: '
+		standardShippingSubText='(free, 2-3 business days)'
+		steps={[
+			{
+				id:"step-item-1",
+				stepLabel:"Delivery"
+			},
+			{
+				id:"step-item-2",
+				stepLabel:"Confirmation"
+			},
+			{
+				id:"step-item-3",
+				stepLabel:"Payment"
+			},
+			{
+				id:"step-item-4",
+				stepLabel:"Finish"
+			}
+		]}
+		subHeadingH4='Delivery options'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### CheckoutFinish
+```javascript
+	import { CheckoutFinish } from '@react-pakistan/react-ui-collection';
+
+	<CheckoutFinish
+		mainHeadingH4='Checkout'
+		steps={[
+			{
+				id:"step-item-1",
+				stepLabel:"Delivery"
+			},
+			{
+				id:"step-item-2",
+				stepLabel:"Confirmation"
+			},
+			{
+				id:"step-item-3",
+				stepLabel:"Payment"
+			},
+			{
+				id:"step-item-4",
+				stepLabel:"Finish"
+			}
+		]}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### CheckoutFooter
+```javascript
+	import { CheckoutFooter } from '@react-pakistan/react-ui-collection';
+
+	<CheckoutFooter
+		backButton='Back'
+		nextButton='Checkout'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### CheckoutPayment
+```javascript
+	import { CheckoutPayment } from '@react-pakistan/react-ui-collection';
+
+	<CheckoutPayment
+		backButton='Back'
+		headingH4='Checkout'
+		nextButton='Next Step'
+		paymentFormFields={[
+			{
+				id:"payment-form-field-1",
+				label:"Cardholder's Name"
+			},
+			{
+				id:"payment-form-field-2",
+				label:"Card number"
+			}
+		]}
+		steps={[
+			{
+				id:"step-item-1",
+				stepLabel:"Delivery"
+			},
+			{
+				id:"step-item-2",
+				stepLabel:"Confirmation"
+			},
+			{
+				id:"step-item-3",
+				stepLabel:"Payment"
+			},
+			{
+				id:"step-item-4",
+				stepLabel:"Finish"
+			}
+		]}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### ColorPalette
+```javascript
+	import { ColorPalette } from '@react-pakistan/react-ui-collection';
+
+	<ColorPalette
+		width='20px'
+		height='20px'
+		borderRadius='50%'
+		paletteColor='#3C3C3C'
+		margin='0px 10px 0px 0px'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### ContactUs
+```javascript
+	import { ContactUs } from '@react-pakistan/react-ui-collection';
+
+	<ContactUs
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### Counter
+```javascript
+	import { Counter } from '@react-pakistan/react-ui-collection';
+
+	<Counter 
+		counter={2}
+		center={false}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### DisplayCard
+```javascript
+	import { DisplayCard } from '@react-pakistan/react-ui-collection';
+
+	<DisplayCard
+		buttonBackgroundColor='#F62F5E'
+		colorButtonText='#FFFFFF'
+		fontFamilyButton='Montserrat'
+		fontSizeButton='1.2em'
+		headingTextH1='Let the Game begin'
+		headingTextH5='Registration is on - get ready for the Open'
+		imageHeight='500px'
+		imageUrl='https://runningmagazine.ca/wp-content/uploads/2017/05/sunrise-runner.jpg'
+		imageWidth='100%'
+		textButton='Register'
+		textTransformButton='none'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### DropDown
+```javascript
+	import { DropDown } from '@react-pakistan/react-ui-collection';
+
+	<DropDown 
+		dropDownItems={
+			[
+				"Red",
+				"Green",
+				"Blue"
+			]
+		}
+		minWidth='12em'
+		margin='0em'
+		padding='0.5em 1em'
+		borderRadius='0.25em'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### EmailBar
+```javascript
+	import { EmailBar } from '@react-pakistan/react-ui-collection';
+
+	<EmailBar 
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### FilterBar
+```javascript
+	import { FilterBar } from '@react-pakistan/react-ui-collection';
+
+	<FilterBar 
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### Footer
+```javascript
+	import { Footer } from '@react-pakistan/react-ui-collection';
+
+	<Footer
+		footerMenuItems={[
+			{
+				id:"menu-bar-item-1",
+				menuLabel:"Women",
+				url:"./women"
+			},
+		]}
+		footerSocialIcons={[
+			{
+				id:"social-icon-1",
+				iconName:"instagram",
+				url:"https://instagram.com"
+			},
+			{
+				id:"social-icon-2",
+				iconName:"pinterest",
+				url:"https://pinterest.com"
+			},
+			{
+				id:"social-icon-3",
+				iconName:"twitter",
+				url:"https://instagram.com"
+			},
+			{
+				id:"social-icon-4",
+				iconName:"facebook",
+				url:"https://facebook.com"
+			}
+		]}
+		footerText='©2016 shopmate Ltd • Contact • Privacy Policy'
+		type='footer_type.DARK'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### HighlightCard
+```javascript 
+	import { HighlightCard } from '@react-pakistan/react-ui-collection';
+	<HighlightCard
+		backgroundColorButton='#FFFFFF'
+		buttonText='Shop'
+		colorButtonText='#F62F5E'
+		fontFamilyButtonText='Montserrat'
+		fontSizeButtonText='1.5em'
+		headingButtonText='Scandi-cool'
+		headingH2='"New Trend"'
+		headingH3='"Scandi-cool"'
+		imageBackgroundHeight='500px'
+		imageBackgroundUrl='http://kyotobowtie.com/images/onlineshop/banner_onlineshop.jpg'
+		imageBackgroundWidth='100%'
+		textAlignButtonText='left'
+		textTransformButtonText='normal'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### IconWrapper
+```javascript
+	import { IconWrapper } from '@react-pakistan/react-ui-collection';
+
+	<IconWrapper
+		backgroundColor='#FFFFFF'
+		isSelected={false}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### Label
+```javascript
+	import { Label } from '@react-pakistan/react-ui-collection';
+
+	<Label
+		backgroundColor='#2E2E2E'
+		left='1.5em'
+		padding='0.5em 0.75em'
+		top='1.5em'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### MenuBar
+```javascript
+	import { MenuBar } from '@react-pakistan/react-ui-collection';
+
+	<MenuBar
+		cartItemsNumber={6}
+		iconFill='#FFFFFF'
+		logoText='Shopmate'
+		menuItems={[
+			{
+				id:"menu-bar-item-1",
+				menuLabel:"Women",
+				menuUrl:"./women"
+			},
+		]}
+		type='menubar_type.NORMAL'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### MenuItem
+```javascript
+	import { MenuItem } from '@react-pakistan/react-ui-collection';
+
+	<MenuItem 
+		color='#2E2E2E'
+		fontFamily='Open Sans'
+		fontSize='0.7em'
+		fontWeight={400}
+		letterSpacing=''
+		lineHeight={0.8}
+		textAlign='left'
+		textTransform='uppercase'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### OrderTable
+```javascript 
+	import { OrderTable } from '@react-pakistan/react-ui-collection';
+
+	<OrderTable
+		orderBodyItems={[
+			{
+				id:"order-body-item-1",
+				itemName:"Green T-shirt 2016",
+				sku:"Men BK3569",
+				quantity:2,
+				priceCurrency:"£",
+				price:14
+			},
+		]}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+``` 
+
+- ### PaginatorBar
+```javascript
+	import { PaginatorBar } from '@react-pakistan/react-ui-collection';
+
+	<PaginatorBar
+		pagination={[
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24
+		]}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### Paginator
+```javascript
+	import { Paginator } from '@react-pakistan/react-ui-collection';
+
+	<Paginator
+		pagination={[
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24
+		]}
+		width=''
+		height=''
+		borderRadius=''
+		backgroundColor=''
+		backgroundColorHover=''
+		colorHover=''
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### ProductItem
+```javascript
+	import { ProductItem } from '@react-pakistan/react-ui-collection';
+
+	<ProductItem
+		backgroundColorButton='#F62F5E'
+		backgroundColorLabel='#F62F5E'
+		buttonText='Buy now'
+		buttonTextVariationPrice='From £4.95'
+		buttonTextWishlist='Add to Wish List'
+		colorButtonText='#FFFFFF'
+		colorButtonTextWishlist='#6C6C6C'
+		colorH5='#2E2E2E'
+		colorLabelText='#FFFFFF'
+		colorVariationPrice='F62F5E'
+		fontFamilyButtonText='Montserrat'
+		fontFamilyButtonTextWishlist='Montserrat'
+		fontFamilyVariationPrice='Montserrat'
+		fontSizeButtonText='1.5em'
+		fontSizeButtonTextWishlist='0.8em'
+		iconColorWishlist='#F62F5E'
+		imageBackgroundColor='none'
+		imageBackgroundHeight='300px'
+		imageBackgroundSize='contain'
+		imageBackgroundUrl='https://media.matinique.com/images/medium-denim-trostol-bd-shirt.jpg?i=AFaRMYyo1gg/125123&w=294&h=441'
+		imageBackgroundWidth='100%'
+		labelText='Hot'
+		overlayButtonText='Quick View'
+		productItemHeadingH5='Various T-shirts'
+		textTransformButtonText='normal'
+		textTransformVariationPrice='normal'
+		variationColors={[
+			{
+				id:"item-color-1",
+				colorShade:"red"
+			},
+			{
+				id:"item-color-2",
+				colorShade:"green"
+			},
+			{
+				id:"item-color-3",
+				colorShade:"blue"
+			}
+		]}
+		textAlignH5=''
+		textTransformH5=''
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### ProductReview
+```javascript
+	import { ProductReview } from '@react-pakistan/react-ui-collection';
+	
+	<ProductReview
+		colorDisclaimerText='#B4B4B4'
+		colorDisclaimerTextSpan='#F62F5E'
+		colorMainText='#6C6C6C'
+		colorTimeText='#B4B4B4'
+		fontFamilyDisclaimerText='Montserrat'
+		fontFamilyH4Add='Montserrat'
+		fontFamilyH4Product='Montserrat'
+		fontFamilyH5='Montserrat'
+		fontFamilyMainText='Montserrat'
+		fontFamilyTimeText='Montserrat'
+		fontSizeDisclaimerText='0.9em'
+		fontSizeMainText='1.2em'
+		fontWeightMainText={400}
+		headingH4Add='Add a review'
+		headingH4Product='Product Reviews'
+		headingH5='Pablo Permis'
+		likeIconColor='#F62F5E'
+		lineColor='#F7F7F7'
+		nicknameH5='Choose a nickname'
+		numberOfStars={5}
+		rating={4}
+		ratingH5='Overall rating'
+		reviewH5='Your review'
+		starDimension='2em'
+		starRatedColor='#F1AD3D'
+		textAlignDisclaimerText='left'
+		textAlignH4Add='left'
+		textAlignH4Product='left'
+		textAlignH5='left'
+		textAlignMainText='left'
+		textAlignTimeText='left'
+		textDisclaimerText='Your review must be at least 50 characters'
+		textDisclaimerTextSpan='Full review guidelines'
+		textMainText='Got this through the post the other day and right from opening the packet I knew this was quality, put it on and I was right!! Well done'
+		textTransformH4Add='none'
+		textTransformH4Product='none'
+		textTransformH5='none'
+		timeText='one hour ago'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### PromoCard
+```javascript
+	import { PromoCard } from '@react-pakistan/react-ui-collection';
+
+	<PromoCard
+		alt='alt-image'
+		backgroundColorButton='#F62F5E'
+		backgroundColorLabel='#00D3CA'
+		buttonText='Shop Now'
+		colorButtonText='#FFFFFF'
+		colorLabelText='#FFFFFF'
+		fontFamilyButtonText='Montserrat'
+		fontFamilyHeading='Montserrat'
+		fontFamilyLabelText='Montserrat'
+		fontFamilyText='Montserrat'
+		fontSizeButtonText='1.5em'
+		fontSizeLabelText='1em'
+		fontWeightLabelText={700}
+		height='auto'
+		imageUrl='https://images-na.ssl-images-amazon.com/images/I/619twX5-uaL._UY395_.jpg'
+		labelText='Hello'
+		letterSpacingLabelText='1px'
+		lineHeightLabelText='normal'
+		lineHeightText='normal'
+		margin={0}
+		padding={0}
+		promoHeading='Heading'
+		promoText='Carry the day in style with this extra-large tote crafted in our chic B. B. Collection textured PVC. Featuring colorful faux leather trim, this tote offers a roomy interior plus just enough perfectly placed as a to keep smaller items organised and easy to find.'
+		textAlignHeading='left'
+		textAlignLabelText='center'
+		textAlignText='left'
+		textTransformHeading='normal'
+		textTransformLabelText='uppercase'
+		textTransformText='normal'
+		width='300px'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### RangeSlider
+```javascript 
+	import { RangeSlider } from '@react-pakistan/react-ui-collection';
+
+	<RangeSlider 
+		allowCross={false}
+		defaultValue={[
+			10,
+			80
+		]}
+		railColor='#6C6C6C'
+		trackColor='#B4B4B4'
+		handleColor='#1E90FF'
+		handleBorderColor='#F1AD3D'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### RemoveTag
+```javascript
+	import { RemoveTag } from '@react-pakistan/react-ui-collection';
+
+	<RemoveTag
+		tagLabel='Remove'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### SearchBar
+```javascript
+	import { SearchBar } from '@react-pakistan/react-ui-collection';
+
+	<SearchBar
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### ShopImageGallery
+```javascript
+	import { ShopImageGallery } from '@react-pakistan/react-ui-collection';
+
+	<ShopImageGallery
+		shopImageGallery={[
+			{
+				id:"image-1",
+				imageUrl:"https://cdn.store.vegemite.com.au/wp-content/uploads/2018/05/VEGEMITE_Male_Tshirt1-600x600.jpg",
+				altImage:"image-1"
+			},
+			{
+				id:"image-2",
+				imageUrl:"https://c.76.my/Malaysia/pokemon-pikachu-face-t-shirt-5w33-1609-22-5w33@1.jpg",
+				altImage:"image-2"
+			},
+			{
+				id:"image-3",
+				imageUrl:"https://mide.com.my/wp-content/uploads/2017/12/Long-Sleeves_T-shirt_v2-01-edited.jpg",
+				altImage:"image-3"
+			}
+		]}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### ShopItem
+```javascript
+	import { ShopItem } from '@react-pakistan/react-ui-collection';
+
+	<ShopItem
+		altImage='shop-main-item-image'
+		breadcrumbs={[
+			"Home",
+			"All Categories",
+			"Men's Clothing & Accessories"
+		]}
+		buttonText='Add to Wish List'
+		colorButtonText='#6C6C6C'
+		colorH3='#2E2E2E'
+		colorH3Price='#F62F5E'
+		colorPalettes={[
+			"#1E90FF",
+			"#00D3CA",
+			"#F62F5E",
+			"#F1AD3D",
+			"#EFFC90",
+			"#00D3CA"
+		]}
+		counter={2}
+		headingH3='Super Oversized T-Shirt With Raw Sleeves In Brown'
+		headingH3Price='£13.99'
+		heightMainImage='auto'
+		iconColor='#F62F5E'
+		imageUrl='https://ae01.alicdn.com/kf/HTB19imskrsrBKNjSZFpq6AXhFXas/Men-Funny-T-Shirt-Women-Cool-tshirt-Luke-Cage-Pops-Barber-Shop-Comic-Black-Superhero-T.jpg_640x640.jpg'
+		numberOfStars={5}
+		rating={4}
+		shopImageGallery={[
+			{
+				id:"image-1",
+				imageUrl:"https://cdn.store.vegemite.com.au/wp-content/uploads/2018/05/VEGEMITE_Male_Tshirt1-600x600.jpg"},
+			{
+				id:"image-2",
+				imageUrl:"https://c.76.my/Malaysia/pokemon-pikachu-face-t-shirt-5w33-1609-22-5w33@1.jpg"
+			},
+			{
+				id:"image-3",
+				imageUrl:"https://mide.com.my/wp-content/uploads/2017/12/Long-Sleeves_T-shirt_v2-01-edited.jpg"
+			}
+		]}
+		sizePalettes={[
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		]}
+		starDimension='2em'
+		starRatedColor='#F1AD3D'
+		widthMainImage='100%'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### ShopItemsSummary
+```javascript 
+	import { ShopItemsSummary } from '@react-pakistan/react-ui-collection';
+
+	<ShopItemsSummary
+		backgroundColorButton='#F62F5E'
+		breadcrumbs={[
+			"Home",
+			"All Categories",
+			"Men's Clothing & Accessories"
+		]}
+		buttonText='Add to Wish List'
+		colorButtonText='#6C6C6C'
+		colorH3='#2E2E2E'
+		colorH3Price='#F62F5E'
+		colorH5='#2E2E2E'
+		colorText='#B4B4B4'
+		colorTextPrice='#6C6C6C'
+		iconColor='#F62F5E'
+		iconIsSelected={false}
+		itemsSummaryHeadingH3='Men Shirts & Tops'
+		lineColor='#F7F7F7'
+		pagination={[
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10
+		]}
+		shopItems={[
+			{
+				id:"shop-item-1",
+				itemImage:"https://cdn.shopify.com/s/files/1/1755/5355/products/mock-10-2122-14213D-nh-ns-111802514472174936291489614087-3_1200x.png?v=1543020586",
+				itemImageAlt:"shop-product",
+				itemName:"Pull&Bear Jumper In Textured Knit In Blue",
+				itemCategory:"Tops",
+				itemCurrency:"£",
+				itemSalesPrice:"14.99",
+				itemRegularPrice:"19.99",
+				itemSizes:[
+					{
+						id:"section-product-size-1a",
+						label:"Small"
+					},
+					{
+						id:"section-product-size-2a",
+						label:"Medium"
+					},
+					{
+						id:"section-product-size-3a",
+						label:"Large"
+					}
+				],
+				buttonLabel:"Add to cart",
+				favIcon:"http://www.stickpng.com/assets/images/5a02bfca18e87004f1ca4395.png",
+				favIconText:"Add to wish list"
+			},
+		]}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### Sign
+```javascript
+	import { Sign } from '@react-pakistan/react-ui-collection';
+
+	<Sign
+		signType='sign_type.SIGNIN'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### SizePalette
+```javascript
+	import { SizePalette } from '@react-pakistan/react-ui-collection';
+
+	<SizePalette
+		backgroundColor='#6C6C6C'
+		borderRadius='0.25em'
+		margin={0}
+		padding='5px 15px'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### SortBar
+```javascript
+	import { SortBar } from '@react-pakistan/react-ui-collection';
+
+	<SortBar
+		lowerLimit={48}
+		upperLimit={120}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### StarRating
+```javascript
+	import { StarRating } from '@react-pakistan/react-ui-collection';
+
+	<StarRating
+		name='rating'
+		numberOfStars={5}
+		rating={4}
+		starDimension='30px'
+		starRatedColor='#3C3C3C'
+		starSpacing='5px'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### Stepper
+```javascript 
+	import { Stepper } from '@react-pakistan/react-ui-collection';
+
+	<Stepper
+		currentStep={2}
+		steps={[
+			{
+				id:"step-item-1",
+				stepLabel:"Delivery"
+			},
+			{
+				id:"step-item-2",
+				stepLabel:"Confirmation"
+			},
+			{
+				id:"step-item-3",
+				stepLabel:"Payment"
+			},
+			{
+				id:"step-item-4",
+				stepLabel:"Finish"
+			}
+		]}
+		theme={theme}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### SubscriptionBar
+```javascript 
+	import { SubscriptionBar } from '@react-pakistan/react-ui-collection';
+
+	<SubscriptionBar
+		colorH4='#F62F5E'
+		headingH4='10% Discount for your subscription'
+		headingH5='Carry the day in style with this extra-large tote crafted in our chic B.B. Collection textured PVC. Featuring colorful faux leather trim, this tote offers a roomy interior.'
+		style='subscriptionbar_type.REGULAR'
+		theme={theme}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+
+	/>
+```
+
+- ### SubscriptionOffer
+```javascript
+	import { SubscriptionOffer } from '@react-pakistan/react-ui-collection';
+
+	<SubcriptionOffer
+		headingH4='10% Discount for your subscription'
+		bodyH5='Carry the day on style with this extra-large tote crafted in our chic B.B. Collection textured PVC. Featuring colourful faux leather trim, this tote offers a roomy interior.'
+		buttonText='Subscribe'
+		style='subscriptionoffer_type.NORMAL'
+
+		theme={theme}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### Tag
+```javascript 
+	import { Tag } from '@react-pakistan/react-ui-collection';
+
+	<Tag
+		backgroundColor='#2E2E2E'
+		padding='0.5em 0.75em'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### TopBar
+```javascript
+	import { TopBar } from '@react-pakistan/react-ui-collection';
+
+	<TopBar
+		topMenuItems={[
+			{
+				id:"top-menu-item-1",
+				menuLabel:"Daily Deals",
+				url:"./daily-deals"
+			},
+			{
+				id:"top-menu-item-2",
+				menuLabel:"Sell",
+				url:"./sell"
+			},
+			{
+				id:"top-menu-item-3",
+				menuLabel:"Help & Contact",
+				url:"./help-contact"
+			}
+		]}
+		theme={theme}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### WishlistButton
+```javascript
+	import { WishlistButton } from '@react-pakistan/react-ui-collection';
+
+	<WishlistButton
+		buttonText='Add to Wish List'
+		theme={theme}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### WorldFlags
+```javascript
+	import { WorldFlags} from '@react-pakistan/react-ui-collection';
+
+	<WorldFlags
+		width='25px'
+		code='PK'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### Accordion
+```javascript
+	import { Accordion } from '@react-pakistan/react-ui-collection';
+
+	<Accordion
+		content='I am the content for this Accordion'
+		heading='Heading'
+		theme={theme}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### AvatarBlock
+```javascript
+	import { AvatarBlock } from '@react-pakistan/react-ui-collection';
+
+	<AvatarBlock
+		imageBackgroundUrl='https://www.w3schools.com/howto/img_avatar.png'
+		theme={theme}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### Avatar
+```javascript
+	import { Avatar } from '@react-pakistan/react-ui-collection';
+
+	<Avatar
+		avatarBackgroundColor='#6C6C6C'
+		avatarBackgroundHeight='100px'
+		avatarBackgroundPosition='center center'
+		avatarBackgroundRepeat='no-repeat'
+		avatarBackgroundSize='cover'
+		avatarBackgroundUrl='https://cdn.dribbble.com/users/199982/screenshots/4044699/furkan-avatar-dribbble.png'
+		avatarBackgroundWidth='100px'
+		avatarBorderRadius='50%'
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### BioBlock
+```javascript
+	import { BioBlock } from '@react-pakistan/react-ui-collection';
+
+	<BioBlock
+		contactDetails={[
+			{
+				detail:"+92 300 1234567",
+				icon:{
+					key:null,
+					ref:null,
+					props:{
+						fontSize:"32px"
+					},
+					_owner:null,
+					_store:{}
+				},
+				id:"contact-detail-1"
+			},
+			{
+				detail:"my-name@gmail.com",
+				icon:{
+					key:null,
+					ref:null,
+					props:{
+						fontSize:"32px"
+					},
+					_owner:null,
+					_store:{}
+				},
+				id:"contact-detail-2"
+			},
+		]}
+		designation='Your Designation Here'
+		headline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+		name='Name Surname'
+		tags={[
+			{
+			color:"#3C3C3C",
+			id:"tag-1",
+			imgUrl:"https://www.swarmonline.com/wp-content/uploads/2018/04/react-featured-image.jpg",
+			label:"#React Enthusiast"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-2",
+				imgUrl:"https://lzacc.com/wp-content/uploads/Innovation-Image.jpg",
+				label:"#Innovator"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-3",
+				imgUrl:"https://r.hswstatic.com/w_1024/gif/Invention-1920x1080.jpg",
+				label:"#Inventor"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-4",
+				imgUrl:"https://image.shutterstock.com/image-vector/creative-beard-hairstyle-geek-logo-260nw-1045962688.jpg",
+				label:"#Geek"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-5",
+				imgUrl:"https://www.simply2cloud.com/wp-content/uploads/2019/05/cloud-computing.jpg",
+				label:"#Cloud Computing"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-6",
+				imgUrl:"https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/01/Blockchain-Funds.png",
+				label:"#BlockChain Enthusiast"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-7",
+				imgUrl:"https://res.cloudinary.com/cryptojobslist/image/upload/v1563452566/ogImage/fa3qogtykgsn7zeqdqgu.jpg",
+				label:"#Web 3.0 Enthusiast"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-8",
+				imgUrl:"https://www.minisontop.org/s/cc_images/cache_18005806.jpg?t=1516758160",
+				label:"#Charitech"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-9",
+				imgUrl:"https://g3.dcdn.lt/images/pix/12d795ad5ec28e1bdf-77732867.jpg",
+				label:"#Fintech"
+			},
+			{
+				color:"#3C3C3C",
+				id:"tag-10",
+				imgUrl:"https://www.officevibe.com/wp-content/uploads/2017/05/OV_Illustrations_article2_header-490x245.png",
+				label:"#Motivational Speaker"
+			}
+		]}
+		theme={theme}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### CardGrid
+```javascript
+	import { CardGrid } from '@react-pakistan/react-ui-collection';
+
+	<CardGrid
+		techCards={[
+			{
+				id:"tech-card-1",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702296/logos/react.svg",
+				subtitle:"ReactJS"
+			},
+			{
+				id:"tech-card-2",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702295/logos/react-native.svg",
+				subtitle:"React Native"
+			},
+			{
+				id:"tech-card-3",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702298/logos/redux.svg",
+				subtitle:"Redux"
+			},
+			{
+				id:"tech-card-4",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702297/logos/redux-saga.svg",
+				subtitle:"Redux Saga"
+			},
+			{
+				id:"tech-card-5",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702287/logos/apollo.svg",
+				subtitle:"Apollo"
+			},
+			{
+				id:"tech-card-6",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702303/logos/typescript.svg",
+				subtitle:"TypeScript"
+			},
+			{
+				id:"tech-card-7",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702301/logos/styledcomponents.svg",
+				subtitle:"Styled Components"
+			},
+			{
+				id:"tech-card-8",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702300/logos/storybook.svg",
+				subtitle:"Storybook"
+			},
+			{
+				id:"tech-card-9",
+				imageUrl:"https://res.cloudinary.com/dq6hflqwx/image/upload/v1548702297/logos/reactrouter.svg",
+				subtitle:"React Router"
+			}
+		]}
+		mobileL='div > .jOsJbn 
+			{
+    		grid-template-columns: 1fr 1fr;
+    		grid-template-rows: auto;
+			}'
+		mobileM='div > .jOsJbn 
+			{
+    		grid-template-columns: 1fr;
+    		grid-template-rows: auto;
+			}'
+		mobileS='div > .jOsJbn
+		 {
+   		 grid-template-columns: 1fr;
+    	grid-template-rows: auto;
+			}'
+		tablet=''
+		desktop=''
+		laptop=''
+		laptopL=''
+	/>
+```
+
+- ### CoverLetter
+```javascript
+	import { CoverLetter } from '@react-pakistan/react-ui-collection';
+
+	<CoverLetter
+		coverLetter="\n\nDear Sir / Madam,\n\nDate: Tuesday, 20/10/2020\n\nSubject: Applying to be considered for a Senior React FullStack Engineer\n\nI am an energetic and enthusiastic software engineer who enjoys a challenge\nand achieving organisational goals.\n\nI gave a lot of thought on how to effectively design my resume for the\njob placement since I would like to showcase all of my work so far\nacross React Eco-system. An ideal resume should only have a single page,\nso naturally what could be better than React for creating SPA with high\nuser engagement and simplicity in the flow of enriched React UI’s.\n\nI consider myself a React enthusiast and likes to return to the community\nacross Pakistan, I have conducted couple of one-day React workshops at\nMicrosoft Innovation Center Lahore which had a good turnout. I enjoy speaking\nabout React on public forums and plays active role in it’s awareness creation\nwithin the community. I have also conducted 2 months technology training at\nPlan9 Tech Incubator, which inspired my students to embrace React eco-system\nas to be their professional choice of software stack. Currently, I am also\na React (JavaScript) Mentor at Facebook Dev Circles Lahore.\n\nYours Sincerely,\n\nTaimoor Muhammad Khan\n\n"
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### EducationDetail
+```javascript
+	import { EducationDetail } from '@react-pakistan/react-ui-collection';
+
+	<EducationDetail
+		educationDetails={{
+			courseCommenced:"October 2017",
+			courseCompleted:"October 2018",
+			courseDescription:"ICBootcamp brings the same curriculum as the other leading bootcamps in the world. A bootcamp which teaches fullstack Javascript development using the latest technologies, frameworks and libraries. The program is career oriented and prepares the student with professional tools that are used in the software industry. It includes real-life project life-cycle using agile methodologies. Why take multiple short courses in Academies or spend years in University. This course is tailored to teach you all the relevant technologies: FrontEnd, BackEnd, Databases, Testing, QA, Deployment and Code Management combined with Live Projects with the aim of teaching how professional projects are structured. After graduation, students will be able to apply for mid to senior level positions. An additional interview and skills enhancment course will be offered for applying to positions abroad in USA and Europe.",
+			courseDuration:"12 months",
+			courseLocation:"Lahore, Pakistan",
+			degreeAwarded:"JavaScript (React) full-stack Engineer",
+			instituteName:"ICBootcamp"
+		}}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### GuestBookComment
+```javascript
+import { GuestBookComment } from '@react-pakistan/react-ui-collection';
+
+	<GuestBookComment
+		guestBookComments={[
+			{
+				avatarUrl:"https://cdn.dribbble.com/users/1068771/screenshots/6902238/dribbble_final_s_2x.jpg",
+				comment:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				email:"email@gmail.com",
+				firstName:"Name",
+				id:"5df0ae5fb9cb255d0545cfd5",
+				lastName:"Surname"
+			},
+			{
+				avatarUrl:"https://cdn.dribbble.com/users/5746/screenshots/4143186/dribbble-salvatier-avatar.jpg",
+				comment:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				email:"email@gmail.com",
+				firstName:"Name",
+				id:"5df0aedcb9cb255d0545cfd6",
+				lastName:"Surname"
+			},
+			{
+				avatarUrl:"https://cdn.dribbble.com/users/2320445/screenshots/6104565/avatar_2.png",
+				comment:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				email:"email@gmail.com",
+				firstName:"Name",
+				id:"5df0aedcb9cb255d0545cfd7",
+				lastName:"Surname"
+			}
+		]}
+		theme={theme}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### GuestBookForm
+```javascript
+	import { GuestBookForm } from '@react-pakistan/react-ui-collection';
+
+	<GuestBookForm
+		commentValue=''
+		emailValue=''
+		firstNameValue=''
+		lastNameValue=''
+		theme=''
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### IntroSlider
+```javascript
+	import { IntroSlider } from '@react-pakistan/react-ui-collection';
+
+	<IntroSlider
+		banners=''
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### JobDescription
+```javascript 
+	import { JobDescription } from '@react-pakistan/react-ui-collection';
+
+	<JobDescription
+		jobDescriptions={[
+			{
+				id:"job-description-1",
+				label:"Architect modern JavaScript web applications using state of the art ReactJS along with a bunch of other technologies."
+			},
+			{
+				id:"job-description-2",
+				label:"Architect modern JavaScript mobile (iOS and Android) applications using state of the art React Native along with a bunch of other technologies."
+			},
+			{
+				id:"job-description-3",
+				label:"Building full stack mobile and web applications on modern web/mobile technologies stack across various domains."
+			}
+		]}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
+```
+
+- ### JobDetail
+```javascript
+	import { JobDetail } from '@react-pakistan/react-ui-collection';
+
+	<JobDetail
+		jobDetails={{
+			designation:"Software Engineer (React)",
+			fulltime:"Full Time",
+			jobCommenced:"August 2018",
+			jobLocated:"Lahore, Pakistan",
+			jobSwitched:"Not yet"
+		}}
+		labels={[
+			{
+				id:"label-1",
+				label:"ReactJS",
+				color:"orange"
+			},
+			{
+				id:"label-2",
+				label:"ReactJS",
+				color:"orange"
+			},
+			{
+				id:"label-3",
+				label:"ReactJS",
+				color:"orange"
+			},
+			{
+				id:"label-4",
+				label:"ReactJS",
+				color:"orange"
+			},
+			{
+				id:"label-5",
+				label:"ReactJS",
+				color:"orange"
+			},
+			{
+				id:"label-6",
+				label:"ReactJS",
+				color:"orange"
+			},
+			{
+				id:"label-7",
+				label:"React Native",
+				color:"orange"
+			}
+		]}
+		theme={theme}
+		desktop=''
+		laptop=''
+		laptopL=''
+		mobileL=''
+  	mobileM=''
+		mobileS=''
+		tablet=''
+	/>
 ```

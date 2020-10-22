@@ -7,7 +7,6 @@
 
 require('dotenv').config();
 const React = require('react');
-const Commons = require('@react-pakistan/react-commons-collection/a');
 const Util = require('@react-pakistan/util-functions');
 const Styled = require('styled-components');
 
