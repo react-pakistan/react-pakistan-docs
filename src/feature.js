@@ -1,6 +1,6 @@
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import * as Commons from '@react-pakistan/react-commons-collection';
+import { H3, Spacer, Text } from '@react-pakistan/react-commons-collection';
 import clsx from 'clsx';
 import { string } from 'prop-types'
 import React from 'react';
@@ -21,20 +21,20 @@ export const Feature = ({
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <Commons.H3
+      <H3
         color='#006600'
         textAlign='center'
       >
         {title}
-      </Commons.H3>
-      <Commons.Spacer margin='1.5rem 0' />
-      <Commons.Text
+      </H3>
+      <Spacer margin='1.5rem 0' />
+      <Text
         color='#006600'
         textAlign='center'
       >
         {description}
-      </Commons.Text>
-      <Commons.Spacer margin='1.5rem 0' />
+      </Text>
+      <Spacer margin='1.5rem 0' />
       <div className={styles.buttons}>
         <Link
           className={clsx(

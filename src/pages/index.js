@@ -4,11 +4,11 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { theme } from '@react-pakistan/util-functions';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
-import { ThemeProvider } from 'styled-components';
 import React from 'react';
+import { ThemeProvider } from 'styled-components';
+import styles from '../css/styles.module.css';
 import { Feature } from '../feature';
 import { features } from '../helpers';
-import styles from '../css/styles.module.css';
 
 const Home = () => {
   const context = useDocusaurusContext();
@@ -22,7 +22,7 @@ const Home = () => {
       >
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
           <div className='container'>
-            <img src='../static/img/react-pakistan-logo-white.svg' alt='React Pakistan Logo' width='150rem' />
+            <img src='../../static/img/react-pakistan-logo-white.svg' alt='React Pakistan Logo' width='150rem' />
             <h1 className='hero__title'>{siteConfig.title}</h1>
             <h2 className='hero__subtitle'>{siteConfig.tagline}</h2>
             <div className={styles.buttons}>

@@ -41,6 +41,50 @@ Most codebase is built using TDD approach, hence reaching 90%+ coverage in some 
 
 All codebase is written in TypeScript hence more robustibility.
 
+### The Architecture
+
+<img src="../static/img/react-pakistan-architecture.svg" width="100%" />
+
+### The ReactPakistan Ecosystem
+The eco-system is classified under `generic` to `specific` ways of building components library, this helps developers to re-use the `generic` components as much as possible and build `specific` stages of components on top of the `generic` ones, hence keeping the concerned component logic to it's relevant stage as required. Following is the higher level table to put things into perspective.
+
+| Project                           | Generic/Specific Level   |
+| --------------------------------- | :----------------------: |
+| `React Commons Collection`        | Generic - 0              |
+| `React UI Collection`             | Specific - 1             |
+| `React Icon Collection`           | Specific - 1             |
+| `React Logo Collection`           | Specific - 1             |
+| `React Emoji Collection`          | Specific - 1             |
+| `React Native Commons Collection` | Generic - 0              |
+| `React Native UI Collection`      | Specific - 1             |
+| `React Native Icon Collection`    | Specific - 1             |
+| `React Native Logo Collection`    | Specific - 1             |
+| `React Native Emoji Collection`   | Specific - 1             |
+| `Util Functions`                  | Generic - 0              |
+| `Util React Native Functions`     | Generic - 0              |
+| `Eslint Config Shared`            | Generic - 0              |
+
+### OpenSource
+Following are list of all `React Pakistan` repositories and their current status as of today.
+
+| Project             | GitHub           | NPM   | Open Source'd  |
+| ------------------- |:----------------:|:-----:|:--------------:|
+| `React Pakistan Docs` | [github](https://github.com/react-pakistan/react-pakistan-docs)     |  ❌    | ✅     |
+| `React Commons Collection` | [github](https://github.com/Taimoormk/react-commons-collection)     | [npm](https://www.npmjs.com/package/@react-pakistan/react-commons-collection)    | ❌ ETA: Q1 2021     |
+| `React UI Collection` | [github](https://github.com/Taimoormk/react-ui-collection)     | [npm](https://www.npmjs.com/package/@react-pakistan/react-ui-collection)    | ❌ ETA: Q1 2021     |
+| `React Icon Collection` | [github](https://github.com/react-pakistan/react-icon-collection)     | [npm](https://www.npmjs.com/package/@react-pakistan/react-icon-collection)    | ✅     |
+| `React Logo Collection` | [github](https://github.com/react-pakistan/react-logo-collection)     | [npm](https://www.npmjs.com/package/@react-pakistan/react-logo-collection)    | ✅     |
+| `React Emoji Collection` | [github](https://github.com/react-pakistan/react-emoji-collection)     | [npm](https://www.npmjs.com/package/@react-pakistan/react-emoji-collection)    | ✅     |
+| `React Native Commons Collection` | [github](https://github.com/Taimoormk/react-native-commons-collection)     | [npm](https://www.npmjs.com/package/@react-pakistan/react-native-commons-collection)    | ❌ ETA: Q1 2021     |
+| `React Native UI Collection` | [github](https://github.com/react-pakistan/react-native-ui-collection)     | [npm](https://www.npmjs.com/package/@react-pakistan/react-native-ui-collection)    | ❌ ETA: Q1 2021     |
+| `React Native Icon Collection` | [github](https://github.com/react-pakistan/react-native-icon-collection)     | [npm](https://www.npmjs.com/package/@react-pakistan/react-native-icon-collection)    | ✅     |
+| `React Native Logo Collection` | [github](https://github.com/react-pakistan/react-native-logo-collection)     | [npm](https://www.npmjs.com/package/@react-pakistan/react-native-logo-collection)    | ✅     |
+| `React Native Emoji Collection` | [github](https://github.com/react-pakistan/react-native-emoji-collection)     | [npm](https://www.npmjs.com/package/@react-pakistan/react-native-emoji-collection)    | ✅     |
+| `React Native Boilerplate` | [github](https://github.com/react-pakistan/react-native-boiletplate)     | ❌    | ✅ Refactor ETA: Q1 2021     |
+| `Util Functions` | [github](https://github.com/react-pakistan/util-functions)     | [npm](https://www.npmjs.com/package/@react-pakistan/util-functions)    | ❌ ETA: Q1 2021     |
+| `Util React Native Functions` | [github](https://github.com/react-pakistan/util-react-native-functions)     | [npm](https://www.npmjs.com/package/@react-pakistan/util-react-native-functions)    | ❌ ETA: Q1 2021     |
+| `Eslint Shared Config` | [github](https://github.com/react-pakistan/eslint-config-shared)     | [npm](https://www.npmjs.com/package/@react-pakistan/eslint-config-shared)    | ✅     |
+
 ### Moving Forward
 We shall continue to grow React Pakistan in all possible dimensions as possible, for the contributors.
 
@@ -50,4 +94,4 @@ If you happen to like our repos/project, please consider giving a star on our [G
 
 #### Contributors
 Special thanks to all of our contributors who have put together all the bits and bobs of this project for the community.
-Should you wish to be React Pakistan contributor, please shoot an expression of interest at [ReactPakistanEmail](mailto:react.pakistan14@gmail.com)
+Should you wish to be React Pakistan contributor, please shoot an expression of interest at [React Pakistan Email](mailto:react.pakistan14@gmail.com)
