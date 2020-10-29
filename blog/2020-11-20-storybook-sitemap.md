@@ -1,6 +1,6 @@
 ---
-slug: sitemap
-title: Sitemap
+slug: storybook-sitemap
+title: Storybook Sitemap
 author: Taimoor Khan
 author_title: Core Engineering @ ReactPakistan
 author_url: https://github.com/Taimoormk
