@@ -10,5 +10,8 @@ tags: [storybook, sitemap, generator]
 
 ### The Problem
 While working with one of the React Pakistan Storybook based projects, I soon came
-to realise that, there is currently no clean way to auto generate storybook app
-sitemap which helps Search Engine Crawler to crwal all available pages.
+to realise that, there isn't any clean way to auto generate storybook app
+sitemap which helps Search Engine Crawler to crawl all available pages.
+
+### The Solution
+
