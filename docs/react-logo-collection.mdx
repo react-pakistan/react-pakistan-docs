@@ -49,7 +49,7 @@ Styled Components are employed to maintain and update theme for this project. Pl
 
 - ### BitcoinColor22
 ```javascript
-  import { BitcoinColor22 } from ‘@react-pakistan/react-logo-collection/logos/bitcoin-color’;
+  import { BitcoinColor22 } from '@react-pakistan/react-logo-collection/bitcoin-color';
 
   <BitcoinColor22
     fontSize="32px"
@@ -62,5 +62,5 @@ Styled Components are employed to maintain and update theme for this project. Pl
   id="React Pakistan - React Logo Collection Wrapper"
   title="React Pakistan - React Logo Collection Wrapper"
   width="100%"
-  src="https://taimoormk.github.io/react-logo-collection/?path=/story/logo-bitcoincolor--bitcoin-color">
+  src="https://react-pakistan.github.io/react-logo-collection/?path=/story/logo-bitcoincolor--bitcoin-color">
 </iframe>
