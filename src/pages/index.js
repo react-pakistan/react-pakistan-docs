@@ -6,9 +6,9 @@ import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import { ThemeProvider } from 'styled-components';
 import React from 'react';
-import Feature from './feature';
-import features from './helpers';
-import styles from './styles.module.css';
+import { Feature } from '../feature';
+import { features } from '../helpers';
+import styles from '../css/styles.module.css';
 
 const Home = () => {
   const context = useDocusaurusContext();
