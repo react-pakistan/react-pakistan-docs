@@ -3,8 +3,8 @@
   "scripts": {
     "build": "docusaurus build",
     "deploy": "docusaurus deploy",
-    "docusaurus": "docusaurus",
     "deploy:github": "GIT_USER=Taimoormk USE_SSH=true yarn deploy",
+    "docusaurus": "docusaurus",
     "serve": "docusaurus serve",
     "start": "docusaurus start",
     "swizzle": "docusaurus swizzle",
