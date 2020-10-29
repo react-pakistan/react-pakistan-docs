@@ -1,14 +1,13 @@
 {
-  "name": "react-pakistan-repo",
-  "version": "1.0.0",
-  "private": true,
+  "name": "react-pakistan-docs",
   "scripts": {
-    "docusaurus": "docusaurus",
-    "start": "docusaurus start",
     "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
+    "docusaurus": "docusaurus",
+    "deploy:github": "GIT_USER=Taimoormk USE_SSH=true yarn deploy",
     "serve": "docusaurus serve",
+    "start": "docusaurus start",
+    "swizzle": "docusaurus swizzle",
     "upgrade": "ncu -u"
   },
   "dependencies": {
