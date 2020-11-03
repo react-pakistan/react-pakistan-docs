@@ -403,145 +403,51 @@ We aim to achieve 100% coverage and we shall...
   width='100%'>
 </iframe>
 
-### Grid
+### Date Time Input
 ```javascript
-  import { Grid } from '@react-pakistan/react-commons-collection';
+  import { DateTimeInput } from '@react-pakistan/react-commons-collection';
 
-  <Grid
-    alignItems='center'
-    columnGap='1em'
-    gridColumn='1fr 1fr 1fr'
-    gridRow='1fr 1fr'
-    justifyItems='stretch'
-    rowGap='1em'
+  <DateTimeInput
     desktop=''
+    fontFamily='Roboto'
     laptop=''
     laptopL=''
     mobileL=''
     mobileM=''
     mobileS=''
     tablet=''
-  >
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-    <h2
-      style={{
-        alignItems: 'center',
-        background: 'lightblue',
-        border: '1px solid black',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        margin: 0,
-        padding: '1rem'
-      }}
-    >
-      Item
-    </h2>
-  </Grid>
+  />
 ```
 
 <iframe
   height='500'
-  id='React Pakistan - React Commons Collection Grid'
-  src='https://taimoormk.github.io/react-commons-collection/?path=/story/layout-grid--grid-story'
-  title='React Pakistan - React Commons Collection Grid'
+  id='React Pakistan - React Commons Collection DateTimeInput'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-datetimeinput--date-time-input-story'
+  title='React Pakistan - React Commons Collection DateTimeInput'
+  width='100%'>
+</iframe>
+
+### File Input
+```javascript
+  import { FileInput } from '@react-pakistan/react-commons-collection';
+
+  <FileInput
+    desktop=''
+    fontFamily='Roboto'
+    laptop=''
+    laptopL=''
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    tablet=''
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection FileInput'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-fileinput--file-input-story'
+  title='React Pakistan - React Commons Collection FileInput'
   width='100%'>
 </iframe>
 
@@ -570,26 +476,67 @@ We aim to achieve 100% coverage and we shall...
   width='100%'>
 </iframe>
 
+### Grid
+```javascript
+  import { Grid } from '@react-pakistan/react-commons-collection';
+
+  <Grid
+    alignItems='center'
+    columnGap='1em'
+    desktop=''
+    gridColumn='1fr 1fr 1fr'
+    gridRow='1fr 1fr'
+    height='auto'
+    justifyItems='stretch'
+    laptop=''
+    laptopL=''
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    rowGap='1em'
+    tablet=''
+    width='100%'
+  >
+    <h2>
+      Item 1
+    </h2>
+    <h2>
+      Item 2
+    </h2>
+    <h2>
+      Item 3
+    </h2>
+  </Grid>
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection Grid'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/layout-grid--grid-story'
+  title='React Pakistan - React Commons Collection Grid'
+  width='100%'>
+</iframe>
+
 ### H1
 ```javascript
   import { H1 } from '@react-pakistan/react-commons-collection';
 
   <H1
     color='#FFFFFF'
+    desktop=''
     fontFamily='Playfair Display'
     fontSize='2em'
     fontWeight={700}
-    letterSpacing='1px'
-    lineHeight='normal'
-    textAlign='left'
-    textTransform='uppercase'
-    desktop=''
     laptop=''
     laptopL=''
+    letterSpacing='1px'
+    lineHeight='normal'
     mobileL=''
     mobileM=''
     mobileS=''
     tablet=''
+    textAlign='left'
+    textTransform='uppercase'
   >
     H1 Component
   </H1>
@@ -609,20 +556,20 @@ We aim to achieve 100% coverage and we shall...
 
   <H2
     color='#FFFFFF'
+    desktop=''
     fontFamily='Montserrat'
     fontSize='1.8em'
     fontWeight={700}
-    letterSpacing='1px'
-    lineHeight='normal'
-    textAlign='left'
-    textTransform='uppercase'
-    desktop=''
     laptop=''
     laptopL=''
+    letterSpacing='1px'
+    lineHeight='normal'
     mobileL=''
     mobileM=''
     mobileS=''
     tablet=''
+    textAlign='left'
+    textTransform='uppercase'
   >
     H2 Component
   </H2>
@@ -642,20 +589,20 @@ We aim to achieve 100% coverage and we shall...
 
   <H3
     color='#FFFFFF'
+    desktop=''
     fontFamily='Montserrat'
     fontSize='1.6em'
     fontWeight={700}
-    letterSpacing='1px'
-    lineHeight='normal'
-    textAlign='left'
-    textTransform='uppercase'
-    desktop=''
     laptop=''
     laptopL=''
+    letterSpacing='1px'
+    lineHeight='normal'
     mobileL=''
     mobileM=''
     mobileS=''
     tablet=''
+    textAlign='left'
+    textTransform='uppercase'
   >
     H3 Component
   </H3>
@@ -675,20 +622,20 @@ We aim to achieve 100% coverage and we shall...
 
   <H4
     color='#FFFFFF'
+    desktop=''
     fontFamily='Montserrat'
     fontSize='1.4em'
     fontWeight={700}
-    letterSpacing='1px'
-    lineHeight='normal'
-    textAlign='left'
-    textTransform='uppercase'
-    desktop=''
     laptop=''
     laptopL=''
+    letterSpacing='1px'
+    lineHeight='normal'
     mobileL=''
     mobileM=''
     mobileS=''
     tablet=''
+    textAlign='left'
+    textTransform='uppercase'
   >
     H4 Component
   </H4>
@@ -708,20 +655,20 @@ We aim to achieve 100% coverage and we shall...
 
   <H5
     color='#FFFFFF'
+    desktop=''
     fontFamily='Montserrat'
     fontSize='1.2em'
     fontWeight={700}
-    letterSpacing='1px'
-    lineHeight='normal'
-    textAlign='left'
-    textTransform='uppercase'
-    desktop=''
     laptop=''
     laptopL=''
+    letterSpacing='1px'
+    lineHeight='normal'
     mobileL=''
     mobileM=''
     mobileS=''
     tablet=''
+    textAlign='left'
+    textTransform='uppercase'
   >
     H5 Component
   </H5>
@@ -756,8 +703,8 @@ We aim to achieve 100% coverage and we shall...
 
   <HR
     border='1px solid #1E90FF' 
-    padding='0px' 
     margin='0px'
+    padding='0px' 
     width='100%'
   />
 ```
@@ -775,18 +722,19 @@ We aim to achieve 100% coverage and we shall...
   import { Iframe } from '@react-pakistan/react-commons-collection';
 
   <Iframe
-    height='600px'
-    name='iframe'
-    sandbox='allow-Same-Origin'
-    src='http://taimoor.io'
-    width='800px'
+    border='1px solid red'
     desktop=''
+    height='600px'
     laptop=''
     laptopL=''
     mobileL=''
     mobileM=''
     mobileS=''
+    name='iframe'
+    sandbox='allow-Same-Origin'
+    src='http://taimoor.io'
     tablet=''
+    width='800px'
   />
 ```
 
@@ -804,18 +752,18 @@ We aim to achieve 100% coverage and we shall...
 
   <Image
     alt='alt-image'
-    height='auto'
-    imageUrl='https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png'
-    margin='0'
-    padding='0'
-    width='600px'
     desktop=''
+    height='auto'
     laptop=''
     laptopL=''
+    margin='0'
     mobileL=''
     mobileM=''
     mobileS=''
+    padding='0'
+    src='https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png'
     tablet=''
+    width='600px'
   />
 ```
 
@@ -824,6 +772,31 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection Image'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/media-image--image-story'
   title='React Pakistan - React Commons Collection Image'
+  width='100%'>
+</iframe>
+
+### Li
+```javascript
+  import { Li } from '@react-pakistan/react-commons-collection';
+
+  <Li
+    desktop=''
+    laptop=''
+    laptopL=''
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    tablet=''
+  >
+    Value
+  </Li>
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection Li'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/misc-li--li-story'
+  title='React Pakistan - React Commons Collection Li'
   width='100%'>
 </iframe>
 
@@ -852,31 +825,6 @@ We aim to achieve 100% coverage and we shall...
     tablet=''
   />
 ```
-
-### Li
-```javascript
-  import { Li } from '@react-pakistan/react-commons-collection';
-
-  <Li
-    desktop=''
-    laptop=''
-    laptopL=''
-    mobileL=''
-    mobileM=''
-    mobileS=''
-    tablet=''
-  >
-    Value
-  </Li>
-```
-
-<iframe
-  height='500'
-  id='React Pakistan - React Commons Collection Image'
-  src='https://taimoormk.github.io/react-commons-collection/?path=/story/misc-li--li-story'
-  title='React Pakistan - React Commons Collection Image'
-  width='100%'>
-</iframe>
 
 ### ProgressBar
 ```javascript
