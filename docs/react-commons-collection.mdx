@@ -244,20 +244,18 @@ We aim to achieve 100% coverage and we shall...
   import { CheckBox } from '@react-pakistan/react-commons-collection';
 
   <CheckBox
+    check={<MiscGrey20 fill='#FFFFFF' fontSize='20px' />}
     checkedColor='#1E90FF'
-    hasError={false}
-    helperText=''
-    helperTextColor=''
-    isChecked={false}
-    onChange={() => null}
-    unCheckedColor='#B4B4B4'
     desktop=''
+    isChecked={true}
     laptop=''
     laptopL=''
     mobileL=''
     mobileM=''
     mobileS=''
+    onChange={() => onChangeHandler}
     tablet=''
+    unCheckedColor='#B4B4B4'
   />
 ```
 
@@ -266,6 +264,37 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection CheckBox'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-checkbox--check-box-story'
   title='React Pakistan - React Commons Collection CheckBox'
+  width='100%'>
+</iframe>
+
+### Checkbox with Label
+```javascript
+
+  <CheckBox
+    check={<MiscGrey20 fill='#FFFFFF' fontSize='20px' />}
+    checkedColor='#1E90FF'
+    desktop=''
+    hasError={false}
+    helperText='There is an error'
+    helperTextColor=''
+    isChecked={false}
+    label='Pick one'
+    laptop=''
+    laptopL=''
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    onChange={() => null}
+    tablet=''
+    unCheckedColor='#B4B4B4'
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection CheckBox with Label'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-checkbox--check-box-with-label-story'
+  title='React Pakistan - React Commons Collection CheckBox with Label'
   width='100%'>
 </iframe>
 
