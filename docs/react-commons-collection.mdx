@@ -4,6 +4,8 @@ title: React Commons Collection
 sidebar_label: React Commons Collection
 ---
 
+import { aProps, IAProps } from '@react-pakistan/react-commons-collection';
+
 ## React Pakistan
 
 <img src='https://res.cloudinary.com/dq6hflqwx/image/upload/v1565548545/GitHub/React_Pakistan_Storybook_Logo.jpg' width='100%' />
@@ -115,6 +117,7 @@ We aim to achieve 100% coverage and we shall...
     desktop=''
     laptop=''
     laptopL=''
+    loop={false}
     mobileL=''
     mobileM=''
     mobileS=''
@@ -190,7 +193,7 @@ We aim to achieve 100% coverage and we shall...
     mobileM=''
     mobileS=''
     name=''
-    onClick={() => null}
+    onClick={() => onClickHandler}
     padding='1em'
     tablet=''
     type='submit'
@@ -241,20 +244,18 @@ We aim to achieve 100% coverage and we shall...
   import { CheckBox } from '@react-pakistan/react-commons-collection';
 
   <CheckBox
+    check={<MiscGrey20 fill='#FFFFFF' fontSize='20px' />}
     checkedColor='#1E90FF'
-    hasError={false}
-    helperText=''
-    helperTextColor=''
-    isChecked={false}
-    onChange={() => null}
-    unCheckedColor='#B4B4B4'
     desktop=''
+    isChecked={true}
     laptop=''
     laptopL=''
     mobileL=''
     mobileM=''
     mobileS=''
+    onChange={() => onChangeHandler}
     tablet=''
+    unCheckedColor='#B4B4B4'
   />
 ```
 
@@ -266,18 +267,49 @@ We aim to achieve 100% coverage and we shall...
   width='100%'>
 </iframe>
 
+### Checkbox with Label
+```javascript
+
+  <CheckBox
+    check={<MiscGrey20 fill='#FFFFFF' fontSize='20px' />}
+    checkedColor='#1E90FF'
+    desktop=''
+    hasError={false}
+    helperText='There is an error'
+    helperTextColor=''
+    isChecked={false}
+    label='Pick one'
+    laptop=''
+    laptopL=''
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    onChange={() => null}
+    tablet=''
+    unCheckedColor='#B4B4B4'
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection CheckBox with Label'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-checkbox--check-box-with-label-story'
+  title='React Pakistan - React Commons Collection CheckBox with Label'
+  width='100%'>
+</iframe>
+
 ### ChildGrid
 ```javascript
   import { ChildGrid } from '@react-pakistan/react-commons-collection';
 
   <ChildGrid
     alignSelf='center'
+    desktop=''
     gridColumnEnd={1}
     gridColumnStart={1}
     gridRowEnd={1}
     gridRowStart={1}
     justifySelf='center'
-    desktop=''
     laptop=''
     laptopL=''
     mobileL=''
@@ -297,14 +329,37 @@ We aim to achieve 100% coverage and we shall...
   width='100%'>
 </iframe>
 
+### Color Input
+```javascript
+  import { ColorInput } from '@react-pakistan/react-commons-collection';
+
+  <ColorInput
+    desktop=''
+    laptop=''
+    laptopL=''
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    tablet=''
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection ColorInput'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-colorinput--color-input-story'
+  title='React Pakistan - React Commons Collection ColorInput'
+  width='100%'>
+</iframe>
+
 ### ColumnContainer
 ```javascript
   import { ColumnContainer } from '@react-pakistan/react-commons-collection';
 
   <ColumnContainer
     alignItems='center'
-    justifyContent='center'
     desktop=''
+    justifyContent='center'
     laptop=''
     laptopL=''
     mobileL=''
@@ -321,6 +376,30 @@ We aim to achieve 100% coverage and we shall...
   id='React Pakistan - React Commons Collection ColumnContainer'
   src='https://taimoormk.github.io/react-commons-collection/?path=/story/layout-columncontainer--column-container-story'
   title='React Pakistan - React Commons Collection ColumnContainer'
+  width='100%'>
+</iframe>
+
+### Date Input
+```javascript
+  import { DateInput } from '@react-pakistan/react-commons-collection';
+
+  <DateInput
+    desktop=''
+    fontFamily='Roboto'
+    laptop=''
+    laptopL=''
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    tablet=''
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection DateInput'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-dateinput--date-input-story'
+  title='React Pakistan - React Commons Collection DateInput'
   width='100%'>
 </iframe>
 

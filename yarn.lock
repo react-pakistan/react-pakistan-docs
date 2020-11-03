@@ -1588,10 +1588,10 @@
   dependencies:
     mkdirp "^1.0.4"
 
-"@react-pakistan/react-commons-collection@^6.0.4":
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/react-commons-collection/-/react-commons-collection-6.0.4.tgz#c56529834eb0efb8a1cf0685f9234a75ed0970fc"
-  integrity sha512-tkhqF8Fsk1WD+8bPk/J1MXRedp0XxOqAneVwmSL2F/HTKzYOE8XzGfixGt1puUjcVqMD+PjXhzwqTY+CssV85g==
+"@react-pakistan/react-commons-collection@^6.0.7":
+  version "6.0.7"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-commons-collection/-/react-commons-collection-6.0.7.tgz#b3ecf11f74a40e2fdbab11df5e5b2fa156924d57"
+  integrity sha512-GM2CQr/WghVKanwqrC/FARsZlCYc9mX1cfTQPKpGqZBXquF9cLNuHeILA3FL2osaZplws7Y5xlY42V1AblVhng==
   dependencies:
     react-share "^4.3.1"
     styled-components "^5.2.0"
