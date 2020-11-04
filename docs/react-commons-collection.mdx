@@ -270,7 +270,7 @@ We aim to achieve 100% coverage and we shall...
 ### Checkbox with Label
 ```javascript
 
-  <CheckBox
+  <CheckBoxWithFieldLabel
     check={<MiscGrey20 fill='#FFFFFF' fontSize='20px' />}
     checkedColor='#1E90FF'
     desktop=''
@@ -824,6 +824,77 @@ We aim to achieve 100% coverage and we shall...
   width='100%'>
 </iframe>
 
+### ProgressBar
+```javascript
+  import { ProgressBar } from '@react-pakistan/react-commons-collection';
+
+  <ProgressBar
+    backgroundColorBar='#F62F5E'
+    backgroundColorValue='#EFFC90'
+    desktop=''
+    height='0.25em'
+    laptop=''
+    laptopL=''
+    max='100'
+    min='0'
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    tablet=''
+    transition='2.5s ease-out'
+    value='20'
+    width='100%'
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection ProgressBar'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/media-progressbar--progress-bar-story'
+  title='React Pakistan - React Commons Collection ProgressBar'
+  width='100%'>
+</iframe>
+
+### RadioButton
+```javascript
+  import { RadioButton } from '@react-pakistan/react-commons-collection';
+
+  <RadioButton
+    checked
+    tag='Label'
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection RadioButton'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-radiobutton--radio-button-story'
+  title='React Pakistan - React Commons Collection RadioButton'
+  width='100%'>
+</iframe>
+
+### RadioButton with Label
+```javascript
+  import { RadioButtonWithFieldLabel } from '@react-pakistan/react-commons-collection';
+
+  <RadioButtonWithFieldLabel
+    checked
+    hasError={false}
+    helperText='There is an error'
+    helperTextColor='#1E90FF'
+    label='Pick one'
+    tag='Label'
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection RadioButton with Label'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-radiobutton--radio-button-with-label-story'
+  title='React Pakistan - React Commons Collection RadioButton with Label'
+  width='100%'>
+</iframe>
+
 ### Input
 ```javascript
   import { Input } from '@react-pakistan/react-commons-collection';
@@ -850,49 +921,6 @@ We aim to achieve 100% coverage and we shall...
   />
 ```
 
-### ProgressBar
-```javascript
-  import { ProgressBar } from '@react-pakistan/react-commons-collection';
-
-  <ProgressBar
-    backgroundColorBar='#F62F5E'
-    backgroundColorValue='#EFFC90'
-    height='0.25em'
-    max='100'
-    min='0'
-    transition='2.5s ease-out'
-    value='20'
-    width='100%'
-    desktop=''
-    laptop=''
-    laptopL=''
-    mobileL=''
-    mobileM=''
-    mobileS=''
-    tablet=''
-  />
-```
-
-<iframe
-  height='500'
-  id='React Pakistan - React Commons Collection ProgressBar'
-  src='https://taimoormk.github.io/react-commons-collection/?path=/story/media-progressbar--progress-bar-story'
-  title='React Pakistan - React Commons Collection ProgressBar'
-  width='100%'>
-</iframe>
-
-### RadioButton
-```javascript
-  import { RadioButton } from '@react-pakistan/react-commons-collection';
-
-  <RadioButton
-    checked
-    hasError={false}
-    helperText={false}
-    label=''
-    tag='Label'
-  />
-```
 
 ### RowContainer
 ```javascript
