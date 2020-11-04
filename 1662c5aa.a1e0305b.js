@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{65:function(o){o.exports=JSON.parse('{"allTagsPath":"/react-pakistan-docs/blog/tags","slug":"storybook","name":"storybook","count":1,"permalink":"/react-pakistan-docs/blog/tags/storybook"}')}}]);

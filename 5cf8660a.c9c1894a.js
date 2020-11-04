@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[28],{85:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Storybook Sitemap","permalink":"/react-pakistan-docs/blog/storybook-sitemap"},{"title":"Welcome","permalink":"/react-pakistan-docs/blog/welcome"}]}')}}]);
