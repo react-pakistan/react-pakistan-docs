@@ -49,7 +49,7 @@ OR
 ## Styles
 
 Styled Components are employed to maintain and update theme for this project. Please consider adding Styled Component Provider wrapper to the entry point of your application, following is the sample code.
-You could either use the default theme as shown below or wire your custom theme object instead. See <a href="/docs/styleguide-typography--typography-story">Typography</a> & <a href="/docs/styleguide-colors--colors-story">Colors</a> being used in the theme object.
+You could either use the default theme as shown below or wire your custom theme object instead. See <a href='/docs/styleguide-typography--typography-story'>Typography</a> & <a href='/docs/styleguide-colors--colors-story'>Colors</a> being used in the theme object.
 
 ```javascript
   import {ThemeProvider} from 'styled-components';
@@ -270,7 +270,7 @@ We aim to achieve 100% coverage and we shall...
 ### Checkbox with Label
 ```javascript
 
-  <CheckBox
+  <CheckBoxWithFieldLabel
     check={<MiscGrey20 fill='#FFFFFF' fontSize='20px' />}
     checkedColor='#1E90FF'
     desktop=''
@@ -824,32 +824,6 @@ We aim to achieve 100% coverage and we shall...
   width='100%'>
 </iframe>
 
-### Input
-```javascript
-  import { Input } from '@react-pakistan/react-commons-collection';
-
-  <Input
-    backgroundColor='#FFFFFF'
-    border='1px solid #EFEFEF'
-    borderRadius='0.5em'
-    focusBorder='1px solid #1E90FF'
-    focusColor='#F62F5E'
-    hasError={false}
-    helperText=''
-    height='3.5em'
-    width='100%'
-    placeholder='Enter your email here'
-    type='text'
-    desktop=''
-    laptop=''
-    laptopL=''
-    mobileL=''
-    mobileM=''
-    mobileS=''
-    tablet=''
-  />
-```
-
 ### ProgressBar
 ```javascript
   import { ProgressBar } from '@react-pakistan/react-commons-collection';
@@ -857,19 +831,19 @@ We aim to achieve 100% coverage and we shall...
   <ProgressBar
     backgroundColorBar='#F62F5E'
     backgroundColorValue='#EFFC90'
-    height='0.25em'
-    max='100'
-    min='0'
-    transition='2.5s ease-out'
-    value='20'
-    width='100%'
     desktop=''
+    height='0.25em'
     laptop=''
     laptopL=''
+    max='100'
+    min='0'
     mobileL=''
     mobileM=''
     mobileS=''
     tablet=''
+    transition='2.5s ease-out'
+    value='20'
+    width='100%'
   />
 ```
 
@@ -887,12 +861,62 @@ We aim to achieve 100% coverage and we shall...
 
   <RadioButton
     checked
-    hasError={false}
-    helperText={false}
-    label=''
     tag='Label'
   />
 ```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection RadioButton'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-radiobutton--radio-button-story'
+  title='React Pakistan - React Commons Collection RadioButton'
+  width='100%'>
+</iframe>
+
+### RadioButton with Label
+```javascript
+  import { RadioButtonWithFieldLabel } from '@react-pakistan/react-commons-collection';
+
+  <RadioButtonWithFieldLabel
+    checked
+    hasError={false}
+    helperText='There is an error'
+    helperTextColor='#1E90FF'
+    label='Pick one'
+    tag='Label'
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection RadioButton with Label'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-radiobutton--radio-button-with-label-story'
+  title='React Pakistan - React Commons Collection RadioButton with Label'
+  width='100%'>
+</iframe>
+
+### Range Input
+```javascript
+  import { RangeInput } from '@react-pakistan/react-commons-collection';
+
+  <RangeInput
+    desktop=''
+    laptop=''
+    laptopL=''
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    tablet=''
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection RangeInput'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-rangeinput--range-input-story'
+  title='React Pakistan - React Commons Collection RangeInput'
+  width='100%'>
+</iframe>
 
 ### RowContainer
 ```javascript
@@ -900,8 +924,8 @@ We aim to achieve 100% coverage and we shall...
 
   <RowContainer
     alignItems='center'
-    justifyContent='center'
     desktop=''
+    justifyContent='center'
     laptop=''
     laptopL=''
     mobileL=''
@@ -926,57 +950,92 @@ We aim to achieve 100% coverage and we shall...
   import { Select } from '@react-pakistan/react-commons-collection';
 
   <Select
-    form='form_id'
-    name='dropDownName'
-    size={0}
     autoFocus={false}
     disabled={false}
-    hasError={false}
-    helperText=''
-    helperTextColor='#FFFFFF'
-    label=''
+    form='form_id'
     multiple={false}
+    name='dropDownName'
     required={false}
+    size={0}
   >
     <Option
-      value="volvo"
+      value='volvo'
     >
       Volvo
     </Option>
     <Option
       disabled
-      value="saab"
+      value='saab'
     >
       Saab
     </Option>
     <Option
-      value="mercedes"
+      value='mercedes'
     >
       Mercedes
     </Option>
     <Option
-      value="audi"
+      value='audi'
     >
       Audi
     </Option>
   </Select>
 ```
 
-### Spacer
-```javascript
-  import { Spacer } from '@react-pakistan/react-commons-collection';
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection Select'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-select--select-story'
+  title='React Pakistan - React Commons Collection Select'
+  width='100%'>
+</iframe>
 
-  <Spacer
-    margin='1em 1em 1em 1em'
-    padding='0em 0em 0em 0em'
-  />
+### Select with Label
+```javascript
+  import { Select } from '@react-pakistan/react-commons-collection';
+
+  <SelectWithFieldLabel
+    autoFocus={false}
+    disabled={false}
+    form='form_id'
+    hasError={false}
+    helperText='There is an error'
+    helperTextColor='#1E90FF'
+    label='Email'
+    multiple={false}
+    name='dropDownName'
+    required={false}
+    size={0}
+  >
+    <Option
+      value='volvo'
+    >
+      Volvo
+    </Option>
+    <Option
+      disabled
+      value='saab'
+    >
+      Saab
+    </Option>
+    <Option
+      value='mercedes'
+    >
+      Mercedes
+    </Option>
+    <Option
+      value='audi'
+    >
+      Audi
+    </Option>
+  </Select>
 ```
 
 <iframe
   height='500'
-  id='React Pakistan - React Commons Collection Spacer'
-  src='https://taimoormk.github.io/react-commons-collection/?path=/story/layout-spacer--spacer-story'
-  title='React Pakistan - React Commons Collection Spacer'
+  id='React Pakistan - React Commons Collection Select with Label'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-select--select-with-label-story'
+  title='React Pakistan - React Commons Collection Select with Label'
   width='100%'>
 </iframe>
 
@@ -1142,68 +1201,115 @@ We aim to achieve 100% coverage and we shall...
   width='100%'>
 </iframe>
 
+### Spacer
+```javascript
+  import { Spacer } from '@react-pakistan/react-commons-collection';
+
+  <Spacer
+    margin='1em 1em 1em 1em'
+    padding='0em 0em 0em 0em'
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection Spacer'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/layout-spacer--spacer-story'
+  title='React Pakistan - React Commons Collection Spacer'
+  width='100%'>
+</iframe>
+
 ### Table
 ```javascript
   import { Table } from '@react-pakistan/react-commons-collection';
 
-  <Table>
-    <Thead>
-      <Tr>
-        <Td>Hey header</Td>
-        <Td>Hello header</Td>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td>Hey body</Td>
-        <Td>Hello body</Td>
-      </Tr>
-    </Tbody>
-    <Tfoot>
-      <Tr>
-        <Td>Hey foot</Td>
-        <Td>Hello foot</Td>
-       </Tr>
-    </Tfoot>
-  </Table>
+  <Table
+    data={[
+      ['Col1', 'Col2', 'Col3'],
+      ['1', '2', '3'],
+      ['4', '5', '6'],
+      ['7', '8', '9'],
+    ]}
+    header={true}
+  />
 ```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection Table'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/misc-table--table-story'
+  title='React Pakistan - React Commons Collection Table'
+  width='100%'>
+</iframe>
+
+### Text
+```javascript
+  import { Text } from '@react-pakistan/react-commons-collection';
+
+  <Text
+    color='#FFFFFF'
+    desktop=''
+    fontFamily='Montserrat'
+    fontSize='1em'
+    fontWeight={400}
+    laptop=''
+    laptopL=''
+    letterSpacing='normal'
+    lineHeight='normal'
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    tablet=''
+    textAlign='left'
+    textTransform='none'
+  >
+    Text Component
+  </Text>
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection Text'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/misc-text--text-story'
+  title='React Pakistan - React Commons Collection Text'
+  width='100%'>
+</iframe>
 
 ### TextArea
 ```javascript
   import { TextArea } from '@react-pakistan/react-commons-collection';
 
   <TextArea
+    autoFocus={false}
     backgroundColor='#FFFFFF'
     border='1px solid #EFEFEF'
     borderRadius='0.5em'
     color='#2E2E2E'
+    cols={20}
+    desktop=''
     disabled={false}
     fontFamily='Montserrat'
     fontSize='1em'
     fontWeight={400}
-    hasError={false}
-    helperText=''
-    label=''
-    letterSpacing='normal'
-    lineHeight='normal'
-    outlineColor='#1E90FF'
-    cols={20}
-    maxlength={300}
-    minLength={10}
-    placeholder='Enter message here'
-    placeholderColor='#6C6C6C'
-    rows={12}
-    wrap='hard'
-    autoFocus={false}
-    readOnly={false}
-    required={false}
-    desktop=''
     laptop=''
     laptopL=''
+    letterSpacing='normal'
+    lineHeight='normal'
+    maxlength={300}
+    minLength={10}
     mobileL=''
     mobileM=''
     mobileS=''
+    onChange={(val) => onChangeHandler(val)}
+    outlineColor='#1E90FF'
+    placeholder='Enter message here'
+    placeholderColor='#6C6C6C'
+    readOnly={false}
+    required={false}
+    rows={12}
     tablet=''
+    value=''
+    wrap='hard'
   />
 ```
 
@@ -1215,30 +1321,149 @@ We aim to achieve 100% coverage and we shall...
   width='100%'>
 </iframe>
 
-### Text
+### TextArea with Label
 ```javascript
-  import { Text } from '@react-pakistan/react-commons-collection';
+  import { TextAreaWithFieldLabel } from '@react-pakistan/react-commons-collection';
 
-  <Text
-    color='#FFFFFF'
+  <TextAreaWithFieldLabel
+    autoFocus={false}
+    backgroundColor='#FFFFFF'
+    border='1px solid #EFEFEF'
+    borderRadius='0.5em'
+    color='#2E2E2E'
+    cols={20}
+    desktop=''
+    disabled={false}
     fontFamily='Montserrat'
     fontSize='1em'
     fontWeight={400}
+    hasError={false}
+    helperText='There is an error'
+    helperTextColor='#1E90FF'
+    label='Address'
+    laptop=''
+    laptopL=''
     letterSpacing='normal'
     lineHeight='normal'
-    textAlign='left'
-    textTransform='none'
+    maxlength={300}
+    minLength={10}
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    onChange={(val) => onChangeHandler(val)}
+    outlineColor='#1E90FF'
+    placeholder='Enter message here'
+    placeholderColor='#6C6C6C'
+    readOnly={false}
+    required={false}
+    rows={12}
+    tablet=''
+    value=''
+    wrap='hard'
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection TextArea'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-textarea--text-area-story'
+  title='React Pakistan - React Commons Collection TextArea'
+  width='100%'>
+</iframe>
+
+### TextInput
+```javascript
+  import { TextInput } from '@react-pakistan/react-commons-collection';
+
+  <TextInput
+    backgroundColor='#FFFFFF'
+    border='1px solid #EFEFEF'
+    borderRadius='0.5em'
     desktop=''
+    focusBorder='1px solid #1E90FF'
+    focusColor='#F62F5E'
+    height='3.5em'
+    laptop=''
+    laptopL=''
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    onChange={(val) => onChangeHandler(val)}
+    placeholder='Enter your email here'
+    tablet=''
+    type='text'
+    value=''
+    width='100%'
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection TextInput'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-textinput--text-input-story'
+  title='React Pakistan - React Commons Collection TextInput'
+  width='100%'>
+</iframe>
+
+### TextInput with Label
+```javascript
+  import { TextInputWithFieldLabel } from '@react-pakistan/react-commons-collection';
+
+  <TextInputWithFieldLabel
+    backgroundColor='#FFFFFF'
+    border='1px solid #EFEFEF'
+    borderRadius='0.5em'
+    desktop=''
+    focusBorder='1px solid #1E90FF'
+    focusColor='#F62F5E'
+    hasError={false}
+    height='3.5em'
+    helperText='There is an error'
+    helperTextColor='#1E90FF'
+    label='Email'
+    laptop=''
+    laptopL=''
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    placeholder='Enter your email here'
+    tablet=''
+    type='text'
+    width='100%'
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection TextInput with Label'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-textinput--text-input-with-label-story'
+  title='React Pakistan - React Commons Collection TextInput with Label'
+  width='100%'>
+</iframe>
+
+### Time Input
+```javascript
+  import { TimeInput } from '@react-pakistan/react-commons-collection';
+
+  <TimeInput
+    desktop=''
+    fontFamily='Roboto'
     laptop=''
     laptopL=''
     mobileL=''
     mobileM=''
     mobileS=''
     tablet=''
-  >
-    Text Component
-  </Text>
+  />
 ```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection TimeInput'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-timeinput--time-input-story'
+  title='React Pakistan - React Commons Collection TimeInput'
+  width='100%'>
+</iframe>
 
 ### Ul
 ```javascript
@@ -1270,22 +1495,21 @@ We aim to achieve 100% coverage and we shall...
   import { Video } from '@react-pakistan/react-commons-collection';
 
   <Video
-    autoplay={false}
+    autoplay
     controls
-    loops={false}
+    desktop=''
+    laptop=''
+    laptopL=''
+    loop={false}
+    mobileL=''
+    mobileM=''
+    mobileS=''
     muted={false}
     poster='https://upload.wikimedia.org/wikipedia/commons/b/b9/Elephants_Dream_s8_proog.jpg'
     preload='auto'
     src='http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'
-    width='100%'
-    desktop=''
-    laptop=''
-    laptopL=''
-    mobileL=''
-    mobileM=''
-    mobileS=''
     tablet=''
-    autoplay
+    width='100%'
   />
 ```
 
@@ -1297,12 +1521,35 @@ We aim to achieve 100% coverage and we shall...
   width='100%'>
 </iframe>
 
+### Week Input
+```javascript
+  import { WeekInput } from '@react-pakistan/react-commons-collection';
+
+  <WeekInput
+    desktop=''
+    fontFamily='Roboto'
+    laptop=''
+    laptopL=''
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    tablet=''
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection WeekInput'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-weekinput--week-input-story'
+  title='React Pakistan - React Commons Collection WeekInput'
+  width='100%'>
+</iframe>
+
 ### Wrapper
 ```javascript
   import { Wrapper } from '@react-pakistan/react-commons-collection';
 
   <Wrapper
-    width='90%'
     desktop=''
     laptop=''
     laptopL=''
@@ -1310,6 +1557,7 @@ We aim to achieve 100% coverage and we shall...
     mobileM=''
     mobileS=''
     tablet=''
+    width='90%'
   >
     Wrapper Component
   </Wrapper>
