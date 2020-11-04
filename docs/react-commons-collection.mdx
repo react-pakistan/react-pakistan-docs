@@ -1300,7 +1300,7 @@ We aim to achieve 100% coverage and we shall...
     mobileL=''
     mobileM=''
     mobileS=''
-    onChange={() => onChangeHandler}
+    onChange={(val) => onChangeHandler(val)}
     outlineColor='#1E90FF'
     placeholder='Enter message here'
     placeholderColor='#6C6C6C'
@@ -1338,8 +1338,8 @@ We aim to achieve 100% coverage and we shall...
     fontSize='1em'
     fontWeight={400}
     hasError={false}
+    helperText='There is an error'
     helperTextColor='#1E90FF'
-    helperTextColor='There is an error'
     label='Address'
     laptop=''
     laptopL=''
@@ -1350,7 +1350,7 @@ We aim to achieve 100% coverage and we shall...
     mobileL=''
     mobileM=''
     mobileS=''
-    onChange={() => onChangeHandler}
+    onChange={(val) => onChangeHandler(val)}
     outlineColor='#1E90FF'
     placeholder='Enter message here'
     placeholderColor='#6C6C6C'
@@ -1371,31 +1371,75 @@ We aim to achieve 100% coverage and we shall...
   width='100%'>
 </iframe>
 
-### Input
+### TextInput
 ```javascript
-  import { Input } from '@react-pakistan/react-commons-collection';
+  import { TextInput } from '@react-pakistan/react-commons-collection';
 
-  <Input
+  <TextInput
     backgroundColor='#FFFFFF'
     border='1px solid #EFEFEF'
     borderRadius='0.5em'
+    desktop=''
     focusBorder='1px solid #1E90FF'
     focusColor='#F62F5E'
-    hasError={false}
-    helperText=''
     height='3.5em'
-    width='100%'
-    placeholder='Enter your email here'
-    type='text'
-    desktop=''
     laptop=''
     laptopL=''
     mobileL=''
     mobileM=''
     mobileS=''
+    onChange={(val) => onChangeHandler(val)}
+    placeholder='Enter your email here'
     tablet=''
+    type='text'
+    value=''
+    width='100%'
   />
 ```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection TextInput'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-textinput--text-input-story'
+  title='React Pakistan - React Commons Collection TextInput'
+  width='100%'>
+</iframe>
+
+### TextInput with Label
+```javascript
+  import { TextInputWithFieldLabel } from '@react-pakistan/react-commons-collection';
+
+  <TextInputWithFieldLabel
+    backgroundColor='#FFFFFF'
+    border='1px solid #EFEFEF'
+    borderRadius='0.5em'
+    desktop=''
+    focusBorder='1px solid #1E90FF'
+    focusColor='#F62F5E'
+    hasError={false}
+    height='3.5em'
+    helperText='There is an error'
+    helperTextColor='#1E90FF'
+    label='Email'
+    laptop=''
+    laptopL=''
+    mobileL=''
+    mobileM=''
+    mobileS=''
+    placeholder='Enter your email here'
+    tablet=''
+    type='text'
+    width='100%'
+  />
+```
+
+<iframe
+  height='500'
+  id='React Pakistan - React Commons Collection TextInput with Label'
+  src='https://taimoormk.github.io/react-commons-collection/?path=/story/input-textinput--text-input-with-label-story'
+  title='React Pakistan - React Commons Collection TextInput with Label'
+  width='100%'>
+</iframe>
 
 ### Ul
 ```javascript
