@@ -40,6 +40,10 @@ module.exports = {
           title: 'Docs',
           items: [
             {
+              label: 'Intro',
+              to: 'docs',
+            },
+            {
               label: 'React Commons Collection',
               to: 'docs/react-commons-collection',
             },
@@ -58,6 +62,26 @@ module.exports = {
             {
               label: 'React Emoji Collection',
               to: 'docs/react-emoji-collection',
+            },
+            {
+              label: 'React Native Commons Collection',
+              to: 'docs/react-native-commons-collection',
+            },
+            {
+              label: 'React Native UI Collection',
+              to: 'docs/react-native-ui-collection',
+            },
+            {
+              label: 'React Native Icon Collection',
+              to: 'docs/react-native-icon-collection',
+            },
+            {
+              label: 'React Native Logo Collection',
+              to: 'docs/react-native-logo-collection',
+            },
+            {
+              label: 'React Native Emoji Collection',
+              to: 'docs/react-native-emoji-collection',
             },
           ],
         },
