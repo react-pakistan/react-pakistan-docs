@@ -13,6 +13,7 @@ module.exports = {
     'React Native Emoji': ['react-native-emoji-collection', 'react-native-emoji-contributors'],
     // 'React Native Boilerplates': ['react-native-boilerplate', 'react-native-boilerplate-contributors'],
     'React Pakistan Docs': ['react-pakistan-docs-contributors'],
+    'Mobile App Templates': ['mobile-app-templates', 'mobile-app-rpn001'],
     // 'React Full-Stack': ['react-native-boilerplate'],
   },
 };

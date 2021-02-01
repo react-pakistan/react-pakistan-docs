@@ -1,0 +1,41 @@
+---
+id: mobile-app-rpn001
+title: Solicitors App - RPN001
+sidebar_label: Solicitors App
+---
+
+## Intro
+Solicitors app is designed to help Solicitors/Lawyers/Attorney based businesses to market their services to the world or selective regions.
+Following are standard features of the current app implementation:
+
+- 5 Tab navigation routes
+- Dark / Light Mode
+- Over the Air App updates for minor amends
+- Auto chat feature with 1000's of users at the same time
+- Developer's Friendly codebase
+- Super clean code
+- Used TypeScript over JavaScript
+- Used Theme Support throughout the app
+- Kept all data at parent level
+
+### 5 Tab navigation routes
+The app comprises of five bottom tab based navigation routes. `Home`, `Services`, `Chat`, `About` & `Contact`. `Home` is the first screen when
+the app loads up, it consists of a main slider and a list of main branch of the services, currently it shows up main branches i.e.
+`Individual` and `Business`. Next tab is of Services, it contains list of main branches and upon clicking on either one of those branches,
+it will route to another screen with a list of all sub-branches categorised in that main branch. Next tab is of `Chat` feature, which will
+run the computer to use based chat environment, the app will chat until the user has gone through all the pre-built chat steps and upon
+completing all the setps, it will be stored on the database sent over a network call. Next tab is of `About` that shows series of block of
+content explaining various aspects of the business. Last tab is of `Contact` detailing all possible options of being in contact with the
+potential clients.
+
+### Dark / Light Mode
+The app supports both dark and light modes, dependeing on your mobile devices OS preferences, the application will adopt itself from those
+set preferences.
+
+### Over the Air updates for minor amends
+The app supports `CodePush` feature, that supports to update the `JavaScript` layer of the application remotely, which removes the process
+of application review process on both `iOS` and `Android` app stores, that could take up to days/weeks in the review process.
+A word of caution, one MUST NOT ship major updates via `CodePush`. It is designed to deploy changes that are miniscule in nature, like
+fixing bugs, A/B Testing or theme updates.
+
+However, should you wish to update a major feature set, one must go through the usual steps via the app stores of either platforms.
