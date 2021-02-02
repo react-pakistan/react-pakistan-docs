@@ -17,7 +17,7 @@ Following are standard features of the current app implementation:
 - Tested codebase
 - TypeScript over JavaScript
 - Theme Support
-- Kept all data at parent level
+- Parent level data
 
 ### 5 Tab navigation routes
 The app comprises of five bottom tab based navigation routes. `Home`, `Services`, `Chat`, `About` & `Contact`. `Home` is the first screen when
@@ -71,3 +71,7 @@ A theme has been wired across all units of the app, that has all the application
 object. This essentially enables to standarise the usage of certain elements, like spacing strategy, app used colors, typography, borders
 etc. If is super easy to add/update either of these values as per your requirements, globally - that should reflect all over your 
 application.
+
+### Parent level data
+For each of the screen's flow, we kept the UI specific data set within their relevant parent level `helpers.ts` file in order to make it
+convenient to make changes, without going to deep into the codebase.
