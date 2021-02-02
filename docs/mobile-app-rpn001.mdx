@@ -16,7 +16,7 @@ Following are standard features of the current app implementation:
 - Super clean code
 - Tested codebase
 - TypeScript over JavaScript
-- Used Theme Support throughout the app
+- Theme Support
 - Kept all data at parent level
 
 ### 5 Tab navigation routes
@@ -65,3 +65,9 @@ All maintainable `JavaScript` codebase have switched to `TypeScript` due to some
 StackOverflow's last year trend has clearly shown a visibile increment in adoption of `TypeScript` in the last few years, thus making
 it clear what might the future hold for this space. We used `TypeScript` in order to keep robust and bug free codebase which otherwise
 with `JavaScript` is too cumbersome to achieve.
+
+### Theme Support
+A theme has been wired across all units of the app, that has all the application theming context information wrapped within a `JavaScript`
+object. This essentially enables to standarise the usage of certain elements, like spacing strategy, app used colors, typography, borders
+etc. If is super easy to add/update either of these values as per your requirements, globally - that should reflect all over your 
+application.
