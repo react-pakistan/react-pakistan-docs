@@ -1,0 +1,77 @@
+---
+id: mobile-app-rpn001
+title: Solicitors App - RPN001
+sidebar_label: Solicitors App
+---
+
+## Intro
+Solicitors app is designed to help Solicitors/Lawyers/Attorney based businesses to market their services to the world or selective regions.
+Following are standard features of the current app implementation:
+
+- 5 Tab navigation routes
+- Dark / Light Mode
+- Over the Air App updates for minor amends
+- Auto chat feature with 1000's of users at the same time
+- Developer's Friendly codebase
+- Super clean code
+- Tested codebase
+- TypeScript over JavaScript
+- Theme Support
+- Parent level data
+
+### 5 Tab navigation routes
+The app comprises of five bottom tab based navigation routes. `Home`, `Services`, `Chat`, `About` & `Contact`. `Home` is the first screen when
+the app loads up, it consists of a main slider and a list of main branch of the services, currently it shows up main branches i.e.
+`Individual` and `Business`. Next tab is of Services, it contains list of main branches and upon clicking on either one of those branches,
+it will route to another screen with a list of all sub-branches categorised in that main branch. Next tab is of `Chat` feature, which will
+run the computer to use based chat environment, the app will chat until the user has gone through all the pre-built chat steps and upon
+completing all the setps, it will be stored on the database sent over a network call. Next tab is of `About` that shows series of block of
+content explaining various aspects of the business. Last tab is of `Contact` detailing all possible options of being in contact with the
+potential clients.
+
+### Dark / Light Mode
+The app supports both dark and light modes, dependeing on your mobile devices OS preferences, the application will adopt itself from those
+set preferences.
+
+### Over the Air updates for minor amends
+The app supports `CodePush` feature, that supports to update the `JavaScript` layer of the application remotely, which removes the process
+of application review process on both `iOS` and `Android` app stores, that could take up to days/weeks in the review process.
+A word of caution, one MUST NOT ship major updates via `CodePush`. It is designed to deploy changes that are miniscule in nature, like
+fixing bugs, A/B Testing or theme updates.
+
+However, should you wish to update a major feature set, one must go through the usual steps via the app stores of either platforms.
+
+### Auto Chat Feature
+This app supports auto chat feature with 1000's of users at the same time and collecting their shared conversational data to make
+important business decisions on it. For instance, we have added a chat feature in this application to capture user's detail so a
+solicitors/layers/attorneys firm can make better decisions on it. The chat data is collected when it is ended and saved over on a 
+Firebase RealTime Database services.
+
+### Developer's Friendly codebase
+We have kept the codebase developer's friendly as much as possible. However, a detailed explanation of the codebase structure is 
+outlined in the main docs area, where you will find how the code breakdown and other important decisions are made in building up
+this application.
+
+### Super clean code
+We believe that super clean code is the way to code robust, maintainable and production applications. In order to achieve that
+we adopted some of the best industry standard guidelines and practices to enforce super clean code for the community.
+
+### Tested codebase
+We have introduced unit and snapshot testing of most of the components, in order to quality control our written pieces of codebase,
+however though, we aim to increase our coverage and other strategies of testing codebase in the future.
+
+### TypeScript over JavaScript
+All maintainable `JavaScript` codebase have switched to `TypeScript` due to some of the features that comes inheritly with `TypeScript`.
+StackOverflow's last year trend has clearly shown a visibile increment in adoption of `TypeScript` in the last few years, thus making
+it clear what might the future hold for this space. We used `TypeScript` in order to keep robust and bug free codebase which otherwise
+with `JavaScript` is too cumbersome to achieve.
+
+### Theme Support
+A theme has been wired across all units of the app, that has all the application theming context information wrapped within a `JavaScript`
+object. This essentially enables to standarise the usage of certain elements, like spacing strategy, app used colors, typography, borders
+etc. If is super easy to add/update either of these values as per your requirements, globally - that should reflect all over your 
+application.
+
+### Parent level data
+For each of the screen's flow, we kept the UI specific data set within their relevant parent level `helpers.ts` file in order to make it
+convenient to make changes, without going to deep into the codebase.
