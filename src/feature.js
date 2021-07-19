@@ -1,12 +1,14 @@
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import { H3, Spacer, Text } from '@react-pakistan/react-commons-collection';
+import { theme } from '@react-pakistan/util-functions';
 import clsx from 'clsx';
 import { string } from 'prop-types'
-import React from 'react';
+import React, { memo } from 'react';
 import styles from './css/styles.module.css';
+import { withTheme } from 'styled-components';
 
-export const Feature = ({
+export const Feature = memo(withTheme(({
   description,
   imageUrl,
   route,
@@ -31,6 +33,7 @@ export const Feature = ({
       <Text
         color='#006600'
         textAlign='center'
+        {...theme.typography.p5}
       >
         {description}
       </Text>
@@ -48,7 +51,7 @@ export const Feature = ({
       </div>
     </div>
   );
-};
+}));
 
 Feature.propTypes = {
   description: string.isRequired,
