@@ -5,6 +5,9 @@
  * and scoped locally.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
