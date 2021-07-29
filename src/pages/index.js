@@ -17,8 +17,8 @@ const Home = () => {
   return (
     <ThemeProvider theme={theme}>
       <Layout
-        title={`Hello from ${siteConfig.title}`}
-        description='Description will go into a meta tag in <head />'
+        title='An Open Source Platform of React & React Native'
+        description='React Pakistan develops and publishes Open Source of React Ecosystem, for the wider community'
       >
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
           <div className='container'>
