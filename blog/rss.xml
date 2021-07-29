@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>React Pakistan Blog</title>
+        <link>https://react-pakistan.github.io/react-pakistan-docs/blog</link>
+        <description>React Pakistan Blog</description>
+        <lastBuildDate>Fri, 20 Nov 2020 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Storybook Sitemap]]></title>
+            <link>https://react-pakistan.github.io/react-pakistan-docs/blog/storybook-sitemap</link>
+            <guid>storybook-sitemap</guid>
+            <pubDate>Fri, 20 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Problem]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://react-pakistan.github.io/react-pakistan-docs/blog/welcome</link>
+            <guid>welcome</guid>
+            <pubDate>Mon, 16 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[We Welcome you at React Pakistan Docs]]></description>
+        </item>
+    </channel>
+</rss>

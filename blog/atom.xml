@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://react-pakistan.github.io/react-pakistan-docs/blog</id>
+    <title>React Pakistan Blog</title>
+    <updated>2020-11-20T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://react-pakistan.github.io/react-pakistan-docs/blog"/>
+    <subtitle>React Pakistan Blog</subtitle>
+    <icon>https://react-pakistan.github.io/react-pakistan-docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Storybook Sitemap]]></title>
+        <id>storybook-sitemap</id>
+        <link href="https://react-pakistan.github.io/react-pakistan-docs/blog/storybook-sitemap"/>
+        <updated>2020-11-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Problem]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://react-pakistan.github.io/react-pakistan-docs/blog/welcome"/>
+        <updated>2020-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We Welcome you at React Pakistan Docs]]></summary>
+    </entry>
+</feed>
