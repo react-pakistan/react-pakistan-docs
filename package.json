@@ -11,19 +11,19 @@
     "upgrade": "ncu -u"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.3",
-    "@docusaurus/preset-classic": "2.0.0-beta.3",
+    "@docusaurus/core": "2.0.0-beta.6",
+    "@docusaurus/preset-classic": "2.0.0-beta.6",
     "@mdx-js/react": "^1.6.22",
-    "@react-pakistan/react-commons-collection": "^6.6.4",
-    "@react-pakistan/react-icon-collection": "^3.2.11",
-    "@react-pakistan/util-functions": "^1.7.6",
+    "@react-pakistan/react-commons-collection": "^6.7.6",
+    "@react-pakistan/react-icon-collection": "^3.2.16",
+    "@react-pakistan/util-functions": "^1.7.12",
     "browser-monads": "^1.0.0",
     "clsx": "^1.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-redux": "^7.2.4",
+    "react-redux": "^7.2.5",
     "react-share": "^4.4.0",
-    "styled-components": "^5.3.0"
+    "styled-components": "^5.3.1"
   },
   "browserslist": {
     "production": [
