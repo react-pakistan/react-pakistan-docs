@@ -1,1 +1,0 @@
-(self.webpackChunkreact_pakistan_docs=self.webpackChunkreact_pakistan_docs||[]).push([[430],{22107:function(e){"use strict";e.exports=JSON.parse('{"permalink":"/react-pakistan-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
