@@ -1,6 +1,6 @@
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import { H3, Spacer, Text } from '@react-pakistan/react-commons-collection';
+import { Spacer, Text } from '@react-pakistan/react-commons-collection';
 import { theme } from '@react-pakistan/util-functions';
 import clsx from 'clsx';
 import { string } from 'prop-types'
@@ -23,12 +23,13 @@ export const Feature = memo(withTheme(({
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <H3
+      <Text
         color='#006600'
+        {...theme.typography.h3}
         textAlign='center'
       >
         {title}
-      </H3>
+      </Text>
       <Spacer margin='1.5rem 0' />
       <Text
         color='#006600'
