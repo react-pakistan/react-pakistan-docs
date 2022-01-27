@@ -1,12 +1,14 @@
 module.exports = {
-  title: 'React Pakistan',
-  tagline: 'An Open Source Platform',
-  url: 'https://react-pakistan.github.io/',
   baseUrl: '/react-pakistan-docs/',
-  onBrokenLinks: 'error',
+  deploymentBranch: 'dev',
   favicon: 'img/favicon.ico',
+  onBrokenLinks: 'error',
   organizationName: 'react-pakistan', // Usually your GitHub org/user name.
   projectName: 'react-pakistan-docs', // Usually your repo name.
+  tagline: 'An Open Source Platform',
+  title: 'React Pakistan',
+  trailingSlash: false,
+  url: 'https://react-pakistan.github.io/',
   themeConfig: {
     navbar: {
       title: 'React Pakistan',
@@ -118,11 +120,6 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} React Pakistan`,
     },
-    googleAnalytics: {
-      trackingID: 'UA-150982437-1',
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
   },
   presets: [
     [
@@ -132,13 +129,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/react-pakistan/react-pakistan-docs/edit/master/',
+            'https://github.com/react-pakistan/react-pakistan-docs/edit/dev/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/react-pakistan/react-pakistan-docs/edit/master/blog/',
+            'https://github.com/react-pakistan/react-pakistan-docs/edit/dev/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -147,7 +144,11 @@ module.exports = {
           // cacheTime: 600 * 1000, // 600 sec - cache purge period
           changefreq: 'weekly',
           priority: 0.5,
-          trailingSlash: false,
+        },
+        googleAnalytics: {
+          trackingID: 'UA-150982437-1',
+          // Optional fields.
+          anonymizeIP: true, // Should IPs be anonymized?
         },
       },
     ],
