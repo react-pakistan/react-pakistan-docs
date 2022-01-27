@@ -1,13 +1,14 @@
 module.exports = {
-  title: 'React Pakistan',
-  tagline: 'An Open Source Platform',
-  url: 'https://react-pakistan.github.io/',
   baseUrl: '/react-pakistan-docs/',
-  onBrokenLinks: 'error',
+  deploymentBranch: 'dev',
   favicon: 'img/favicon.ico',
+  onBrokenLinks: 'error',
   organizationName: 'react-pakistan', // Usually your GitHub org/user name.
   projectName: 'react-pakistan-docs', // Usually your repo name.
-  deploymentBranch: 'dev',
+  tagline: 'An Open Source Platform',
+  title: 'React Pakistan',
+  trailingSlash: false,
+  url: 'https://react-pakistan.github.io/',
   themeConfig: {
     navbar: {
       title: 'React Pakistan',
@@ -143,7 +144,6 @@ module.exports = {
           // cacheTime: 600 * 1000, // 600 sec - cache purge period
           changefreq: 'weekly',
           priority: 0.5,
-          trailingSlash: false,
         },
         googleAnalytics: {
           trackingID: 'UA-150982437-1',
