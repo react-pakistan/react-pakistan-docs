@@ -1633,20 +1633,20 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@react-pakistan/react-commons-collection@^6.16.2":
-  version "6.16.2"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/react-commons-collection/-/react-commons-collection-6.16.2.tgz#6d16462f956bcebdef32951eb737ccddb83f900c"
-  integrity sha512-riwsVHkHRYFfuoyqqEcAmRrF4kDtsfb1sUX9UL+bDMwVt8bcpI2+QyAHFF+S/JMNv4p4/jzNtu5QdKwKFK+wFA==
+"@react-pakistan/react-commons-collection@^6.16.3":
+  version "6.16.3"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-commons-collection/-/react-commons-collection-6.16.3.tgz#76a5038bd6fb1cbccf0815b08804d19539c56c95"
+  integrity sha512-YO8cs58D5IQ82nS6EJ0AeG5voIjny3Hvtt6HAPt/Zv0XKrqathQabnJTpNPPrAchlxfZBAR5MjoId1SMNcprPQ==
 
-"@react-pakistan/react-icon-collection@^3.4.5":
-  version "3.4.5"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/react-icon-collection/-/react-icon-collection-3.4.5.tgz#4534cc1cb6811b16ddad91c5ad0f14fce6e9b7e8"
-  integrity sha512-UXr2rTzkU4RBukUFUYU/j/zyFArxdxSVybCMhhfIMOVtB3vG8hRf0x3elhXpOsxLltxVXWUzk22DT6e8cQZSVg==
+"@react-pakistan/react-icon-collection@^3.4.6":
+  version "3.4.6"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-icon-collection/-/react-icon-collection-3.4.6.tgz#fa3a21124d721fa54c983f5707a9c7aec1659cec"
+  integrity sha512-YdPZwlRbowicPDDjgPE9cHws//eJcIYTYnJjSLVBy1nkADlAix9Qys9RxCU0lI1Yc3as8ITH927zFxA2HGhlmw==
 
-"@react-pakistan/util-functions@^1.9.6":
-  version "1.9.6"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/util-functions/-/util-functions-1.9.6.tgz#508b1fe8bd5bdb1f1a4f28f812fef4ebb17fab3c"
-  integrity sha512-0aBPpM+0Po82+ha2kJzE2zzCy9iwzgFN+JjcsvVrsQwk1xnNYs9BRKZ4enD5hMfwdOe5fFvOKYeY20Nthbtkpg==
+"@react-pakistan/util-functions@^1.9.7":
+  version "1.9.7"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/util-functions/-/util-functions-1.9.7.tgz#cdf72660a00765bf27a7561912487a9b268fefb4"
+  integrity sha512-xLkrmz3hUdd8l1FGIvegV0vtFnaMBCAo8qKgfS1Z/82eJQ2/+SocrS+WnamX8CkvYuW05GExEmUGWUJwlwuxxw==
   dependencies:
     "@microsoft/tsdoc" "^0.13.2"
 
