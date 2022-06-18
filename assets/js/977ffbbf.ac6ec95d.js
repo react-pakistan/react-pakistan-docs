@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_pakistan_docs=self.webpackChunkreact_pakistan_docs||[]).push([[3294],{44317:function(a){a.exports=JSON.parse('{"label":"welcome","permalink":"/react-pakistan-docs/blog/tags/welcome","allTagsPath":"/react-pakistan-docs/blog/tags","count":1}')}}]);
