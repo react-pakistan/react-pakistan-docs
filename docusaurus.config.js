@@ -2,7 +2,7 @@ module.exports = {
   baseUrl: '/react-pakistan-docs/',
   deploymentBranch: 'gh-pages',
   favicon: 'img/favicon.ico',
-  onBrokenLinks: 'error',
+  onBrokenLinks: 'throw',
   organizationName: 'react-pakistan', // Usually your GitHub org/user name.
   projectName: 'react-pakistan-docs', // Usually your repo name.
   tagline: 'An Open Source Platform',
