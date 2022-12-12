@@ -2700,20 +2700,20 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@react-pakistan/react-commons-collection@^6.19.4":
-  version "6.19.4"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/react-commons-collection/-/react-commons-collection-6.19.4.tgz#babc3928783f445dd6b2e712867f28ae3dc5e209"
-  integrity sha512-bw9jtBQ8KgHp/Sn3nDCbTA+5fkokYQDmORLBvj8xWPTl64koy/6r1h4ONh+NlSs6zNuWe6OfxQgsmbGGf0oXQw==
+"@react-pakistan/react-commons-collection@^6.19.7":
+  version "6.19.7"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-commons-collection/-/react-commons-collection-6.19.7.tgz#60d7c0b66a275e66e8e0211bfe788c71251215cb"
+  integrity sha512-pNXblJg/1EEvinFSF0hfeSbB0eidrgFDXhTq7aIGSFjNMgD5BTyuW3iLEt3rWzMvql9BWERbmLSIrTrbRqR+kQ==
 
-"@react-pakistan/react-icon-collection@^3.4.24":
-  version "3.4.24"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/react-icon-collection/-/react-icon-collection-3.4.24.tgz#3bcc58a169b8c2d613523de3195b9721286c461e"
-  integrity sha512-QaajthDCuzm814xtWaciy2OyJsO+amYN4H8nGRBrE4jW1IjF5VFklqbvlpbYV94aZNYCfgNQsnTsC59dLe1NYQ==
+"@react-pakistan/react-icon-collection@^3.4.28":
+  version "3.4.28"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-icon-collection/-/react-icon-collection-3.4.28.tgz#0791036ff49b48afe086b1815e9a248c8b3b5ee2"
+  integrity sha512-gGlFdiN371TKackaap/Y4M0KotudDCGzaseXgbuR2D64WFCqhFiwmkS9bpc7HbrDlruNDSV2f62HLIPnfdr1JA==
 
-"@react-pakistan/util-functions@^1.12.12":
-  version "1.12.12"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/util-functions/-/util-functions-1.12.12.tgz#18cfbdd93f91ee02b03a0de675aa8ad4e68cb845"
-  integrity sha512-bD58yjo/pjT5KqiB2sgutOzHWyWESmt2SsfFgNYfH9kHS3LFsJioPokDbm8UYB10fTRIg3SkOHeVfy46QlR8+w==
+"@react-pakistan/util-functions@^1.12.16":
+  version "1.12.16"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/util-functions/-/util-functions-1.12.16.tgz#7270d9197524bb5a5495b2f6253513ea75bc6854"
+  integrity sha512-s1zQGiSzJDF+Y04oYbBuZIMLqd/bdeZZuj6ECar3bwCZlzf3CHb8tnC/Fac5TOrBHtBOsVrHzMPi6kyEV6dqLw==
 
 "@sideway/address@^4.1.3":
   version "4.1.3"
