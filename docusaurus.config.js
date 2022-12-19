@@ -146,7 +146,7 @@ module.exports = {
           priority: 0.5,
         },
         googleAnalytics: {
-          trackingID: 'UA-150982437-1',
+          trackingID: 'G-S6JTPYP976',
           // Optional fields.
           anonymizeIP: true, // Should IPs be anonymized?
         },
