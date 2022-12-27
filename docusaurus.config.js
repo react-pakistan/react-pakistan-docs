@@ -145,7 +145,7 @@ module.exports = {
           changefreq: 'weekly',
           priority: 0.5,
         },
-        googleAnalytics: {
+        gtag: {
           trackingID: 'G-S6JTPYP976',
           // Optional fields.
           anonymizeIP: true, // Should IPs be anonymized?
