@@ -3,7 +3,7 @@
   "scripts": {
     "build": "docusaurus build",
     "deploy": "docusaurus deploy",
-    "deploy:github": "GIT_USER=Taimoormk USE_SSH=true yarn deploy",
+    "deploy:github": "GIT_USER=Taimoormk USE_SSH=true CURRENT_BRANCH=dev yarn build && yarn deploy",
     "docusaurus": "docusaurus",
     "serve": "docusaurus serve",
     "start": "docusaurus start",
@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@docusaurus/core": "2.4.1",
-    "@docusaurus/plugin-google-gtag": "^2.4.1",
     "@docusaurus/preset-classic": "2.4.1",
     "@mdx-js/react": "^1.6.22",
     "@react-pakistan/react-commons-collection": "^6.22.1",
