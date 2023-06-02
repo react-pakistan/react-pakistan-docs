@@ -3,7 +3,7 @@
   "scripts": {
     "build": "docusaurus build",
     "deploy": "docusaurus deploy",
-    "deploy:github": "GIT_USER=Taimoormk USE_SSH=true yarn deploy",
+    "deploy:github": "GIT_USER=Taimoormk USE_SSH=true CURRENT_BRANCH=dev yarn build && yarn deploy",
     "docusaurus": "docusaurus",
     "serve": "docusaurus serve",
     "start": "docusaurus start",
