@@ -11,22 +11,22 @@
     "upgrade": "ncu -u -x @mdx-js/react"
   },
   "dependencies": {
-    "@docusaurus/core": "2.3.1",
-    "@docusaurus/plugin-google-analytics": "^2.3.1",
-    "@docusaurus/plugin-google-gtag": "^2.3.1",
-    "@docusaurus/preset-classic": "2.3.1",
+    "@docusaurus/core": "2.4.1",
+    "@docusaurus/plugin-google-analytics": "^2.4.1",
+    "@docusaurus/plugin-google-gtag": "^2.4.1",
+    "@docusaurus/preset-classic": "2.4.1",
     "@mdx-js/react": "^1.6.22",
-    "@react-pakistan/react-commons-collection": "^6.19.14",
+    "@react-pakistan/react-commons-collection": "^6.22.1",
     "@react-pakistan/react-icon-collection": "^3.5.0",
-    "@react-pakistan/util-functions": "^1.13.7",
+    "@react-pakistan/util-functions": "^1.15.0",
     "browser-monads": "^1.0.0",
     "clsx": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "react-redux": "^8.0.5",
+    "react-redux": "^8.0.7",
     "react-share": "^4.4.1",
-    "styled-components": "^5.3.6"
+    "styled-components": "^5.3.11"
   },
   "browserslist": {
     "production": [
